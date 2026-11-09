@@ -1,0 +1,2281 @@
+{
+  "@@locale": "tr",
+
+  "commentA": "Uygulama açılış (Onboarding) metinleri",
+  "appBarTitleWelcome": "Hoş Geldiniz",
+  "@appBarTitleWelcome": {
+    "description": "Karşılama Ekranı uygulama çubuğunda gösterilir"
+  },
+
+  "skipLabel": "Atla",
+  "@skipLabel": {
+    "description": "Bir adımı geçmek için genel amaçlı buton etiketi"
+  },
+
+  "welcomeHeadline": "Hudhud ile Kur’an’a Hoş Geldiniz!",
+  "@welcomeHeadline": {
+    "description": "Karşılama Onboarding ekranındaki başlık metni"
+  },
+
+  "getStartedLabel": "Başla",
+  "@getStartedLabel": {
+    "description": "Onboarding’in bir sonraki adımına geçiş için buton etiketi"
+  },
+
+  "commentB": "Ders ekranı metinleri",
+  "lessonScreenAppBarTitle": "Ders",
+  "@lessonScreenAppBarTitle": {
+    "description": "Ders ekranı uygulama çubuğu başlığı"
+  },
+
+  "noAyahAvailable": "Çalınacak ayet bulunamadı.",
+  "@noAyahAvailable": {
+    "description": "Hiç ayet yoksa gösterilen uyarı"
+  },
+
+  "audioNotFound": "Ses dosyası burada bulunamadı: {url}",
+  "@audioNotFound": {
+    "description": "Sunucuda ses dosyası yoksa gösterilen hata mesajı",
+    "placeholders": {
+      "url": {}
+    }
+  },
+
+  "restartLessonTitle": "Dersi Yeniden Başlat",
+  "@restartLessonTitle": {
+    "description": "Kullanıcı dersi baştan başlatmak istediğinde diyalog başlığı"
+  },
+
+  "resetLessonBody": "Bu dersteki tüm ilerlemenizi sıfırlamak istiyor musunuz?",
+  "@resetLessonBody": {
+    "description": "Dersi sıfırlamayı doğrulama diyalog metni"
+  },
+
+  "cancelLabel": "İptal",
+  "@cancelLabel": {
+    "description": "Bir işlemi iptal etmek için genel amaçlı buton etiketi"
+  },
+
+  "yesLabel": "Evet",
+  "@yesLabel": {
+    "description": "Bir işlemi onaylamak için genel amaçlı buton etiketi"
+  },
+
+  "errorResettingLesson": "Ders sıfırlanırken hata oluştu",
+  "@errorResettingLesson": {
+    "description": "Ders sıfırlama işlemi başarısız olursa gösterilen mesaj başlığı"
+  },
+
+  "startLabel": "Başla",
+  "@startLabel": {
+    "description": "Bir dersi veya oturumu başlatma buton etiketi"
+  },
+
+  "submitLabel": "Gönder",
+  "@submitLabel": {
+    "description": "Form veya girdi gönderimi buton etiketi"
+  },
+
+  "nextLabel": "İleri",
+  "@nextLabel": {
+    "description": "Sonraki adıma geçmek için buton etiketi"
+  },
+
+  "voiceErrorMicDeniedTitle": "Mikrofon İzni Reddedildi",
+  "@voiceErrorMicDeniedTitle": {
+    "description": "Kullanıcı mikrofon iznini reddettiğinde gösterilen uyarı başlığı"
+  },
+  "voiceErrorMicDeniedBody": "Kayıt için mikrofon erişimi gereklidir. Lütfen Ayarlar’dan izin veriniz.",
+  "@voiceErrorMicDeniedBody": {
+    "description": "Mikrofon izni reddedildiği zaman gösterilen uyarı metni"
+  },
+  "voiceErrorMicDeniedSemanticLabel": "Mikrofon izni reddedildi diyalogu",
+  "@voiceErrorMicDeniedSemanticLabel": {
+    "description": "Ekran okuyucular için anlamsal etiket"
+  },
+
+  "voiceErrorRecorderStartTitle": "Kayıt Hatası",
+  "@voiceErrorRecorderStartTitle": {
+    "description": "Kayda başlarken hata oluşursa gösterilen uyarı başlığı"
+  },
+  "voiceErrorRecorderStartBody": "Kaydedici başlatılamadı. Lütfen tekrar deneyin.",
+  "@voiceErrorRecorderStartBody": {
+    "description": "Kayıt başlatılamadığı zaman gösterilen uyarı metni"
+  },
+  "voiceErrorRecorderStartSemanticLabel": "Kayıt başlatma hatası diyalogu",
+  "@voiceErrorRecorderStartSemanticLabel": {
+    "description": "Ekran okuyucular için anlamsal etiket"
+  },
+
+  "voiceErrorRecorderStopTitle": "Kaydı Durdurma Hatası",
+  "@voiceErrorRecorderStopTitle": {
+    "description": "Kaydı durdururken hata olursa gösterilen uyarı başlığı"
+  },
+  "voiceErrorRecorderStopBody": "Kaydedici düzgün şekilde durdurulamadı. Lütfen tekrar deneyin.",
+  "@voiceErrorRecorderStopBody": {
+    "description": "Kayıt durdurulamadığı zaman gösterilen uyarı metni"
+  },
+  "voiceErrorRecorderStopSemanticLabel": "Kaydı durdurma hatası diyalogu",
+  "@voiceErrorRecorderStopSemanticLabel": {
+    "description": "Ekran okuyucular için anlamsal etiket"
+  },
+
+  "voiceErrorNoSoundTitle": "Ses Algılanmadı",
+  "@voiceErrorNoSoundTitle": {
+    "description": "Kaydedilen sesin boş veya çok kısık olması durumunda başlık"
+  },
+  "voiceErrorNoSoundBody": "Kaydınız sessiz veya çok kısık. Lütfen tekrar deneyin.",
+  "@voiceErrorNoSoundBody": {
+    "description": "Ses algılanmadığında gösterilen uyarı metni"
+  },
+  "voiceErrorNoSoundSemanticLabel": "Ses algılanmadı diyalogu",
+  "@voiceErrorNoSoundSemanticLabel": {
+    "description": "Ekran okuyucular için anlamsal etiket"
+  },
+
+  "voiceErrorTranscriptionTitle": "Dönüştürme Hatası",
+  "@voiceErrorTranscriptionTitle": {
+    "description": "Ağ veya sunucu hatası yüzünden ses dönüştürme başarısız olursa gösterilen başlık"
+  },
+  "voiceErrorTranscriptionBody": "Kaydınızı dönüştüremedik. Lütfen bağlantınızı kontrol edip tekrar deneyin.",
+  "@voiceErrorTranscriptionBody": {
+    "description": "Dönüştürme hatası diyalog gövde metni"
+  },
+  "voiceErrorTranscriptionSemanticLabel": "Dönüştürme hatası diyalogu",
+  "@voiceErrorTranscriptionSemanticLabel": {
+    "description": "Ekran okuyucular için anlamsal etiket"
+  },
+
+  "tapColoredWordsHint": "Düzeltilmiş versiyonunu görmek için vurgulu kelimelere dokunun.",
+  "@tapColoredWordsHint": {
+    "description": "Kullanıcıya düzeltilmiş Kur’an özelliği hakkında bilgi veren metin"
+  },
+
+  "emptyInputWarning": "Göndermeden önce bir şeyler yazmalısınız",
+  "@emptyInputWarning": {
+    "description": "Kullanıcı boş metin göndermeye çalışırsa gösterilen uyarı"
+  },
+
+  "getHintLabel": "İpucu Al",
+  "@getHintLabel": {
+    "description": "İpucunu ortaya çıkarmak için buton etiketi"
+  },
+
+  "removeHintLabel": "İpucunu Kaldır",
+  "@removeHintLabel": {
+    "description": "Uygulanan ipucunu kaldırmak için buton etiketi"
+  },
+
+  "typeTheMissingWordsLabel": "Eksik kelime(leri) yazın",
+  "@typeTheMissingWordsLabel": {
+    "description": "Eksik kelimeler için metin alanı etiketi"
+  },
+
+  "difficultyLabel": "Zorluk Derecesi",
+  "@difficultyLabel": {
+    "description": "Zorluk seçeneği açılır menü etiketi"
+  },
+
+  "repeatCountLabel": "Tekrar Sayısı",
+  "@repeatCountLabel": {
+    "description": "Tekrar sayısı seçimi için açılır menü etiketi"
+  },
+
+  "backButtonLabel": "Geri",
+  "@backButtonLabel": {
+    "description": "Ders ekranındaki geri okunun anlamsal etiketi"
+  },
+
+  "toggleTranslationLabel": "Çeviriyi göster/gizle",
+  "@toggleTranslationLabel": {
+    "description": "Ayetin çevirisini açıp kapatan ikona ait anlamsal etiket"
+  },
+
+  "openTranslationScreenLabel": "Çeviri ekranını aç",
+  "@openTranslationScreenLabel": {
+    "description": "Ayrı Çeviri ekranını açan ikona ait anlamsal etiket"
+  },
+
+  "restartLessonSemanticLabel": "Dersi yeniden başlat",
+  "@restartLessonSemanticLabel": {
+    "description": "Dersi yeniden başlatma butonunun anlamsal etiketi"
+  },
+
+  "verseDisplayAreaLabel": "Kur’an ayetlerini gösterme alanı",
+  "@verseDisplayAreaLabel": {
+    "description": "Ayetlerin gösterildiği ana konteyner için anlamsal etiket"
+  },
+
+  "playAudioSemanticLabel": "Ayet sesini oynat",
+  "@playAudioSemanticLabel": {
+    "description": "Ses oynatma ikonunun anlamsal etiketi"
+  },
+
+  "openGratitudeSemanticLabel": "Şükür penceresini aç",
+  "@openGratitudeSemanticLabel": {
+    "description": "Şükür modalini açan butonun anlamsal etiketi"
+  },
+
+  "voiceUsageSemanticLabel": "Sesli kullanım süresi (dakika)",
+  "@voiceUsageSemanticLabel": {
+    "description": "Sesli kullanım istatistiğini (PremiumPlus) gösteren alanın anlamsal etiketi"
+  },
+
+  "voiceRecordSemanticLabel": "Ses kaydını başlat veya durdur",
+  "@voiceRecordSemanticLabel": {
+    "description": "Metin alanının sonundaki mikrofon düğmesinin anlamsal etiketi"
+  },
+
+  "commentC": "Yeni ANA SAYFA ekranı metinleri",
+  "homeTitle": "Ana Sayfa",
+  "@homeTitle": {
+    "description": "Ana sayfa ekranının üst çubuğunda görünen başlık"
+  },
+
+  "noPathsLabel": "Uygun bir yol bulunamadı.",
+  "@noPathsLabel": {
+    "description": "Etkin bir yol yoksa gösterilir"
+  },
+
+  "errorLoadingActivePath": "Etkin yol yüklenirken hata oluştu: {err}",
+  "@errorLoadingActivePath": {
+    "description": "Etkin yol verisi alınırken hata oluştuğunda gösterilen mesaj",
+    "placeholders": {
+      "err": {}
+    }
+  },
+
+  "verticalLessonIconsGoToTheme": "Temaya Git",
+  "@verticalLessonIconsGoToTheme": {
+    "description": "Yolu tamamladığında Tema Ekranı’na gitmek için buton etiketi"
+  },
+
+  "homePathCardLabel": "Tema ekranını açmak için dokunun",
+  "@homePathCardLabel": {
+    "description": "Kart üzerine dokunmayı açıklayan anlamsal etiket"
+  },
+
+  "arrowForwardSemanticLabel": "Ayrıntıları aç",
+  "@arrowForwardSemanticLabel": {
+    "description": "Yol kartındaki ileri ok ikonunun anlamsal etiketi"
+  },
+
+  "noTrackProgressLabel": "Bu yol ilerlemeyi kaydetmez.",
+  "@noTrackProgressLabel": {
+    "description": "Yol ilerlemeyi izlemiyorsa gösterilir"
+  },
+
+  "premiumRequiredLabel": "İlerleme takibini etkinleştirmek için yükseltin. Bizi daha fazla özellik sunmamızda destekleyin!",
+  "@premiumRequiredLabel": {
+    "description": "Ücretsiz katmanda olup ilerleme özelliği gerektiren yollarda gösterilir"
+  },
+
+  "completedLabel": "tamamlandı",
+  "@completedLabel": {
+    "description": "'xx% tamamlandı' gibi ifadelere eklenir"
+  },
+
+  "fabLogGratitudeLabel": "Şükür girişi yapmak için dokunun",
+  "@fabLogGratitudeLabel": {
+    "description": "Şükür kaydı yapmak için kullanılan yüzer eylem butonunun anlamsal etiketi"
+  },
+
+  "errorNavigatingToLesson": "Ders ekranına geçilirken hata oluştu",
+  "@errorNavigatingToLesson": {
+    "description": "Ders ekranı açılmazsa gösterilen hata mesajı"
+  },
+
+  "commentD": "Profil ekranı metinleri",
+  "profileTitle": "Profil",
+  "@profileTitle": {
+    "description": "Profil ekranının uygulama çubuğu başlığı"
+  },
+
+  "profileBackArrowLabel": "Önceki ekrana dön",
+  "@profileBackArrowLabel": {
+    "description": "Profil ekranındaki geri okunun anlamsal etiketi"
+  },
+
+  "profileAvatarSemanticLabel": "Kullanıcı avatarı",
+  "@profileAvatarSemanticLabel": {
+    "description": "Kullanıcının baş harfini gösteren dairesel avatarın anlamsal etiketi"
+  },
+
+  "profileEnterYourName": "İsminizi girin",
+  "@profileEnterYourName": {
+    "description": "Kullanıcı adı için metin alanındaki ipucu"
+  },
+
+  "nameEntryNotificationFrequencyDropdownLabel": "Bildirim Sıklığı",
+  "@nameEntryNotificationFrequencyDropdownLabel": {
+    "description": "Bildirim sıklığı seçimi için açılır menü etiketi"
+  },
+
+  "nameEntryNotificationFrequencyWeekly": "Haftalık",
+  "@nameEntryNotificationFrequencyWeekly": {
+    "description": "Haftalık hatırlatmaları belirten açılır menü seçeneği"
+  },
+
+  "nameEntryNotificationFrequencyNone": "Yok",
+  "@nameEntryNotificationFrequencyNone": {
+    "description": "Hiç hatırlatma istemediğini belirten açılır menü seçeneği"
+  },
+
+  "notificationPermissionPrompt": "Şükür veya ders gönderimlerini tamamlaman için nazik hatırlatmalar göndermek istiyoruz - alışkanlık edinmen için bize bildirim izni verebilirsin \uD83D\uDE03.",
+  "@notificationPermissionPrompt": {
+    "description": "Uygulamanın bildirim izinlerini istemesinin kısa açıklaması"
+  },
+
+  "profileNameSave": "Kaydet",
+  "@profileNameSave": {
+    "description": "Kullanıcı adını kaydetme buton etiketi"
+  },
+
+  "profileNameCancel": "İptal",
+  "@profileNameCancel": {
+    "description": "Kullanıcı adı düzenlemesini iptal etme buton etiketi"
+  },
+
+  "profileNameGuest": "Misafir",
+  "@profileNameGuest": {
+    "description": "Kullanıcı adını boş bırakırsa varsayılan isim"
+  },
+
+  "profileNameEdit": "Düzenle",
+  "@profileNameEdit": {
+    "description": "Kullanıcı adını düzenleme moduna geçiş buton etiketi"
+  },
+
+  "profilePreferredLanguage": "Dil:",
+  "@profilePreferredLanguage": {
+    "description": "Profil ekranındaki dil seçimi açılır menü etiketi"
+  },
+
+  "okLabel": "Tamam",
+  "@okLabel": {
+    "description": "Genel onay veya kabul butonu"
+  },
+
+  "profileReciterLabel": "Kâri",
+  "@profileReciterLabel": {
+    "description": "Profil ekranındaki kâri seçme açılır menü etiketi"
+  },
+
+  "profileFontLabel": "Yazı Tipi:",
+  "@profileFontLabel": {
+    "description": "Profil ekranındaki yazı tipi açılır menü etiketi"
+  },
+
+  "profileReciterMishary": "Mishary Raşid El-Afasi",
+  "@profileReciterMishary": {
+    "description": "Kâri #1’in görünen adı"
+  },
+
+  "profileReciterShatri": "Ebu Bekr Eş-Şatri",
+  "@profileReciterShatri": {
+    "description": "Kâri #2’nin görünen adı"
+  },
+
+  "profileReciterQatami": "Nasser El-Ketami",
+  "@profileReciterQatami": {
+    "description": "Kâri #3’ün görünen adı"
+  },
+
+  "profileUpgradePremiumTitle": "Daha Fazla Kişiselleştirme Açın!",
+  "@profileUpgradeProTitle": {
+    "description": "Kullanıcıyı Pro’ya yükseltmeye davet eden diyalog başlığı."
+  },
+  "profileUpgradePremiumBody": "Yazı tipi ve kâri değiştirme özelliğinin keyfini çıkarmak için Pro’ya yükseltin. Sürekli gelişim çalışmalarımızı destekleyin ve deneyiminizi daha da kişiselleştirin!",
+  "@profileUpgradeProBody": {
+    "description": "Ek özelleştirme için Pro’ya yükseltmeyi teşvik eden diyalog gövde metni."
+  },
+
+  "profileWeeksProgress": "Maşallah, bu haftaki ilerlemen:",
+  "@profileWeeksProgress": {
+    "description": "Kullanıcının haftalık ilerleme bölüm başlığı"
+  },
+
+  "profileGratefulnessCalendar": "Şükür Takvimi",
+  "@profileGratefulnessCalendar": {
+    "description": "Haftalık şükür takvimi başlığı"
+  },
+
+  "profileQuranLearningCalendar": "Kur’an Öğrenme Takvimi",
+  "@profileQuranLearningCalendar": {
+    "description": "Haftalık ders gönderim takvimi başlığı"
+  },
+
+  "profilePrevWeekSemantic": "Önceki haftaya git",
+  "@profilePrevWeekSemantic": {
+    "description": "Haftalık takvimde sol oka tıklayınca önceki haftaya gider"
+  },
+
+  "profileNextWeekSemantic": "Sonraki haftaya git",
+  "@profileNextWeekSemantic": {
+    "description": "Haftalık takvimde sağ oka tıklayınca sonraki haftaya gider"
+  },
+
+  "profileNotificationFrequency": "Bildirim Sıklığı",
+  "@profileNotificationFrequency": {
+    "description": "Profil ekranındaki bildirim sıklığı açılır menü etiketi"
+  },
+
+  "commentE": "Şükür Kayıt Ekranı metinleri",
+  "gratitudeLogTitle": "Şükür Günlüğüm",
+  "@gratitudeLogTitle": {
+    "description": "Şükür kaydı ekranının uygulama çubuğu başlığı"
+  },
+
+  "gratitudeLogBackArrowSemantic": "Ana sayfaya dön",
+  "@gratitudeLogBackArrowSemantic": {
+    "description": "Şükür kaydı ekranındaki geri okunun anlamsal etiketi"
+  },
+
+  "gratitudeLogClearAllSemantic": "Tüm şükür kayıtlarını sil",
+  "@gratitudeLogClearAllSemantic": {
+    "description": "Şükür kaydı ekranındaki silme ikonunun anlamsal etiketi"
+  },
+
+  "gratitudeLogAddSemantic": "Yeni şükür girişi ekle",
+  "@gratitudeLogAddSemantic": {
+    "description": "Şükür kaydı ekranındaki ekleme ikonunun anlamsal etiketi"
+  },
+
+  "gratitudeLogClearDialogTitle": "Şükür Günlüğünü Temizle",
+  "@gratitudeLogClearDialogTitle": {
+    "description": "Tüm şükür kayıtlarını temizlemeyi onaylama diyalog başlığı"
+  },
+
+  "gratitudeLogClearDialogBody": "Tüm şükür kayıtlarını silmek istediğinize emin misiniz? Bu işlem geri alınamaz.",
+  "@gratitudeLogClearDialogBody": {
+    "description": "Tüm şükür kayıtlarını temizlemeyi onaylama diyalog gövde metni"
+  },
+
+  "gratitudeLogClearConfirm": "Evet, Temizle",
+  "@gratitudeLogClearConfirm": {
+    "description": "Tüm kayıtları temizlemeyi onaylama buton etiketi"
+  },
+
+  "gratitudeLogStreak": "⭐ Şükür Serisi: {days} gün",
+  "@gratitudeLogStreak": {
+    "description": "Gösterilen seri bilgisi, örn. 3 gün üst üste",
+    "placeholders": {
+      "days": {}
+    }
+  },
+
+  "gratitudeLogStreakLoading": "Seri hesaplanıyor...",
+  "@gratitudeLogStreakLoading": {
+    "description": "Seri verisi yüklenirken gösterilir"
+  },
+
+  "gratitudeLogStreakError": "Seri hesaplanamadı.",
+  "@gratitudeLogStreakError": {
+    "description": "Seri verisi alınamazsa gösterilir"
+  },
+
+  "gratitudeLogTotalDays": "Toplam Şükür Yapılan Gün: {count}",
+  "@gratitudeLogTotalDays": {
+    "description": "Kullanıcının şükür girişi yaptığı toplam farklı gün sayısı",
+    "placeholders": {
+      "count": {}
+    }
+  },
+
+  "gratitudeLogDataLoading": "Şükür verileri yükleniyor...",
+  "@gratitudeLogDataLoading": {
+    "description": "Şükür verileri yüklenirken gösterilir"
+  },
+
+  "gratitudeLogDataError": "Şükür verileri yüklenemedi.",
+  "@gratitudeLogDataError": {
+    "description": "Şükür verileri alınamazsa gösterilen hata"
+  },
+
+  "gratitudeLogCardSemantic": "Şükür girişi kartı",
+  "@gratitudeLogCardSemantic": {
+    "description": "Listede her şükür giriş kartı için anlamsal etiket"
+  },
+
+  "gratitudeLogItemIcon": "Şükür simgesi",
+  "@gratitudeLogItemIcon": {
+    "description": "Her öğenin yanındaki kalp simgesi için anlamsal etiket"
+  },
+
+  "gratitudeLogEmptyIconSemantic": "İlk şükür girişini eklemek için dokunun",
+  "@gratitudeLogEmptyIconSemantic": {
+    "description": "Boş ekrandaki turuncu büyük simgenin anlamsal etiketi"
+  },
+
+  "gratitudeLogEmptyMessage": "Henüz şükür kaydı yok.\nİlk şükrünü eklemek için “+” düğmesine dokun!",
+  "@gratitudeLogEmptyMessage": {
+    "description": "Kayıt olmadığı zaman gösterilen yönergeler"
+  },
+
+  "gratitudeLogEntriesAdded": "Şükür kaydı başarıyla eklendi!",
+  "@gratitudeLogEntriesAdded": {
+    "description": "Yeni şükür kaydı eklenince gösterilen bilgilendirme"
+  },
+
+  "gratitudeLogEntriesFailed": "Şükür eklenemedi. Lütfen tekrar deneyin.",
+  "@gratitudeLogEntriesFailed": {
+    "description": "Yeni şükür kaydı ekleme başarısız olursa gösterilen uyarı"
+  },
+
+  "commentF": "Ders Tamamlama Ekranı metinleri",
+  "lessonCompletedTitle": "Ders Tamamlandı",
+  "@lessonCompletedTitle": {
+    "description": "Ders Tamamlama ekranının uygulama çubuğu başlığı"
+  },
+
+  "lessonCompletedBackArrowSemantic": "Ana sayfaya dön",
+  "@lessonCompletedBackArrowSemantic": {
+    "description": "Ders tamamlama ekranındaki geri okunun anlamsal etiketi"
+  },
+
+  "lessonCompletedMashaAllah": "Maşallah!",
+  "@lessonCompletedMashaAllah": {
+    "description": "Büyük tebrik metni"
+  },
+
+  "lessonCompletedMashaAllahSemantic": "Tebrik metni",
+  "@lessonCompletedMashaAllahSemantic": {
+    "description": "Büyük yeşil tebrik metni için anlamsal etiket"
+  },
+
+  "lessonCompletedMessage": "Bu dersi tamamladınız!",
+  "@lessonCompletedMessage": {
+    "description": "Kullanıcıya dersi bitirdiğini belirten alt başlık"
+  },
+
+  "lessonCompletedImageSemantic": "Hudhud Kur’an illüstrasyonu",
+  "@lessonCompletedImageSemantic": {
+    "description": "Başarıyla tamamlandığında gösterilen görselin anlamsal etiketi"
+  },
+
+  "lessonCompletedGoBackSemantic": "Yol seçimine dön",
+  "@lessonCompletedGoBackSemantic": {
+    "description": "‘Yola Geri Dön’ butonu anlamsal etiketi"
+  },
+
+  "lessonCompletedGoBackButton": "Yola Geri Dön",
+  "@lessonCompletedGoBackButton": {
+    "description": "Ana ekran / yol ekranına dönmek için buton etiketi"
+  },
+
+  "lessonCompletedRestartSemantic": "Dersi yeniden başlat",
+  "@lessonCompletedRestartSemantic": {
+    "description": "‘Dersi Yeniden Başlat’ butonunun anlamsal etiketi"
+  },
+
+  "lessonCompletedRestartButton": "Dersi Yeniden Başlat",
+  "@lessonCompletedRestartButton": {
+    "description": "Aynı dersi yeniden başlatma buton etiketi"
+  },
+
+  "lessonCompletedEncouragement": "Maşallah böyle devam edin!",
+  "@lessonCompletedEncouragement": {
+    "description": "Ekranın en altında yer alan son teşvik metni"
+  },
+
+  "commentG": "Tema Ekranı metinleri",
+  "themeScreenTitle": "Temalar",
+  "@themeScreenTitle": {
+    "description": "Tema ekranının üst çubuğunda görünen başlık"
+  },
+
+  "themeNameCoreRecitation": "Günlük Temel Okuma",
+  "@themeNameCoreRecitation": {
+    "description": "Fâtiha, İhlâs vb. sureleri içeren temanın adı"
+  },
+
+  "themeNameBeginJourney": "Yolculuğa Başlangıç",
+  "@themeNameBeginJourney": {
+    "description": "Yeni başlayanlar için kısa sureleri içeren temanın adı"
+  },
+
+  "themeNameMercyAndHope": "Rahmet ve Umut",
+  "@themeNameMercyAndHope": {
+    "description": "Allah’ın merhameti ve pozitiflik üzerine odaklı temanın adı"
+  },
+
+  "themeNameGratitudeReflection": "Şükür ve Tefekkür",
+  "@themeNameGratitudeReflection": {
+    "description": "Şükre yönelik pasajları içeren temanın adı"
+  },
+
+  "themeNameStoriesReminders": "Kıssalar, Dersler ve Hatırlatmalar",
+  "@themeNameStoriesReminders": {
+    "description": "Çeşitli kıssaları içeren temanın adı"
+  },
+
+  "themeNamePatience": "Sabır (Ṣabr)",
+  "@themeNamePatience": {
+    "description": "Sabır ve sebat üzerine odaklanan temanın adı"
+  },
+
+  "themeNameUserCreated": "Kullanıcı Oluşturdu",
+  "@themeNameUserCreated": {
+    "description": "Kullanıcının kendi oluşturduğu özel temanın adı"
+  },
+
+  "themeScreenNoThemesLabel": "Tema Yok",
+  "@themeScreenNoThemesLabel": {
+    "description": "Hiç tema bilgisi dönmediğinde gösterilir"
+  },
+
+  "themeScreenBackArrowSemantic": "Geri dön",
+  "@themeScreenBackArrowSemantic": {
+    "description": "Tema ekranındaki uygulama çubuğu geri oku anlamsal etiketi"
+  },
+
+  "themeScreenThemeCardSemantic": "Temanın yollarını açmak için dokunun",
+  "@themeScreenThemeCardSemantic": {
+    "description": "Tema listesinde her bir temaya ait kartın anlamsal etiketi"
+  },
+
+  "themeScreenLockIconSemantic": "Tema kilitli. Yükseltme gerekli.",
+  "@themeScreenLockIconSemantic": {
+    "description": "Tema kilitli ise kilit ikonunun anlamsal etiketi"
+  },
+
+  "pathListExploreOtherThemes": "Diğer Temaları Keşfet",
+  "@pathListExploreOtherThemes": {
+    "description": "Tema Ekranı’na yönlendiren buton etiketi (Path tamamlanınca)"
+  },
+
+  "themeScreenUserCreatedSubtitle": "Senin oluşturduğun—dilediğin gibi kişiselleştirebilirsin.",
+  "@themeScreenUserCreatedSubtitle": {
+    "description": "Kullanıcının oluşturduğu temalar için alt başlık"
+  },
+
+  "themeSubtitleCoreRecitation": "Günlük namazlarda ve korunmada vazgeçilmez sureler.",
+  "@themeSubtitleCoreRecitation": {
+    "description": "theme_core_recitation alt başlığı"
+  },
+
+  "themeSubtitleBeginJourney": "Kur’an yolculuğuna başlayanlar için kısa sureler.",
+  "@themeSubtitleBeginJourney": {
+    "description": "theme_begin_journey alt başlığı"
+  },
+
+  "themeSubtitleMercyAndHope": "Allah’ın merhameti ve umut verici yönleri üzerine tefekkür.",
+  "@themeSubtitleMercyAndHope": {
+    "description": "theme_mercy_and_hope alt başlığı"
+  },
+
+  "themeSubtitleGratitudeReflection": "Teşekkür ve içgörü odaklı ayetlerle şükrü artırın.",
+  "@themeSubtitleGratitudeReflection": {
+    "description": "theme_gratitude_reflection alt başlığı"
+  },
+
+  "themeSubtitleStoriesReminders": "Farklı kıssa ve hikmetli öğütlerle Kur’an’ı keşfedin.",
+  "@themeSubtitleStoriesReminders": {
+    "description": "theme_stories_reminders alt başlığı"
+  },
+
+  "themeSubtitlePatience": "Sabır ve sebatı teşvik eden sure ve pasajlar.",
+  "@themeSubtitlePatience": {
+    "description": "theme_patience alt başlığı"
+  },
+
+  "themeSubtitleDefault": "Derin manevi gelişim için özel sure koleksiyonu.",
+  "@themeSubtitleDefault": {
+    "description": "Tema ID eşleşmediğinde kullanılan varsayılan alt başlık"
+  },
+
+  "themeScreenRequiredPremium": "Premium Gerekli",
+  "@themeScreenRequiredPremium": {
+    "description": "Tema Premium abonelik gerektiriyorsa gösterilen etiket"
+  },
+
+  "themeScreenRequiredPremiumPlus": "Premium Plus Gerekli",
+  "@themeScreenRequiredPremiumPlus": {
+    "description": "Tema Premium Plus abonelik gerektiriyorsa gösterilen etiket"
+  },
+
+  "commentH": "Yol Listesi Ekranı metinleri",
+  "pathListScreenTitle": "Temanın Yolları",
+  "@pathListScreenTitle": {
+    "description": "PathListScreen uygulama çubuğu başlığı"
+  },
+
+  "pathListScreenBackArrowSemantic": "Geri dön",
+  "@pathListScreenBackArrowSemantic": {
+    "description": "PathListScreen uygulama çubuğu geri oku anlamsal etiketi"
+  },
+
+  "pathListScreenAddIconSemantic": "Yeni yol ekle",
+  "@pathListScreenAddIconSemantic": {
+    "description": "Uygulama çubuğundaki yeni yol ekleme ikonunun anlamsal etiketi"
+  },
+
+  "pathListAddNewPathTooltip": "Yeni Yol Ekle",
+  "@pathListAddNewPathTooltip": {
+    "description": "Yeni yol ekleme butonunun yardım ipucu"
+  },
+
+  "pathListScreenAddIconSemanticEmpty": "İlk yolunuzu eklemek için dokunun",
+  "@pathListScreenAddIconSemanticEmpty": {
+    "description": "Yol olmadığı durumda büyük ekleme ikonunun anlamsal etiketi"
+  },
+
+  "pathListEmptyMessage": "Henüz yol yok.\nİlk yolu oluşturmak için “+” düğmesine dokun!",
+  "@pathListEmptyMessage": {
+    "description": "Var olan yol yoksa gösterilen mesaj"
+  },
+
+  "pathListUnavailableLabel": "Bu yol şu anda kullanılamıyor",
+  "@pathListUnavailableLabel": {
+    "description": "Geçersiz bir yol varsa gösterilen mesaj"
+  },
+
+  "pathListThemeLabel": "Tema",
+  "@pathListThemeLabel": {
+    "description": "Tema adından sonra kullanılan ek, örn. '“Rahmet” Teması'"
+  },
+
+  "pathListPathCardSemantic": "Yol ayrıntılarını açmak için dokunun",
+  "@pathListPathCardSemantic": {
+    "description": "Yol kartının anlamsal etiketi"
+  },
+
+  "pathListCompleteIconSemantic": "Yol tamamlandı",
+  "@pathListCompleteIconSemantic": {
+    "description": "Yeşil onay işareti ikonunun anlamsal etiketi"
+  },
+
+  "pathListInProgressIconSemantic": "Yol devam ediyor",
+  "@pathListInProgressIconSemantic": {
+    "description": "Kum saati ikonunun anlamsal etiketi"
+  },
+
+  "pathListInvalidIconSemantic": "Yol geçersiz veya kullanılamıyor",
+  "@pathListInvalidIconSemantic": {
+    "description": "Kırmızı hata ikonunun anlamsal etiketi"
+  },
+
+  "pathListErrorLoadingPaths": "Yollar yüklenirken hata oluştu:",
+  "@pathListErrorLoadingPaths": {
+    "description": "Yol verisi alınırken hata oluştuğunda gösterilen metin öneki"
+  },
+
+  "commentI": "Yol Detay Ekranı metinleri",
+  "pathDetailScreenTitle": "Yol Detayları",
+  "@pathDetailScreenTitle": {
+    "description": "PathDetail ekranı uygulama çubuğu başlığı"
+  },
+
+  "pathDetailScreenBackArrowSemantic": "Yol listesine dön",
+  "@pathDetailScreenBackArrowSemantic": {
+    "description": "PathDetailScreen’de geri okunun anlamsal etiketi"
+  },
+
+  "pathDetailScreenNotFound": "Yol bulunamadı.",
+  "@pathDetailScreenNotFound": {
+    "description": "Yol verisi alınamazsa gösterilir"
+  },
+
+  "pathDetailScreenFailToUpdate": "Yol ilerlemesi güncellenemedi:",
+  "@pathDetailScreenFailToUpdate": {
+    "description": "Yol ilerlemesi güncelleme başarısız olursa gösterilen mesaj öneki"
+  },
+
+  "pathDetailScreenProgressDisabled": "Bu yol için ilerleme kapalı.",
+  "@pathDetailScreenProgressDisabled": {
+    "description": "path.tracksProgress == false ise gösterilir"
+  },
+
+  "pathDetailScreenLessonsHeading": "Dersler:",
+  "@pathDetailScreenLessonsHeading": {
+    "description": "Ders listesinin üstündeki başlık"
+  },
+
+  "pathDetailScreenNoLessonsLabel": "Ders bulunamadı.",
+  "@pathDetailScreenNoLessonsLabel": {
+    "description": "Yolda hiç ders yoksa gösterilir"
+  },
+
+  "pathDetailScreenErrorLoading": "Yol veya dersleri yüklerken hata oluştu:",
+  "@pathDetailScreenErrorLoading": {
+    "description": "Path detail ekranındaki hata mesajlarının öneki"
+  },
+
+  "pathDetailScreenLessonCardSemantic": "Ders ayrıntılarını açmak için dokunun",
+  "@pathDetailScreenLessonCardSemantic": {
+    "description": "Ders listesinde her ders kartının anlamsal etiketi"
+  },
+
+  "pathDetailScreenLessonCompleteIconSemantic": "Ders tamamlandı",
+  "@pathDetailScreenLessonCompleteIconSemantic": {
+    "description": "Tamamlanan ders için yeşil onay işareti ikonunun anlamsal etiketi"
+  },
+
+  "pathDetailScreenLessonInProgressIconSemantic": "Ders devam ediyor",
+  "@pathDetailScreenLessonInProgressIconSemantic": {
+    "description": "Tamamlanmamış ders için kum saati ikonunun anlamsal etiketi"
+  },
+
+  "pathDetailScreenLessonInvalidIconSemantic": "Ders geçersiz veya kullanılamıyor",
+  "@pathDetailScreenLessonInvalidIconSemantic": {
+    "description": "Geçersiz ders için kırmızı hata ikonunun anlamsal etiketi"
+  },
+
+  "pathDetailScreenLessonProgressUnavailable": "İlerleme bilgisi yok",
+  "@pathDetailScreenLessonProgressUnavailable": {
+    "description": "Ders geçersizse gösterilen alt başlık"
+  },
+
+  "pathDetailScreenLessonNoProgress": "Bu yol için ilerleme kaydı tutulmuyor",
+  "@pathDetailScreenLessonNoProgress": {
+    "description": "Yol ilerlemeyi izlemiyorsa gösterilir"
+  },
+
+  "pathDetailScreenLessonUpgrade": "İlerleme özelliği için yükseltme yapın.",
+  "@pathDetailScreenLessonUpgrade": {
+    "description": "Kullanıcı ders ilerlemesini göremiyorsa gösterilir"
+  },
+
+  "pathDetailScreenLessonProgressLabel": "İlerleme: {progress}%",
+  "@pathDetailScreenLessonProgressLabel": {
+    "description": "Ders öğesi alt başlığında ilerlemeyi gösterir, örn. 'İlerleme: 42%'",
+    "placeholders": {
+      "progress": {}
+    }
+  },
+
+  "pathDetailScreenLessonTitle": "Ders {lessonIndex}: {surahName} - Ayet {startAyah}-{endAyah}",
+  "@pathDetailScreenLessonTitle": {
+    "description": "Path detail listesindeki her bir dersin başlığı",
+    "placeholders": {
+      "lessonIndex": {},
+      "surahName": {},
+      "startAyah": {},
+      "endAyah": {}
+    }
+  },
+
+  "commentJ": "Yeni Yol Oluştur Ekranı metinleri",
+  "createPathTitle": "Yeni Yol Oluştur",
+  "@createPathTitle": {
+    "description": "Yeni yol oluştur ekranı uygulama çubuğu başlığı"
+  },
+
+  "createPathBackArrowSemantic": "Önceki ekrana dön",
+  "@createPathBackArrowSemantic": {
+    "description": "Yeni yol oluştur ekranındaki geri okunun anlamsal etiketi"
+  },
+
+  "createPathNameLabel": "Yol Adı",
+  "@createPathNameLabel": {
+    "description": "Yol adı metin alanı etiketi"
+  },
+
+  "createPathNameValidation": "Bir yol adı girin",
+  "@createPathNameValidation": {
+    "description": "Yol adı boş olursa gösterilen doğrulama mesajı"
+  },
+
+  "createPathDescriptionLabel": "Açıklama",
+  "@createPathDescriptionLabel": {
+    "description": "Yol açıklaması metin alanı etiketi"
+  },
+
+  "createPathDescriptionValidation": "Bir açıklama girin",
+  "@createPathDescriptionValidation": {
+    "description": "Açıklama boş olursa gösterilen doğrulama mesajı"
+  },
+
+  "createPathSurahSelectorLabel": "Sure Seçin:",
+  "@createPathSurahSelectorLabel": {
+    "description": "Sure açılır menüsü veya seçici üst başlığı"
+  },
+
+  "createPathStartAyahLabel": "Başlangıç Ayeti",
+  "@createPathStartAyahLabel": {
+    "description": "Başlangıç ayeti metin alanı etiketi"
+  },
+
+  "createPathNumAyahsLabel": "Yola Eklenecek Ayet Sayısı",
+  "@createPathNumAyahsLabel": {
+    "description": "Yola kaç ayet ekleneceğini seçmek için menü etiketi"
+  },
+
+  "createPathEndAyahLabel": "Bitiş Ayeti",
+  "@createPathEndAyahLabel": {
+    "description": "Bitiş ayetini gösteren salt okunur metin alanı etiketi"
+  },
+
+  "createPathWordsPerLessonLabel": "Her Dersteki Kelime Sayısı",
+  "@createPathWordsPerLessonLabel": {
+    "description": "Ders başına kelime sayısı açılır menü etiketi"
+  },
+
+  "createPathWordsSuffix": "kelime",
+  "@createPathWordsSuffix": {
+    "description": "Ders başına kelime açılır menüsünün sonuna eklenir"
+  },
+
+  "createPathInvalidRange": "Geçersiz aralık",
+  "@createPathInvalidRange": {
+    "description": "Ayet aralığı geçersizse gösterilen uyarı"
+  },
+
+  "createPathAyahsSuffix": "Ayet",
+  "@createPathAyahsSuffix": {
+    "description": "Ayet sayısı açılır menüsünde, örn. '15 Ayet'"
+  },
+
+  "createPathCreateButton": "Yol Oluştur",
+  "@createPathCreateButton": {
+    "description": "Yol oluşturma butonu etiketi"
+  },
+
+  "createPathSubmitSemantic": "Yol oluşturmak için dokunun",
+  "@createPathSubmitSemantic": {
+    "description": "Yeni yol oluştur butonu anlamsal etiketi"
+  },
+
+  "commentK": "Çeviri Ekranı metinleri",
+  "translationScreenTitle": "Çeviri",
+  "@translationScreenTitle": {
+    "description": "Çeviri ekranı uygulama çubuğu başlığı"
+  },
+
+  "translationScreenBackArrowSemantic": "Derse geri dön",
+  "@translationScreenBackArrowSemantic": {
+    "description": "Çeviri ekranındaki geri okunun anlamsal etiketi"
+  },
+
+  "translationScreenLoadingSemantic": "Çeviriler yükleniyor",
+  "@translationScreenLoadingSemantic": {
+    "description": "Çeviriler yüklenirken gösterilen ilerleme göstergesinin anlamsal etiketi"
+  },
+
+  "translationScreenNoTranslations": "Hiç çeviri bulunamadı.",
+  "@translationScreenNoTranslations": {
+    "description": "Herhangi bir çeviri dönmezse gösterilir"
+  },
+
+  "translationScreenReturnButton": "Derse Dön",
+  "@translationScreenReturnButton": {
+    "description": "Ders ekranına geri dönmek için buton"
+  },
+
+  "translationScreenReturnSemantic": "Derse geri dönmek için dokunun",
+  "@translationScreenReturnSemantic": {
+    "description": "Ders ekranına dönen butonun anlamsal etiketi"
+  },
+
+  "translationScreenLoadError": "Çeviriler yüklenirken hata oluştu:",
+  "@translationScreenLoadError": {
+    "description": "Çeviri yükleme başarısız olursa gösterilen uyarı öneki"
+  },
+
+  "commentL": "Dil Seçimi Ekranı metinleri",
+  "languageSelectionScreenSemantic": "Dil Seçimi Ekranı",
+  "@languageSelectionScreenSemantic": {
+    "description": "Dil seçimi ekranını tanımlayan üst konteynerin anlamsal etiketi"
+  },
+
+  "languageSelectionTitle": "Dilinizi Seçin",
+  "@languageSelectionTitle": {
+    "description": "Dil seçimi ekranının uygulama çubuğu başlığı"
+  },
+
+  "languageSelectionBackSemantic": "Geri",
+  "@languageSelectionBackSemantic": {
+    "description": "Dil seçimi ekranındaki geri okunun anlamsal etiketi"
+  },
+
+  "languageSelectionSkipSemantic": "Seçimi atla",
+  "@languageSelectionSkipSemantic": {
+    "description": "Dil seçimi ekranındaki atla düğmesinin anlamsal etiketi"
+  },
+
+  "languageSelectionInstructions": "Tercih ettiğiniz dili seçin:",
+  "@languageSelectionInstructions": {
+    "description": "Dil seçimi ekranının üst kısmında gösterilen yönergeler"
+  },
+
+  "languageSelectionNextSemantic": "Dil seçimini onaylamak için dokunun",
+  "@languageSelectionNextSemantic": {
+    "description": "Dil seçimi ekranındaki İleri butonunun anlamsal etiketi"
+  },
+
+  "languageSelectionNextLabel": "İleri",
+  "@languageSelectionNextLabel": {
+    "description": "Dil seçimini tamamladıktan sonra ilerlemek için buton"
+  },
+
+  "languageSelectionImageSemantic": "Hudhud Kur’an illüstrasyonu",
+  "@languageSelectionImageSemantic": {
+    "description": "Dil seçimi ekranının altında gösterilen görselin anlamsal etiketi"
+  },
+
+  "commentM": "Karşılama (Welcome) Ekranı metinleri",
+  "welcomeScreenSemantic": "Onboarding Karşılama Ekranı",
+  "@welcomeScreenSemantic": {
+    "description": "Onboarding karşılama ekranını tanımlayan üst konteynerin anlamsal etiketi"
+  },
+
+  "welcomeScreenLogoSemantic": "Hudhud Kur’an illüstrasyonu",
+  "@welcomeScreenLogoSemantic": {
+    "description": "Karşılama ekranı logo görselinin anlamsal etiketi"
+  },
+
+  "welcomeScreenSkipSemantic": "Karşılama adımını atla",
+  "@welcomeScreenSkipSemantic": {
+    "description": "Karşılama ekranındaki atla butonunun anlamsal etiketi"
+  },
+
+  "welcomeScreenNextSemantic": "Sonraki onboarding adımına geç",
+  "@welcomeScreenNextSemantic": {
+    "description": "‘Başla’ butonu için anlamsal etiket"
+  },
+
+  "commentN": "Hudhud Bilgi Ekranı metinleri",
+  "hudhudInfoSemantic": "Hudhud Bilgilendirme Ekranı",
+  "@hudhudInfoSemantic": {
+    "description": "Hudhud bilgi ekranının üst konteynerini tanımlayan anlamsal etiket"
+  },
+
+  "hudhudInfoAppBarTitle": "Hudhud’u Tanı",
+  "@hudhudInfoAppBarTitle": {
+    "description": "Hudhud bilgi ekranının uygulama çubuğu başlığı"
+  },
+
+  "hudhudInfoIllustrationSemantic": "Hudhud illüstrasyonu",
+  "@hudhudInfoIllustrationSemantic": {
+    "description": "Hudhud kuşunun resminin anlamsal etiketi"
+  },
+
+  "hudhudInfoBody1": "Hudhud (ibibik kuşu), Süleyman (AS) Peygamber’e gözlem yaparak ve mesajlar taşıyarak yardımcı olmuş özel bir kuştur.",
+  "@hudhudInfoBody1": {
+    "description": "Hudhud’un önemini anlatan ilk paragraf"
+  },
+
+  "hudhudInfoBody2": "Hudhud’un hikâyesi bize küçük bir canlının bile dikkatli, meraklı ve doğru şeylere odaklanarak büyük bir etki yapabileceğini hatırlatır. Biz de bu yolculukta Kur’an’ın güzelliğine odaklanabilir, her ilerleme anını fark edip şükür alışkanlığımızı artırabiliriz.",
+  "@hudhudInfoBody2": {
+    "description": "Dikkatli olmanın önemini anlatan ikinci paragraf"
+  },
+
+  "hudhudInfoBody3": "Hudhud’un örneğini izleyerek—dikkatli ve ilgili kalarak—Kur’an’la olan bağımızı derinleştirmeyi ve günlük yaşamda şükür duygusunu pekiştirmeyi hedefliyoruz.",
+  "@hudhudInfoBody3": {
+    "description": "Hudhud’un örneğinden yola çıkarak genel amacı anlatan üçüncü paragraf"
+  },
+
+  "hudhudInfoNextLabel": "İleri",
+  "@hudhudInfoNextLabel": {
+    "description": "İleri butonu metni"
+  },
+
+  "hudhudInfoNextSemantic": "Sonraki bölüme geç",
+  "@hudhudInfoNextSemantic": {
+    "description": "İleri butonunun anlamsal etiketi"
+  },
+
+  "hudhudInfoSkipSemantic": "Hudhud bilgisi adımını atla",
+  "@hudhudInfoSkipSemantic": {
+    "description": "Hudhud bilgi ekranındaki atla butonunun anlamsal etiketi"
+  },
+
+  "commentO": "Abonelik Seviyesi Ekranı metinleri",
+  "subscriptionTierScreenSemantic": "Abonelik Seviyesi Seçimi Ekranı",
+  "@subscriptionTierScreenSemantic": {
+    "description": "Abonelik seviyesi seçimi ekranını tanımlayan üst konteynerin anlamsal etiketi"
+  },
+
+  "subscriptionTierScreenAppBarTitle": "Planınızı Seçin",
+  "@subscriptionTierScreenAppBarTitle": {
+    "description": "Abonelik seviyesi ekranının uygulama çubuğu başlığı"
+  },
+
+  "subscriptionTierScreenSkipSemantic": "Abonelik seviyesi seçimini atla",
+  "@subscriptionTierScreenSkipSemantic": {
+    "description": "Abonelik seviyesi ekranındaki atla butonunun anlamsal etiketi"
+  },
+
+  "subscriptionTierScreenFreeLabel": "Ücretsiz",
+  "@subscriptionTierScreenFreeLabel": {
+    "description": "Ücretsiz katman etiketi"
+  },
+
+  "subscriptionTierScreenSmileySemantic": "Gülen yüz simgesi",
+  "@subscriptionTierScreenSmileySemantic": {
+    "description": "Gülen emoji simgesinin anlamsal etiketi"
+  },
+
+  "subscriptionTierScreenDonationText": "Gelirin bir kısmı, İslami Yardım ile yetimlere destek veren Almubtasim Girişimi’ne bağışlanacaktır.",
+  "@subscriptionTierScreenDonationText": {
+    "description": "Bağış kullanımını açıklayan yazı"
+  },
+
+  "subscriptionTierScreenConfirmSemantic": "Abonelik seviyesi seçimini onayla",
+  "@subscriptionTierScreenConfirmSemantic": {
+    "description": "İleri/Onay butonunun anlamsal etiketi"
+  },
+
+  "subscriptionTierScreenNextLabel": "İleri",
+  "@subscriptionTierScreenNextLabel": {
+    "description": "Seçili abonelik seviyesini onaylayıp devam butonu"
+  },
+
+  "subscriptionTierScreenRadioSemantic": "{title} abonelik seviyesini seçmek için dokunun",
+  "@subscriptionTierScreenRadioSemantic": {
+    "description": "Her abonelik seviyesi seçeneği için radyo tuşunun anlamsal etiketi",
+    "placeholders": {
+      "title": {}
+    }
+  },
+
+  "commentP": "Hedef Seçimi Ekranı metinleri",
+  "goalSelectionScreenSemantic": "Hedef Seçimi Ekranı",
+  "@goalSelectionScreenSemantic": {
+    "description": "Hedef seçimi ekranının üst konteynerini tanımlayan anlamsal etiket"
+  },
+
+  "goalSelectionScreenAppBarTitle": "Hedeflerinizi Seçin",
+  "@goalSelectionScreenAppBarTitle": {
+    "description": "Hedef seçimi ekranı uygulama çubuğu başlığı"
+  },
+
+  "goalSelectionScreenSkipSemantic": "Hedef seçimini atla",
+  "@goalSelectionScreenSkipSemantic": {
+    "description": "Hedef seçimi ekranındaki atla butonunun anlamsal etiketi"
+  },
+
+  "goalSelectionScreenIntroText": "Aşağıdaki hedeflerden hangileri ilginizi çekiyor? Birden fazla seçenek belirleyebilirsiniz.",
+  "@goalSelectionScreenIntroText": {
+    "description": "Hedef seçimi ekranının üst kısmında yer alan metin"
+  },
+
+  "goalSelectionScreenNextSemantic": "Hedef seçimlerini onayla",
+  "@goalSelectionScreenNextSemantic": {
+    "description": "İleri/Onay butonunun anlamsal etiketi"
+  },
+
+  "goalSelectionScreenNextLabel": "İleri",
+  "@goalSelectionScreenNextLabel": {
+    "description": "Seçili hedeflerle devam etme butonu"
+  },
+
+  "goalSelectionTileSemantic": "{goalTitle} hedef seçeneğini seçmek veya kaldırmak için dokunun",
+  "@goalSelectionTileSemantic": {
+    "description": "Her hedefin onay kutusu için anlamsal etiket",
+    "placeholders": {
+      "goalTitle": {}
+    }
+  },
+
+  "goalConnectQuranTitle": "Kur’an’la Bağımı Güçlendirmek",
+  "@goalConnectQuranTitle": {
+    "description": "'connectQuran' hedefinin onay kutusu etiketi"
+  },
+
+  "goalConnectQuranDesc": "Okuma veya tefekkürle ilişkini derinleştir.",
+  "@goalConnectQuranDesc": {
+    "description": "'connectQuran' hedefi alt açıklaması"
+  },
+
+  "goalMemorizeQuranTitle": "Kur’an’ı Ezberlemek",
+  "@goalMemorizeQuranTitle": {
+    "description": "'memorizeQuran' hedefinin onay kutusu etiketi"
+  },
+
+  "goalMemorizeQuranDesc": "Ezber yolculuğuna başla.",
+  "@goalMemorizeQuranDesc": {
+    "description": "'memorizeQuran' hedefi alt açıklaması"
+  },
+
+  "goalBeMoreGratefulTitle": "Daha Fazla Şükredip Mutlu Olmak",
+  "@goalBeMoreGratefulTitle": {
+    "description": "'beMoreGrateful' hedefinin onay kutusu etiketi"
+  },
+
+  "goalBeMoreGratefulDesc": "Günlük şükür pratiğine odaklan.",
+  "@goalBeMoreGratefulDesc": {
+    "description": "'beMoreGrateful' hedefi alt açıklaması"
+  },
+
+  "goalBuildConsistencyTitle": "Düzenlilik Kazanmak",
+  "@goalBuildConsistencyTitle": {
+    "description": "'buildConsistency' hedefinin onay kutusu etiketi"
+  },
+
+  "goalBuildConsistencyDesc": "Günlük veya haftalık bir alışkanlık geliştir.",
+  "@goalBuildConsistencyDesc": {
+    "description": "'buildConsistency' hedefi alt açıklaması"
+  },
+
+  "goalImproveArabicTitle": "Arapçamı Geliştirmek",
+  "@goalImproveArabicTitle": {
+    "description": "'improveArabic' hedefinin onay kutusu etiketi"
+  },
+
+  "goalImproveArabicDesc": "Yazılı veya sözlü dil becerilerine odaklan.",
+  "@goalImproveArabicDesc": {
+    "description": "'improveArabic' hedefi alt açıklaması"
+  },
+
+  "goalDeepenTafsirTitle": "Tefsiri Derinlemesine Öğrenmek",
+  "@goalDeepenTafsirTitle": {
+    "description": "'deepenTafsir' hedefinin onay kutusu etiketi"
+  },
+
+  "goalDeepenTafsirDesc": "Kur’an yorumlarını ve derin manalarını incele.",
+  "@goalDeepenTafsirDesc": {
+    "description": "'deepenTafsir' hedefi alt açıklaması"
+  },
+
+  "goalOtherTitle": "Diğer",
+  "@goalOtherTitle": {
+    "description": "'other' hedefinin onay kutusu etiketi"
+  },
+
+  "goalOtherDesc": "Kişisel başka bir hedefi sürdür.",
+  "@goalOtherDesc": {
+    "description": "'other' hedefi alt açıklaması"
+  },
+
+  "commentQ": "Seviye Seçimi Ekranı metinleri",
+  "levelSelectionScreenSemantic": "Seviye Seçimi Ekranı",
+  "@levelSelectionScreenSemantic": {
+    "description": "Seviye seçimi ekranını tanımlayan üst konteynerin anlamsal etiketi"
+  },
+
+  "levelSelectionScreenAppBarTitle": "Seviyenizi Seçin",
+  "@levelSelectionScreenAppBarTitle": {
+    "description": "Seviye seçimi ekranı uygulama çubuğu başlığı"
+  },
+
+  "levelSelectionScreenSkipSemantic": "Seviye seçimini atla",
+  "@levelSelectionScreenSkipSemantic": {
+    "description": "Seviye seçimi ekranındaki atla butonunun anlamsal etiketi"
+  },
+
+  "levelSelectionScreenIntroText": "Mevcut okuma seviyenizi en iyi yansıtan seçeneği seçin:",
+  "@levelSelectionScreenIntroText": {
+    "description": "Seviye seçimi ekranının üst kısmında yer alan metin"
+  },
+
+  "levelStarterLabel": "Başlangıç",
+  "@levelStarterLabel": {
+    "description": "'starter' seviyesi radyo etiketi"
+  },
+
+  "levelStarterDescription": "Kur’an okumasına yeni veya ara sıra bakan, keşif aşamasında.",
+  "@levelStarterDescription": {
+    "description": "'starter' seviyesi açıklaması"
+  },
+
+  "levelAdvancedLabel": "İleri Düzey",
+  "@levelAdvancedLabel": {
+    "description": "'advanced' seviyesi radyo etiketi"
+  },
+
+  "levelAdvancedDescription": "Arapça metin okumada rahat, biraz tecvid bilgisi olan.",
+  "@levelAdvancedDescription": {
+    "description": "'advanced' seviyesi açıklaması"
+  },
+
+  "levelQariLabel": "Kâri",
+  "@levelQariLabel": {
+    "description": "'qari' seviyesi radyo etiketi"
+  },
+
+  "levelQariDescription": "Tecvidi sağlam, kıraat konusunda yetkin.",
+  "@levelQariDescription": {
+    "description": "'qari' seviyesi açıklaması"
+  },
+
+  "levelSelectionNextSemantic": "Seviye seçimini onayla",
+  "@levelSelectionNextSemantic": {
+    "description": "Seviye seçimi ekranındaki İleri/Onay butonunun anlamsal etiketi"
+  },
+
+  "levelSelectionNextLabel": "İleri",
+  "@levelSelectionNextLabel": {
+    "description": "Seçilen seviye ile devam etme butonu"
+  },
+
+  "levelSelectionTileSemantic": "{levelTitle} okuma seviyesi seçeneğini seçmek için dokunun",
+  "@levelSelectionTileSemantic": {
+    "description": "Her seviye için radyo tuşunun anlamsal etiketi",
+    "placeholders": {
+      "levelTitle": {}
+    }
+  },
+
+  "commentR": "Onboarding Tamamlama Ekranı metinleri",
+  "onboardingCompletionScreenSemantic": "Onboarding Tamamlama Ekranı",
+  "@onboardingCompletionScreenSemantic": {
+    "description": "Son onboarding tamamlama ekranını tanımlayan üst konteynerin anlamsal etiketi"
+  },
+
+  "onboardingCompletionScreenAppBarTitle": "Her Şey Hazır!",
+  "@onboardingCompletionScreenAppBarTitle": {
+    "description": "Onboarding tamamlama ekranı uygulama çubuğu başlığı"
+  },
+
+  "onboardingCompletionScreenImageSemantic": "Hudhud Kur’an illüstrasyonu",
+  "@onboardingCompletionScreenImageSemantic": {
+    "description": "Onboarding’in sonundaki görselin anlamsal etiketi"
+  },
+
+  "onboardingCompletionScreenBody1": "Tebrikler! Kurulumu başarıyla tamamladınız. Bu yolculuğun sizi Kur’an’a daha da yakınlaştırmasını ve Allah’a şükrünüzü artırmasını dileriz.\n\nBu uygulamanın hayatınıza ve dokunduğunuz insanların hayatına bereket ve büyüme getirmesini temenni ediyoruz.",
+  "@onboardingCompletionScreenBody1": {
+    "description": "Onboarding tamamlama ekranı için ilk paragraf"
+  },
+
+  "onboardingCompletionScreenBody2": "Hazır olduğunuzda aşağıdaki butona dokunarak devam edebilirsiniz. Ana ezber ve ilerleme özellikleri sizi bekliyor; şükür girişi yapabilir veya Navigasyon Çubuğu’ndan bir yol seçebilirsiniz.",
+  "@onboardingCompletionScreenBody2": {
+    "description": "Onboarding sonrası atılacak adımları anlatan ikinci paragraf"
+  },
+
+  "onboardingCompletionScreenBody3": "Bu erken bir sürümdür — desteğiniz ve sabrınız için minnettarız; yakında inşallah daha fazla özellik sunmaya çalışacağız!",
+  "@onboardingCompletionScreenBody3": {
+    "description": "Güncellemeler ve destek teşviği sunan üçüncü paragraf"
+  },
+
+  "onboardingCompletionScreenBeginSemantic": "Uygulamayı kullanmaya başla",
+  "@onboardingCompletionScreenBeginSemantic": {
+    "description": "‘Haydi Başlayalım’ butonunun anlamsal etiketi"
+  },
+
+  "onboardingCompletionScreenBeginLabel": "Haydi Başlayalım",
+  "@onboardingCompletionScreenBeginLabel": {
+    "description": "Onboarding sonundaki final buton"
+  },
+
+  "commentS": "İsim Girişi Ekranı metinleri",
+  "nameEntryScreenSemantic": "İsim Girişi Ekranı",
+  "@nameEntryScreenSemantic": {
+    "description": "İsim girişi ekranını tanımlayan konteynerin anlamsal etiketi"
+  },
+
+  "nameEntryScreenAppBarTitle": "Profiliniz",
+  "@nameEntryScreenAppBarTitle": {
+    "description": "İsim girişi ekranının uygulama çubuğu başlığı"
+  },
+
+  "nameEntryScreenSkipSemantic": "İsim girişi adımını atla",
+  "@nameEntryScreenSkipSemantic": {
+    "description": "İsim girişi ekranındaki atla butonunun anlamsal etiketi"
+  },
+
+  "nameEntryScreenIntroText": "İsminiz nedir?",
+  "@nameEntryScreenIntroText": {
+    "description": "Kullanıcıya adını girebileceğini veya boş bırakarak 'Misafir' kalabileceğini açıklayan metin"
+  },
+
+  "nameEntryTextFieldSemantic": "İsim girişi metin alanı",
+  "@nameEntryTextFieldSemantic": {
+    "description": "Kullanıcının adını yazdığı metin alanının anlamsal etiketi"
+  },
+
+  "nameEntryNextSemantic": "İsim girişini onayla",
+  "@nameEntryNextSemantic": {
+    "description": "İleri/Onay butonunun anlamsal etiketi"
+  },
+
+  "nameEntryNextLabel": "İleri",
+  "@nameEntryNextLabel": {
+    "description": "İsim girişini tamamlayıp ilerleme butonu"
+  },
+
+  "commentT": "Dikey Ders İkonları metinleri",
+  "verticalLessonIconsSemantic": "Dikey Ders İkonları Konteyneri",
+  "@verticalLessonIconsSemantic": {
+    "description": "Dikey ders ikonları yığınını tanımlayan üst konteyner anlamsal etiketi"
+  },
+
+  "verticalLessonIconsNoLessons": "Ders bulunamadı.",
+  "@verticalLessonIconsNoLessons": {
+    "description": "Hiç ders yoksa gösterilen yedek metin"
+  },
+
+  "verticalLessonIconsLoadingSurah": "Sure ayrıntıları yükleniyor",
+  "@verticalLessonIconsLoadingSurah": {
+    "description": "Sure bilgisi yüklenirken gösterilen ilerleme göstergesi anlamsal etiketi"
+  },
+
+  "verticalLessonIconsErrorSurah": "Sure ayrıntıları yüklenirken hata oluştu",
+  "@verticalLessonIconsErrorSurah": {
+    "description": "Sure başlığı bilgisi alınamadığında gösterilen metin"
+  },
+
+  "verticalLessonIconsSurahHeaderSemantic": "Sure ayrıntıları başlığı",
+  "@verticalLessonIconsSurahHeaderSemantic": {
+    "description": "İlk sayfada sure başlığını gösteren metnin anlamsal etiketi"
+  },
+
+  "verticalLessonIconsHudhudIconSemantic": "Hudhud yardımcı ikonu",
+  "@verticalLessonIconsHudhudIconSemantic": {
+    "description": "hudhud_left ikonunun anlamsal etiketi"
+  },
+
+  "verticalLessonIconsNextPageSemantic": "Sonraki sayfa oku",
+  "@verticalLessonIconsNextPageSemantic": {
+    "description": "Aşağı doğru giden oka basıldığında sonraki sayfaya geçer"
+  },
+
+  "verticalLessonIconsPreviousPageSemantic": "Önceki sayfa oku",
+  "@verticalLessonIconsPreviousPageSemantic": {
+    "description": "Yukarı doğru giden oka basıldığında önceki sayfaya döner"
+  },
+
+  "verticalLessonIconsLoadingProgress": "Ders ilerlemesi yükleniyor",
+  "@verticalLessonIconsLoadingProgress": {
+    "description": "Ders ilerlemesi yüklenirken gösterilen ilerleme göstergesinin anlamsal etiketi"
+  },
+
+  "verticalLessonIconsErrorProgress": "İlerleme yüklenirken hata oluştu",
+  "@verticalLessonIconsErrorProgress": {
+    "description": "Dersin ilerlemesi alınamıyorsa gösterilen metin"
+  },
+
+  "verticalLessonIconSemantic": "Ders ikonu, {surahAyahRange}, ilerleme {percent}%",
+  "@verticalLessonIconSemantic": {
+    "description": "Dikey liste üzerindeki her ders ikonu için anlamsal etiket",
+    "placeholders": {
+      "surahAyahRange": {},
+      "percent": {}
+    }
+  },
+
+  "verticalLessonIconsCompletedSemantic": "Ders tamamlandı",
+  "@verticalLessonIconsCompletedSemantic": {
+    "description": "Tamamen tamamlanmış bir ders ikonundaki onay işaretinin anlamsal etiketi"
+  },
+
+  "verticalLessonIconsDialogTitle": "Destek & Yükseltme",
+  "@verticalLessonIconsDialogTitle": {
+    "description": "Destek & yükseltme diyalog başlığı"
+  },
+
+  "verticalLessonIconsDialogOk": "Tamam",
+  "@verticalLessonIconsDialogOk": {
+    "description": "Yükseltme diyalogundaki Tamam butonu"
+  },
+
+  "commentU": "Alt Navbar metinleri",
+  "navBarSemanticLabel": "Alt gezinme çubuğu",
+  "@navBarSemanticLabel": {
+    "description": "Tüm alt gezinme çubuğu için anlamsal etiket"
+  },
+
+  "navHomeLabel": "Ana Sayfa",
+  "@navHomeLabel": {
+    "description": "Alt çubuktaki Ana Sayfa sekmesi etiketi"
+  },
+
+  "navHomeSemantic": "Ana Sayfa sekmesi",
+  "@navHomeSemantic": {
+    "description": "Alt çubuktaki Ana Sayfa ikonu anlamsal etiketi"
+  },
+
+  "navQuranLabel": "Kur’an",
+  "@navQuranLabel": {
+    "description": "Alt çubuktaki Kur’an sekmesi etiketi"
+  },
+
+  "navQuranSemantic": "Kur’an sekmesi",
+  "@navQuranSemantic": {
+    "description": "Alt çubuktaki Kur’an ikonu anlamsal etiketi"
+  },
+
+  "navGratitudeLabel": "Şükür",
+  "@navGratitudeLabel": {
+    "description": "Alt çubuktaki Şükür sekmesi etiketi"
+  },
+
+  "navGratitudeSemantic": "Şükür sekmesi",
+  "@navGratitudeSemantic": {
+    "description": "Alt çubuktaki Şükür ikonu anlamsal etiketi"
+  },
+
+  "navProfileLabel": "Profil",
+  "@navProfileLabel": {
+    "description": "Alt çubuktaki Profil sekmesi etiketi"
+  },
+
+  "navProfileSemantic": "Profil sekmesi",
+  "@navProfileSemantic": {
+    "description": "Alt çubuktaki Profil ikonu anlamsal etiketi"
+  },
+
+  "commentV": "Üst Bar metinleri",
+  "topBarSemanticLabel": "Üst gezinme çubuğu",
+  "@topBarSemanticLabel": {
+    "description": "Tüm üst çubuk konteyneri için anlamsal etiket"
+  },
+
+  "topBarTitleSemantic": "Üst bar başlığı: {title}",
+  "@topBarTitleSemantic": {
+    "description": "Üst çubuğun ortasındaki başlık metni için anlamsal etiket",
+    "placeholders": {
+      "title": {}
+    }
+  },
+
+  "topBarStreakIconSemantic": "Seri ikonu: {days} gün",
+  "@topBarStreakIconSemantic": {
+    "description": "Seri günlerini gösteren seri ikonunun anlamsal etiketi",
+    "placeholders": {
+      "days": {}
+    }
+  },
+
+  "topBarStreakDialogBody": "Bu, kaç gündür üst üste Kur’an okuduğunuzu veya şükür yazdığınızı gösterir. Seriyi korumak ve büyütmek için devam edin!",
+  "@topBarStreakDialogBody": {
+    "description": "Seri kullanımını anlatan diyalog metni"
+  },
+
+  "topBarHudhudIconSemantic": "Hudhud ikonu, destek için dokunun",
+  "@topBarHudhudIconSemantic": {
+    "description": "Üst çubuktaki Hudhud ikonunun anlamsal etiketi"
+  },
+
+  "topBarHudhudDialogTitle": "Destek & Yükseltme",
+  "@topBarHudhudDialogTitle": {
+    "description": "Hudhud ikonu destek+yükseltme diyalog başlığı"
+  },
+
+  "topBarHudhudDialogBody": "Tüm özellikler ücretsiz sürümde mevcuttur ancak dilerseniz daha fazla özellik geliştirmemize destek olabilirsiniz. Aboneliğinizin bir kısmı Islamic Relief’e bağışlanır. Jazāk Allāhu Khayran!",
+  "@topBarHudhudDialogBody": {
+    "description": "Üst çubuktaki 'Destek & Yükseltme' daveti için diyalog gövde metni"
+  },
+
+  "commentW": "Şükür Modal penceresi metinleri",
+  "gratitudeModalSemantic": "Şükür Modal Penceresi",
+  "@gratitudeModalSemantic": {
+    "description": "Tüm Şükür Modal konteyneri için anlamsal etiket"
+  },
+
+  "gratitudeModalTitle": "Bu ayetlere göre bugün neye şükrediyorsunuz?",
+  "@gratitudeModalTitle": {
+    "description": "Şükür modalının üst kısmındaki başlık"
+  },
+
+  "gratitudeModalHint": "Elhamdülillah (şükrünüzü girin) #{index}",
+  "@gratitudeModalHint": {
+    "description": "Şükür metin alanlarındaki ipucu metni",
+    "placeholders": {
+      "index": {}
+    }
+  },
+
+  "gratitudeModalTextFieldSemantic": "#{index} numaralı şükür girişi",
+  "@gratitudeModalTextFieldSemantic": {
+    "description": "Şükür modalındaki i’nci metin alanının anlamsal etiketi",
+    "placeholders": {
+      "index": {}
+    }
+  },
+
+  "gratitudeModalEmptyWarning": "En az bir şükür girişi yapmalısınız.",
+  "@gratitudeModalEmptyWarning": {
+    "description": "Kullanıcı boş modal göndermeye çalışırsa gösterilen uyarı"
+  },
+
+  "gratitudeModalSubmitError": "Şükür kaydı yapılamadı. Lütfen tekrar deneyin.",
+  "@gratitudeModalSubmitError": {
+    "description": "Şükür gönderimi başarısız olursa gösterilen hata"
+  },
+
+  "dailyVoiceLimitReachedTitle": "Maşallah!",
+  "@dailyVoiceLimitReachedTitle": {
+    "description": "Günlük ses kullanım limiti popup başlığı"
+  },
+
+  "dailyVoiceLimitReachedMessage": "Kur’an sesli okuma için 10 dakikanızı doldurdunuz. Lütfen yazılı çalışmaya devam edin ve yarın okumaya devam edin.",
+  "@dailyVoiceLimitReachedMessage": {
+    "description": "Kullanıcı 10 dakikalık ses kullanımını doldurduğunda gösterilen mesaj"
+  },
+
+  "upgradeVoiceUsageTitle": "Premium’a Yükselt",
+  "@upgradeVoiceUsageTitle": {
+    "description": "Ücretsiz sesli kullanım limiti aşıldığında kullanıcıyı yükseltmeye davet eden başlık"
+  },
+
+  "gratitudeModalLoadingSemantic": "Şükür gönderimi devam ediyor",
+  "@gratitudeModalLoadingSemantic": {
+    "description": "Şükür gönderimi devam ederken gösterilen yükleme simgesi anlamsal etiketi"
+  },
+
+  "commentX": "== YENİ ANAHTARLAR: submission_feedback_modal, progress_bar, surah_selector ==",
+  "submissionFeedbackModalSemanticLabel": "Gönderim geri bildirimi diyalogu",
+  "@submissionFeedbackModalSemanticLabel": {
+    "description": "Tüm gönderim geri bildirimi modalı için anlamsal etiket"
+  },
+
+  "submissionFeedbackModalTitle": "Gönderim Geri Bildirimi",
+  "@submissionFeedbackModalTitle": {
+    "description": "Geri bildirim modalı başlığı"
+  },
+
+  "submissionFeedbackModalNoNew": "Yeni şükür eklenmedi.",
+  "@submissionFeedbackModalNoNew": {
+    "description": "Herhangi bir yeni şükür girilmemişse gösterilen mesaj"
+  },
+
+  "submissionFeedbackModalYouSubmitted": "Bu şükürleri eklediniz:",
+  "@submissionFeedbackModalYouSubmitted": {
+    "description": "Az önce gönderilen şükür listesinin üstünde gösterilen etiket"
+  },
+
+  "submissionFeedbackModalStreak": "Mevcut şükür serisi: {days} gün",
+  "@submissionFeedbackModalStreak": {
+    "description": "Şu anki art arda şükür günlerini gösterir",
+    "placeholders": {
+      "days": {}
+    }
+  },
+
+  "submissionFeedbackModalTotalDays": "Toplam şükür yapılan gün: {count}",
+  "@submissionFeedbackModalTotalDays": {
+    "description": "Şükür kaydı yapılan toplam farklı gün sayısını gösterir",
+    "placeholders": {
+      "count": {}
+    }
+  },
+
+  "submissionFeedbackModalLoading": "Şükür verileriniz yükleniyor...",
+  "@submissionFeedbackModalLoading": {
+    "description": "Şükür verileri beklenirken gösterilen durum"
+  },
+
+  "submissionFeedbackModalError": "Şükür verileri yüklenemedi.",
+  "@submissionFeedbackModalError": {
+    "description": "Şükür verileri alınırken hata oluşursa gösterilen mesaj"
+  },
+
+  "submissionFeedbackModalViewLog": "Kaydı Gör",
+  "@submissionFeedbackModalViewLog": {
+    "description": "Şükür kaydı ekranına yönlendirme buton metni"
+  },
+
+  "submissionFeedbackModalClose": "Kapat",
+  "@submissionFeedbackModalClose": {
+    "description": "Gönderim geri bildirimi modalını kapatma butonu"
+  },
+
+  "progressBarSemanticLabel": "İlerleme: {percent}%",
+  "@progressBarSemanticLabel": {
+    "description": "Doğrusal ilerleme çubuğu için anlamsal etiket, yüzde değeri içerir",
+    "placeholders": {
+      "percent": {}
+    }
+  },
+
+  "surahSelectorSemanticLabel": "Bir Sure Seçin",
+  "@surahSelectorSemanticLabel": {
+    "description": "Sure seçici açılır menüsü için anlamsal etiket"
+  },
+
+  "commentZ": "Sistem tarafından tanımlanmış yollar için yerelleştirilebilir Yol İsimleri ve Açıklamaları",
+
+  "pathNameFatihah": "Fâtiha Sûresi",
+  "@pathNameFatihah": { "description": "path_fatihah için ad" },
+  "pathDescFatihah": "Tam sure (1:1–7). Her rekâtta vazgeçilmez.",
+  "@pathDescFatihah": { "description": "path_fatihah için açıklama" },
+
+  "pathNameKafirun": "Kâfirûn Sûresi",
+  "@pathNameKafirun": { "description": "path_kafirun için ad" },
+  "pathDescKafirun": "Tam sure (109:1–6). Tevhid beyanı.",
+  "@pathDescKafirun": { "description": "path_kafirun için açıklama" },
+
+  "pathNameIkhlas": "İhlâs Sûresi",
+  "@pathNameIkhlas": { "description": "path_ikhlas için ad" },
+  "pathDescIkhlas": "Tam sure (112:1–4). Allah’ın tevhidi.",
+  "@pathDescIkhlas": { "description": "path_ikhlas için açıklama" },
+
+  "pathNameFalaq": "Felak Sûresi",
+  "@pathNameFalaq": { "description": "path_falaq için ad" },
+  "pathDescFalaq": "Tam sure (113:1–5). Dış kötülüklerden sığınma.",
+  "@pathDescFalaq": { "description": "path_falaq için açıklama" },
+
+  "pathNameNas": "Nâs Sûresi",
+  "@pathNameNas": { "description": "path_nas için ad" },
+  "pathDescNas": "Tam sure (114:1–6). İçsel vesveselerden sığınma.",
+  "@pathDescNas": { "description": "path_nas için açıklama" },
+
+  "pathNameAsrBegin": "Asr Sûresi",
+  "@pathNameAsrBegin": { "description": "path_asr_begin için ad" },
+  "pathDescAsrBegin": "(103:1–3). Yalnızca 3 ayet ama “sabır” için temel.",
+  "@pathDescAsrBegin": { "description": "path_asr_begin için açıklama" },
+
+  "pathNameTakathur": "Tekâsür Sûresi",
+  "@pathNameTakathur": { "description": "path_takathur için ad" },
+  "pathDescTakathur": "(102:1–8) Dünyadaki rekabet ve hesap günü üzerine.",
+  "@pathDescTakathur": { "description": "path_takathur için açıklama" },
+
+  "pathNameFil": "Fîl Sûresi",
+  "@pathNameFil": { "description": "path_fil için ad" },
+  "pathDescFil": "(105:1–5). Fil vakası; 5 kısa ayet.",
+  "@pathDescFil": { "description": "path_fil için açıklama" },
+
+  "pathNameQuraysh": "Kureyş Sûresi",
+  "@pathNameQuraysh": { "description": "path_quraysh için ad" },
+  "pathDescQuraysh": "(106:1–4). Güvenli yolculuklar için şükür.",
+  "@pathDescQuraysh": { "description": "path_quraysh için açıklama" },
+
+  "pathNameRahmanA": "Rahmân Sûresi A",
+  "@pathNameRahmanA": { "description": "path_rahman_a için ad" },
+  "pathDescRahmanA": "(55:1–13): Kur’an öğretileri & insanın yaratılışı.",
+  "@pathDescRahmanA": { "description": "path_rahman_a için açıklama" },
+
+  "pathNameRahmanB": "Rahmân Sûresi B",
+  "@pathNameRahmanB": { "description": "path_rahman_b için ad" },
+  "pathDescRahmanB": "(55:26–36): İnsan ve cin sorumluluğu.",
+  "@pathDescRahmanB": { "description": "path_rahman_b için açıklama" },
+
+  "pathNameYasinBlock": "Yâ Sîn Sûresi (Blok)",
+  "@pathNameYasinBlock": { "description": "path_yasin_block için ad" },
+  "pathDescYasinBlock": "(36:1–12). Peygamber’in mesajına giriş & uyarılar.",
+  "@pathDescYasinBlock": { "description": "path_yasin_block için açıklama" },
+
+  "pathNameMulkBlock": "Mülk Sûresi (Blok)",
+  "@pathNameMulkBlock": { "description": "path_mulk_block için ad" },
+  "pathDescMulkBlock": "(67:1–15). Allah’ın hükümranlığı ve tefekkür.",
+  "@pathDescMulkBlock": { "description": "path_mulk_block için açıklama" },
+
+  "pathNameBaqarah21_29": "Bakara Sûresi (2:21–29)",
+  "@pathNameBaqarah21_29": { "description": "path_baqarah_21_29 için ad" },
+  "pathDescBaqarah21_29": "9 ayet, yaratılış & şükür tefekkürü.",
+  "@pathDescBaqarah21_29": { "description": "path_baqarah_21_29 için açıklama" },
+
+  "pathNameNahl66_72": "Nahl Sûresi (16:66–72)",
+  "@pathNameNahl66_72": { "description": "path_nahl_66_72 için ad" },
+  "pathDescNahl66_72": "7 ayet, nimetlerin (hayvanlar, meyveler vb.) hatırlatılması.",
+  "@pathDescNahl66_72": { "description": "path_nahl_66_72 için açıklama" },
+
+  "pathNameAdDuha": "Duha Sûresi",
+  "@pathNameAdDuha": { "description": "path_ad_duha için ad" },
+  "pathDescAdDuha": "(93:1–11) 11 ayet umut & teselli içeriyor.",
+  "@pathDescAdDuha": { "description": "path_ad_duha için açıklama" },
+
+  "pathNameKahfCave": "Kehf Sûresi: Mağara Gençleri",
+  "@pathNameKahfCave": { "description": "path_kahf_cave için ad" },
+  "pathDescKahfCave": "(18:9–16) Mağaraya sığınan genç müminlerin kıssası.",
+  "@pathDescKahfCave": { "description": "path_kahf_cave için açıklama" },
+
+  "pathNameKahfMusa": "Kehf Sûresi: Mûsâ & Hızır",
+  "@pathNameKahfMusa": { "description": "path_kahf_musa için ad" },
+  "pathDescKahfMusa": "(18:60–70) Sabır & gizli hikmet vurgusu.",
+  "@pathDescKahfMusa": { "description": "path_kahf_musa için açıklama" },
+
+  "pathNameWaqiah": "Vâkıa Sûresi (56:1–15)",
+  "@pathNameWaqiah": { "description": "path_waqiah için ad" },
+  "pathDescWaqiah": "15 ayet, kıyametin ansızın gelişini anlatır.",
+  "@pathDescWaqiah": { "description": "path_waqiah için açıklama" },
+
+  "pathNameAsrPatience": "Asr Sûresi (Sabır)",
+  "@pathNameAsrPatience": { "description": "path_asr_patience için ad" },
+  "pathDescAsrPatience": "(103:1–3) yine 3 ayet, sabır hakkında meşhur.",
+  "@pathDescAsrPatience": { "description": "path_asr_patience için açıklama" },
+
+  "pathNameBaq153_157": "Bakara Sûresi (2:153–157)",
+  "@pathNameBaq153_157": { "description": "path_baq_153_157 için ad" },
+  "pathDescBaq153_157": "5 ayet: “Sabır ve namazla yardım isteyin.”",
+  "@pathDescBaq153_157": { "description": "path_baq_153_157 için açıklama" },
+
+  "pathNameYusuf7_14": "Yûsuf Sûresi (12:7–14)",
+  "@pathNameYusuf7_14": { "description": "path_yusuf_7_14 için ad" },
+  "pathDescYusuf7_14": "Yûsuf’un kardeşlerinin kıskançlığı. Sabır imtihanı.",
+  "@pathDescYusuf7_14": { "description": "path_yusuf_7_14 için açıklama" },
+
+  "pathNameYusuf83_92": "Yûsuf Sûresi (12:83–92)",
+  "@pathNameYusuf83_92": { "description": "path_yusuf_83_92 için ad" },
+  "pathDescYusuf83_92": "Ya‘kûb’un hüznü & Yûsuf’un affı (10 ayet).",
+  "@pathDescYusuf83_92": { "description": "path_yusuf_83_92 için açıklama" },
+
+  "pathNameInshirah": "İnşirâh Sûresi (94:1–8)",
+  "@pathNameInshirah": { "description": "path_inshirah için ad" },
+  "pathDescInshirah": "8 ayet: zorluktan sonra ferahlık müjdesi. Sabır & umutla ilişkili.",
+  "@pathDescInshirah": { "description": "path_inshirah için açıklama" },
+
+  "verticalLessonIconsSurahAyahFormat": "Sure {surahName}, Ayet {startAyah}-{endAyah}",
+  "@verticalLessonIconsSurahAyahFormat": {
+    "description": "Örnek kullanım: 'Sure Fâtiha, Ayet 1-7'.",
+    "placeholders": {
+      "surahName": {},
+      "startAyah": {},
+      "endAyah": {}
+    }
+  },
+
+  "finishLabel": "Bitir",
+  "@finishLabel": {
+    "description": "Button label for finishing the lesson"
+  },
+
+  "twoWordMultipleChoiceLabel": "Doğru iki kelimeyi seçin",
+  "@twoWordMultipleChoiceLabel": {
+    "description": "Prompt text for two-word multiple choice"
+  },
+
+  "singleWordMultipleChoiceLabel": "Doğru kelimeyi seçin",
+  "@singleWordMultipleChoiceLabel": {
+    "description": "Prompt text for single-word multiple choice"
+  },
+
+  "correctAnswerLabel": "Doğru!",
+  "@correctAnswerLabel": {
+    "description": "Shown after user selects correct multiple choice"
+  },
+
+  "incorrectAnswerLabel": "Yanlış!",
+  "@incorrectAnswerLabel": {
+    "description": "Shown after user selects a wrong multiple choice"
+  },
+
+  "lessonCompletedLabel": "Ders tamamlandı!",
+  "@lessonCompletedLabel": {
+    "description": "Shown when the user has no more MC questions to do."
+  },
+
+  "profileAnalyticsScoreLabel": "Analiz ve Skor",
+  "@profileAnalyticsScoreLabel": {
+    "description": "Header label for the analytics/score section in ProfileScreen"
+  },
+
+  "profileDailyLabel": "Günlük",
+  "@profileDailyLabel": {
+    "description": "Label for daily score"
+  },
+
+  "profileWeeklyLabel": "Haftalık",
+  "@profileWeeklyLabel": {
+    "description": "Label for weekly score"
+  },
+
+  "profileMonthlyLabel": "Aylık",
+  "@profileMonthlyLabel": {
+    "description": "Label for monthly score"
+  },
+
+  "profileTotalLabel": "Toplam",
+  "@profileTotalLabel": {
+    "description": "Label for total/all-time score"
+  },
+
+  "profileViewChart": "Grafiği görüntüle",
+  "@profileViewChart": {
+    "description": "Button label to open the chart"
+  },
+
+  "profileCloseLabel": "Kapat",
+  "@profileCloseLabel": {
+    "description": "Button label to close the dialog"
+  },
+
+  "profileScoreChartTitle": "Skor Grafiği",
+  "@profileScoreChartTitle": {
+    "description": "Used in the alert dialog's title, e.g. 'Daily Score Chart'"
+  },
+
+  "profileScoreChartHistory": "Geçmiş",
+  "@profileScoreChartHistory": {
+    "description": "Used in the chart's internal title, e.g. 'Daily History'"
+  },
+
+  "profileNoData": "Veri yok",
+  "@profileNoData": {
+    "description": "Shown if the chart has no data to display"
+  },
+
+  "topBarDailyScoreLabel": "⭐ Bugün",
+  "@topBarDailyScoreLabel": {
+    "description": "Short label for daily score displayed on the left side of the TopBar."
+  },
+
+  "topBarDailyScoreSemantic": "Günlük skorunuz {score}",
+  "@topBarDailyScoreSemantic": {
+    "description": "Accessibility label for daily score in the TopBar, announcing how many points the user has earned.",
+    "placeholders": {
+      "score": {}
+    }
+  },
+
+  "profilePremiumNeeded": "Lütfen ilerleme takvimini görmek ve inşallah daha fazla özellik geliştirmemize destek olmak için yükseltin!",
+  "@profilePremiumNeeded": {
+    "description": "Shown if user is free tier but wants to see weekly progress"
+  },
+
+  "levelMultipleChoiceLabel": "Çoktan Seçmeli",
+  "@levelMultipleChoiceLabel": {
+    "description": "Radio label for the 'multipleChoice' level"
+  },
+
+  "levelMultipleChoiceDescription": "Tek veya iki kelimelik çoktan seçmeli adımlar, çiftleri isteğe bağlı olarak atlama seçeneğiyle.",
+  "@levelMultipleChoiceDescription": {
+    "description": "Description for the 'multipleChoice' level"
+  },
+
+  "levelBeginnerLabel": "Başlangıç",
+  "@levelBeginnerLabel": {
+    "description": "Radio label for the 'starter' or 'beginner' level"
+  },
+
+  "levelBeginnerDescription": "Gruplandırılmış dizilerde aşamalı kelime kaldırma ile kademeli ezberleme.",
+  "@levelBeginnerDescription": {
+    "description": "Description for the 'beginner' level"
+  },
+
+  "subscriptionTierScreenPremiumLabel": "Plus",
+  "@subscriptionTierScreenPremiumLabel": {
+    "description": "Label for the Premium tier"
+  },
+
+  "featureUnavailableOffline": "Özellik çevrimdışıyken kullanılamıyor. Bağlanın veya Plus ya da Pro Beta'ya yükselterek çevrimdışı modu etkinleştirin.",
+  "@featureUnavailableOffline": {
+    "description": "Ücretsiz bir kullanıcı çevrimdışı özellikleri kullanmaya çalıştığında gösterilen mesaj."
+  },
+
+  "submissionFeedbackModalTotalCount": "Girilen teşekkürlerin toplam sayısı: {count}",
+  "@submissionFeedbackModalTotalCount": {
+    "description": "Kullanıcının toplam kaç teşekkür girdisi olduğunu gösterir. {count} gerçek sayı ile değiştirilir."
+  },
+
+
+  "notificationDailyTitle": "Nazik Günlük Kur'an Hatırlatıcısı",
+  "@notificationDailyTitle": {
+    "description": "Günlük Kur'an hatırlatma bildirimi için başlık"
+  },
+
+
+  "notificationWeeklyTitle": "Haftalık Kur'an Kontrolü",
+  "@notificationWeeklyTitle": {
+    "description": "Haftalık Kur'an hatırlatma bildirimi için başlık"
+  },
+  "notificationWeeklyBody": "İlerlemenizi gözden geçirin ve şükran pratiği yaparken Kur'an'dan yeni bir bölüm ezberleyin.",
+  "@notificationWeeklyBody": {
+    "description": "Haftalık hatırlatma bildiriminin metni"
+  },
+
+  "notificationChannelDailyRemindersName": "Günlük Hatırlatmalar",
+  "@notificationChannelDailyRemindersName": {
+    "description": "Günlük hatırlatmalar için kanal adı"
+  },
+  "notificationChannelDailyRemindersDesc": "Günlük Kur'an ezberi için hatırlatmalar",
+  "@notificationChannelDailyRemindersDesc": {
+    "description": "Günlük hatırlatmalar kanalı için açıklama"
+  },
+
+  "notificationChannelWeeklyRemindersName": "Haftalık Hatırlatmalar",
+  "@notificationChannelWeeklyRemindersName": {
+    "description": "Haftalık hatırlatmalar için kanal adı"
+  },
+  "notificationChannelWeeklyRemindersDesc": "Haftalık Kur'an ezberi kontrolü için hatırlatmalar",
+  "@notificationChannelWeeklyRemindersDesc": {
+    "description": "Haftalık hatırlatmalar kanalı için açıklama"
+  },
+
+  "nameEntryNotificationFrequencyDaily": "Günlük",
+  "@nameEntryNotificationFrequencyDaily": {
+    "description": "Açılır listede günlük hatırlatmaları belirten seçenek"
+  },
+
+
+  "topBarStreakDialogTitle": "Seri",
+  "@topBarStreakDialogTitle": {
+    "description": "Kullanıcı serisini açıklayan diyalog başlığı"
+  },
+  "fillInTheBlanksLabel": "Boşlukları doldur",
+  "@fillInTheBlanksLabel": {
+    "description": "Zorluk açılır menüsünde 'Çoktan Seçmeli' seçeneğinden sonra görüntülenen tıklanamaz ayrıcı metin"
+  },
+
+  "loadingDataLabel": "Yükleniyor…",
+  "@loadingDataLabel": {
+    "description": "Veriler yüklenirken gösterilen etiket"
+  },
+
+  "ayahRangeLabel": "Ayet {start} - {end}",
+  "@ayahRangeLabel": {
+    "description": "İlk sayfadaki ayet aralığı için yer tutucu, örneğin Fatiha Suresi'nde 1-7",
+    "placeholders": {
+      "start": {},
+      "end": {}
+    }
+  },
+
+  "nextPageSemanticLabel": "Sonraki sayfa",
+  "@nextPageSemanticLabel": {
+    "description": "Sonraki sayfaya gitmek için aşağı okuna ait anlamsal etiket"
+  },
+
+  "prevPageSemanticLabel": "Önceki sayfa",
+  "@prevPageSemanticLabel": {
+    "description": "Önceki sayfaya dönmek için yukarı okuna ait anlamsal etiket"
+  },
+
+  "pageXOfYLabel": "Sayfa {current} / {total}",
+  "@pageXOfYLabel": {
+    "description": "Sayfalama okuna tıklandıktan sonra çıkan bildirim çubuğundaki metin; geçerli sayfayı ve toplam sayıyı gösterir",
+    "placeholders": {
+      "current": {},
+      "total": {}
+    }
+  },
+
+  "verseSemanticLabel": "Ayet {ayahNumber}, {surahName} Suresi'nden",
+  "@verseSemanticLabel": {
+    "description": "Bir ayet kartının anlamsal etiketi, ayet numarası ve sure adını referans alır",
+    "placeholders": {
+      "ayahNumber": {},
+      "surahName": {}
+    }
+  },
+
+  "ayahLabel": "Ayet",
+  "@ayahLabel": {
+    "description": "Bir ayet numarası için önek etiket, örn. 'Ayet 3'"
+  },
+
+  "goToSurahViewLabel": "Sure Görüntüle",
+  "@goToSurahViewLabel": {
+    "description": "Yol tabanlı sure ekranına giden bir düğme etiketi"
+  },
+
+  "clickOnAyaToOpenLesson": "Derse başlamak için aşağıdaki herhangi bir ayete tıklayın",
+
+  "difficultyChoosingScreenIntro": "Tercihinizi seçin: çoktan seçmeli veya boşluk doldurma ve her adım ve ses çalma kaç kez tekrar edecek.",
+  "@difficultyChoosingScreenIntro": {
+    "description": "Zorluk seçme ekranının en üstündeki tanıtım metni"
+  },
+
+  "upgradeVoiceUsageMessage": "Sesli özelliği denemek ve geliştirmemize yardımcı olmak için Pro Beta'ya yükseltin!",
+  "@upgradeVoiceUsageMessage": {
+    "description": "Kullanıcı ücretsiz ses kullanım sınırını aştığında gösterilen ana mesaj"
+  },
+
+  "restorePurchasesLabel": "Satın Alımları Geri Yükle",
+  "@restorePurchasesLabel": {
+    "description": "Satın alımları geri yükleme düğmesi etiketi"
+  },
+
+  "subscriptionTierScreenMonthly": "Aylık",
+  "@subscriptionTierScreenMonthly": {
+    "description": "Aylık geçiş etiketi"
+  },
+
+  "subscriptionTierScreenYearly": "Yıllık",
+  "@subscriptionTierScreenYearly": {
+    "description": "Yıllık geçiş etiketi"
+  },
+
+  "subscriptionTierScreenFreePrice": "Ücretsiz",
+  "@subscriptionTierScreenFreePrice": {
+    "description": "Ücretsiz katman için gösterilen fiyat"
+  },
+
+  "subscriptionTierScreenPremiumMonthlyPrice": "Şimdi aylık 3 $ (önceden 5 $)",
+  "@subscriptionTierScreenPremiumMonthlyPrice": {
+    "description": "Premium için indirimli aylık fiyat"
+  },
+
+  "subscriptionTierScreenPremiumYearlyPrice": "Şimdi yıllık 28 $ (önceden 60 $)",
+  "@subscriptionTierScreenPremiumYearlyPrice": {
+    "description": "Premium için indirimli yıllık fiyat"
+  },
+
+  "subscriptionTierScreenPremiumPlusMonthlyPrice": "Şimdi aylık 7 $ (önceden 10 $)",
+  "@subscriptionTierScreenPremiumPlusMonthlyPrice": {
+    "description": "PremiumPlus için indirimli aylık fiyat"
+  },
+
+  "subscriptionTierScreenPremiumPlusYearlyPrice": "Şimdi yıllık 45 $ (önceden 84 $)",
+  "@subscriptionTierScreenPremiumPlusYearlyPrice": {
+    "description": "PremiumPlus için indirimli yıllık fiyat"
+  },
+
+  "subscriptionPurchaseError": "Abonelik satın alırken hata oluştu",
+  "@subscriptionPurchaseError": {
+    "description": "Abonelik satın alımı için genel hata mesajı"
+  },
+
+  "topBarExplorePlansLabel": "Planları Keşfet",
+  "@topBarExplorePlansLabel": {
+    "description": "Abonelik ekranına gitmek için düğme metni"
+  },
+
+  "topBarBackHomeLabel": "Ana Sayfaya Dön",
+  "@topBarBackHomeLabel": {
+    "description": "Ana ekrana dönmek için düğme metni"
+  },
+  "profileRequiresPlanUpdate": "Plan güncellemesi gerekiyor",
+  "@profileRequiresPlanUpdate": {
+    "description": "Bir özelliğin abonelik/premium plan gerektirdiğini gösteren gösterge"
+  },
+
+
+  "subscriptionTierScreenPremiumDescription": "Ücretsiz sürümdeki her şeyin yanı sıra çevrimdışı ders öğrenimi ve geri bildirim, geçmiş analizler, ayrıca ilerleme çubukları, profil ve Kur’an özelleştirmesi. Daha fazla özellik geliştirmemize destek olun!",
+  "@subscriptionTierScreenPremiumDescription": {
+    "description": "Premium katmanı için açıklama"
+  },
+  "subscriptionAutoRenewNotice": "Abonelik otomatik olarak yenilenir ve bir sonraki dönem için ücretlendirilmemek adına iptal edilebilir. Fonların bir kısmı Almubtasim Girişimi \uD83D\uDE00 aracılığıyla Islamic Relief’e bağışlanacaktır.",
+  "@subscriptionAutoRenewNotice": {
+    "description": "Kısa otomatik yenileme ve bağış bildirimi"
+  },
+
+  "subscriptionTierScreenSubscribeLabel": "Abone Ol",
+  "@subscriptionTierScreenSubscribeLabel": {
+    "description": "Abonelik satın alımını onaylamak için buton etiketi"
+  },
+
+  "subscriptionTierScreenFinalMessage": "Desteğiniz için teşekkür ederiz!",
+  "@subscriptionTierScreenFinalMessage": {
+    "description": "Abonelik ekranının altındaki kısa son mesaj"
+  },
+  "subscriptionPurchaseRestoreSuccess": "Satın almalarınız başarıyla geri yüklendi.",
+  "@subscriptionPurchaseRestoreSuccess": {
+    "description": "Satın alımların geri yükleme işlemi başarıyla tamamlandığında gösterilir"
+  },
+
+  "subscriptionTierScreenRestoreLabel": "Satın Alımları Geri Yükle",
+  "@subscriptionTierScreenRestoreLabel": {
+    "description": "Daha önce satın alınmış abonelikleri geri yüklemek için düğme etiketi"
+  },
+
+  "arabicLabel": "Arapça",
+  "@arabicLabel": {
+    "description": "Kullanıcı metnin Arapça olmasını istediğinde görünen geçiş seçeneği etiketi."
+  },
+
+  "transliterationLabel": "İngilizce",
+  "@transliterationLabel": {
+    "description": "Kullanıcı metnin Latin karakterlerle translitere edilmiş halini istediğinde görünen geçiş seçeneği etiketi."
+  },
+
+  "surahSearchScreenTitle": "Sure Arama",
+  "@surahSearchScreenTitle": {
+    "description": "Sure arama ekranının başlığı"
+  },
+
+  "genericBack": "Geri",
+  "@genericBack": {
+    "description": "Uygulama çubuğundaki geri düğmesi etiketi"
+  },
+
+  "surahSearchSelectSurah": "Bir Sure Seçin:",
+  "@surahSearchSelectSurah": {
+    "description": "Kullanıcıdan listeden bir sure seçmesini isteyen uyarı"
+  },
+
+  "surahSearchExistingPaths": "Bu Sure İçin Mevcut Yollar",
+  "@surahSearchExistingPaths": {
+    "description": "Seçilen sure için var olan kullanıcı/sistem yollarını listeleyen bölüm başlığı"
+  },
+
+  "surahSearchNoMatches": "Mevcut yol bulunamadı.",
+  "@surahSearchNoMatches": {
+    "description": "Seçilen sure için herhangi bir yol yoksa gösterilen mesaj"
+  },
+
+  "surahSearchHideCreateForm": "Oluşturma Formunu Gizle",
+  "@surahSearchHideCreateForm": {
+    "description": "Yeni yol oluşturma formunu kapatmak için etiket"
+  },
+
+  "surahSearchShowCreateForm": "Sure için Yeni Yol Oluştur",
+  "@surahSearchShowCreateForm": {
+    "description": "Yeni yol oluşturma formunu açmak için etiket"
+  },
+
+  "createPathTrackProgress": "İlerlemeyi takip et?",
+  "@createPathTrackProgress": {
+    "description": "Yolun ilerlemesini takip etmek için bir geçiş veya anahtar etiketi"
+  },
+
+  "themeScreenSearchIconSemantic": "Sûreleri ara",
+  "@themeScreenSearchIconSemantic": {
+    "description": "Tema ekranındaki arama simgesi için araç ipucu metni"
+  },
+
+  "pathListSearchIconSemantic": "Sûreleri ara",
+  "@pathListSearchIconSemantic": {
+    "description": "PathListScreen uygulama çubuğundaki arama simgesi için ipucu metni"
+  },
+
+  "pathLessonsSearchIconSemantic": "Sûreleri ara",
+  "@pathLessonsSearchIconSemantic": {
+    "description": "PathLessonsScreen uygulama çubuğundaki arama simgesi için ipucu metni"
+  },
+
+  "playAllSurahSemantic": "Tüm sureyi oynat",
+  "@playAllSurahSemantic": {
+    "description": "Tüm sureyi çalan 'Tümünü Oynat' simgesi için araç ipucu"
+  },
+
+  "toggleTransliterationLabel": "Transliterasyonu değiştir",
+  "@toggleTransliterationLabel": {
+    "description": "Transliterasyon modunu (Arapça vs. transliterasyon) değiştirmek için araç ipucu"
+  },
+
+  "englishLabel": "İngilizce",
+  "@englishLabel": {
+    "description": "İngilizce transliterasyon seçeneği için görüntülenen etiket"
+  },
+
+  "subscriptionTierScreenPremiumPlusLabel": "Bize Destek Ol (Yıllık)",
+  "@subscriptionTierScreenPremiumPlusLabel": {
+    "description": "Premium Plus katmanı için etiket"
+  },
+
+  "subscriptionTierScreenFreeDescription": "Tüm özellikler ücretsiz ve reklamsız!",
+  "@subscriptionTierScreenFreeDescription": {
+    "description": "Ücretsiz katman için açıklama"
+  },
+
+  "subscriptionTierScreenPremiumPlusDescription": "Yeni özelliklerin ve iyileştirmelerin finansmanına yardımcı olun! Ayrıca, küçük bir yatırım alışkanlık edinmenize de yardımcı olabilir!",
+  "@subscriptionTierScreenPremiumPlusDescription": {
+    "description": "Pro katmanı için açıklama"
+  },
+
+  "subscriptionTierScreenSupportLabel": "Yıllık Destek",
+  "@subscriptionTierScreenSupportLabel": {
+    "description": "Yıllık 'Destek' katmanı için etiket"
+  },
+
+  "verticalLessonIconsDialogBody": "Tüm özellikler ücretsiz sürümde mevcuttur ancak dilerseniz daha fazla özellik geliştirmemize destek olabilirsiniz. Aboneliğinizin bir kısmı Islamic Relief’e bağışlanır. Jazāk Allāhu Khayran!",
+  "@verticalLessonIconsDialogBody": {
+    "description": "Yükseltme diyalog metni, avantajları ve hayır bağışını açıklar"
+  },
+  "welcomeBody": "Hudhud, gözlem yaparak ve mesajlar taşıyarak Hz. Süleyman’a [AS] özel bir rol oynamıştır.\n\nO, yolculuğunuzun neresinde olursanız olun sizi yargılamaz ve Kur’an’ın güzelliğini keşfedip her anı şükran hatırlatmalarıyla değerlendirmeniz için sizi yönlendirmekten memnuniyet duyar.",
+  "@welcomeBody": {
+    "description": "Uygulamanın amacını açıklayan ana metin"
+  },
+
+  "surahSearchByName": "İsimle ara (İngilizce veya Arapça)",
+  "@surahSearchByName": {
+    "description": "Sure ismiyle arama için otomatik tamamlama etiketi"
+  },
+
+  "surahSearchHintAnyName": "Herhangi bir sure adı yazın...",
+  "@surahSearchHintAnyName": {
+    "description": "Otomatik tamamlama arama alanındaki ipucu metni"
+  },
+
+  "surahSearchFieldLabel": "Sure Ara",
+  "@surahSearchFieldLabel": {
+    "description": "Otomatik tamamlama arama alanının etiketi"
+  },
+
+  "surahSearchInvalidLessonsError": "Bir veya daha fazla ders geçersiz. Yol oluşturulamadı.",
+  "@surahSearchInvalidLessonsError": {
+    "description": "Oluşturulan derslerin geçersiz olduğu durum için SnackBar mesajı"
+  },
+
+  "surahSearchUserSurahPrefix": "Kullanıcı Suresi",
+  "@surahSearchUserSurahPrefix": {
+    "description": "Kullanıcı bir isim girmezse varsayılan yol adı öneki olarak kullanılır"
+  },
+
+  "notificationDailyBody": "Kur’an ile biraz huzur bulmak için kısa bir mola verin ve bugün neden minnettar olduğunuzu kendinize hatırlatın.",
+  "@notificationDailyBody": {
+    "description": "Günlük hatırlatma metni"
+  }
+}

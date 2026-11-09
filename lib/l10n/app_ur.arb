@@ -1,0 +1,2283 @@
+{
+  "@@locale": "ur",
+
+  "commentA": "آن بورڈنگ کے متعلّق کلیدیں",
+  "appBarTitleWelcome": "خوش آمدید",
+  "@appBarTitleWelcome": {
+    "description": "ویلکم اسکرین ایپ بار پر دکھایا جاتا ہے"
+  },
+
+  "skipLabel": "چھوڑیں",
+  "@skipLabel": {
+    "description": "ایک مرحلہ چھوڑنے کے لیے عمومی بٹن کا لیبل"
+  },
+
+  "welcomeHeadline": "حدہد کے ساتھ قرآن میں خوش آمدید!",
+  "@welcomeHeadline": {
+    "description": "ویلکم آن بورڈنگ اسکرین پر سرخی کا متن"
+  },
+
+
+  "getStartedLabel": "آغاز کریں",
+  "@getStartedLabel": {
+    "description": "اگلے آن بورڈنگ مرحلے کی طرف بڑھنے کے لیے بٹن کا لیبل"
+  },
+
+  "commentB": "درس اسکرین کے متعلّق کلیدیں",
+  "lessonScreenAppBarTitle": "سبق",
+  "@lessonScreenAppBarTitle": {
+    "description": "سبق ایپ بار کا عنوان"
+  },
+
+  "noAyahAvailable": "چلانے کے لیے کوئی آیت دستیاب نہیں۔",
+  "@noAyahAvailable": {
+    "description": "اگر چلانے کے لیے کوئی آیت نہ ہو تو سنیackbar پیغام"
+  },
+
+  "audioNotFound": "آڈیو اس پتے پر نہیں ملی: {url}",
+  "@audioNotFound": {
+    "description": "سرور پر آڈیو نہ ملنے پر ظاہر ہونے والا پیغام",
+    "placeholders": {
+      "url": {}
+    }
+  },
+
+  "restartLessonTitle": "سبق دوبارہ شروع کریں",
+  "@restartLessonTitle": {
+    "description": "جب صارف تمام سبق کی پیش رفت ری سیٹ کرنے کی کوشش کرے تو ڈائیلاگ کا عنوان"
+  },
+
+  "resetLessonBody": "کیا آپ اس سبق کی ساری پیش رفت ری سیٹ کرنا چاہتے ہیں؟",
+  "@resetLessonBody": {
+    "description": "سبق ری سیٹ کرنے سے متعلق ڈائیلاگ کے باڈی کا متن"
+  },
+
+  "cancelLabel": "منسوخ کریں",
+  "@cancelLabel": {
+    "description": "کسی عمل کو منسوخ کرنے کے لیے عمومی بٹن کا لیبل"
+  },
+
+  "yesLabel": "جی ہاں",
+  "@yesLabel": {
+    "description": "کسی عمل کی تصدیق کے لیے عمومی بٹن کا لیبل"
+  },
+
+  "errorResettingLesson": "سبق ری سیٹ کرنے میں خرابی",
+  "@errorResettingLesson": {
+    "description": "سبق ری سیٹ کرنے میں ناکامی پر سنیackbar کا ابتدائی حصہ"
+  },
+
+  "startLabel": "شروع کریں",
+  "@startLabel": {
+    "description": "سبق یا سیشن شروع کرنے کے لیے بٹن کا لیبل"
+  },
+
+  "submitLabel": "جمع کروائیں",
+  "@submitLabel": {
+    "description": "سبمٹ کرنے کے لیے بٹن کا لیبل"
+  },
+
+  "nextLabel": "اگلا",
+  "@nextLabel": {
+    "description": "اگلے مرحلے پر جانے کے لیے بٹن کا لیبل"
+  },
+
+  "voiceErrorMicDeniedTitle": "مائیکروفون مسترد کر دیا گیا",
+  "@voiceErrorMicDeniedTitle": {
+    "description": "جب صارف مائیکروفون اجازت سے انکار کرے تو پاپ اَپ کا عنوان"
+  },
+  "voiceErrorMicDeniedBody": "ریکارڈنگ کے لیے مائیکروفون تک رسائی ضروری ہے۔ براہ کرم سیٹنگز میں اجازت دیں۔",
+  "@voiceErrorMicDeniedBody": {
+    "description": "مائیکروفون اجازت سے انکار کیے جانے پر ظاہر ہونے والا متن"
+  },
+  "voiceErrorMicDeniedSemanticLabel": "مائیکروفون اجازت مسترد ہونے کا ڈائیلاگ",
+  "@voiceErrorMicDeniedSemanticLabel": {
+    "description": "اسکرین ریڈرز کے لیے سیمینٹک لیبل"
+  },
+
+  "voiceErrorRecorderStartTitle": "ریکارڈنگ کی خرابی",
+  "@voiceErrorRecorderStartTitle": {
+    "description": "اگر ریکارڈنگ شروع کرنے میں ناکامی ہو تو پاپ اَپ کا عنوان"
+  },
+  "voiceErrorRecorderStartBody": "ہم ریکارڈر شروع نہیں کر سکے۔ براہ کرم دوبارہ کوشش کریں۔",
+  "@voiceErrorRecorderStartBody": {
+    "description": "اگر ریکارڈر شروع نہ ہو سکے تو ظاہر ہونے والا متن"
+  },
+  "voiceErrorRecorderStartSemanticLabel": "ریکارڈر شروع کرنے میں خرابی کا ڈائیلاگ",
+  "@voiceErrorRecorderStartSemanticLabel": {
+    "description": "اسکرین ریڈرز کے لیے سیمینٹک لیبل"
+  },
+
+  "voiceErrorRecorderStopTitle": "ریکارڈنگ روکنے میں خرابی",
+  "@voiceErrorRecorderStopTitle": {
+    "description": "اگر ریکارڈر کو روکنے میں ناکامی ہو تو پاپ اَپ کا عنوان"
+  },
+  "voiceErrorRecorderStopBody": "ہم ریکارڈر کو درست طور پر روک نہیں سکے۔ براہ کرم دوبارہ کوشش کریں۔",
+  "@voiceErrorRecorderStopBody": {
+    "description": "اگر ریکارڈنگ روکنے میں ناکامی ہو تو ظاہر ہونے والا متن"
+  },
+  "voiceErrorRecorderStopSemanticLabel": "ریکارڈر روکنے میں خرابی کا ڈائیلاگ",
+  "@voiceErrorRecorderStopSemanticLabel": {
+    "description": "اسکرین ریڈرز کے لیے سیمینٹک لیبل"
+  },
+
+  "voiceErrorNoSoundTitle": "کوئی آواز ریکارڈ نہیں ہوئی",
+  "@voiceErrorNoSoundTitle": {
+    "description": "اگر آڈیو خالی یا بالکل خاموش ہو تو پاپ اَپ کا عنوان"
+  },
+  "voiceErrorNoSoundBody": "آپ کی ریکارڈنگ خاموش یا بہت مدھم تھی۔ براہ کرم دوبارہ کوشش کریں۔",
+  "@voiceErrorNoSoundBody": {
+    "description": "کوئی آواز ریکارڈ نہ ہونے پر ظاہر ہونے والا متن"
+  },
+  "voiceErrorNoSoundSemanticLabel": "کوئی آواز ریکارڈ نہیں ہوئی ڈائیلاگ",
+  "@voiceErrorNoSoundSemanticLabel": {
+    "description": "اسکرین ریڈرز کے لیے سیمینٹک لیبل"
+  },
+
+  "voiceErrorTranscriptionTitle": "ٹرانسکرپشن کی خرابی",
+  "@voiceErrorTranscriptionTitle": {
+    "description": "اگر نیٹ ورک یا سرور کی وجہ سے ٹرانسکرپشن ناکام ہو تو عنوان"
+  },
+  "voiceErrorTranscriptionBody": "ہم آپ کی ریکارڈنگ کا ٹرانسکرپٹ نہیں کر سکے۔ براہ کرم اپنا کنیکشن چیک کریں اور دوبارہ کوشش کریں۔",
+  "@voiceErrorTranscriptionBody": {
+    "description": "ٹرانسکرپشن میں ناکامی کی صورت میں ظاہر ہونے والا متن"
+  },
+  "voiceErrorTranscriptionSemanticLabel": "ٹرانسکرپشن کی خرابی کا ڈائیلاگ",
+  "@voiceErrorTranscriptionSemanticLabel": {
+    "description": "اسکرین ریڈرز کے لیے سیمینٹک لیبل"
+  },
+
+  "tapColoredWordsHint": "درست ورژن دیکھنے کے لیے نمایاں کردہ الفاظ پر ٹیپ کریں۔",
+  "@tapColoredWordsHint": {
+    "description": "درست کردہ قرآن فیچر کے بارے میں صارف کو آگاہ کرنے والا متن"
+  },
+
+  "emptyInputWarning": "سبمٹ کرنے سے پہلے کچھ متن درج کریں",
+  "@emptyInputWarning": {
+    "description": "اگر صارف خالی متن سبمٹ کرنے کی کوشش کرے تو دکھائی دینے والا انتباہ"
+  },
+
+  "getHintLabel": "اشارہ حاصل کریں",
+  "@getHintLabel": {
+    "description": "اشارہ ظاہر کرنے کے لیے بٹن کا لیبل"
+  },
+
+  "removeHintLabel": "اشارہ ہٹائیں",
+  "@removeHintLabel": {
+    "description": "لگے ہوئے اشارے کو ہٹانے کے لیے بٹن کا لیبل"
+  },
+
+  "typeTheMissingWordsLabel": "غائب شدہ لفظ(الفاظ) درج کریں",
+  "@typeTheMissingWordsLabel": {
+    "description": "غائب شدہ الفاظ کے لیے ٹیکسٹ فیلڈ کے اوپر کا لیبل"
+  },
+
+  "difficultyLabel": "مشکل کی سطح",
+  "@difficultyLabel": {
+    "description": "مشکل کی سطح کے ڈراپ ڈاؤن کے اوپر کا لیبل"
+  },
+
+  "repeatCountLabel": "تکرار کی تعداد",
+  "@repeatCountLabel": {
+    "description": "تکرار کی تعداد والے ڈراپ ڈاؤن کے اوپر کا لیبل"
+  },
+
+  "backButtonLabel": "واپس",
+  "@backButtonLabel": {
+    "description": "سبق ایپ بار میں پیچھے کے تیر کا سیمینٹک لیبل"
+  },
+
+  "toggleTranslationLabel": "ان لائن ترجمہ دکھائیں/چھپائیں",
+  "@toggleTranslationLabel": {
+    "description": "اس آئیکن کا سیمینٹک لیبل جو آیت کا ترجمہ ٹوگل کرتا ہے"
+  },
+
+  "openTranslationScreenLabel": "ترجمہ اسکرین کھولیں",
+  "@openTranslationScreenLabel": {
+    "description": "الگ ترجمہ اسکرین کھولنے والے آئیکن کا سیمینٹک لیبل"
+  },
+
+  "restartLessonSemanticLabel": "سبق دوبارہ شروع کریں",
+  "@restartLessonSemanticLabel": {
+    "description": "سبق ری اسٹارٹ کے آئیکن بٹن کا سیمینٹک لیبل"
+  },
+
+  "verseDisplayAreaLabel": "قرآن کی آیات دکھانے کا علاقہ",
+  "@verseDisplayAreaLabel": {
+    "description": "آیات کو دکھانے والے اہم کنٹینر کا سیمینٹک لیبل"
+  },
+
+  "playAudioSemanticLabel": "آیت کا آڈیو چلائیں",
+  "@playAudioSemanticLabel": {
+    "description": "آڈیو چلانے والے آئیکن بٹن کا سیمینٹک لیبل"
+  },
+
+  "openGratitudeSemanticLabel": "شکر کا موڈل کھولیں",
+  "@openGratitudeSemanticLabel": {
+    "description": "وہ آئیکن بٹن جس سے شکر کا موڈل کھلتا ہے"
+  },
+
+  "voiceUsageSemanticLabel": "آواز کا استعمال (منٹوں میں)",
+  "@voiceUsageSemanticLabel": {
+    "description": "اس علاقے کا سیمینٹک لیبل جو آواز کے استعمال کے اعداد و شمار دکھاتا ہے (PremiumPlus)"
+  },
+
+  "voiceRecordSemanticLabel": "آواز کی ریکارڈنگ شروع یا بند کریں",
+  "@voiceRecordSemanticLabel": {
+    "description": "ٹیکسٹ فیلڈ کے آخری حصے میں مائیک آئیکن بٹن کا سیمینٹک لیبل"
+  },
+
+  "commentC": "نئی ہوم اسکرین کے اسٹرنگز",
+  "homeTitle": "ہوم",
+  "@homeTitle": {
+    "description": "ہوم اسکرین کے اوپر والے بار کا عنوان"
+  },
+
+  "noPathsLabel": "کوئی درست راستے دستیاب نہیں۔",
+  "@noPathsLabel": {
+    "description": "اگر کوئی فعال راستہ نہ ملے تو دکھایا جاتا ہے"
+  },
+
+  "errorLoadingActivePath": "فعال راستہ لوڈ کرنے میں خرابی: {err}",
+  "@errorLoadingActivePath": {
+    "description": "اگر فعال راستہ حاصل کرنے میں خرابی ہو تو دکھائی جانے والی غلطی",
+    "placeholders": {
+      "err": {}
+    }
+  },
+
+  "verticalLessonIconsGoToTheme": "تھیم پر جائیں",
+  "@verticalLessonIconsGoToTheme": {
+    "description": "جب صارف راستہ مکمل کر لے تو تھیم اسکرین پر جانے کے لیے بٹن کا لیبل"
+  },
+
+  "homePathCardLabel": "تھیم اسکرین کھولنے کے لیے ٹیپ کریں",
+  "@homePathCardLabel": {
+    "description": "راستے کے کارڈ پر ٹیپ کرنے کا سیمینٹک لیبل"
+  },
+
+  "arrowForwardSemanticLabel": "تفصیلات کھولیں",
+  "@arrowForwardSemanticLabel": {
+    "description": "راستے کے کارڈ میں آگے کے تیر کا سیمینٹک لیبل"
+  },
+
+  "noTrackProgressLabel": "یہ راستہ پیش رفت کو ٹریک نہیں کرتا۔",
+  "@noTrackProgressLabel": {
+    "description": "اگر راستہ پیش رفت کو ٹریک نہ کرتا ہو تو دکھایا جاتا ہے"
+  },
+
+  "premiumRequiredLabel": "پیش رفت کی خصوصیت کھولنے کے لیے اپ گریڈ کریں۔ مزید فیچرز بنانے میں ہماری مدد کریں!",
+  "@premiumRequiredLabel": {
+    "description": "اگر صارف مفت ورژن پر ہو مگر راستہ پیش رفت ٹریک کرتا ہو تو دکھایا جاتا ہے"
+  },
+
+  "completedLabel": "مکمل ہوا",
+  "@completedLabel": {
+    "description": "جیسے 'xx% مکمل ہوا' کے لیے لاحقہ"
+  },
+
+  "fabLogGratitudeLabel": "شکر نوٹ کرنے کے لیے ٹیپ کریں",
+  "@fabLogGratitudeLabel": {
+    "description": "شکر درج کرنے والے فلوٹنگ ایکشن بٹن کا سیمینٹک لیبل"
+  },
+
+  "errorNavigatingToLesson": "سبق پر جانے میں خرابی",
+  "@errorNavigatingToLesson": {
+    "description": "اگر سبق اسکرین کھلنے میں ناکام ہو تو سنیackbar کے شروع میں دکھایا جانے والا متن"
+  },
+
+  "commentD": "پروفائل اسکرین کے اسٹرنگز",
+  "profileTitle": "پروفائل",
+  "@profileTitle": {
+    "description": "پروفائل اسکرین کے ایپ بار کا عنوان"
+  },
+
+  "profileBackArrowLabel": "پچھلی اسکرین پر واپس جائیں",
+  "@profileBackArrowLabel": {
+    "description": "پروفائل اسکرین کے بیک ایرو کا سیمینٹک لیبل"
+  },
+
+  "profileAvatarSemanticLabel": "صارف کا اوتار",
+  "@profileAvatarSemanticLabel": {
+    "description": "گول اوتار (یوزر کا ابتدائی حرف) کا سیمینٹک لیبل"
+  },
+
+  "profileEnterYourName": "اپنا نام درج کریں",
+  "@profileEnterYourName": {
+    "description": "صارف کے نام کے فیلڈ میں ہنٹ ٹیکسٹ"
+  },
+
+  "nameEntryNotificationFrequencyDropdownLabel": "نوٹیفکیشن کی تکرار",
+  "@nameEntryNotificationFrequencyDropdownLabel": {
+    "description": "نوٹیفکیشن کی تکرار منتخب کرنے کے ڈراپ ڈاؤن کے لیے لیبل"
+  },
+
+  "nameEntryNotificationFrequencyWeekly": "ہفتہ وار",
+  "@nameEntryNotificationFrequencyWeekly": {
+    "description": "ہفتہ وار یاد دہانیوں کا اشارہ دینے والا آپشن"
+  },
+
+  "nameEntryNotificationFrequencyNone": "کوئی نہیں",
+  "@nameEntryNotificationFrequencyNone": {
+    "description": "یاد دہانیوں کو بند کرنے کا آپشن"
+  },
+
+  "notificationPermissionPrompt": "ہم آپ کو ہلکی یاد دہانیاں بھیجنا چاہتے ہیں تاکہ آپ اپنی شکر یا سبق کی تکمیل مکمل کریں - اگر آپ عادت بنانے میں ہماری مدد چاہتے ہیں تو براہ کرم نوٹیفکیشنز کی اجازت دیں \uD83D\uDE03۔",
+  "@notificationPermissionPrompt": {
+    "description": "ایپ کیوں نوٹیفکیشن کی اجازت مانگتی ہے اس کی مختصر وضاحت"
+  },
+
+  "profileNameSave": "محفوظ کریں",
+  "@profileNameSave": {
+    "description": "نیا صارف نام محفوظ کرنے کے لیے بٹن کا لیبل"
+  },
+
+  "profileNameCancel": "منسوخ کریں",
+  "@profileNameCancel": {
+    "description": "صارف نام کی تدوین منسوخ کرنے کے لیے بٹن کا لیبل"
+  },
+
+  "profileNameGuest": "مہمان",
+  "@profileNameGuest": {
+    "description": "اگر صارف نام نہ درج کرے تو بطور متبادل ظاہر ہوتا ہے"
+  },
+
+  "profileNameEdit": "تدوین",
+  "@profileNameEdit": {
+    "description": "صارف نام کی تدوین شروع کرنے کا بٹن لیبل"
+  },
+
+  "profilePreferredLanguage": "زبان:",
+  "@profilePreferredLanguage": {
+    "description": "پروفائل اسکرین میں زبان کے ڈراپ ڈاؤن کے اوپر کا لیبل"
+  },
+
+  "okLabel": "ٹھیک ہے",
+  "@okLabel": {
+    "description": "تصدیق یا قبولیت کا عمومی بٹن"
+  },
+
+  "profileReciterLabel": "قاری",
+  "@profileReciterLabel": {
+    "description": "پروفائل اسکرین میں قاری کے ڈراپ ڈاؤن کا لیبل"
+  },
+
+  "profileFontLabel": "فونٹ:",
+  "@profileFontLabel": {
+    "description": "پروفائل اسکرین میں فونٹ کے ڈراپ ڈاؤن کا لیبل"
+  },
+
+  "profileReciterMishary": "مشاری راشد العفاسی",
+  "@profileReciterMishary": {
+    "description": "قاری نمبر 1 کا ظاہر ہونے والا نام"
+  },
+
+  "profileReciterShatri": "ابو بکر الشاطری",
+  "@profileReciterShatri": {
+    "description": "قاری نمبر 2 کا ظاہر ہونے والا نام"
+  },
+
+  "profileReciterQatami": "ناصر القطامی",
+  "@profileReciterQatami": {
+    "description": "قاری نمبر 3 کا ظاہر ہونے والا نام"
+  },
+
+  "profileUpgradePremiumTitle": "مزید شخصی تبدیلیاں کھولیں!",
+  "@profileUpgradeProTitle": {
+    "description": "وہ ڈائیلاگ کا عنوان جو صارف کو پرو میں اپ گریڈ کرنے کا کہتا ہے۔"
+  },
+  "profileUpgradePremiumBody": "فونٹس اور قاری کو تبدیل کرنے سے لطف اندوز ہونے کے لیے پرو پر اپ گریڈ کریں۔ ہمارے مسلسل اقدامات کی حمایت کریں اور اپنے تجربے کو مزید ذاتی بنائیں!",
+  "@profileUpgradeProBody": {
+    "description": "اضافی حسب ضرورت کے لیے پرو میں اپ گریڈ کرنے کی حوصلہ افزائی کرنے والا متن۔"
+  },
+
+  "profileWeeksProgress": "ماشاء اللہ، یہ ہے آپ کی اس ہفتے کی پیش رفت:",
+  "@profileWeeksProgress": {
+    "description": "صارف کی ہفتہ وار پیش رفت کے سیکشن کی سرخی"
+  },
+
+  "profileGratefulnessCalendar": "شکرگزاری کیلنڈر",
+  "@profileGratefulnessCalendar": {
+    "description": "ہفتہ وار شکرگزاری کیلنڈر کا عنوان"
+  },
+
+  "profileQuranLearningCalendar": "قرآن سیکھنے کا کیلنڈر",
+  "@profileQuranLearningCalendar": {
+    "description": "ہفتہ وار سبق جمع کروانے کا کیلنڈر"
+  },
+
+  "profilePrevWeekSemantic": "گزشتہ ہفتے پر جائیں",
+  "@profilePrevWeekSemantic": {
+    "description": "بائیں تیر کے لیے سیمینٹک لیبل جو پچھلے ہفتے کی طرف لے جاتا ہے"
+  },
+
+  "profileNextWeekSemantic": "اگلے ہفتے پر جائیں",
+  "@profileNextWeekSemantic": {
+    "description": "دائیں تیر کے لیے سیمینٹک لیبل جو اگلے ہفتے کی طرف لے جاتا ہے"
+  },
+
+  "profileNotificationFrequency": "نوٹیفکیشن کی تکرار",
+  "@profileNotificationFrequency": {
+    "description": "پروفائل اسکرین میں نوٹیفکیشن فریکونسی کے ڈراپ ڈاؤن کے اوپر کا لیبل"
+  },
+
+  "commentE": "شکرگزاری لاگ اسکرین کے اسٹرنگز",
+  "gratitudeLogTitle": "میرا شکرگزاری لاگ",
+  "@gratitudeLogTitle": {
+    "description": "شکرگزاری لاگ ایپ بار کا عنوان"
+  },
+
+  "gratitudeLogBackArrowSemantic": "ہوم پر واپس جائیں",
+  "@gratitudeLogBackArrowSemantic": {
+    "description": "شکرگزاری لاگ میں بیک ایرو کا سیمینٹک لیبل"
+  },
+
+  "gratitudeLogClearAllSemantic": "شکرگزاری کی تمام اندراجات صاف کریں",
+  "@gratitudeLogClearAllSemantic": {
+    "description": "شکرگزاری لاگ میں ڈیلیٹ آئیکن کا سیمینٹک لیبل"
+  },
+
+  "gratitudeLogAddSemantic": "نئی شکرگزاری اندراج شامل کریں",
+  "@gratitudeLogAddSemantic": {
+    "description": "شکرگزاری لاگ میں ایڈ آئیکن کا سیمینٹک لیبل"
+  },
+
+  "gratitudeLogClearDialogTitle": "شکرگزاری لاگ صاف کریں",
+  "@gratitudeLogClearDialogTitle": {
+    "description": "تمام شکرگزاری اندراجات صاف کرنے کی تصدیق کا ڈائیلاگ عنوان"
+  },
+
+  "gratitudeLogClearDialogBody": "کیا آپ واقعی اپنی تمام شکرگزاری اندراجات کو صاف کرنا چاہتے ہیں؟ یہ عمل واپس نہیں کیا جا سکتا۔",
+  "@gratitudeLogClearDialogBody": {
+    "description": "تمام شکرگزاری اندراجات صاف کرنے سے متعلق تصدیقی ڈائیلاگ کا متن"
+  },
+
+  "gratitudeLogClearConfirm": "جی ہاں، صاف کریں",
+  "@gratitudeLogClearConfirm": {
+    "description": "تمام اندراجات صاف کرنے کی تصدیق کا بٹن"
+  },
+
+  "gratitudeLogStreak": "⭐ شکرگزاری سلسلہ: {days} دن",
+  "@gratitudeLogStreak": {
+    "description": "اس سلسلے کے دن دکھاتا ہے، مثلاً مسلسل 3 دن",
+    "placeholders": {
+      "days": {}
+    }
+  },
+
+  "gratitudeLogStreakLoading": "سلسلہ گِنا جا رہا ہے...",
+  "@gratitudeLogStreakLoading": {
+    "description": "جب سلسلے کا ڈیٹا لوڈ ہو رہا ہو تو دکھایا جاتا ہے"
+  },
+
+  "gratitudeLogStreakError": "سلسلے کا حساب لگانے میں ناکام۔",
+  "@gratitudeLogStreakError": {
+    "description": "اگر سلسلے کا ڈیٹا ناکام ہو جائے تو دکھایا جاتا ہے"
+  },
+
+  "gratitudeLogTotalDays": "مجموعی شکرگزاری کے دن: {count}",
+  "@gratitudeLogTotalDays": {
+    "description": "صارف نے کتنے مختلف دنوں میں شکر کیا ہے، اس کی کل تعداد",
+    "placeholders": {
+      "count": {}
+    }
+  },
+
+  "gratitudeLogDataLoading": "شکرگزاری کا ڈیٹا لوڈ ہو رہا ہے...",
+  "@gratitudeLogDataLoading": {
+    "description": "جب شکرگزاری کا ڈیٹا لوڈ ہو رہا ہو تو دکھایا جاتا ہے"
+  },
+
+  "gratitudeLogDataError": "شکرگزاری کا ڈیٹا لوڈ کرنے میں ناکام۔",
+  "@gratitudeLogDataError": {
+    "description": "اگر شکرگزاری کا ڈیٹا لوڈ کرنے میں ناکامی ہو تو دکھایا جاتا ہے"
+  },
+
+  "gratitudeLogCardSemantic": "شکرگزاری اندراج کارڈ",
+  "@gratitudeLogCardSemantic": {
+    "description": "فہرست میں ہر شکرگزاری کارڈ کے لیے سیمینٹک لیبل"
+  },
+
+  "gratitudeLogItemIcon": "شکرگزاری آئیکن",
+  "@gratitudeLogItemIcon": {
+    "description": "ہر آئٹم کے ساتھ دل کے آئیکن کا سیمینٹک لیبل"
+  },
+
+  "gratitudeLogEmptyIconSemantic": "اپنی پہلی شکرگزاری شامل کرنے کے لیے ٹیپ کریں",
+  "@gratitudeLogEmptyIconSemantic": {
+    "description": "خالی اسکرین پر بڑے نارنجی آئیکن کے لیے سیمینٹک لیبل"
+  },
+
+  "gratitudeLogEmptyMessage": "تاحال کوئی شکرگزاری اندراج نہیں۔\nپہلی شکرگزاری شامل کرنے کے لیے “+” پر ٹیپ کریں!",
+  "@gratitudeLogEmptyMessage": {
+    "description": "اگر لاگ خالی ہو تو دکھایا جانے والا پیغام"
+  },
+
+  "gratitudeLogEntriesAdded": "شکرگزاری کامیابی سے شامل کی گئی!",
+  "@gratitudeLogEntriesAdded": {
+    "description": "نئی شکرگزاری شامل ہونے پر سنیackbar کا متن"
+  },
+
+  "gratitudeLogEntriesFailed": "شکرگزاری شامل کرنے میں ناکام۔ براہ کرم دوبارہ کوشش کریں۔",
+  "@gratitudeLogEntriesFailed": {
+    "description": "اگر شکرگزاری شامل نہ ہو سکے تو سنیackbar کا متن"
+  },
+
+  "commentF": "سبق کی تکمیل کی اسکرین کے اسٹرنگز",
+  "lessonCompletedTitle": "سبق مکمل ہوا",
+  "@lessonCompletedTitle": {
+    "description": "سبق مکمل ہونے کی اسکرین کے ایپ بار کا عنوان"
+  },
+
+  "lessonCompletedBackArrowSemantic": "ہوم پر واپس جائیں",
+  "@lessonCompletedBackArrowSemantic": {
+    "description": "سبق مکمل ہونے کی اسکرین پر بیک ایرو کا سیمینٹک لیبل"
+  },
+
+  "lessonCompletedMashaAllah": "ماشاء اللہ!",
+  "@lessonCompletedMashaAllah": {
+    "description": "بڑا مبارکبادی متن"
+  },
+
+  "lessonCompletedMashaAllahSemantic": "مبارک باد کا متن",
+  "@lessonCompletedMashaAllahSemantic": {
+    "description": "بڑے سبز مبارکبادی متن کے لیے سیمینٹک لیبل"
+  },
+
+  "lessonCompletedMessage": "آپ نے یہ سبق مکمل کر لیا ہے!",
+  "@lessonCompletedMessage": {
+    "description": "یہ بتانے والا عنوان کہ صارف نے سبق ختم کر لیا"
+  },
+
+  "lessonCompletedImageSemantic": "حدہد قرآن کی عکاسی",
+  "@lessonCompletedImageSemantic": {
+    "description": "کامیابی کی عکاسی دکھانے والی تصویر کا سیمینٹک لیبل"
+  },
+
+  "lessonCompletedGoBackSemantic": "راستے کے انتخاب پر واپس جائیں",
+  "@lessonCompletedGoBackSemantic": {
+    "description": "’راستے پر واپس جائیں‘ بٹن کا سیمینٹک لیبل"
+  },
+
+  "lessonCompletedGoBackButton": "راستے پر واپس جائیں",
+  "@lessonCompletedGoBackButton": {
+    "description": "ہوم اسکرین/راستے پر واپس جانے کے لیے بٹن کا لیبل"
+  },
+
+  "lessonCompletedRestartSemantic": "سبق دوبارہ شروع کریں",
+  "@lessonCompletedRestartSemantic": {
+    "description": "’سبق دوبارہ شروع کریں‘ بٹن کا سیمینٹک لیبل"
+  },
+
+  "lessonCompletedRestartButton": "سبق دوبارہ شروع کریں",
+  "@lessonCompletedRestartButton": {
+    "description": "اسی سبق کو دوبارہ شروع کرنے کے لیے بٹن کا لیبل"
+  },
+
+  "lessonCompletedEncouragement": "اسی جذبے سے کام جاری رکھیں!",
+  "@lessonCompletedEncouragement": {
+    "description": "آخری حوصلہ افزاء متن"
+  },
+
+  "commentG": "تھیم اسکرین کے اسٹرنگز",
+  "themeScreenTitle": "تھیمز",
+  "@themeScreenTitle": {
+    "description": "تھیم اسکرین کے اوپر والے بار کا عنوان"
+  },
+
+  "themeNameCoreRecitation": "روزانہ ضروری تلاوت",
+  "@themeNameCoreRecitation": {
+    "description": "سورہ فاتحہ، اخلاص وغیرہ والی تھیم کا نام"
+  },
+
+  "themeNameBeginJourney": "سفر کا آغاز",
+  "@themeNameBeginJourney": {
+    "description": "نئے تلاوت کرنے والوں کے لیے مختصر سورتوں والی تھیم کا نام"
+  },
+
+  "themeNameMercyAndHope": "رحمت اور امید",
+  "@themeNameMercyAndHope": {
+    "description": "اللہ کی مہربانی اور مثبتیت پر مشتمل تھیم کا نام"
+  },
+
+  "themeNameGratitudeReflection": "شکر اور غور و فکر",
+  "@themeNameGratitudeReflection": {
+    "description": "شکر پر مبنی آیات پر مشتمل تھیم کا نام"
+  },
+
+  "themeNameStoriesReminders": "کہانیاں، اسباق اور یاددہانیاں",
+  "@themeNameStoriesReminders": {
+    "description": "مختلف قصوں پر مشتمل تھیم کا نام"
+  },
+
+  "themeNamePatience": "صبر (Ṣabr)",
+  "@themeNamePatience": {
+    "description": "استقامت/صبر پر مشتمل تھیم کا نام"
+  },
+
+  "themeNameUserCreated": "صارف کی تیار کردہ",
+  "@themeNameUserCreated": {
+    "description": "صارف کے بنائے ہوئے کسٹم تھیم کا نام"
+  },
+
+  "themeScreenNoThemesLabel": "کوئی تھیم دستیاب نہیں",
+  "@themeScreenNoThemesLabel": {
+    "description": "اگر کوئی تھیم ڈیٹا واپس نہ آئے تو دکھایا جاتا ہے"
+  },
+
+  "themeScreenBackArrowSemantic": "پیچھے جائیں",
+  "@themeScreenBackArrowSemantic": {
+    "description": "تھیم اسکرین کے ایپ بار پر بیک ایرو کا سیمینٹک لیبل"
+  },
+
+  "themeScreenThemeCardSemantic": "تھیم کے راستے کھولنے کے لیے ٹیپ کریں",
+  "@themeScreenThemeCardSemantic": {
+    "description": "فہرست میں ہر تھیم کارڈ کا سیمینٹک لیبل"
+  },
+
+  "themeScreenLockIconSemantic": "تھیم مقفل ہے۔ اپ گریڈ درکار ہے۔",
+  "@themeScreenLockIconSemantic": {
+    "description": "اگر تھیم لاک ہو تو لاک آئیکن کا سیمینٹک لیبل"
+  },
+
+  "pathListExploreOtherThemes": "دوسری تھیمز دریافت کریں",
+  "@pathListExploreOtherThemes": {
+    "description": "تھیم اسکرین پر جانے کے لیے بٹن کا لیبل، جہاں دیگر تھیمز دیکھی جا سکیں۔"
+  },
+
+  "themeScreenUserCreatedSubtitle": "آپ کے ذریعے بنائی گئی—جیسے چاہیں ذاتی بنائیں۔",
+  "@themeScreenUserCreatedSubtitle": {
+    "description": "صارف کی تیار کردہ تھیم کے لیے ذیلی سرخی"
+  },
+
+  "themeSubtitleCoreRecitation": "روزمرہ کی نمازوں اور تحفظ کے لیے ضروری سورتیں۔",
+  "@themeSubtitleCoreRecitation": {
+    "description": "theme_core_recitation کی ذیلی سرخی"
+  },
+
+  "themeSubtitleBeginJourney": "آپ کے قرآنی سفر کی ابتدا کے لیے مختصر سورتیں۔",
+  "@themeSubtitleBeginJourney": {
+    "description": "theme_begin_journey کی ذیلی سرخی"
+  },
+
+  "themeSubtitleMercyAndHope": "اللہ کی رحمت اور امید افزائی کے پہلوؤں پر غور کریں۔",
+  "@themeSubtitleMercyAndHope": {
+    "description": "theme_mercy_and_hope کی ذیلی سرخی"
+  },
+
+  "themeSubtitleGratitudeReflection": "منتخب شدہ آیات کے ذریعے شکر اور اندرونی غور کو فروغ دیں۔",
+  "@themeSubtitleGratitudeReflection": {
+    "description": "theme_gratitude_reflection کی ذیلی سرخی"
+  },
+
+  "themeSubtitleStoriesReminders": "قرآنی قصص دریافت کریں جو رہنمائی اور یاد دہانی فراہم کرتے ہیں۔",
+  "@themeSubtitleStoriesReminders": {
+    "description": "theme_stories_reminders کی ذیلی سرخی"
+  },
+
+  "themeSubtitlePatience": "صبر اور استقامت پر زور دینے والی سورتیں اور آیات۔",
+  "@themeSubtitlePatience": {
+    "description": "theme_patience کی ذیلی سرخی"
+  },
+
+  "themeSubtitleDefault": "روحانی ترقی کے لیے منتخب کردہ سورتوں کا مخصوص مجموعہ۔",
+  "@themeSubtitleDefault": {
+    "description": "اگر کوئی معلوم تھیم آئی ڈی نہ ملے تو یہ ذیلی سرخی استعمال کی جاتی ہے"
+  },
+
+  "themeScreenRequiredPremium": "پریمیم درکار ہے",
+  "@themeScreenRequiredPremium": {
+    "description": "اگر تھیم کے لیے پریمیم سبسکرپشن درکار ہو تو ظاہر ہوتا ہے"
+  },
+
+  "themeScreenRequiredPremiumPlus": "پریمیم پلس درکار ہے",
+  "@themeScreenRequiredPremiumPlus": {
+    "description": "اگر تھیم کے لیے پریمیم پلس سبسکرپشن درکار ہو تو ظاہر ہوتا ہے"
+  },
+
+  "commentH": "Path List اسکرین کے اسٹرنگز",
+  "pathListScreenTitle": "تھیم کے راستے",
+  "@pathListScreenTitle": {
+    "description": "PathListScreen کے ایپ بار کا عنوان"
+  },
+
+  "pathListScreenBackArrowSemantic": "واپس جائیں",
+  "@pathListScreenBackArrowSemantic": {
+    "description": "ایپ بار کے بیک ایرو کے لیے سیمینٹک لیبل"
+  },
+
+  "pathListScreenAddIconSemantic": "نیا راستہ شامل کریں",
+  "@pathListScreenAddIconSemantic": {
+    "description": "ایپ بار میں شامل کریں کے آئیکن کا سیمینٹک لیبل"
+  },
+
+  "pathListAddNewPathTooltip": "نیا راستہ شامل کریں",
+  "@pathListAddNewPathTooltip": {
+    "description": "’نیا راستہ شامل کریں‘ آئیکن بٹن کا ٹول ٹِپ"
+  },
+
+  "pathListScreenAddIconSemanticEmpty": "اپنا پہلا راستہ شامل کرنے کے لیے ٹیپ کریں",
+  "@pathListScreenAddIconSemanticEmpty": {
+    "description": "اگر کوئی راستہ نہ ہو تو خالی اسکرین میں بڑے آئیکن کا سیمینٹک لیبل"
+  },
+
+  "pathListEmptyMessage": "تاحال کوئی راستے نہیں۔\nاپنا پہلا راستہ بنانے کے لیے “+” کو ٹیپ کریں!",
+  "@pathListEmptyMessage": {
+    "description": "اگر کوئی موجودہ راستے نہ ہوں تو دکھایا جاتا ہے"
+  },
+
+  "pathListUnavailableLabel": "یہ راستہ اس وقت دستیاب نہیں",
+  "@pathListUnavailableLabel": {
+    "description": "اگر راستہ درست نہ ہو تو دکھایا جاتا ہے"
+  },
+
+  "pathListThemeLabel": "تھیم",
+  "@pathListThemeLabel": {
+    "description": "تھیم کا نام آنے کے بعد استعمال ہوتا ہے، مثلاً '“Mercy” تھیم'"
+  },
+
+  "pathListPathCardSemantic": "راستے کی تفصیلات کھولنے کے لیے ٹیپ کریں",
+  "@pathListPathCardSemantic": {
+    "description": "فہرست میں ہر راستہ کارڈ کا سیمینٹک لیبل"
+  },
+
+  "pathListCompleteIconSemantic": "راستہ مکمل ہوا",
+  "@pathListCompleteIconSemantic": {
+    "description": "سبز ٹِک آئیکن کا سیمینٹک لیبل"
+  },
+
+  "pathListInProgressIconSemantic": "راستہ جاری ہے",
+  "@pathListInProgressIconSemantic": {
+    "description": "گھنٹہ گھر (آور گلاس) آئیکن کا سیمینٹک لیبل"
+  },
+
+  "pathListInvalidIconSemantic": "راستہ غلط یا دستیاب نہیں",
+  "@pathListInvalidIconSemantic": {
+    "description": "سرخ ایرر آئیکن کا سیمینٹک لیبل"
+  },
+
+  "pathListErrorLoadingPaths": "راستے لوڈ کرتے وقت خرابی:",
+  "@pathListErrorLoadingPaths": {
+    "description": "جب راستہ کا ڈیٹا نہ مل سکے تو ایرر پیغام کا ابتدائیہ"
+  },
+
+  "commentI": "Path Detail اسکرین کے اسٹرنگز",
+  "pathDetailScreenTitle": "راستے کی تفصیلات",
+  "@pathDetailScreenTitle": {
+    "description": "Path Detail اسکرین کے ایپ بار کا عنوان"
+  },
+
+  "pathDetailScreenBackArrowSemantic": "راستوں کی فہرست پر واپس جائیں",
+  "@pathDetailScreenBackArrowSemantic": {
+    "description": "PathDetailScreen میں بیک ایرو کا سیمینٹک لیبل"
+  },
+
+  "pathDetailScreenNotFound": "راستہ نہیں ملا۔",
+  "@pathDetailScreenNotFound": {
+    "description": "اگر راستہ حاصل کرنے میں ناکامی ہو تو دکھایا جائے"
+  },
+
+  "pathDetailScreenFailToUpdate": "راستے کی پیش رفت اپ ڈیٹ کرنے میں ناکامی:",
+  "@pathDetailScreenFailToUpdate": {
+    "description": "اگر راستے کی پیش رفت اپ ڈیٹ نہ ہو سکے تو سنیackbar میں دکھایا جانے والا متن"
+  },
+
+  "pathDetailScreenProgressDisabled": "اس راستے کے لیے پیش رفت غیر فعال ہے۔",
+  "@pathDetailScreenProgressDisabled": {
+    "description": "اگر path.tracksProgress == false ہو تو دکھایا جاتا ہے"
+  },
+
+  "pathDetailScreenLessonsHeading": "اسبا‍ق:",
+  "@pathDetailScreenLessonsHeading": {
+    "description": "سبق کی فہرست سے اوپر کا ہیڈنگ ٹیکسٹ"
+  },
+
+  "pathDetailScreenNoLessonsLabel": "کوئی سبق دستیاب نہیں۔",
+  "@pathDetailScreenNoLessonsLabel": {
+    "description": "اگر راستے میں کوئی سبق نہ ہو تو دکھایا جاتا ہے"
+  },
+
+  "pathDetailScreenErrorLoading": "راستہ یا اسباق لوڈ کرنے میں خرابی:",
+  "@pathDetailScreenErrorLoading": {
+    "description": "Path Detail اسکرین میں ایرر پیغامات کا ابتدائیہ"
+  },
+
+  "pathDetailScreenLessonCardSemantic": "سبق کی تفصیلات کھولنے کے لیے ٹیپ کریں",
+  "@pathDetailScreenLessonCardSemantic": {
+    "description": "راستے کی تفصیلات والی فہرست میں ہر سبق کارڈ کا سیمینٹک لیبل"
+  },
+
+  "pathDetailScreenLessonCompleteIconSemantic": "سبق مکمل ہوا",
+  "@pathDetailScreenLessonCompleteIconSemantic": {
+    "description": "مکمل سبق کے لیے سبز ٹِک آئیکن کا سیمینٹک لیبل"
+  },
+
+  "pathDetailScreenLessonInProgressIconSemantic": "سبق جاری ہے",
+  "@pathDetailScreenLessonInProgressIconSemantic": {
+    "description": "ادھورا سبق ہونے کی صورت میں آورگلاس آئیکن کا سیمینٹک لیبل"
+  },
+
+  "pathDetailScreenLessonInvalidIconSemantic": "سبق غلط یا دستیاب نہیں",
+  "@pathDetailScreenLessonInvalidIconSemantic": {
+    "description": "اگر سبق غلط ہو تو سرخ ایرر آئیکن کا سیمینٹک لیبل"
+  },
+
+  "pathDetailScreenLessonProgressUnavailable": "پیش رفت دستیاب نہیں",
+  "@pathDetailScreenLessonProgressUnavailable": {
+    "description": "اگر سبق غلط ہو تو ذیلی عنوان"
+  },
+
+  "pathDetailScreenLessonNoProgress": "اس راستے کے لیے کوئی پیش رفت نہیں ہے",
+  "@pathDetailScreenLessonNoProgress": {
+    "description": "اگر راستہ پیش رفت ٹریک نہ کرتا ہو تو دکھایا جاتا ہے"
+  },
+
+  "pathDetailScreenLessonUpgrade": "پیش رفت کی خصوصیات کے لیے اپ گریڈ کریں۔",
+  "@pathDetailScreenLessonUpgrade": {
+    "description": "اگر صارف سبق کی پیش رفت نہ دیکھ سکے تو یہ متن دکھایا جائے"
+  },
+
+  "pathDetailScreenLessonProgressLabel": "پیش رفت: {progress}%",
+  "@pathDetailScreenLessonProgressLabel": {
+    "description": "سبق آئٹم میں دکھائی جانے والی پیش رفت، مثلاً 'پیش رفت: 42%'",
+    "placeholders": {
+      "progress": {}
+    }
+  },
+
+  "pathDetailScreenLessonTitle": "سبق {lessonIndex}: {surahName} - آیت {startAyah}-{endAyah}",
+  "@pathDetailScreenLessonTitle": {
+    "description": "Path Detail کی فہرست میں ہر سبق کا عنوان",
+    "placeholders": {
+      "lessonIndex": {},
+      "surahName": {},
+      "startAyah": {},
+      "endAyah": {}
+    }
+  },
+
+  "commentJ": "نیا راستہ بنانے کی اسکرین کے اسٹرنگز",
+  "createPathTitle": "نیا راستہ بنائیں",
+  "@createPathTitle": {
+    "description": "’نیا راستہ بنائیں‘ اسکرین کے ایپ بار کا عنوان"
+  },
+
+  "createPathBackArrowSemantic": "پچھلی اسکرین پر واپس جائیں",
+  "@createPathBackArrowSemantic": {
+    "description": "’نیا راستہ بنائیں‘ اسکرین پر بیک ایرو کا سیمینٹک لیبل"
+  },
+
+  "createPathNameLabel": "راستے کا نام",
+  "@createPathNameLabel": {
+    "description": "راستے کے نام کے ٹیکسٹ فیلڈ کا لیبل"
+  },
+
+  "createPathNameValidation": "براہ کرم راستے کا نام درج کریں",
+  "@createPathNameValidation": {
+    "description": "اگر راستے کا نام خالی چھوڑ دیا جائے تو دکھائی جانے والی توثیقی خرابی"
+  },
+
+  "createPathDescriptionLabel": "تفصیل",
+  "@createPathDescriptionLabel": {
+    "description": "تفصیل کے ٹیکسٹ فیلڈ کا لیبل"
+  },
+
+  "createPathDescriptionValidation": "براہ کرم تفصیل درج کریں",
+  "@createPathDescriptionValidation": {
+    "description": "اگر تفصیل خالی ہو تو دکھائی جانے والی توثیقی خرابی"
+  },
+
+  "createPathSurahSelectorLabel": "سورۃ منتخب کریں:",
+  "@createPathSurahSelectorLabel": {
+    "description": "سورہ کے ڈراپ ڈاؤن یا سلیکٹر کے اوپر سرخی"
+  },
+
+  "createPathStartAyahLabel": "آغاز کی آیت",
+  "@createPathStartAyahLabel": {
+    "description": "آغاز کی آیت والے ٹیکسٹ فیلڈ کا لیبل"
+  },
+
+  "createPathNumAyahsLabel": "راستے میں شامل کی جانے والی آیات کی تعداد",
+  "@createPathNumAyahsLabel": {
+    "description": "کتنی آیات شامل کی جائیں گی، اس کے انتخاب کے لیے ڈراپ ڈاؤن کا لیبل"
+  },
+
+  "createPathEndAyahLabel": "اختتامی آیت",
+  "@createPathEndAyahLabel": {
+    "description": "وہ ٹیکسٹ فیلڈ جس میں اختتامی آیت دکھائی جاتی ہے (صرف پڑھنے کے قابل)"
+  },
+
+  "createPathWordsPerLessonLabel": "ہر سبق میں کتنے الفاظ",
+  "@createPathWordsPerLessonLabel": {
+    "description": "ایک ڈراپ ڈاؤن کا لیبل جو فی سبق الفاظ کی تعداد منتخب کرتا ہے"
+  },
+
+  "createPathWordsSuffix": "الفاظ",
+  "@createPathWordsSuffix": {
+    "description": "ہر سبق کے لیے الفاظ کے ڈراپ ڈاؤن میں لگنے والا لاحقہ"
+  },
+
+  "createPathInvalidRange": "غلط رینج",
+  "@createPathInvalidRange": {
+    "description": "اگر آیات کی رینج غلط ہو تو دکھانے والا متن"
+  },
+
+  "createPathAyahsSuffix": "آیات",
+  "@createPathAyahsSuffix": {
+    "description": "آیات کی تعداد کے ڈراپ ڈاؤن کے لیے لاحقہ، مثلاً '15 آیات'"
+  },
+
+  "createPathCreateButton": "راستہ بنائیں",
+  "@createPathCreateButton": {
+    "description": "راستہ بنانے والے بٹن کا لیبل"
+  },
+
+  "createPathSubmitSemantic": "راستہ بنانے کے لیے ٹیپ کریں",
+  "@createPathSubmitSemantic": {
+    "description": "راستہ بنانے کے بٹن کا سیمینٹک لیبل"
+  },
+
+  "commentK": "ترجمہ اسکرین کے اسٹرنگز",
+  "translationScreenTitle": "ترجمہ",
+  "@translationScreenTitle": {
+    "description": "ترجمہ اسکرین کے ایپ بار کا عنوان"
+  },
+
+  "translationScreenBackArrowSemantic": "سبق پر واپس جائیں",
+  "@translationScreenBackArrowSemantic": {
+    "description": "ترجمہ اسکرین پر بیک ایرو کا سیمینٹک لیبل"
+  },
+
+  "translationScreenLoadingSemantic": "ترجمے لوڈ ہو رہے ہیں",
+  "@translationScreenLoadingSemantic": {
+    "description": "جب ترجمے لوڈ ہو رہے ہوں تو سرکلر پروگریس انڈیکیٹر کا سیمینٹک لیبل"
+  },
+
+  "translationScreenNoTranslations": "کوئی ترجمہ دستیاب نہیں۔",
+  "@translationScreenNoTranslations": {
+    "description": "اگر کوئی ترجمہ واپس نہ آئے تو دکھایا جاتا ہے"
+  },
+
+  "translationScreenReturnButton": "سبق پر واپس جائیں",
+  "@translationScreenReturnButton": {
+    "description": "سبق کی اسکرین پر واپس جانے کے لیے بٹن متن"
+  },
+
+  "translationScreenReturnSemantic": "سبق پر واپس جانے کے لیے ٹیپ کریں",
+  "@translationScreenReturnSemantic": {
+    "description": "سبق کی اسکرین پر واپسی والے بٹن کا سیمینٹک لیبل"
+  },
+
+  "translationScreenLoadError": "ترجمے لوڈ کرنے میں خرابی:",
+  "@translationScreenLoadError": {
+    "description": "اگر ترجمے لوڈ کرنے میں ناکامی ہو تو سنیackbar کا ابتدائی حصہ"
+  },
+
+  "commentL": "زبان کے انتخاب کی اسکرین کے اسٹرنگز",
+  "languageSelectionScreenSemantic": "زبان کے انتخاب کی اسکرین",
+  "@languageSelectionScreenSemantic": {
+    "description": "زبان کے انتخاب کی اسکرین کو بیان کرنے والے اوپری کنٹینر کا سیمینٹک لیبل"
+  },
+
+  "languageSelectionTitle": "اپنی زبان منتخب کریں",
+  "@languageSelectionTitle": {
+    "description": "زبان کے انتخاب کی اسکرین کے ایپ بار کا عنوان"
+  },
+
+  "languageSelectionBackSemantic": "واپس",
+  "@languageSelectionBackSemantic": {
+    "description": "زبان کے انتخاب کی اسکرین کے بیک ایرو کا سیمینٹک لیبل"
+  },
+
+  "languageSelectionSkipSemantic": "انتخاب چھوڑ دیں",
+  "@languageSelectionSkipSemantic": {
+    "description": "زبان کے انتخاب کی اسکرین میں ’اسٹیپ چھوڑیں‘ بٹن کا سیمینٹک لیبل"
+  },
+
+  "languageSelectionInstructions": "براہ کرم اپنی ترجیحی زبان منتخب کریں:",
+  "@languageSelectionInstructions": {
+    "description": "زبان کے انتخاب کے لیے ہدایتی متن"
+  },
+
+  "languageSelectionNextSemantic": "زبان کے انتخاب کی تصدیق کرنے کے لیے ٹیپ کریں",
+  "@languageSelectionNextSemantic": {
+    "description": "زبان کے انتخاب کی اسکرین میں ’اگلا‘ بٹن کا سیمینٹک لیبل"
+  },
+
+  "languageSelectionNextLabel": "اگلا",
+  "@languageSelectionNextLabel": {
+    "description": "زبان منتخب کرنے کے بعد آگے بڑھنے کے لیے بٹن کا متن"
+  },
+
+  "languageSelectionImageSemantic": "حدہد قرآن کی عکاسی",
+  "@languageSelectionImageSemantic": {
+    "description": "زبان کے انتخاب کی اسکرین کے نیچے دکھائی جانے والی تصویر کا سیمینٹک لیبل"
+  },
+
+  "commentM": "ویلکم اسکرین کے اسٹرنگز",
+  "welcomeScreenSemantic": "آن بورڈنگ ویلکم اسکرین",
+  "@welcomeScreenSemantic": {
+    "description": "آن بورڈنگ ویلکم اسکرین کے مرکزی کنٹینر کا سیمینٹک لیبل"
+  },
+
+  "welcomeScreenLogoSemantic": "حدہد قرآن کی عکاسی",
+  "@welcomeScreenLogoSemantic": {
+    "description": "ویلکم اسکرین کے لوگو کی تصویر کا سیمینٹک لیبل"
+  },
+
+  "welcomeScreenSkipSemantic": "ویلکم مرحلے کو چھوڑ دیں",
+  "@welcomeScreenSkipSemantic": {
+    "description": "ویلکم اسکرین میں ’چھوڑیں‘ بٹن کا سیمینٹک لیبل"
+  },
+
+  "welcomeScreenNextSemantic": "اگلے آن بورڈنگ مرحلے کی طرف بڑھیں",
+  "@welcomeScreenNextSemantic": {
+    "description": "’آغاز کریں‘ بٹن کا سیمینٹک لیبل"
+  },
+
+  "commentN": "حدہد انفو اسکرین کے اسٹرنگز",
+  "hudhudInfoSemantic": "حدہد معلوماتی اسکرین",
+  "@hudhudInfoSemantic": {
+    "description": "حدہد انفو اسکرین کو بیان کرنے والے اوپری کنٹینر کا سیمینٹک لیبل"
+  },
+
+  "hudhudInfoAppBarTitle": "حدہد سے ملیے",
+  "@hudhudInfoAppBarTitle": {
+    "description": "حدہد انفو اسکرین کے ایپ بار پر دکھایا جاتا ہے"
+  },
+
+  "hudhudInfoIllustrationSemantic": "حدہد کی عکاسی",
+  "@hudhudInfoIllustrationSemantic": {
+    "description": "پرندے کی عکاسی والی تصویر کا سیمینٹک لیبل"
+  },
+
+  "hudhudInfoBody1": "حدہد جسے hoopoe برڈ کے نام سے بھی جانا جاتا ہے، نے مشاہدہ کرنے اور پیغامات پہنچانے کے ذریعے حضرت سلیمان علیہ السلام کی مدد میں ایک خاص کردار ادا کیا۔",
+  "@hudhudInfoBody1": {
+    "description": "حدہد کی اہمیت بیان کرنے والا پہلا پیراگراف"
+  },
+
+  "hudhudInfoBody2": "حدہد کی کہانی ہمیں یاد دلاتی ہے کہ ایک چھوٹا سا جاندار بھی صحیح چیزوں پر غور، تجسس اور عملی اقدام کے ذریعے بہت بڑا اثر ڈال سکتا ہے۔ اپنے سفر میں ہم قرآن کی خوبصورتی پر مسلسل توجہ مرکوز کر سکتے ہیں اور ہر لمحے کی پیش رفت پر شکر کو شامل کر سکتے ہیں۔",
+  "@hudhudInfoBody2": {
+    "description": "چوکس رہنے کی اہمیت کے متعلق دوسرا پیراگراف"
+  },
+
+  "hudhudInfoBody3": "حدہد کی مثال پر عمل کر کے—ہمہ وقت باخبر اور مصروف رہتے ہوئے—ہم قرآن کے ساتھ اپنے تعلق کو گہرا کر سکتے ہیں اور روزمرہ زندگی میں شکر کے احساس کو پروان چڑھا سکتے ہیں۔",
+  "@hudhudInfoBody3": {
+    "description": "حدہد کی مثال کی مجموعی اہمیت بیان کرنے والا تیسرا پیراگراف"
+  },
+
+  "hudhudInfoNextLabel": "اگلا",
+  "@hudhudInfoNextLabel": {
+    "description": "اگلے بٹن کے لیے متن"
+  },
+
+  "hudhudInfoNextSemantic": "اگلے حصے کی طرف بڑھیں",
+  "@hudhudInfoNextSemantic": {
+    "description": "اگلے بٹن کا سیمینٹک لیبل"
+  },
+
+  "hudhudInfoSkipSemantic": "حدہد کی معلوماتی مرحلہ چھوڑ دیں",
+  "@hudhudInfoSkipSemantic": {
+    "description": "حدہد انفو اسکرین پر ’چھوڑیں‘ بٹن کا سیمینٹک لیبل"
+  },
+
+  "commentO": "سبسکرپشن ٹیئر اسکرین کے اسٹرنگز",
+  "subscriptionTierScreenSemantic": "سبسکرپشن کی سطح منتخب کرنے کی اسکرین",
+  "@subscriptionTierScreenSemantic": {
+    "description": "سبسکرپشن لیول اسکرین کو بیان کرنے والے مرکزی کنٹینر کا سیمینٹک لیبل"
+  },
+
+  "subscriptionTierScreenAppBarTitle": "اپنا پلان منتخب کریں",
+  "@subscriptionTierScreenAppBarTitle": {
+    "description": "سبسکرپشن ٹیئر اسکرین کے ایپ بار کا عنوان"
+  },
+
+  "subscriptionTierScreenSkipSemantic": "سبسکرپشن ٹیئر کے انتخاب کو چھوڑ دیں",
+  "@subscriptionTierScreenSkipSemantic": {
+    "description": "سبسکرپشن ٹیئر اسکرین کے اسکیپ بٹن کا سیمینٹک لیبل"
+  },
+
+  "subscriptionTierScreenFreeLabel": "مفت",
+  "@subscriptionTierScreenFreeLabel": {
+    "description": "مفت پیکج کا لیبل"
+  },
+
+  "subscriptionTierScreenSmileySemantic": "مسکراہٹ والا چہرہ آئیکن",
+  "@subscriptionTierScreenSmileySemantic": {
+    "description": "سمائلی ایموجی آئیکن کے لیے سیمینٹک لیبل"
+  },
+
+  "subscriptionTierScreenDonationText": "موصول ہونے والے فنڈز کا ایک حصہ Almubtasim انیشی ایٹو کو جائے گا جو Islamic Relief کے ذریعے یتیموں کی مدد کرتا ہے۔",
+  "@subscriptionTierScreenDonationText": {
+    "description": "سمائلی کے نیچے دکھایا جانے والا عطیات کا استعمال"
+  },
+
+  "subscriptionTierScreenConfirmSemantic": "سبسکرپشن ٹیئر کے انتخاب کی تصدیق کریں",
+  "@subscriptionTierScreenConfirmSemantic": {
+    "description": "اگلا/تصدیق بٹن کا سیمینٹک لیبل"
+  },
+
+  "subscriptionTierScreenNextLabel": "اگلا",
+  "@subscriptionTierScreenNextLabel": {
+    "description": "منتخب کردہ سبسکرپشن ٹیئر کی تصدیق اور آگے بڑھنے کے لیے بٹن کا متن"
+  },
+
+  "subscriptionTierScreenRadioSemantic": "{title} سبسکرپشن ٹیئر منتخب کرنے کے لیے ٹیپ کریں",
+  "@subscriptionTierScreenRadioSemantic": {
+    "description": "ہر ریڈیو ٹائل کا سیمینٹک لیبل جو سبسکرپشن پیکیج کی نمائندگی کرتا ہے",
+    "placeholders": {
+      "title": {}
+    }
+  },
+
+  "commentP": "ہدف کے انتخاب کی اسکرین کے اسٹرنگز",
+  "goalSelectionScreenSemantic": "ہدف کے انتخاب کی اسکرین",
+  "@goalSelectionScreenSemantic": {
+    "description": "ہدف انتخاب کی اسکرین کے مرکزی کنٹینر کا سیمینٹک لیبل"
+  },
+
+  "goalSelectionScreenAppBarTitle": "اپنے اہداف منتخب کریں",
+  "@goalSelectionScreenAppBarTitle": {
+    "description": "ہدف انتخاب اسکرین کے ایپ بار پر نظر آنے والا عنوان"
+  },
+
+  "goalSelectionScreenSkipSemantic": "ہدف کا انتخاب چھوڑ دیں",
+  "@goalSelectionScreenSkipSemantic": {
+    "description": "ہدف انتخاب کی اسکرین پر اسکیپ بٹن کا سیمینٹک لیبل"
+  },
+
+  "goalSelectionScreenIntroText": "مندرجہ ذیل میں سے کون سے اہداف آپ کی توجہ کا باعث ہیں؟ آپ متعدد اختیارات منتخب کر سکتے ہیں۔",
+  "@goalSelectionScreenIntroText": {
+    "description": "ہدف انتخاب اسکرین کے اوپری حصے میں دکھایا جانے والا ابتدائی متن"
+  },
+
+  "goalSelectionScreenNextSemantic": "ہدف انتخاب کی تصدیق کریں",
+  "@goalSelectionScreenNextSemantic": {
+    "description": "اگلا/تصدیق بٹن کا سیمینٹک لیبل"
+  },
+
+  "goalSelectionScreenNextLabel": "اگلا",
+  "@goalSelectionScreenNextLabel": {
+    "description": "منتخب کردہ اہداف کی تصدیق اور آگے بڑھنے کے لیے بٹن"
+  },
+
+  "goalSelectionTileSemantic": "{goalTitle} ہدف کا آپشن منتخب یا اَن سیلیکٹ کرنے کے لیے ٹیپ کریں",
+  "@goalSelectionTileSemantic": {
+    "description": "ہر ہدف کے چیک باکس ٹائل کا سیمینٹک لیبل",
+    "placeholders": {
+      "goalTitle": {}
+    }
+  },
+
+  "goalConnectQuranTitle": "قرآن سے مزید جڑیں",
+  "@goalConnectQuranTitle": {
+    "description": "'connectQuran' ہدف کے لیے چیک باکس لیبل"
+  },
+
+  "goalConnectQuranDesc": "تلاوت یا غور و فکر کے ذریعے اپنے تعلق کو بہتر بنائیں۔",
+  "@goalConnectQuranDesc": {
+    "description": "'connectQuran' ہدف کے لیے ذیلی متن"
+  },
+
+  "goalMemorizeQuranTitle": "قرآن حفظ کریں",
+  "@goalMemorizeQuranTitle": {
+    "description": "'memorizeQuran' ہدف کے لیے چیک باکس لیبل"
+  },
+
+  "goalMemorizeQuranDesc": "حفظ کا سفر شروع کریں۔",
+  "@goalMemorizeQuranDesc": {
+    "description": "'memorizeQuran' ہدف کے لیے ذیلی متن"
+  },
+
+  "goalBeMoreGratefulTitle": "زندگی میں مزید شکر گزار اور خوش رہیں",
+  "@goalBeMoreGratefulTitle": {
+    "description": "'beMoreGrateful' ہدف کے لیے چیک باکس لیبل"
+  },
+
+  "goalBeMoreGratefulDesc": "روزمرہ کی شکرگزاری کی مشق پر توجہ دیں۔",
+  "@goalBeMoreGratefulDesc": {
+    "description": "'beMoreGrateful' ہدف کے لیے ذیلی متن"
+  },
+
+  "goalBuildConsistencyTitle": "استقامت قائم کریں",
+  "@goalBuildConsistencyTitle": {
+    "description": "'buildConsistency' ہدف کے لیے چیک باکس لیبل"
+  },
+
+  "goalBuildConsistencyDesc": "روزانہ یا ہفتہ وار عادت تشکیل دیں۔",
+  "@goalBuildConsistencyDesc": {
+    "description": "'buildConsistency' ہدف کے لیے ذیلی متن"
+  },
+
+  "goalImproveArabicTitle": "اپنی عربی بہتر کریں",
+  "@goalImproveArabicTitle": {
+    "description": "'improveArabic' ہدف کے لیے چیک باکس لیبل"
+  },
+
+  "goalImproveArabicDesc": "تحریری یا زبانی زبان کی مہارت پر توجہ دیں۔",
+  "@goalImproveArabicDesc": {
+    "description": "'improveArabic' ہدف کے لیے ذیلی متن"
+  },
+
+  "goalDeepenTafsirTitle": "تفسیر میں گہرائی پیدا کریں",
+  "@goalDeepenTafsirTitle": {
+    "description": "'deepenTafsir' ہدف کے لیے چیک باکس لیبل"
+  },
+
+  "goalDeepenTafsirDesc": "تفسیر اور قرآن کے گہرے مفاہیم کا مطالعہ کریں۔",
+  "@goalDeepenTafsirDesc": {
+    "description": "'deepenTafsir' ہدف کے لیے ذیلی متن"
+  },
+
+  "goalOtherTitle": "دیگر",
+  "@goalOtherTitle": {
+    "description": "'other' ہدف کے لیے چیک باکس لیبل"
+  },
+
+  "goalOtherDesc": "کوئی بھی ذاتی مقصد حاصل کریں۔",
+  "@goalOtherDesc": {
+    "description": "'other' ہدف کے لیے ذیلی متن"
+  },
+
+  "commentQ": "سطح کے انتخاب کی اسکرین کے اسٹرنگز",
+  "levelSelectionScreenSemantic": "سطح کے انتخاب کی اسکرین",
+  "@levelSelectionScreenSemantic": {
+    "description": "سطح کے انتخاب کی اسکرین کے بالائی کنٹینر کا سیمینٹک لیبل"
+  },
+
+  "levelSelectionScreenAppBarTitle": "اپنی سطح منتخب کریں",
+  "@levelSelectionScreenAppBarTitle": {
+    "description": "سطح کے انتخاب کی اسکرین کے ایپ بار کا عنوان"
+  },
+
+  "levelSelectionScreenSkipSemantic": "سطح کے انتخاب کو چھوڑ دیں",
+  "@levelSelectionScreenSkipSemantic": {
+    "description": "سطح کے انتخاب کی اسکرین میں اسکیپ بٹن کا سیمینٹک لیبل"
+  },
+
+  "levelSelectionScreenIntroText": "براہ کرم وہ آپشن منتخب کریں جو آپ کی موجودہ تلاوت کی سطح کو بہتر طور پر بیان کرتا ہو:",
+  "@levelSelectionScreenIntroText": {
+    "description": "سطح کے انتخاب کی اسکرین کے اوپری حصے میں دکھایا جانے والا ابتدائی متن"
+  },
+
+  "levelStarterLabel": "شروعاتی",
+  "@levelStarterLabel": {
+    "description": "'starter' سطح کے لیے ریڈیو لیبل"
+  },
+
+  "levelStarterDescription": "نئے یا کبھی کبھار سیکھنے والے جو قرآن کی تلاوت کا آغاز کر رہے ہیں۔",
+  "@levelStarterDescription": {
+    "description": "'starter' سطح کے لیے تفصیلی بیان"
+  },
+
+  "levelAdvancedLabel": "ایڈوانسڈ",
+  "@levelAdvancedLabel": {
+    "description": "'advanced' سطح کے لیے ریڈیو لیبل"
+  },
+
+  "levelAdvancedDescription": "عربی متن پڑھنے میں آسانی، کچھ تجوید کی واقفیت رکھتے ہیں۔",
+  "@levelAdvancedDescription": {
+    "description": "'advanced' سطح کے لیے تفصیلی بیان"
+  },
+
+  "levelQariLabel": "قاری",
+  "@levelQariLabel": {
+    "description": "'qari' سطح کے لیے ریڈیو لیبل"
+  },
+
+  "levelQariDescription": "ماہر قاری جن کی تجوید میں عمدہ دسترس ہے۔",
+  "@levelQariDescription": {
+    "description": "'qari' سطح کے لیے تفصیلی بیان"
+  },
+
+  "levelSelectionNextSemantic": "سطح کے انتخاب کی تصدیق کریں",
+  "@levelSelectionNextSemantic": {
+    "description": "سطح کے انتخاب کی اسکرین پر اگلا/تصدیق بٹن کا سیمینٹک لیبل"
+  },
+
+  "levelSelectionNextLabel": "اگلا",
+  "@levelSelectionNextLabel": {
+    "description": "منتخب شدہ سطح کے ساتھ آگے بڑھنے کے لیے بٹن کا لیبل"
+  },
+
+  "levelSelectionTileSemantic": "{levelTitle} تلاوت کی سطح کا آپشن منتخب کرنے کے لیے ٹیپ کریں",
+  "@levelSelectionTileSemantic": {
+    "description": "ہر ریڈیو ٹائل کے لیے سیمینٹک لیبل جس میں تلاوت کی سطح بیان ہوتی ہے",
+    "placeholders": {
+      "levelTitle": {}
+    }
+  },
+
+  "commentR": "آن بورڈنگ مکمل ہونے کی اسکرین کے اسٹرنگز",
+  "onboardingCompletionScreenSemantic": "آن بورڈنگ مکمل ہونے کی اسکرین",
+  "@onboardingCompletionScreenSemantic": {
+    "description": "حتمی آن بورڈنگ مکمل ہونے والی اسکرین کے مرکزی کنٹینر کا سیمینٹک لیبل"
+  },
+
+  "onboardingCompletionScreenAppBarTitle": "سب سیٹ!",
+  "@onboardingCompletionScreenAppBarTitle": {
+    "description": "آن بورڈنگ مکمل ہونے کی اسکرین کے ایپ بار کا عنوان"
+  },
+
+  "onboardingCompletionScreenImageSemantic": "حدہد قرآن کی عکاسی",
+  "@onboardingCompletionScreenImageSemantic": {
+    "description": "حتمی آن بورڈنگ کی تصویر کا سیمینٹک لیبل"
+  },
+
+  "onboardingCompletionScreenBody1": "مبارک ہو! آپ نے کامیابی سے سیٹ اپ مکمل کر لیا ہے۔ ہمیں امید ہے کہ یہ سفر آپ کو قرآن کے قریب کرے گا اور اللہ کے لیے آپ کا شکر بڑھائے گا۔\n\nاللہ کرے یہ ایپ آپ کی زندگی اور ان لوگوں کی زندگیوں میں برکت اور ترقی کا ذریعہ بنے جن تک آپ پہنچیں۔",
+  "@onboardingCompletionScreenBody1": {
+    "description": "آن بورڈنگ مکمل ہونے کے بعد کامیابی بیان کرنے والا پہلا پیرا"
+  },
+
+  "onboardingCompletionScreenBody2": "جب آپ تیار ہوں، تو نیچے دیے گئے بٹن پر ٹیپ کریں۔ بنیادی حفظ اور پیش رفت کی خصوصیات آپ کی منتظر ہیں۔ آپ شکر کو لاگ کر سکتے ہیں یا نیویگیشن بار سے ایک راستہ منتخب کر سکتے ہیں۔",
+  "@onboardingCompletionScreenBody2": {
+    "description": "آن بورڈنگ کے بعد کے اگلے اقدامات بیان کرنے والا دوسرا پیرا"
+  },
+
+  "onboardingCompletionScreenBody3": "یہ ابھی ابتدائی ورژن ہے — ہم آپ کی حمایت اور صبر کے شکر گزار ہیں اور بہت جلد مزید خصوصیات دینے کی امید رکھتے ہیں ان شاء اللہ!",
+  "@onboardingCompletionScreenBody3": {
+    "description": "تیسرا پیرا جو اپ ڈیٹس اور ممکنہ مدد کے لیے حوصلہ افزائی کرتا ہے"
+  },
+
+  "onboardingCompletionScreenBeginSemantic": "ایپ کا استعمال شروع کریں",
+  "@onboardingCompletionScreenBeginSemantic": {
+    "description": "’آیئے شروع کریں‘ بٹن کا سیمینٹک لیبل"
+  },
+
+  "onboardingCompletionScreenBeginLabel": "آیئے شروع کریں",
+  "@onboardingCompletionScreenBeginLabel": {
+    "description": "آن بورڈنگ کے آخری مرحلے میں بٹن کا لیبل"
+  },
+
+  "commentS": "نام درج کرنے کی اسکرین کے اسٹرنگز",
+  "nameEntryScreenSemantic": "نام درج کرنے کی اسکرین",
+  "@nameEntryScreenSemantic": {
+    "description": "نام درج کرنے کی اسکرین کو بیان کرنے والے کنٹینر کا سیمینٹک لیبل"
+  },
+
+  "nameEntryScreenAppBarTitle": "آپ کا پروفائل",
+  "@nameEntryScreenAppBarTitle": {
+    "description": "نام درج کرنے کی اسکرین کے ایپ بار کا عنوان"
+  },
+
+  "nameEntryScreenSkipSemantic": "اپنا نام درج کرنے کو چھوڑ دیں",
+  "@nameEntryScreenSkipSemantic": {
+    "description": "نام درج کرنے کی اسکرین پر ’چھوڑیں‘ بٹن کا سیمینٹک لیبل"
+  },
+
+  "nameEntryScreenIntroText": "آپ کا نام کیا ہے؟",
+  "@nameEntryScreenIntroText": {
+    "description": "یہ ہدایت جو بتاتی ہے کہ صارف نام درج کر سکتا ہے یا خالی رہنے پر ’مہمان‘ رہے گا"
+  },
+
+  "nameEntryTextFieldSemantic": "نام درج کرنے کا ٹیکسٹ فیلڈ",
+  "@nameEntryTextFieldSemantic": {
+    "description": "وہ ٹیکسٹ فیلڈ جہاں صارف اپنا نام درج کرتا ہے اس کا سیمینٹک لیبل"
+  },
+
+  "nameEntryNextSemantic": "نام درج کرنے کی تصدیق کریں",
+  "@nameEntryNextSemantic": {
+    "description": "اگلا/تصدیق بٹن کا سیمینٹک لیبل"
+  },
+
+  "nameEntryNextLabel": "اگلا",
+  "@nameEntryNextLabel": {
+    "description": "نام کا اندراج فائنل کر کے آگے بڑھنے کا بٹن"
+  },
+
+  "commentT": "VerticalLessonIcons کے اسٹرنگز",
+  "verticalLessonIconsSemantic": "عمودی سبق کے آئیکنز کا کنٹینر",
+  "@verticalLessonIconsSemantic": {
+    "description": "عمودی سبق کے آئیکنز کے اسٹیک کو بیان کرنے والے اوپری کنٹینر کا سیمینٹک لیبل"
+  },
+
+  "verticalLessonIconsNoLessons": "کوئی سبق نہیں ملا۔",
+  "@verticalLessonIconsNoLessons": {
+    "description": "اگر ہمارے پاس کوئی سبق نہ ہو تو دکھایا جانے والا ٹیکسٹ"
+  },
+
+  "verticalLessonIconsLoadingSurah": "سورۃ کی تفصیلات لوڈ ہو رہی ہیں",
+  "@verticalLessonIconsLoadingSurah": {
+    "description": "سورۃ کی تفصیلات لوڈ ہونے کے دوران دکھائے جانے والے سرکلر پروگریس انڈیکیٹر کا سیمینٹک لیبل"
+  },
+
+  "verticalLessonIconsErrorSurah": "سورۃ کی تفصیلات لوڈ کرنے میں خرابی",
+  "@verticalLessonIconsErrorSurah": {
+    "description": "اگر سورۃ ہیڈر کی تفصیلات حاصل کرنے میں مسئلہ ہو تو دکھایا جاتا ہے"
+  },
+
+  "verticalLessonIconsSurahHeaderSemantic": "سورۃ کی تفصیلات کی سرخی",
+  "@verticalLessonIconsSurahHeaderSemantic": {
+    "description": "پہلے صفحے پر سورۃ کا ہیڈر ٹیکسٹ کا سیمینٹک لیبل"
+  },
+
+  "verticalLessonIconsHudhudIconSemantic": "حدہد ہیلپر آئیکن",
+  "@verticalLessonIconsHudhudIconSemantic": {
+    "description": "hudhud_left آئیکن کا سیمینٹک لیبل"
+  },
+
+  "verticalLessonIconsNextPageSemantic": "اگلے صفحے کا تیر",
+  "@verticalLessonIconsNextPageSemantic": {
+    "description": "نیچے کی طرف تیر کا سیمینٹک لیبل جو اگلے صفحے پر جاتا ہے"
+  },
+
+  "verticalLessonIconsPreviousPageSemantic": "پچھلے صفحے کا تیر",
+  "@verticalLessonIconsPreviousPageSemantic": {
+    "description": "اوپر کی طرف تیر کا سیمینٹک لیبل جو پچھلے صفحے پر جاتا ہے"
+  },
+
+  "verticalLessonIconsLoadingProgress": "سبق کی پیش رفت لوڈ ہو رہی ہے",
+  "@verticalLessonIconsLoadingProgress": {
+    "description": "سبق کی پیش رفت لوڈ ہوتے وقت سرکلر پروگریس انڈیکیٹر کا سیمینٹک لیبل"
+  },
+
+  "verticalLessonIconsErrorProgress": "پیش رفت لوڈ کرنے میں خرابی",
+  "@verticalLessonIconsErrorProgress": {
+    "description": "اگر سبق کی پیش رفت لوڈ کرنے میں خرابی ہو تو دکھایا جانے والا متبادل متن"
+  },
+
+  "verticalLessonIconSemantic": "سبق آئیکن, {surahAyahRange}, پیش رفت {percent}%",
+  "@verticalLessonIconSemantic": {
+    "description": "عمودی فہرست میں ہر سبق آئیکن کا سیمینٹک لیبل",
+    "placeholders": {
+      "surahAyahRange": {},
+      "percent": {}
+    }
+  },
+
+  "verticalLessonIconsCompletedSemantic": "سبق مکمل ہوا",
+  "@verticalLessonIconsCompletedSemantic": {
+    "description": "مکمل سبق پر ٹِک آئیکن کا سیمینٹک لیبل"
+  },
+
+  "verticalLessonIconsDialogTitle": "سپورٹ اور اپ گریڈ",
+  "@verticalLessonIconsDialogTitle": {
+    "description": "سپورٹ اور اپ گریڈ ڈائیلاگ کا عنوان"
+  },
+
+  "verticalLessonIconsDialogOk": "ٹھیک ہے",
+  "@verticalLessonIconsDialogOk": {
+    "description": "اپ گریڈ ڈائیلاگ میں ’ٹھیک ہے‘ کا متن"
+  },
+
+  "commentU": "نیویگیشن بار کے اسٹرنگز",
+  "navBarSemanticLabel": "نیچے کا نیویگیشن بار",
+  "@navBarSemanticLabel": {
+    "description": "پورے نیچے والے نیویگیشن بار کا سیمینٹک لیبل"
+  },
+
+  "navHomeLabel": "ہوم",
+  "@navHomeLabel": {
+    "description": "نیویگیشن بار میں ہوم ٹیب کا لیبل"
+  },
+
+  "navHomeSemantic": "ہوم ٹیب",
+  "@navHomeSemantic": {
+    "description": "نیویگیشن بار میں ہوم آئیکن کا سیمینٹک لیبل"
+  },
+
+  "navQuranLabel": "قرآن",
+  "@navQuranLabel": {
+    "description": "نیویگیشن بار میں قرآن ٹیب کا لیبل"
+  },
+
+  "navQuranSemantic": "قرآن ٹیب",
+  "@navQuranSemantic": {
+    "description": "نیویگیشن بار میں قرآن آئیکن کا سیمینٹک لیبل"
+  },
+
+  "navGratitudeLabel": "شکرگزاری",
+  "@navGratitudeLabel": {
+    "description": "نیویگیشن بار میں شکرگزاری ٹیب کا لیبل"
+  },
+
+  "navGratitudeSemantic": "شکرگزاری ٹیب",
+  "@navGratitudeSemantic": {
+    "description": "نیویگیشن بار میں شکرگزاری آئیکن کا سیمینٹک لیبل"
+  },
+
+  "navProfileLabel": "پروفائل",
+  "@navProfileLabel": {
+    "description": "نیویگیشن بار میں پروفائل ٹیب کا لیبل"
+  },
+
+  "navProfileSemantic": "پروفائل ٹیب",
+  "@navProfileSemantic": {
+    "description": "نیویگیشن بار میں پروفائل آئیکن کا سیمینٹک لیبل"
+  },
+
+  "commentV": "ٹاپ بار کے اسٹرنگز",
+  "topBarSemanticLabel": "اوپر کا نیویگیشن بار",
+  "@topBarSemanticLabel": {
+    "description": "اوپر والے بار کے پورے کنٹینر کا سیمینٹک لیبل"
+  },
+
+  "topBarTitleSemantic": "ٹاپ بار کا عنوان: {title}",
+  "@topBarTitleSemantic": {
+    "description": "اوپر کے بار کے مرکز میں عنوان کے لیے سیمینٹک لیبل",
+    "placeholders": {
+      "title": {}
+    }
+  },
+
+  "topBarStreakIconSemantic": "سلسلے کا آئیکن: {days} دن",
+  "@topBarStreakIconSemantic": {
+    "description": "سلسلے کے دن دکھانے والے آئیکن کا سیمینٹک لیبل",
+    "placeholders": {
+      "days": {}
+    }
+  },
+
+  "topBarStreakDialogBody": "یہ ظاہر کرتا ہے کہ آپ نے کتنے مسلسل دن قرآن کی تلاوت کی یا شکر لکھا ہے۔ سلسلے کو برقرار رکھنے یا بڑھانے کے لیے جاری رکھیں!",
+  "@topBarStreakDialogBody": {
+    "description": "سلسلے کے استعمال کی وضاحت کرنے والا ڈائیلاگ باڈی متن"
+  },
+
+  "topBarHudhudIconSemantic": "حدہد آئیکن، سپورٹ کے لیے ٹیپ کریں",
+  "@topBarHudhudIconSemantic": {
+    "description": "ٹاپ بار میں حدہد آئیکن کا سیمینٹک لیبل"
+  },
+
+  "topBarHudhudDialogTitle": "سپورٹ اور اپ گریڈ",
+  "@topBarHudhudDialogTitle": {
+    "description": "حدہد آئیکن کے لیے سپورٹ + اپ گریڈ ڈائیلاگ کا عنوان"
+  },
+
+  "topBarHudhudDialogBody": "تمام خصوصیات مفت ورژن میں دستیاب ہیں، لیکن اگر آپ چاہیں تو مزید فیچرز کی تیاری میں ہماری مدد کرسکتے ہیں۔ آپ کی سبسکرپشن کا ایک حصہ Islamic Relief کو عطیہ کیا جاتا ہے۔ جزاک اللہ خیراً!",
+  "@topBarHudhudDialogBody": {
+    "description": "ٹاپ بار کے ’سپورٹ اور اپ گریڈ‘ کے اشارہ کے لیے ڈائیلاگ کا باڈی متن"
+  },
+
+  "commentW": "شکر کا موڈل کے اسٹرنگز",
+  "gratitudeModalSemantic": "شکر کا موڈل ڈائیلاگ",
+  "@gratitudeModalSemantic": {
+    "description": "پورے شکر موڈل کنٹینر کا سیمینٹک لیبل"
+  },
+
+  "gratitudeModalTitle": "ان آیات کی بنیاد پر آج آپ کس چیز پر شکر ادا کرتے ہیں؟",
+  "@gratitudeModalTitle": {
+    "description": "شکر موڈل کے اوپر عنوانی متن"
+  },
+
+  "gratitudeModalHint": "الحمد للہ (یہاں شکر درج کریں) #{index}",
+  "@gratitudeModalHint": {
+    "description": "شکر کے ٹیکسٹ فیلڈز میں ہنٹ ٹیکسٹ",
+    "placeholders": {
+      "index": {}
+    }
+  },
+
+  "gratitudeModalTextFieldSemantic": "#{index} نمبر کی شکر درج کریں",
+  "@gratitudeModalTextFieldSemantic": {
+    "description": "شکر موڈل میں iویں ٹیکسٹ فیلڈ کا سیمینٹک لیبل",
+    "placeholders": {
+      "index": {}
+    }
+  },
+
+  "gratitudeModalEmptyWarning": "برائے مہربانی کم از کم ایک شکر درج کریں۔",
+  "@gratitudeModalEmptyWarning": {
+    "description": "اگر صارف خالی شکر موڈل جمع کروانے کی کوشش کرے تو دکھایا جاتا ہے"
+  },
+
+  "gratitudeModalSubmitError": "شکر نوٹ کرنے میں ناکامی۔ دوبارہ کوشش کریں۔",
+  "@gratitudeModalSubmitError": {
+    "description": "اگر شکر جمع کروانے میں ناکامی ہو تو دکھایا جانے والا ایرر پیغام"
+  },
+
+  "dailyVoiceLimitReachedTitle": "ماشاء اللہ!",
+  "@dailyVoiceLimitReachedTitle": {
+    "description": "روزانہ وائس لمٹ پاپ اپ کا عنوان"
+  },
+
+  "dailyVoiceLimitReachedMessage": "آپ نے قرآن کی آواز میں تلاوت کے 10 منٹ مکمل کر لیے ہیں۔ براہ کرم تحریری مشق جاری رکھیں اور کل دوبارہ تلاوت کریں۔",
+  "@dailyVoiceLimitReachedMessage": {
+    "description": "جب صارف 10 منٹ کی آواز کی حد تک پہنچ جائے تو دکھایا جانے والا پیغام"
+  },
+
+  "upgradeVoiceUsageTitle": "پریمیم میں اپ گریڈ کریں",
+  "@upgradeVoiceUsageTitle": {
+    "description": "مفت وائس استعمال ختم ہونے پر صارف کو اپ گریڈ کا مشورہ دینے والا عنوان"
+  },
+
+  "gratitudeModalLoadingSemantic": "شکر کا اندراج جاری ہے",
+  "@gratitudeModalLoadingSemantic": {
+    "description": "اگر جمع کروانے کا عمل جاری ہو تو لوڈنگ اسپنر کا سیمینٹک لیبل"
+  },
+
+  "commentX": "== نئے کیز: submission_feedback_modal, progress_bar, surah_selector ==",
+  "submissionFeedbackModalSemanticLabel": "جمع کروانے کا فیڈبیک ڈائیلاگ",
+  "@submissionFeedbackModalSemanticLabel": {
+    "description": "مکمل جمع کروانے کے فیڈ بیک موڈل کے لیے سیمینٹک لیبل"
+  },
+
+  "submissionFeedbackModalTitle": "جمع کروانے کا فیڈبیک",
+  "@submissionFeedbackModalTitle": {
+    "description": "فیڈ بیک موڈل کا عنوان"
+  },
+
+  "submissionFeedbackModalNoNew": "کوئی نئی شکرگزاری جمع نہیں ہوئی۔",
+  "@submissionFeedbackModalNoNew": {
+    "description": "اگر کوئی نئی شکرگزاری جمع نہ ہوئی ہو تو دکھایا جانے والا پیغام"
+  },
+
+  "submissionFeedbackModalYouSubmitted": "آپ نے یہ شکر درج کی ہیں:",
+  "@submissionFeedbackModalYouSubmitted": {
+    "description": "ابھی جمع کروائی گئی شکرگزاریوں کی فہرست سے پہلے دکھائی جانے والا لیبل"
+  },
+
+  "submissionFeedbackModalStreak": "موجودہ شکرگزاری سلسلہ: {days} دن",
+  "@submissionFeedbackModalStreak": {
+    "description": "موجودہ مسلسل شکرگزاری دنوں کی تعداد دکھاتا ہے",
+    "placeholders": {
+      "days": {}
+    }
+  },
+
+  "submissionFeedbackModalTotalDays": "مجموعی شکرگزاری کے دن: {count}",
+  "@submissionFeedbackModalTotalDays": {
+    "description": "شکرگزاری کے درج کردہ مختلف دنوں کی کل تعداد دکھاتا ہے",
+    "placeholders": {
+      "count": {}
+    }
+  },
+
+  "submissionFeedbackModalLoading": "آپ کا شکرگزاری ڈیٹا لوڈ ہو رہا ہے...",
+  "@submissionFeedbackModalLoading": {
+    "description": "جب تک شکرگزاری کا ڈیٹا لوڈ ہو رہا ہو، دکھایا جاتا ہے"
+  },
+
+  "submissionFeedbackModalError": "شکرگزاری کا ڈیٹا لوڈ نہیں کر سکے۔",
+  "@submissionFeedbackModalError": {
+    "description": "اگر شکرگزاری کا ڈیٹا حاصل کرنے میں خرابی ہو تو دکھایا جاتا ہے"
+  },
+
+  "submissionFeedbackModalViewLog": "لاگ دیکھیں",
+  "@submissionFeedbackModalViewLog": {
+    "description": "شکرگزاری لاگ اسکرین پر جانے کے لیے بٹن کا متن"
+  },
+
+  "submissionFeedbackModalClose": "بند کریں",
+  "@submissionFeedbackModalClose": {
+    "description": "جمع کروانے کے فیڈبیک موڈل کو بند کرنے کے لیے بٹن کا متن"
+  },
+
+  "progressBarSemanticLabel": "پیش رفت: {percent}%",
+  "@progressBarSemanticLabel": {
+    "description": "لکیری پیش رفت بار کا سیمینٹک لیبل، عددی فیصد شامل ہے",
+    "placeholders": {
+      "percent": {}
+    }
+  },
+
+  "surahSelectorSemanticLabel": "ایک سورہ منتخب کریں",
+  "@surahSelectorSemanticLabel": {
+    "description": "ڈراپ ڈاؤن کا سیمینٹک لیبل جہاں سے سورہ منتخب کی جا سکتی ہے"
+  },
+
+  "commentZ": "سسٹم ڈیفائن کیے گئے راستوں کے لیے لوکلائزایبل راستوں کے نام اور وضاحتیں",
+
+
+  "pathNameFatihah": "سورہ الفاتحہ",
+  "@pathNameFatihah": { "description": "path_fatihah کا نام" },
+  "pathDescFatihah": "مکمل سورہ (1:1–7)۔ ہر رکعت کے لیے ضروری۔",
+  "@pathDescFatihah": { "description": "path_fatihah کی وضاحت" },
+
+  "pathNameKafirun": "سورہ الکافرون",
+  "@pathNameKafirun": { "description": "path_kafirun کا نام" },
+  "pathDescKafirun": "مکمل سورہ (109:1–6)۔ توحید کا بیان۔",
+  "@pathDescKafirun": { "description": "path_kafirun کی وضاحت" },
+
+  "pathNameIkhlas": "سورہ الاخلاص",
+  "@pathNameIkhlas": { "description": "path_ikhlas کا نام" },
+  "pathDescIkhlas": "مکمل سورہ (112:1–4)۔ اللہ کی توحید۔",
+  "@pathDescIkhlas": { "description": "path_ikhlas کی وضاحت" },
+
+  "pathNameFalaq": "سورہ الفلق",
+  "@pathNameFalaq": { "description": "path_falaq کا نام" },
+  "pathDescFalaq": "مکمل سورہ (113:1–5)۔ بیرونی برائیوں سے پناہ مانگنا۔",
+  "@pathDescFalaq": { "description": "path_falaq کی وضاحت" },
+
+  "pathNameNas": "سورہ الناس",
+  "@pathNameNas": { "description": "path_nas کا نام" },
+  "pathDescNas": "مکمل سورہ (114:1–6)۔ اندرونی وسوسوں سے پناہ مانگنا۔",
+  "@pathDescNas": { "description": "path_nas کی وضاحت" },
+
+  "pathNameAsrBegin": "سورہ العصر",
+  "@pathNameAsrBegin": { "description": "path_asr_begin کا نام" },
+  "pathDescAsrBegin": "(103:1–3)۔ صرف 3 آیات لیکن “صبر” کے لیے بنیادی۔",
+  "@pathDescAsrBegin": { "description": "path_asr_begin کی وضاحت" },
+
+  "pathNameTakathur": "سورہ التکاثر",
+  "@pathNameTakathur": { "description": "path_takathur کا نام" },
+  "pathDescTakathur": "(102:1–8) دنیاوی مقابلہ بازی اور احتساب کے بارے میں۔",
+  "@pathDescTakathur": { "description": "path_takathur کی وضاحت" },
+
+  "pathNameFil": "سورہ الفیل",
+  "@pathNameFil": { "description": "path_fil کا نام" },
+  "pathDescFil": "(105:1–5)۔ اصحاب فیل کا واقعہ؛ 5 مختصر آیات۔",
+  "@pathDescFil": { "description": "path_fil کی وضاحت" },
+
+  "pathNameQuraysh": "سورہ قریش",
+  "@pathNameQuraysh": { "description": "path_quraysh کا نام" },
+  "pathDescQuraysh": "(106:1–4)۔ محفوظ سفر پر شکر کا بیان۔",
+  "@pathDescQuraysh": { "description": "path_quraysh کی وضاحت" },
+
+  "pathNameRahmanA": "الرحمن A",
+  "@pathNameRahmanA": { "description": "path_rahman_a کا نام" },
+  "pathDescRahmanA": "(55:1–13): قرآن کی تعلیم اور انسان کی تخلیق۔",
+  "@pathDescRahmanA": { "description": "path_rahman_a کی وضاحت" },
+
+  "pathNameRahmanB": "الرحمن B",
+  "@pathNameRahmanB": { "description": "path_rahman_b کا نام" },
+  "pathDescRahmanB": "(55:26–36): انسان اور جن کی جواب دہی۔",
+  "@pathDescRahmanB": { "description": "path_rahman_b کی وضاحت" },
+
+  "pathNameYasinBlock": "سورہ یٰس (حصہ)",
+  "@pathNameYasinBlock": { "description": "path_yasin_block کا نام" },
+  "pathDescYasinBlock": "(36:1–12)۔ نبی ﷺ کے پیغام اور تنبیہہ کا تعارف۔",
+  "@pathDescYasinBlock": { "description": "path_yasin_block کی وضاحت" },
+
+  "pathNameMulkBlock": "سورہ الملک (حصہ)",
+  "@pathNameMulkBlock": { "description": "path_mulk_block کا نام" },
+  "pathDescMulkBlock": "(67:1–15)۔ اللہ کی بادشاہی اور تدبر پر زور۔",
+  "@pathDescMulkBlock": { "description": "path_mulk_block کی وضاحت" },
+
+  "pathNameBaqarah21_29": "البقرہ (2:21–29)",
+  "@pathNameBaqarah21_29": { "description": "path_baqarah_21_29 کا نام" },
+  "pathDescBaqarah21_29": "9 آیات، تخلیق اور شکر پر غور۔",
+  "@pathDescBaqarah21_29": { "description": "path_baqarah_21_29 کی وضاحت" },
+
+  "pathNameNahl66_72": "النحل (16:66–72)",
+  "@pathNameNahl66_72": { "description": "path_nahl_66_72 کا نام" },
+  "pathDescNahl66_72": "7 آیات، نعمتوں کا بیان: مویشی، پھل وغیرہ۔",
+  "@pathDescNahl66_72": { "description": "path_nahl_66_72 کی وضاحت" },
+
+  "pathNameAdDuha": "سورہ الضحیٰ",
+  "@pathNameAdDuha": { "description": "path_ad_duha کا نام" },
+  "pathDescAdDuha": "(93:1–11) 11 آیات پر مشتمل امید اور تسلی۔",
+  "@pathDescAdDuha": { "description": "path_ad_duha کی وضاحت" },
+
+  "pathNameKahfCave": "الکہف: غار کے نوجوان",
+  "@pathNameKahfCave": { "description": "path_kahf_cave کا نام" },
+  "pathDescKahfCave": "(18:9–16) غار میں پناہ لینے والے نوجوان مومنوں کی کہانی۔",
+  "@pathDescKahfCave": { "description": "path_kahf_cave کی وضاحت" },
+
+  "pathNameKahfMusa": "الکہف: موسیٰ اور خضر",
+  "@pathNameKahfMusa": { "description": "path_kahf_musa کا نام" },
+  "pathDescKahfMusa": "(18:60–70) صبر اور پوشیدہ حکمت پر زور۔",
+  "@pathDescKahfMusa": { "description": "path_kahf_musa کی وضاحت" },
+
+  "pathNameWaqiah": "الواقعہ (56:1–15)",
+  "@pathNameWaqiah": { "description": "path_waqiah کا نام" },
+  "pathDescWaqiah": "15 آیات، قیامت کے اچانک آنے کے متعلق۔",
+  "@pathDescWaqiah": { "description": "path_waqiah کی وضاحت" },
+
+  "pathNameAsrPatience": "سورہ العصر (صبر)",
+  "@pathNameAsrPatience": { "description": "path_asr_patience کا نام" },
+  "pathDescAsrPatience": "(103:1–3) دوبارہ، 3 آیات، صبر کے حوالے سے مشہور۔",
+  "@pathDescAsrPatience": { "description": "path_asr_patience کی وضاحت" },
+
+  "pathNameBaq153_157": "البقرہ (2:153–157)",
+  "@pathNameBaq153_157": { "description": "path_baq_153_157 کا نام" },
+  "pathDescBaq153_157": "5 آیات: “صبر اور نماز سے مدد چاہو۔”",
+  "@pathDescBaq153_157": { "description": "path_baq_153_157 کی وضاحت" },
+
+  "pathNameYusuf7_14": "سورہ یوسف (12:7–14)",
+  "@pathNameYusuf7_14": { "description": "path_yusuf_7_14 کا نام" },
+  "pathDescYusuf7_14": "حضرت یوسف کے بھائیوں کی حسد۔ صبر کی آزمائش۔",
+  "@pathDescYusuf7_14": { "description": "path_yusuf_7_14 کی وضاحت" },
+
+  "pathNameYusuf83_92": "سورہ یوسف (12:83–92)",
+  "@pathNameYusuf83_92": { "description": "path_yusuf_83_92 کا نام" },
+  "pathDescYusuf83_92": "حضرت یعقوب کا غم اور حضرت یوسف کی بخشش (10 آیات)۔",
+  "@pathDescYusuf83_92": { "description": "path_yusuf_83_92 کی وضاحت" },
+
+  "pathNameInshirah": "سورہ الانشراح (94:1–8)",
+  "@pathNameInshirah": { "description": "path_inshirah کا نام" },
+  "pathDescInshirah": "8 آیات: مصیبت کے بعد آسانی کی یقین دہانی۔ صبر اور امید سے جڑا ہوا۔",
+  "@pathDescInshirah": { "description": "path_inshirah کی وضاحت" },
+
+  "verticalLessonIconsSurahAyahFormat": "سورہ {surahName}, آیت {startAyah}-{endAyah}",
+  "@verticalLessonIconsSurahAyahFormat": {
+    "description": "ایک سٹرنگ بناتا ہے مثلاً ’سورہ الفاتحہ، آیت 1-7‘۔",
+    "placeholders": {
+      "surahName": {},
+      "startAyah": {},
+      "endAyah": {}
+    }
+  },
+
+  "finishLabel": "مکمل کریں",
+  "@finishLabel": {
+    "description": "Button label for finishing the lesson"
+  },
+
+  "twoWordMultipleChoiceLabel": "درست دو الفاظ منتخب کریں",
+  "@twoWordMultipleChoiceLabel": {
+    "description": "Prompt text for two-word multiple choice"
+  },
+
+  "singleWordMultipleChoiceLabel": "درست لفظ منتخب کریں",
+  "@singleWordMultipleChoiceLabel": {
+    "description": "Prompt text for single-word multiple choice"
+  },
+
+  "correctAnswerLabel": "درست!",
+  "@correctAnswerLabel": {
+    "description": "Shown after user selects correct multiple choice"
+  },
+
+  "incorrectAnswerLabel": "غلط!",
+  "@incorrectAnswerLabel": {
+    "description": "Shown after user selects a wrong multiple choice"
+  },
+
+  "lessonCompletedLabel": "سبق مکمل ہوا!",
+  "@lessonCompletedLabel": {
+    "description": "Shown when the user has no more MC questions to do."
+  },
+
+  "profileAnalyticsScoreLabel": "تجزیات اور اسکور",
+  "@profileAnalyticsScoreLabel": {
+    "description": "Header label for the analytics/score section in ProfileScreen"
+  },
+
+  "profileDailyLabel": "روزانہ",
+  "@profileDailyLabel": {
+    "description": "Label for daily score"
+  },
+
+  "profileWeeklyLabel": "ہفتہ وار",
+  "@profileWeeklyLabel": {
+    "description": "Label for weekly score"
+  },
+
+  "profileMonthlyLabel": "ماہانہ",
+  "@profileMonthlyLabel": {
+    "description": "Label for monthly score"
+  },
+
+  "profileTotalLabel": "کل",
+  "@profileTotalLabel": {
+    "description": "Label for total/all-time score"
+  },
+
+  "profileViewChart": "چارٹ دیکھیں",
+  "@profileViewChart": {
+    "description": "Button label to open the chart"
+  },
+
+  "profileCloseLabel": "بند کریں",
+  "@profileCloseLabel": {
+    "description": "Button label to close the dialog"
+  },
+
+  "profileScoreChartTitle": "اسکور چارٹ",
+  "@profileScoreChartTitle": {
+    "description": "Used in the alert dialog's title, e.g. 'Daily Score Chart'"
+  },
+
+  "profileScoreChartHistory": "تاریخچہ",
+  "@profileScoreChartHistory": {
+    "description": "Used in the chart's internal title, e.g. 'Daily History'"
+  },
+
+  "profileNoData": "کوئی ڈیٹا نہیں",
+  "@profileNoData": {
+    "description": "Shown if the chart has no data to display"
+  },
+
+  "topBarDailyScoreLabel": "⭐ آج",
+  "@topBarDailyScoreLabel": {
+    "description": "Short label for daily score displayed on the left side of the TopBar."
+  },
+
+  "topBarDailyScoreSemantic": "آپ کا روزانہ اسکور {score} ہے",
+  "@topBarDailyScoreSemantic": {
+    "description": "Accessibility label for daily score in the TopBar, announcing how many points the user has earned.",
+    "placeholders": {
+      "score": {}
+    }
+  },
+
+  "profilePremiumNeeded": "براہ کرم ترقی کریں تاکہ آپ ترقی کا کیلنڈر دیکھ سکیں اور انشاءاللہ مزید خصوصیات کی تعمیر میں ہماری مدد کریں!",
+  "@profilePremiumNeeded": {
+    "description": "Shown if user is free tier but wants to see weekly progress"
+  },
+
+  "levelMultipleChoiceLabel": "کثیر انتخاب",
+  "@levelMultipleChoiceLabel": {
+    "description": "Radio label for the 'multipleChoice' level"
+  },
+
+  "levelMultipleChoiceDescription": "ایک یا دو لفظ پر مشتمل کثیر انتخابی مراحل، جو جوڑوں کو اختیاری طور پر چھوڑنے کی سہولت رکھتے ہیں۔",
+  "@levelMultipleChoiceDescription": {
+    "description": "Description for the 'multipleChoice' level"
+  },
+
+  "levelBeginnerLabel": "ابتدائی",
+  "@levelBeginnerLabel": {
+    "description": "Radio label for the 'starter' or 'beginner' level"
+  },
+
+  "levelBeginnerDescription": "الفاظ کو بتدریج حذف کرنا، گروہ بندی کے ساتھ، تاکہ آہستہ آہستہ حفظ کرنے میں آسانی ہو۔",
+  "@levelBeginnerDescription": {
+    "description": "Description for the 'beginner' level"
+  },
+
+  "subscriptionTierScreenPremiumLabel": "Plus",
+  "@subscriptionTierScreenPremiumLabel": {
+    "description": "Label for the Premium tier"
+  },
+
+  "featureUnavailableOffline": "یہ فیچر آف لائن دستیاب نہیں۔ براہ کرم کنیکٹ کریں یا پلس یا پرو بیٹا میں اپ گریڈ کرکے آف لائن موڈ کو فعال کریں۔",
+  "@featureUnavailableOffline": {
+    "description": "یہ پیغام اس وقت ظاہر ہوتا ہے جب کوئی مفت صارف آف لائن خصوصیات استعمال کرنے کی کوشش کرتا ہے۔"
+  },
+
+  "submissionFeedbackModalTotalCount": "شکرگزاری کے درج کردہ اندراجات کی کل تعداد: {count}",
+  "@submissionFeedbackModalTotalCount": {
+    "description": "یہ ظاہر کرتا ہے کہ صارف کے پاس مجموعی طور پر کتنی شکرگزاری کی درجیاں ہیں۔ {count} اصل عدد سے بدل دیا جائے گا۔"
+  },
+
+
+  "notificationDailyTitle": "ہلکی سی قرآن پاک یاد دہانی",
+  "@notificationDailyTitle": {
+    "description": "روزانہ قرآن پاک کی یاد دہانی کے نوٹیفکیشن کا عنوان"
+  },
+
+
+  "notificationWeeklyTitle": "ہفتہ وار قرآن جائزہ",
+  "@notificationWeeklyTitle": {
+    "description": "ہفتہ وار قرآن پاک کی یاد دہانی کے نوٹیفکیشن کا عنوان"
+  },
+  "notificationWeeklyBody": "اپنی پیشرفت پر غور کریں اور شکرگزاری کی مشق کرتے ہوئے قرآن پاک کا ایک نیا حصہ یاد کریں۔",
+  "@notificationWeeklyBody": {
+    "description": "ہفتہ وار یاد دہانی کے نوٹیفکیشن کا متن"
+  },
+
+  "notificationChannelDailyRemindersName": "روزانہ یاد دہانیاں",
+  "@notificationChannelDailyRemindersName": {
+    "description": "روزانہ یاد دہانیوں کے لیے چینل کا نام"
+  },
+  "notificationChannelDailyRemindersDesc": "روزانہ قرآن پاک حفظ کی یاد دہانیاں",
+  "@notificationChannelDailyRemindersDesc": {
+    "description": "روزانہ یاد دہانیوں کے لیے چینل کی وضاحت"
+  },
+
+  "notificationChannelWeeklyRemindersName": "ہفتہ وار یاد دہانیاں",
+  "@notificationChannelWeeklyRemindersName": {
+    "description": "ہفتہ وار یاد دہانیوں کے لیے چینل کا نام"
+  },
+  "notificationChannelWeeklyRemindersDesc": "قرآن پاک کے ہفتہ وار حفظ جائزے کی یاد دہانیاں",
+  "@notificationChannelWeeklyRemindersDesc": {
+    "description": "ہفتہ وار یاد دہانیوں کے لیے چینل کی وضاحت"
+  },
+
+  "nameEntryNotificationFrequencyDaily": "روزانہ",
+  "@nameEntryNotificationFrequencyDaily": {
+    "description": "ڈراپ ڈاؤن میں وہ آپشن جو روزانہ یاد دہانیوں کی نشاندہی کرتا ہے"
+  },
+
+  "topBarStreakDialogTitle": "سلسلہ",
+  "@topBarStreakDialogTitle": {
+    "description": "وہ ڈائیلاگ عنوان جو صارف کے سلسلہ استعمال کو بیان کرتا ہے"
+  },
+  "fillInTheBlanksLabel": "خالی جگہیں پُر کریں",
+  "@fillInTheBlanksLabel": {
+    "description": "غیر کلک ایبل ڈیوائیڈر ٹیکسٹ جو مشکل کی ڈراپ ڈاؤن لسٹ میں 'ملٹی پل چوائس' کے بعد نظر آتا ہے"
+  },
+
+  "loadingDataLabel": "لوڈ ہو رہا ہے…",
+  "@loadingDataLabel": {
+    "description": "ڈیٹا لوڈ ہونے کے دوران نظر آنے والا لیبل"
+  },
+
+  "ayahRangeLabel": "آیت {start} - {end}",
+  "@ayahRangeLabel": {
+    "description": "صفۂ اول میں آیات کی حدود کے لیے ایک پلیس ہولڈر، جیسے سورۃ الفاتحہ میں 1-7",
+    "placeholders": {
+      "start": {},
+      "end": {}
+    }
+  },
+
+  "nextPageSemanticLabel": "اگلا صفحہ",
+  "@nextPageSemanticLabel": {
+    "description": "اگلے صفحے پر جانے کے لیے نیچے کی جانب تیر کا معنوی لیبل"
+  },
+
+  "prevPageSemanticLabel": "پچھلا صفحہ",
+  "@prevPageSemanticLabel": {
+    "description": "پچھلے صفحے پر جانے کے لیے اوپر کی جانب تیر کا معنوی لیبل"
+  },
+
+  "pageXOfYLabel": "صفحہ {current} کا {total}",
+  "@pageXOfYLabel": {
+    "description": "صفحوں کی درجہ بندی کے تیر پر کلک کرنے کے بعد نظر آنے والا بار کا متن، جو موجودہ صفحہ اور کل صفحات دکھاتا ہے",
+    "placeholders": {
+      "current": {},
+      "total": {}
+    }
+  },
+
+  "verseSemanticLabel": "آیت نمبر {ayahNumber}، سورۃ {surahName} سے",
+  "@verseSemanticLabel": {
+    "description": "آیت کارڈ کے لیے معنوی لیبل، جو آیت نمبر اور سورہ کا نام ظاہر کرتا ہے",
+    "placeholders": {
+      "ayahNumber": {},
+      "surahName": {}
+    }
+  },
+
+  "ayahLabel": "آیت",
+  "@ayahLabel": {
+    "description": "آیت کے نمبر کے لیے سابقہ لیبل، مثلاً 'آیت 3'"
+  },
+
+  "goToSurahViewLabel": "سورۃ ویو",
+  "@goToSurahViewLabel": {
+    "description": "ایک بٹن لیبل جو سورۃ کی اسکرین پر لے جاتا ہے"
+  },
+
+  "clickOnAyaToOpenLesson": "سبق شروع کرنے کے لیے نیچے دی گئی کسی بھی آیت پر کلک کریں",
+
+  "difficultyChoosingScreenIntro": "اپنی ترجیح منتخب کریں: ملٹی پل چوائس یا خالی جگہیں پُر کریں، اور ہر مرحلے اور آڈیو پلے کو کتنی بار دہرایا جائے۔",
+  "@difficultyChoosingScreenIntro": {
+    "description": "مشکل کا انتخاب کرنے والی اسکرین کے اوپر والا ابتدائی متن"
+  },
+
+  "upgradeVoiceUsageMessage": "صوتی فیچر کو آزمانے اور اسے بہتر بنانے میں ہماری مدد کرنے کے لیے Pro Beta میں اپ گریڈ کریں!",
+  "@upgradeVoiceUsageMessage": {
+    "description": "بنیادی پیغام جب صارف صوتی فیچر کے مفت استعمال کی حد سے تجاوز کرجائے"
+  },
+
+  "restorePurchasesLabel": "خریداریوں کو بحال کریں",
+  "@restorePurchasesLabel": {
+    "description": "خریداریوں کو بحال کرنے کے بٹن کا لیبل"
+  },
+
+  "subscriptionTierScreenMonthly": "ماہانہ",
+  "@subscriptionTierScreenMonthly": {
+    "description": "ماہانہ ٹوگل کے لیے لیبل"
+  },
+
+  "subscriptionTierScreenYearly": "سالانہ",
+  "@subscriptionTierScreenYearly": {
+    "description": "سالانہ ٹوگل کے لیے لیبل"
+  },
+
+  "subscriptionTierScreenFreePrice": "مفت",
+  "@subscriptionTierScreenFreePrice": {
+    "description": "مفت درجے کا دکھایا جانے والا قیمت ٹیگ"
+  },
+
+  "subscriptionTierScreenPremiumMonthlyPrice": "اب $3/ماہ (پہلے $5)",
+  "@subscriptionTierScreenPremiumMonthlyPrice": {
+    "description": "Premium کے لیے ماہانہ رعایتی قیمت"
+  },
+
+  "subscriptionTierScreenPremiumYearlyPrice": "اب $28/سال (پہلے $60)",
+  "@subscriptionTierScreenPremiumYearlyPrice": {
+    "description": "Premium کے لیے سالانہ رعایتی قیمت"
+  },
+
+  "subscriptionTierScreenPremiumPlusMonthlyPrice": "اب $7/ماہ (پہلے $10)",
+  "@subscriptionTierScreenPremiumPlusMonthlyPrice": {
+    "description": "PremiumPlus کے لیے ماہانہ رعایتی قیمت"
+  },
+
+  "subscriptionTierScreenPremiumPlusYearlyPrice": "اب $45/سال (پہلے $84)",
+  "@subscriptionTierScreenPremiumPlusYearlyPrice": {
+    "description": "PremiumPlus کے لیے سالانہ رعایتی قیمت"
+  },
+
+  "subscriptionPurchaseError": "سبسکرپشن خریدنے میں خرابی پیش آگئی",
+  "@subscriptionPurchaseError": {
+    "description": "سبسکرپشن کی خریداری سے متعلق عمومی خرابی کا پیغام"
+  },
+
+  "topBarExplorePlansLabel": "منصوبے دریافت کریں",
+  "@topBarExplorePlansLabel": {
+    "description": "سبسکرپشن اسکرین پر جانے کے لیے بٹن کا متن"
+  },
+
+  "topBarBackHomeLabel": "واپس ہوم پر",
+  "@topBarBackHomeLabel": {
+    "description": "ہوم اسکرین پر واپس جانے کے لیے بٹن کا متن"
+  },
+  "profileRequiresPlanUpdate": "پلان اپ ڈیٹ درکار ہے",
+  "@profileRequiresPlanUpdate": {
+    "description": "اشارہ جو ظاہر کرتا ہے کہ کسی فیچر کے لیے سبسکرپشن/پریمیم پلان درکار ہے"
+  },
+
+
+  "subscriptionTierScreenPremiumDescription": "مفت ورژن میں شامل سب کچھ، مزید آف لائن اسباق کا سیکھنا اور فیڈبیک، سابقہ تجزیات، نیز ترقی کے اشارے، پروفائل، اور قرآن کی حسبِ ضرورت تخصیص۔ مزید خصوصیات کی تیاری میں ہمارا ساتھ دیں!",
+  "@subscriptionTierScreenPremiumDescription": {
+    "description": "Premium درجے کے لیے تفصیل"
+  },
+
+  "subscriptionAutoRenewNotice": "سبسکرپشن خود کار طریقے سے تجدید ہوگی، اور اگلی مدت کے بل سے بچنے کے لیے منسوخ کی جاسکتی ہے۔ جمع شدہ رقوم کا ایک حصہ المبتسم انیشی ایٹیو \uD83D\uDE00 کے ذریعے Islamic Relief کو عطیہ کیا جائے گا۔",
+  "@subscriptionAutoRenewNotice": {
+    "description": "خودکار تجدید اور عطیے سے متعلق مختصر اطلاع"
+  },
+
+  "subscriptionTierScreenSubscribeLabel": "سبسکرائب کریں",
+  "@subscriptionTierScreenSubscribeLabel": {
+    "description": "سبسکرپشن کی خریداری کی تصدیق کے لیے بٹن کا لیبل"
+  },
+
+  "subscriptionTierScreenFinalMessage": "ہم آپ کی سپورٹ کی قدر کرتے ہیں!",
+  "@subscriptionTierScreenFinalMessage": {
+    "description": "سبسکرپشن اسکرین کے نیچے مختصر آخری پیغام"
+  },
+  "subscriptionPurchaseRestoreSuccess": "آپ کی خریداریوں کو کامیابی کے ساتھ بحال کر دیا گیا ہے۔",
+  "@subscriptionPurchaseRestoreSuccess": {
+    "description": "خریداریوں کی بحالی کا عمل کامیاب ہونے پر دکھایا جاتا ہے"
+  },
+
+  "subscriptionTierScreenRestoreLabel": "خریداریوں کو بحال کریں",
+  "@subscriptionTierScreenRestoreLabel": {
+    "description": "پہلے سے خریدی گئی سبسکرپشنز کو بحال کرنے کے لیے بٹن کا لیبل"
+  },
+
+  "arabicLabel": "عربی",
+  "@arabicLabel": {
+    "description": "اس آپشن کا لیبل جب صارف متن کو عربی میں دیکھنا چاہے۔"
+  },
+
+  "transliterationLabel": "انگریزی",
+  "@transliterationLabel": {
+    "description": "اس آپشن کا لیبل جب صارف متن کو لاطینی حروف میں دیکھنا چاہے۔"
+  },
+
+  "surahSearchScreenTitle": "سورہ تلاش کریں",
+  "@surahSearchScreenTitle": {
+    "description": "سورہ تلاش کرنے والی اسکرین کا عنوان"
+  },
+
+  "genericBack": "واپس",
+  "@genericBack": {
+    "description": "ایپ بار میں واپس جانے کے بٹن کا لیبل"
+  },
+
+  "surahSearchSelectSurah": "ایک سورہ منتخب کریں:",
+  "@surahSearchSelectSurah": {
+    "description": "فہرست سے ایک سورہ منتخب کرنے کے لیے صارف کو ہدایت"
+  },
+
+  "surahSearchExistingPaths": "اس سورۃ کے لیے دستیاب راستے",
+  "@surahSearchExistingPaths": {
+    "description": "اس سیکشن کا عنوان جو صارف/سسٹم کے موجودہ راستوں کی فہرست دکھاتا ہے"
+  },
+
+  "surahSearchNoMatches": "کوئی موجودہ راستہ نہیں ملا۔",
+  "@surahSearchNoMatches": {
+    "description": "پیغام اگر منتخب سورہ سے متعلق کوئی راستہ نہ ہو"
+  },
+
+  "surahSearchHideCreateForm": "تخلیق فارم چھپائیں",
+  "@surahSearchHideCreateForm": {
+    "description": "نیا راستہ بنانے کا فارم بند کرنے کے لیے لیبل"
+  },
+
+  "surahSearchShowCreateForm": "سورۃ کے لیے نیا راستہ بنائیں",
+  "@surahSearchShowCreateForm": {
+    "description": "نیا راستہ بنانے کا فارم کھولنے کے لیے لیبل"
+  },
+
+  "createPathTrackProgress": "ترقی کو ٹریک کریں؟",
+  "@createPathTrackProgress": {
+    "description": "راستے کی ترقی کو ٹریک کرنے کے لیے ٹوگل/سوئچ کا لیبل"
+  },
+
+  "themeScreenSearchIconSemantic": "سورتوں کی تلاش",
+  "@themeScreenSearchIconSemantic": {
+    "description": "تھیم اسکرین کے ایپ بار میں تلاش کے آئیکن کے لیے ٹول ٹِپ متن"
+  },
+
+  "pathListSearchIconSemantic": "سورتوں کی تلاش",
+  "@pathListSearchIconSemantic": {
+    "description": "PathListScreen کے ایپ بار میں تلاش کے آئیکن کے لیے ٹول ٹِپ متن"
+  },
+
+  "pathLessonsSearchIconSemantic": "سورتوں کی تلاش",
+  "@pathLessonsSearchIconSemantic": {
+    "description": "PathLessonsScreen کے ایپ بار میں تلاش کے آئیکن کے لیے ٹول ٹِپ متن"
+  },
+
+  "playAllSurahSemantic": "پوری سورۃ چلائیں",
+  "@playAllSurahSemantic": {
+    "description": "‘تمام چلائیں’ آئیکن کے لیے وضاحت جو پوری سورۃ چلائے گا"
+  },
+
+  "toggleTransliterationLabel": "ترجمہ حرفی کو ٹوگل کریں",
+  "@toggleTransliterationLabel": {
+    "description": "عربی اور لاطینی (ترجمہ حرفی) کے درمیان سوئچ کرنے کے لیے ٹول ٹِپ"
+  },
+
+  "englishLabel": "انگریزی",
+  "@englishLabel": {
+    "description": "انگریزی ترجمہ حرفی کے آپشن کے لیے دکھایا جانے والا لیبل"
+  },
+
+  "subscriptionTierScreenPremiumPlusLabel": "ہماری مدد کریں (سالانہ)",
+  "@subscriptionTierScreenPremiumPlusLabel": {
+    "description": "Premium Plus درجے کے لیے لیبل"
+  },
+
+  "subscriptionTierScreenFreeDescription": "تمام خصوصیات مفت اور اشتہارات سے پاک ہیں!",
+  "@subscriptionTierScreenFreeDescription": {
+    "description": "مفت درجے کے لیے تفصیل"
+  },
+
+  "subscriptionTierScreenPremiumPlusDescription": "نئی خصوصیات اور بہتری کے لیے مالی معاونت کریں! نیز، تھوڑا سا سرمایہ لگانا عادت ڈالنے میں مددگار ثابت ہوسکتا ہے!",
+  "@subscriptionTierScreenPremiumPlusDescription": {
+    "description": "Pro درجے کے لیے تفصیل"
+  },
+
+  "subscriptionTierScreenSupportLabel": "سالانہ سپورٹ",
+  "@subscriptionTierScreenSupportLabel": {
+    "description": "’سپورٹ‘ درجے کے لیے سالانہ لیبل"
+  },
+
+  "verticalLessonIconsDialogBody": "تمام خصوصیات مفت ورژن میں دستیاب ہیں، لیکن اگر آپ چاہیں تو مزید فیچرز کی تیاری میں ہماری مدد کرسکتے ہیں۔ آپ کی سبسکرپشن کا ایک حصہ Islamic Relief کو عطیہ کیا جاتا ہے۔ جزاک اللہ خیراً!",
+  "@verticalLessonIconsDialogBody": {
+    "description": "اَپ گریڈ ڈائیلاگ کا متن جو فوائد اور صدقات سے متعلق بتاتا ہے"
+  },
+  "welcomeBody": "ہُدہُد نے نبی سلیمان [علیہ السلام] کی مدد میں ایک اہم کردار ادا کیا، پیغامات کی ترسیل اور مشاہدے کے ذریعے۔\n\nوہ آپ کو آپ کے سفر کے کسی بھی مرحلے پر ہو، جانچتا نہیں، بلکہ قرآن کی خوبصورتی دریافت کرنے اور ہر لمحے کو شکرگزاری کے ذریعے قیمتی بنانے میں آپ کی رہنمائی کرنے کے لیے پُرجوش ہے۔",
+  "@welcomeBody": {
+    "description": "ایپ کا بنیادی مقصد بیان کرنے والا مرکزی متن"
+  },
+
+  "surahSearchByName": "نام کے ذریعے تلاش کریں (انگریزی یا عربی)",
+  "@surahSearchByName": {
+    "description": "سرچ باکس کے اوپر کا لیبل جو سورت کو نام سے تلاش کرنے کے لیے ہے"
+  },
+
+  "surahSearchHintAnyName": "کوئی بھی سورت کا نام ٹائپ کریں...",
+  "@surahSearchHintAnyName": {
+    "description": "آٹو مکمل سرچ فیلڈ میں ہنٹ ٹیکسٹ"
+  },
+
+  "surahSearchFieldLabel": "سورت تلاش کریں",
+  "@surahSearchFieldLabel": {
+    "description": "آٹو مکمل سرچ فیلڈ کے لیے لیبل"
+  },
+
+  "surahSearchInvalidLessonsError": "ایک یا زائد اسباق نامعتبر ہیں۔ راستہ تخلیق نہیں ہوسکتا۔",
+  "@surahSearchInvalidLessonsError": {
+    "description": "جب تخلیق شدہ اسباق نامعتبر ہوں تو سناک بار میں دکھایا جانے والا پیغام"
+  },
+
+  "surahSearchUserSurahPrefix": "صارف کی سورت",
+  "@surahSearchUserSurahPrefix": {
+    "description": "اگر صارف کوئی نام درج نہ کرے تو راستے کے نام میں یہ بطور پیشوند استعمال ہوتا ہے"
+  },
+
+  "notificationDailyBody": "قرآن کے ذریعے چند لمحات کے لیے سکون حاصل کریں اور خود کو یاد دلائیں کہ آج آپ کس بات پر شکر گزار ہیں۔",
+  "@notificationDailyBody": {
+    "description": "روزانہ یاد دہانی کا متن"
+  }
+}

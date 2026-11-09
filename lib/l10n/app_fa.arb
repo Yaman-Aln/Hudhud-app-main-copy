@@ -1,0 +1,2379 @@
+{
+  "@@locale": "fa",
+
+  "commentA": "کلیدهای خوشامدگویی (Onboarding)",
+  "appBarTitleWelcome": "خوش آمدید",
+  "@appBarTitleWelcome": {
+    "description": "عنوانی که در نوار بالای صفحه خوش‌آمدگویی نمایش داده می‌شود"
+  },
+
+  "skipLabel": "رد کردن",
+  "@skipLabel": {
+    "description": "برچسب دکمه عمومی برای رد کردن یک مرحله"
+  },
+
+  "welcomeHeadline": "به «قرآن با هدهد» خوش آمدید!",
+  "@welcomeHeadline": {
+    "description": "متن عنوان در صفحه خوش‌آمدگویی"
+  },
+
+
+  "getStartedLabel": "شروع",
+  "@getStartedLabel": {
+    "description": "برچسب دکمه برای رفتن به مرحله بعدی در خوش‌آمدگویی"
+  },
+
+  "commentB": "کلیدهای صفحه درس",
+  "lessonScreenAppBarTitle": "درس",
+  "@lessonScreenAppBarTitle": {
+    "description": "متن عنوان نوار بالای صفحه درس"
+  },
+
+  "noAyahAvailable": "هیچ آیهای برای پخش موجود نیست.",
+  "@noAyahAvailable": {
+    "description": "پیامِ میان‌بر (Snackbar) در صورت نبود هیچ آیه‌ای برای پخش"
+  },
+
+  "audioNotFound": "فایل صوتی در آدرس {url} یافت نشد",
+  "@audioNotFound": {
+    "description": "پیام خطا زمانی که فایل صوتی روی سرور موجود نباشد",
+    "placeholders": {
+      "url": {}
+    }
+  },
+
+  "restartLessonTitle": "شروع مجدد درس",
+  "@restartLessonTitle": {
+    "description": "عنوان گفت‌وگو هنگام تلاش کاربر برای بازنشانی پیشرفت درس"
+  },
+
+  "resetLessonBody": "همه پیشرفت شما در این درس بازنشانی شود؟",
+  "@resetLessonBody": {
+    "description": "متن بدنه گفت‌وگو جهت بازنشانی درس"
+  },
+
+  "cancelLabel": "لغو",
+  "@cancelLabel": {
+    "description": "برچسب دکمه عمومی برای لغو یک عمل"
+  },
+
+  "yesLabel": "بله",
+  "@yesLabel": {
+    "description": "برچسب دکمه عمومی برای تأیید یک عمل"
+  },
+
+  "errorResettingLesson": "خطا در بازنشانی درس",
+  "@errorResettingLesson": {
+    "description": "متن آغازین پیام خطا در صورت عدم موفقیت در بازنشانی یک درس"
+  },
+
+  "startLabel": "شروع",
+  "@startLabel": {
+    "description": "برچسب دکمه برای شروع یک درس یا جلسه"
+  },
+
+  "submitLabel": "ارسال",
+  "@submitLabel": {
+    "description": "برچسب دکمه برای ثبت یا ارسال فرم"
+  },
+
+  "nextLabel": "بعدی",
+  "@nextLabel": {
+    "description": "برچسب دکمه برای رفتن به مرحله بعد"
+  },
+
+  "voiceErrorMicDeniedTitle": "دسترسی میکروفون رد شد",
+  "@voiceErrorMicDeniedTitle": {
+    "description": "عنوان کادر محاوره زمانی که کاربر اجازه دسترسی به میکروفون را نمی‌دهد"
+  },
+  "voiceErrorMicDeniedBody": "برای ضبط صدا نیاز به دسترسی میکروفون است. لطفاً در تنظیمات اجازه دسترسی را صادر کنید.",
+  "@voiceErrorMicDeniedBody": {
+    "description": "متن بدنه کادر محاوره در صورت رد شدن دسترسی به میکروفون"
+  },
+  "voiceErrorMicDeniedSemanticLabel": "گفت‌وگوی عدم دسترسی به میکروفون",
+  "@voiceErrorMicDeniedSemanticLabel": {
+    "description": "برچسب معنایی برای صفحه‌خوان‌ها"
+  },
+
+  "voiceErrorRecorderStartTitle": "خطا در ضبط صدا",
+  "@voiceErrorRecorderStartTitle": {
+    "description": "عنوان کادر محاوره در صورت عدم موفقیت در شروع ضبط"
+  },
+  "voiceErrorRecorderStartBody": "قادر به شروع ضبط نبودیم. لطفاً دوباره تلاش کنید.",
+  "@voiceErrorRecorderStartBody": {
+    "description": "متن بدنه در صورت بروز مشکل هنگام آغاز ضبط"
+  },
+  "voiceErrorRecorderStartSemanticLabel": "گفت‌وگوی خطای شروع ضبط",
+  "@voiceErrorRecorderStartSemanticLabel": {
+    "description": "برچسب معنایی برای صفحه‌خوان‌ها"
+  },
+
+  "voiceErrorRecorderStopTitle": "خطا در توقف ضبط",
+  "@voiceErrorRecorderStopTitle": {
+    "description": "عنوان کادر محاوره در صورت عدم موفقیت در توقف ضبط"
+  },
+  "voiceErrorRecorderStopBody": "ضبط‌کننده به‌درستی متوقف نشد. لطفاً دوباره تلاش کنید.",
+  "@voiceErrorRecorderStopBody": {
+    "description": "متن بدنه در صورت بروز مشکل هنگام توقف ضبط"
+  },
+  "voiceErrorRecorderStopSemanticLabel": "گفت‌وگوی خطای توقف ضبط",
+  "@voiceErrorRecorderStopSemanticLabel": {
+    "description": "برچسب معنایی برای صفحه‌خوان‌ها"
+  },
+
+  "voiceErrorNoSoundTitle": "صوتی شناسایی نشد",
+  "@voiceErrorNoSoundTitle": {
+    "description": "عنوان کادر محاوره در صورت خالی یا بسیار کم بودن صدای ضبط‌شده"
+  },
+  "voiceErrorNoSoundBody": "ضبط شما بی‌صدا یا خیلی آرام بود. لطفاً دوباره تلاش کنید.",
+  "@voiceErrorNoSoundBody": {
+    "description": "متن بدنه کادر محاوره برای حالت بی‌صدا"
+  },
+  "voiceErrorNoSoundSemanticLabel": "گفت‌وگوی عدم تشخیص صدا",
+  "@voiceErrorNoSoundSemanticLabel": {
+    "description": "برچسب معنایی برای صفحه‌خوان‌ها"
+  },
+
+  "voiceErrorTranscriptionTitle": "خطا در تبدیل گفتار به متن",
+  "@voiceErrorTranscriptionTitle": {
+    "description": "عنوان در صورت بروز خطا در شبکه یا سرور جهت تبدیل صوت به متن"
+  },
+  "voiceErrorTranscriptionBody": "قادر به تبدیل صدای شما نبودیم. لطفاً اتصال خود را بررسی کرده و دوباره تلاش کنید.",
+  "@voiceErrorTranscriptionBody": {
+    "description": "متن بدنه کادر محاوره خطا در تبدیل گفتار به متن"
+  },
+  "voiceErrorTranscriptionSemanticLabel": "گفت‌وگوی خطای تبدیل گفتار به متن",
+  "@voiceErrorTranscriptionSemanticLabel": {
+    "description": "برچسب معنایی برای صفحه‌خوان‌ها"
+  },
+
+  "tapColoredWordsHint": "برای مشاهده نسخه تصحیح‌شده، روی واژه‌های رنگی ضربه بزنید.",
+  "@tapColoredWordsHint": {
+    "description": "اطلاع‌رسانی به کاربر درباره امکان مشاهده کلمات تصحیح‌شده قرآن"
+  },
+
+  "emptyInputWarning": "قبل از ارسال باید چیزی وارد کنید",
+  "@emptyInputWarning": {
+    "description": "هشدار در صورت تلاش کاربر برای ارسال متن خالی"
+  },
+
+  "getHintLabel": "دریافت راهنما",
+  "@getHintLabel": {
+    "description": "برچسب دکمه برای نمایش راهنما"
+  },
+
+  "removeHintLabel": "حذف راهنما",
+  "@removeHintLabel": {
+    "description": "برچسب دکمه برای حذف راهنمای فعال‌شده"
+  },
+
+  "typeTheMissingWordsLabel": "کلمه(های) جاافتاده را وارد کنید",
+  "@typeTheMissingWordsLabel": {
+    "description": "برچسب بالای فیلد متنی برای کلمات حذف‌شده"
+  },
+
+  "difficultyLabel": "درجه سختی",
+  "@difficultyLabel": {
+    "description": "برچسب بالای فهرست انتخاب درجه سختی"
+  },
+
+  "repeatCountLabel": "تعداد تکرار",
+  "@repeatCountLabel": {
+    "description": "برچسب بالای فهرست انتخاب تعداد تکرار"
+  },
+
+  "backButtonLabel": "بازگشت",
+  "@backButtonLabel": {
+    "description": "برچسب معنایی برای پیکان بازگشت در نوار بالای صفحه درس"
+  },
+
+  "toggleTranslationLabel": "ترجمه درون‌خطی را تغییر بده",
+  "@toggleTranslationLabel": {
+    "description": "برچسب معنایی برای آیکونی که ترجمه آیه را نشان/مخفی می‌کند"
+  },
+
+  "openTranslationScreenLabel": "باز کردن صفحه ترجمه",
+  "@openTranslationScreenLabel": {
+    "description": "برچسب معنایی برای آیکونی که صفحه جداگانه ترجمه را باز می‌کند"
+  },
+
+  "restartLessonSemanticLabel": "شروع مجدد درس",
+  "@restartLessonSemanticLabel": {
+    "description": "برچسب معنایی برای دکمه آیکونی شروع مجدد درس"
+  },
+
+  "verseDisplayAreaLabel": "ناحیه نمایش آیات قرآن",
+  "@verseDisplayAreaLabel": {
+    "description": "برچسب معنایی برای کانتینر اصلی نمایش آیات"
+  },
+
+  "playAudioSemanticLabel": "پخش صوت آیه",
+  "@playAudioSemanticLabel": {
+    "description": "برچسب معنایی برای دکمه آیکونی پخش صوت"
+  },
+
+  "openGratitudeSemanticLabel": "باز کردن پنجره شکرگزاری",
+  "@openGratitudeSemanticLabel": {
+    "description": "برچسب معنایی برای دکمه آیکون باز کردن پنجره شکرگزاری"
+  },
+
+  "voiceUsageSemanticLabel": "استفاده صوتی به دقیقه",
+  "@voiceUsageSemanticLabel": {
+    "description": "برچسب معنایی برای ناحیه نمایش آمار مصرف صدا (ویژه PremiumPlus)"
+  },
+
+  "voiceRecordSemanticLabel": "شروع یا توقف ضبط صدا",
+  "@voiceRecordSemanticLabel": {
+    "description": "برچسب معنایی برای دکمه آیکون میکروفون در پسوند فیلد متن"
+  },
+
+  "commentC": "رشته‌های صفحه اصلی (HOME)",
+  "homeTitle": "خانه",
+  "@homeTitle": {
+    "description": "عنوان نوار بالای صفحه اصلی"
+  },
+
+  "noPathsLabel": "مسیر معتبری در دسترس نیست.",
+  "@noPathsLabel": {
+    "description": "نمایش در صورت نبود هیچ مسیر فعالی"
+  },
+
+  "errorLoadingActivePath": "خطا در بارگذاری مسیر فعال: {err}",
+  "@errorLoadingActivePath": {
+    "description": "پیام خطا در صورت عدم موفقیت در بازیابی مسیر فعال",
+    "placeholders": {
+      "err": {}
+    }
+  },
+
+  "verticalLessonIconsGoToTheme": "رفتن به موضوع",
+  "@verticalLessonIconsGoToTheme": {
+    "description": "برچسب دکمه برای پیمایش به صفحه موضوع وقتی کاربر مسیر را کامل کرده است"
+  },
+
+  "homePathCardLabel": "برای باز کردن صفحه موضوع ضربه بزنید",
+  "@homePathCardLabel": {
+    "description": "برچسب معنایی برای ضربه زدن روی کارت مسیر"
+  },
+
+  "arrowForwardSemanticLabel": "باز کردن جزئیات",
+  "@arrowForwardSemanticLabel": {
+    "description": "برچسب معنایی برای آیکون فلش رو به جلو در کارت مسیر"
+  },
+
+  "noTrackProgressLabel": "این مسیر پیشرفت را ثبت نمی‌کند.",
+  "@noTrackProgressLabel": {
+    "description": "نمایش در صورت عدم ثبت پیشرفت در مسیر"
+  },
+
+  "premiumRequiredLabel": "برای فعال کردن قابلیت ثبت پیشرفت ارتقا دهید. از ما حمایت کنید تا قابلیت‌های بیشتری اضافه کنیم!",
+  "@premiumRequiredLabel": {
+    "description": "نمایش در صورت استفاده رایگان کاربر اما مسیر قابلیت ثبت پیشرفت دارد"
+  },
+
+  "completedLabel": "تکمیل‌شده",
+  "@completedLabel": {
+    "description": "پسوند برای مثال «xx% تکمیل‌شده»"
+  },
+
+  "fabLogGratitudeLabel": "برای ثبت شکرگزاری ضربه بزنید",
+  "@fabLogGratitudeLabel": {
+    "description": "برچسب معنایی برای دکمه شناور ثبت شکرگزاری"
+  },
+
+  "errorNavigatingToLesson": "خطا در رفتن به صفحه درس",
+  "@errorNavigatingToLesson": {
+    "description": "پیام خطا در صورت عدم موفقیت در باز کردن صفحه درس"
+  },
+
+  "commentD": "رشته‌های صفحه نمایه (Profile)",
+  "profileTitle": "نمایه",
+  "@profileTitle": {
+    "description": "عنوان نوار بالای صفحه پروفایل"
+  },
+
+  "profileBackArrowLabel": "بازگشت به صفحه قبلی",
+  "@profileBackArrowLabel": {
+    "description": "برچسب معنایی برای پیکان بازگشت در صفحه نمایه"
+  },
+
+  "profileAvatarSemanticLabel": "تصویر آواتار کاربر",
+  "@profileAvatarSemanticLabel": {
+    "description": "برچسب معنایی برای دایره آواتار که حرف اول نام کاربر را نشان می‌دهد"
+  },
+
+  "profileEnterYourName": "نام خود را وارد کنید",
+  "@profileEnterYourName": {
+    "description": "متن راهنما در فیلد متنی برای نام کاربر"
+  },
+
+  "nameEntryNotificationFrequencyDropdownLabel": "میزان اعلان‌ها",
+  "@nameEntryNotificationFrequencyDropdownLabel": {
+    "description": "برچسب توضیح‌دهنده فهرست کشویی برای انتخاب میزان اعلان"
+  },
+
+  "nameEntryNotificationFrequencyWeekly": "هفتگی",
+  "@nameEntryNotificationFrequencyWeekly": {
+    "description": "گزینه فهرست کشویی برای اعلان‌های هفتگی"
+  },
+
+  "nameEntryNotificationFrequencyNone": "بدون اعلان",
+  "@nameEntryNotificationFrequencyNone": {
+    "description": "گزینه فهرست کشویی برای عدم اعلان"
+  },
+
+  "notificationPermissionPrompt": "مایلیم یادآوری‌های ملایمی ارسال کنیم تا شکرگزاری یا تکالیف درس‌تان را تکمیل کنید — اگر مایلید به ایجاد عادت کمک کنیم لطفاً اجازه ارسال اعلان‌ها را بدهید \uD83D\uDE03.",
+  "@notificationPermissionPrompt": {
+    "description": "توضیح کوتاه درباره علت درخواست دسترسی ارسال اعلان"
+  },
+
+  "profileNameSave": "ذخیره",
+  "@profileNameSave": {
+    "description": "برچسب دکمه برای ذخیره نام کاربر جدید"
+  },
+
+  "profileNameCancel": "لغو",
+  "@profileNameCancel": {
+    "description": "برچسب دکمه برای انصراف از ویرایش نام کاربر"
+  },
+
+  "profileNameGuest": "میهمان",
+  "@profileNameGuest": {
+    "description": "نام پیش‌فرض اگر کاربر چیزی وارد نکند"
+  },
+
+  "profileNameEdit": "ویرایش",
+  "@profileNameEdit": {
+    "description": "برچسب دکمه برای آغاز ویرایش نام کاربر"
+  },
+
+  "profilePreferredLanguage": "زبان:",
+  "@profilePreferredLanguage": {
+    "description": "برچسب بالای فهرست کشویی زبان در صفحه نمایه"
+  },
+
+  "okLabel": "باشه",
+  "@okLabel": {
+    "description": "دکمه تأیید یا پذیرش"
+  },
+
+  "profileReciterLabel": "قاری",
+  "@profileReciterLabel": {
+    "description": "برچسب فهرست کشویی قاری در صفحه نمایه"
+  },
+
+  "profileFontLabel": "فونت:",
+  "@profileFontLabel": {
+    "description": "برچسب فهرست کشویی فونت در صفحه نمایه"
+  },
+
+  "profileReciterMishary": "مشاری راشد العفاسی",
+  "@profileReciterMishary": {
+    "description": "نام نمایشی قاری شماره ۱"
+  },
+
+  "profileReciterShatri": "ابوبکر الشاطری",
+  "@profileReciterShatri": {
+    "description": "نام نمایشی قاری شماره ۲"
+  },
+
+  "profileReciterQatami": "ناصر القطامی",
+  "@profileReciterQatami": {
+    "description": "نام نمایشی قاری شماره ۳"
+  },
+
+  "profileUpgradePremiumTitle": "شخصی‌سازی بیشتر را باز کنید!",
+  "@profileUpgradeProTitle": {
+    "description": "عنوان کادر گفتگو درخواست ارتقا به نسخه حرفه‌ای"
+  },
+  "profileUpgradePremiumBody": "با ارتقا به نسخه حرفه‌ای، امکان تغییر فونت و قاری را خواهید داشت. از تلاش پیوسته ما حمایت کنید و تجربه خود را بیشتر شخصی‌سازی نمایید!",
+  "@profileUpgradeProBody": {
+    "description": "متن درخواست برای ارتقا به نسخه حرفه‌ای جهت سفارشی‌سازی بیشتر"
+  },
+
+  "profileWeeksProgress": "ماشاءالله، پیشرفت هفته شما:",
+  "@profileWeeksProgress": {
+    "description": "عنوان بخشی که پیشرفت هفتگی کاربر را نشان می‌دهد"
+  },
+
+  "profileGratefulnessCalendar": "تقویم شکرگزاری",
+  "@profileGratefulnessCalendar": {
+    "description": "عنوان بخش تقویم شکرگزاری هفتگی"
+  },
+
+  "profileQuranLearningCalendar": "تقویم یادگیری قرآن",
+  "@profileQuranLearningCalendar": {
+    "description": "عنوان بخش تقویم ارسال درس‌های هفتگی"
+  },
+
+  "profilePrevWeekSemantic": "رفتن به هفته قبل",
+  "@profilePrevWeekSemantic": {
+    "description": "برچسب معنایی برای پیکان سمت چپ که به هفته قبل می‌رود"
+  },
+
+  "profileNextWeekSemantic": "رفتن به هفته بعد",
+  "@profileNextWeekSemantic": {
+    "description": "برچسب معنایی برای پیکان سمت راست که به هفته بعد می‌رود"
+  },
+
+  "profileNotificationFrequency": "میزان اعلان‌ها",
+  "@profileNotificationFrequency": {
+    "description": "برچسب بالای فهرست کشویی میزان اعلان در صفحه نمایه"
+  },
+
+  "commentE": "رشته‌های صفحه ثبت شکرگزاری (Gratitude Log)",
+  "gratitudeLogTitle": "دفترچه شکرگزاری من",
+  "@gratitudeLogTitle": {
+    "description": "عنوان نوار بالای صفحه دفترچه شکرگزاری"
+  },
+
+  "gratitudeLogBackArrowSemantic": "بازگشت به خانه",
+  "@gratitudeLogBackArrowSemantic": {
+    "description": "برچسب معنایی برای پیکان بازگشت در دفترچه شکرگزاری"
+  },
+
+  "gratitudeLogClearAllSemantic": "حذف همه موارد شکرگزاری",
+  "@gratitudeLogClearAllSemantic": {
+    "description": "برچسب معنایی برای آیکون حذف در دفترچه شکرگزاری"
+  },
+
+  "gratitudeLogAddSemantic": "افزودن مورد شکرگزاری جدید",
+  "@gratitudeLogAddSemantic": {
+    "description": "برچسب معنایی برای آیکون افزودن در دفترچه شکرگزاری"
+  },
+
+  "gratitudeLogClearDialogTitle": "حذف دفترچه شکرگزاری",
+  "@gratitudeLogClearDialogTitle": {
+    "description": "عنوان گفت‌وگو برای تأیید حذف همه موارد شکرگزاری"
+  },
+
+  "gratitudeLogClearDialogBody": "آیا مطمئن هستید که می‌خواهید همه موارد شکرگزاری خود را پاک کنید؟ این عمل قابل بازگشت نیست.",
+  "@gratitudeLogClearDialogBody": {
+    "description": "متن بدنه گفت‌وگو برای حذف همه موارد شکرگزاری"
+  },
+
+  "gratitudeLogClearConfirm": "بله، حذف شود",
+  "@gratitudeLogClearConfirm": {
+    "description": "برچسب دکمه تأیید برای حذف همه موارد"
+  },
+
+  "gratitudeLogStreak": "⭐ رکورد شکرگزاری: {days} روز",
+  "@gratitudeLogStreak": {
+    "description": "خط نمایشی رکورد، مانند ۳ روز متوالی",
+    "placeholders": {
+      "days": {}
+    }
+  },
+
+  "gratitudeLogStreakLoading": "در حال محاسبه رکورد...",
+  "@gratitudeLogStreakLoading": {
+    "description": "نمایش هنگام بارگیری داده رکورد شکرگزاری"
+  },
+
+  "gratitudeLogStreakError": "محاسبه رکورد با شکست مواجه شد.",
+  "@gratitudeLogStreakError": {
+    "description": "متن خطا در صورت عدم موفقیت در بارگیری رکورد"
+  },
+
+  "gratitudeLogTotalDays": "مجموع روزهای شکرگزاری: {count}",
+  "@gratitudeLogTotalDays": {
+    "description": "تعداد روزهای مجزا که کاربر شکرگزاری ثبت کرده است",
+    "placeholders": {
+      "count": {}
+    }
+  },
+
+  "gratitudeLogDataLoading": "در حال بارگیری اطلاعات شکرگزاری...",
+  "@gratitudeLogDataLoading": {
+    "description": "نمایش هنگام بارگیری داده شکرگزاری"
+  },
+
+  "gratitudeLogDataError": "خطا در بارگیری اطلاعات شکرگزاری.",
+  "@gratitudeLogDataError": {
+    "description": "متن خطا در صورت عدم موفقیت در بارگیری داده شکرگزاری"
+  },
+
+  "gratitudeLogCardSemantic": "کارت مورد شکرگزاری",
+  "@gratitudeLogCardSemantic": {
+    "description": "برچسب معنایی برای هر کارت شکرگزاری در فهرست"
+  },
+
+  "gratitudeLogItemIcon": "آیکون شکرگزاری",
+  "@gratitudeLogItemIcon": {
+    "description": "برچسب معنایی برای آیکون قلب کنار هر مورد"
+  },
+
+  "gratitudeLogEmptyIconSemantic": "برای افزودن اولین شکرگزاری ضربه بزنید",
+  "@gratitudeLogEmptyIconSemantic": {
+    "description": "برچسب معنایی برای آیکون نارنجی بزرگ در صفحه خالی"
+  },
+
+  "gratitudeLogEmptyMessage": "هنوز هیچ مورد شکرگزاری ثبت نشده است.\nبرای افزودن اولین شکرگزاری، روی «+» ضربه بزنید!",
+  "@gratitudeLogEmptyMessage": {
+    "description": "دستورالعمل در صورت خالی بودن دفترچه شکرگزاری"
+  },
+
+  "gratitudeLogEntriesAdded": "موارد شکرگزاری با موفقیت اضافه شد!",
+  "@gratitudeLogEntriesAdded": {
+    "description": "پیام میان‌بر (Snackbar) در صورت موفقیت افزودن مورد جدید"
+  },
+
+  "gratitudeLogEntriesFailed": "افزودن شکرگزاری‌ها ناموفق بود. لطفاً دوباره تلاش کنید.",
+  "@gratitudeLogEntriesFailed": {
+    "description": "پیام میان‌بر در صورت عدم موفقیت افزودن شکرگزاری جدید"
+  },
+
+  "commentF": "رشته‌های صفحه اتمام درس (Lesson Completion)",
+  "lessonCompletedTitle": "درس کامل شد",
+  "@lessonCompletedTitle": {
+    "description": "عنوان نوار بالای صفحه اتمام درس"
+  },
+
+  "lessonCompletedBackArrowSemantic": "بازگشت به صفحه اصلی",
+  "@lessonCompletedBackArrowSemantic": {
+    "description": "برچسب معنایی برای پیکان بازگشت در صفحه اتمام درس"
+  },
+
+  "lessonCompletedMashaAllah": "ماشاءالله!",
+  "@lessonCompletedMashaAllah": {
+    "description": "متن تبریک درشت"
+  },
+
+  "lessonCompletedMashaAllahSemantic": "متن تبریک",
+  "@lessonCompletedMashaAllahSemantic": {
+    "description": "برچسب معنایی برای متن سبز رنگ تبریک"
+  },
+
+  "lessonCompletedMessage": "شما این درس را به پایان رساندید!",
+  "@lessonCompletedMessage": {
+    "description": "زیرنویس نشان‌دهنده اتمام درس توسط کاربر"
+  },
+
+  "lessonCompletedImageSemantic": "تصویر هدهد و قرآن",
+  "@lessonCompletedImageSemantic": {
+    "description": "برچسب معنایی برای تصویر موفقیت نمایشی"
+  },
+
+  "lessonCompletedGoBackSemantic": "بازگشت به انتخاب مسیر",
+  "@lessonCompletedGoBackSemantic": {
+    "description": "برچسب معنایی برای دکمه «بازگشت به مسیر»"
+  },
+
+  "lessonCompletedGoBackButton": "بازگشت به مسیر",
+  "@lessonCompletedGoBackButton": {
+    "description": "برچسب دکمه برای بازگشت به صفحه مسیر/خانه"
+  },
+
+  "lessonCompletedRestartSemantic": "شروع مجدد درس",
+  "@lessonCompletedRestartSemantic": {
+    "description": "برچسب معنایی برای دکمه «شروع مجدد درس»"
+  },
+
+  "lessonCompletedRestartButton": "شروع مجدد درس",
+  "@lessonCompletedRestartButton": {
+    "description": "برچسب دکمه برای آغاز مجدد همان درس"
+  },
+
+  "lessonCompletedEncouragement": "همین‌طور ادامه بدهید!",
+  "@lessonCompletedEncouragement": {
+    "description": "متن تشویقی پایانی"
+  },
+
+  "commentG": "رشته‌های صفحه موضوعات (Theme Screen)",
+  "themeScreenTitle": "موضوعات",
+  "@themeScreenTitle": {
+    "description": "عنوان نوار بالای صفحه موضوعات"
+  },
+
+  "themeNameCoreRecitation": "تلاوت روزانه اصلی",
+  "@themeNameCoreRecitation": {
+    "description": "نام موضوع شامل سوره فاتحه، اخلاص و غیره"
+  },
+
+  "themeNameBeginJourney": "شروع سفر",
+  "@themeNameBeginJourney": {
+    "description": "نام موضوع سوره‌های کوتاه برای مبتدیان"
+  },
+
+  "themeNameMercyAndHope": "رحمت و امید",
+  "@themeNameMercyAndHope": {
+    "description": "نام موضوعی با تمرکز بر مهربانی الهی و نگاه مثبت"
+  },
+
+  "themeNameGratitudeReflection": "شکرگزاری و تأمل",
+  "@themeNameGratitudeReflection": {
+    "description": "نام موضوع با تمرکز بر آیات شکرگزاری"
+  },
+
+  "themeNameStoriesReminders": "داستان‌ها، درس‌ها و یادآوری‌ها",
+  "@themeNameStoriesReminders": {
+    "description": "نام موضوع حاوی بخش‌های روایی مختلف"
+  },
+
+  "themeNamePatience": "صبر (Sabr)",
+  "@themeNamePatience": {
+    "description": "نام موضوع پیرامون شکیبایی و استقامت"
+  },
+
+  "themeNameUserCreated": "ایجاد شده توسط کاربر",
+  "@themeNameUserCreated": {
+    "description": "نام موضوعی که کاربر ایجاد کرده است"
+  },
+
+  "themeScreenNoThemesLabel": "هیچ موضوعی در دسترس نیست",
+  "@themeScreenNoThemesLabel": {
+    "description": "نمایش در صورت عدم بازگشت داده موضوع"
+  },
+
+  "themeScreenBackArrowSemantic": "بازگشت",
+  "@themeScreenBackArrowSemantic": {
+    "description": "برچسب معنایی برای پیکان بازگشت نوار بالای صفحه موضوع"
+  },
+
+  "themeScreenThemeCardSemantic": "برای باز کردن مسیرهای این موضوع ضربه بزنید",
+  "@themeScreenThemeCardSemantic": {
+    "description": "برچسب معنایی برای هر کارت موضوع در فهرست"
+  },
+
+  "themeScreenLockIconSemantic": "موضوع قفل است. نیاز به ارتقا دارد.",
+  "@themeScreenLockIconSemantic": {
+    "description": "برچسب معنایی برای آیکون قفل اگر موضوع نیاز به ارتقا داشته باشد"
+  },
+
+  "pathListExploreOtherThemes": "کاوش سایر موضوعات",
+  "@pathListExploreOtherThemes": {
+    "description": "برچسب دکمه برای پیمایش به صفحه موضوع جهت کاوش دیگر موضوع‌ها"
+  },
+
+  "themeScreenUserCreatedSubtitle": "توسط شما ایجاد شده — مطابق سلیقه‌تان شخصی‌سازی کنید.",
+  "@themeScreenUserCreatedSubtitle": {
+    "description": "زیرنویس برای موضوعات ایجادشده توسط کاربر"
+  },
+
+  "themeSubtitleCoreRecitation": "سوره‌های اصلی برای نمازهای روزانه و محافظت.",
+  "@themeSubtitleCoreRecitation": {
+    "description": "زیرنویس برای theme_core_recitation"
+  },
+
+  "themeSubtitleBeginJourney": "سوره‌های کوتاه برای آغاز سفر قرآنی.",
+  "@themeSubtitleBeginJourney": {
+    "description": "زیرنویس برای theme_begin_journey"
+  },
+
+  "themeSubtitleMercyAndHope": "تأمل در مهربانی الهی و پرورش امید.",
+  "@themeSubtitleMercyAndHope": {
+    "description": "زیرنویس برای theme_mercy_and_hope"
+  },
+
+  "themeSubtitleGratitudeReflection": "ایجاد شکرگزاری و تفکر از طریق آیات منتخب.",
+  "@themeSubtitleGratitudeReflection": {
+    "description": "زیرنویس برای theme_gratitude_reflection"
+  },
+
+  "themeSubtitleStoriesReminders": "روایت‌های قرآنی برای راهنمایی و یادآوری.",
+  "@themeSubtitleStoriesReminders": {
+    "description": "زیرنویس برای theme_stories_reminders"
+  },
+
+  "themeSubtitlePatience": "سوره‌ها و آیاتی در تأکید بر صبر و استقامت.",
+  "@themeSubtitlePatience": {
+    "description": "زیرنویس برای theme_patience"
+  },
+
+  "themeSubtitleDefault": "مجموعه ویژه سوره‌ها برای رشد معنوی عمیق‌تر.",
+  "@themeSubtitleDefault": {
+    "description": "زیرنویس پیش‌فرض اگر هیچ شناسه موضوعی مطابق نباشد"
+  },
+
+  "themeScreenRequiredPremium": "نیاز به پریمیوم",
+  "@themeScreenRequiredPremium": {
+    "description": "برچسب در صورت نیاز موضوع به اشتراک پریمیوم"
+  },
+
+  "themeScreenRequiredPremiumPlus": "نیاز به پریمیوم پلاس",
+  "@themeScreenRequiredPremiumPlus": {
+    "description": "برچسب در صورت نیاز موضوع به اشتراک پریمیوم پلاس"
+  },
+
+  "commentH": "رشته‌های صفحه فهرست مسیرها (Path List Screen)",
+  "pathListScreenTitle": "مسیرهای این موضوع",
+  "@pathListScreenTitle": {
+    "description": "عنوان نوار بالای صفحه PathListScreen"
+  },
+
+  "pathListScreenBackArrowSemantic": "بازگشت",
+  "@pathListScreenBackArrowSemantic": {
+    "description": "برچسب معنایی برای پیکان بازگشت نوار بالای صفحه"
+  },
+
+  "pathListScreenAddIconSemantic": "افزودن مسیر جدید",
+  "@pathListScreenAddIconSemantic": {
+    "description": "برچسب معنایی برای آیکون افزودن در نوار بالای صفحه"
+  },
+
+  "pathListAddNewPathTooltip": "افزودن مسیر جدید",
+  "@pathListAddNewPathTooltip": {
+    "description": "راهنمای ابزار (Tooltip) دکمه افزودن مسیر جدید"
+  },
+
+  "pathListScreenAddIconSemanticEmpty": "برای افزودن اولین مسیر ضربه بزنید",
+  "@pathListScreenAddIconSemanticEmpty": {
+    "description": "برچسب معنایی برای آیکون بزرگ افزودن در صفحه خالی مسیر"
+  },
+
+  "pathListEmptyMessage": "هیچ مسیری وجود ندارد.\nبرای ایجاد اولین مسیر، روی «+» ضربه بزنید!",
+  "@pathListEmptyMessage": {
+    "description": "پیام در صورت نبود مسیر"
+  },
+
+  "pathListUnavailableLabel": "این مسیر در حال حاضر قابل استفاده نیست",
+  "@pathListUnavailableLabel": {
+    "description": "نمایش در صورت نامعتبر بودن مسیر"
+  },
+
+  "pathListThemeLabel": "موضوع",
+  "@pathListThemeLabel": {
+    "description": "بعد از نام موضوع استفاده می‌شود، مثلاً «موضوع «رحمت»»"
+  },
+
+  "pathListPathCardSemantic": "برای باز کردن جزئیات مسیر ضربه بزنید",
+  "@pathListPathCardSemantic": {
+    "description": "برچسب معنایی برای هر کارت مسیر در فهرست"
+  },
+
+  "pathListCompleteIconSemantic": "مسیر تکمیل شده",
+  "@pathListCompleteIconSemantic": {
+    "description": "برچسب معنایی برای آیکون تیک سبز"
+  },
+
+  "pathListInProgressIconSemantic": "مسیر در حال پیشرفت",
+  "@pathListInProgressIconSemantic": {
+    "description": "برچسب معنایی برای آیکون ساعت شنی"
+  },
+
+  "pathListInvalidIconSemantic": "مسیر نامعتبر یا غیرقابل استفاده",
+  "@pathListInvalidIconSemantic": {
+    "description": "برچسب معنایی برای آیکون خطای قرمز"
+  },
+
+  "pathListErrorLoadingPaths": "خطا در بارگذاری مسیرها:",
+  "@pathListErrorLoadingPaths": {
+    "description": "متن آغازین خطا در صورت عدم موفقیت در بارگیری داده مسیرها"
+  },
+
+  "commentI": "رشته‌های صفحه جزئیات مسیر (Path Detail Screen)",
+  "pathDetailScreenTitle": "جزئیات مسیر",
+  "@pathDetailScreenTitle": {
+    "description": "عنوان نوار بالای صفحه Path Detail"
+  },
+
+  "pathDetailScreenBackArrowSemantic": "بازگشت به فهرست مسیرها",
+  "@pathDetailScreenBackArrowSemantic": {
+    "description": "برچسب معنایی برای پیکان بازگشت در PathDetailScreen"
+  },
+
+  "pathDetailScreenNotFound": "مسیر پیدا نشد.",
+  "@pathDetailScreenNotFound": {
+    "description": "نمایش در صورت عدم موفقیت در بازیابی مسیر"
+  },
+
+  "pathDetailScreenFailToUpdate": "به‌روزرسانی پیشرفت مسیر ناموفق بود:",
+  "@pathDetailScreenFailToUpdate": {
+    "description": "متن آغازین پیام خطا در صورت عدم موفقیت به‌روزرسانی پیشرفت مسیر"
+  },
+
+  "pathDetailScreenProgressDisabled": "برای این مسیر پیشرفت فعال نیست.",
+  "@pathDetailScreenProgressDisabled": {
+    "description": "نمایش در صورت path.tracksProgress == false"
+  },
+
+  "pathDetailScreenLessonsHeading": "درس‌ها:",
+  "@pathDetailScreenLessonsHeading": {
+    "description": "تیتر بالای فهرست درس‌ها"
+  },
+
+  "pathDetailScreenNoLessonsLabel": "هیچ درسی موجود نیست.",
+  "@pathDetailScreenNoLessonsLabel": {
+    "description": "نمایش در صورت صفر بودن درس‌های مسیر"
+  },
+
+  "pathDetailScreenErrorLoading": "خطا در بارگذاری مسیر یا درس‌ها:",
+  "@pathDetailScreenErrorLoading": {
+    "description": "متن آغازین خطا در صورت شکست در بارگذاری داده در صفحه جزئیات مسیر"
+  },
+
+  "pathDetailScreenLessonCardSemantic": "برای باز کردن جزئیات درس ضربه بزنید",
+  "@pathDetailScreenLessonCardSemantic": {
+    "description": "برچسب معنایی برای هر کارت درس در فهرست جزئیات مسیر"
+  },
+
+  "pathDetailScreenLessonCompleteIconSemantic": "درس تکمیل شده",
+  "@pathDetailScreenLessonCompleteIconSemantic": {
+    "description": "برچسب معنایی برای آیکون تیک سبز در درس تکمیل‌شده"
+  },
+
+  "pathDetailScreenLessonInProgressIconSemantic": "درس در حال پیشرفت",
+  "@pathDetailScreenLessonInProgressIconSemantic": {
+    "description": "برچسب معنایی برای آیکون ساعت شنی در درس ناتمام"
+  },
+
+  "pathDetailScreenLessonInvalidIconSemantic": "درس نامعتبر یا غیرقابل استفاده",
+  "@pathDetailScreenLessonInvalidIconSemantic": {
+    "description": "برچسب معنایی برای آیکون خطای قرمز در درس نامعتبر"
+  },
+
+  "pathDetailScreenLessonProgressUnavailable": "پیشرفت در دسترس نیست",
+  "@pathDetailScreenLessonProgressUnavailable": {
+    "description": "زیرنویس اگر درس نامعتبر باشد"
+  },
+
+  "pathDetailScreenLessonNoProgress": "برای این مسیر پیشرفتی ثبت نمی‌شود",
+  "@pathDetailScreenLessonNoProgress": {
+    "description": "زیرنویس اگر مسیر پیگیری پیشرفت نداشته باشد"
+  },
+
+  "pathDetailScreenLessonUpgrade": "برای قابلیت ثبت پیشرفت، ارتقا دهید.",
+  "@pathDetailScreenLessonUpgrade": {
+    "description": "زیرنویس اگر کاربر نتواند پیشرفت درس را ببیند"
+  },
+
+  "pathDetailScreenLessonProgressLabel": "پیشرفت: {progress}%",
+  "@pathDetailScreenLessonProgressLabel": {
+    "description": "زیرنویس برای آیتم درس جهت نمایش پیشرفت مثلا «پیشرفت: ۴۲٪»",
+    "placeholders": {
+      "progress": {}
+    }
+  },
+
+  "pathDetailScreenLessonTitle": "درس {lessonIndex}: {surahName} - آیه {startAyah}-{endAyah}",
+  "@pathDetailScreenLessonTitle": {
+    "description": "عنوان هر درس در فهرست جزئیات مسیر",
+    "placeholders": {
+      "lessonIndex": {},
+      "surahName": {},
+      "startAyah": {},
+      "endAyah": {}
+    }
+  },
+
+  "commentJ": "رشته‌های صفحه ایجاد مسیر (Create Path Screen)",
+  "createPathTitle": "ایجاد مسیر جدید",
+  "@createPathTitle": {
+    "description": "عنوان نوار بالای صفحه ایجاد مسیر"
+  },
+
+  "createPathBackArrowSemantic": "بازگشت به صفحه قبلی",
+  "@createPathBackArrowSemantic": {
+    "description": "برچسب معنایی برای پیکان بازگشت در صفحه ایجاد مسیر"
+  },
+
+  "createPathNameLabel": "نام مسیر",
+  "@createPathNameLabel": {
+    "description": "برچسب فیلد متنی نام مسیر"
+  },
+
+  "createPathNameValidation": "یک نام برای مسیر وارد کنید",
+  "@createPathNameValidation": {
+    "description": "پیام اعتبارسنجی اگر نام مسیر خالی باشد"
+  },
+
+  "createPathDescriptionLabel": "توضیحات",
+  "@createPathDescriptionLabel": {
+    "description": "برچسب فیلد متنی توضیحات"
+  },
+
+  "createPathDescriptionValidation": "یک توضیح وارد کنید",
+  "@createPathDescriptionValidation": {
+    "description": "پیام اعتبارسنجی اگر توضیحات خالی باشد"
+  },
+
+  "createPathSurahSelectorLabel": "سوره را انتخاب کنید:",
+  "@createPathSurahSelectorLabel": {
+    "description": "تیتر بالای فهرست کشویی یا انتخابگر سوره"
+  },
+
+  "createPathStartAyahLabel": "آیه شروع",
+  "@createPathStartAyahLabel": {
+    "description": "برچسب فیلد متنی آیه شروع"
+  },
+
+  "createPathNumAyahsLabel": "تعداد آیه در مسیر",
+  "@createPathNumAyahsLabel": {
+    "description": "برچسب فهرست کشویی برای انتخاب تعداد آیات گنجانده‌شده"
+  },
+
+  "createPathEndAyahLabel": "آیه پایان",
+  "@createPathEndAyahLabel": {
+    "description": "برچسب فیلد متنی تنهاخواندنی (Read-only) برای آیه پایان"
+  },
+
+  "createPathWordsPerLessonLabel": "تعداد کلمه در هر درس",
+  "@createPathWordsPerLessonLabel": {
+    "description": "برچسب فهرست کشویی برای انتخاب تعداد کلمات در هر درس"
+  },
+
+  "createPathWordsSuffix": "کلمه",
+  "@createPathWordsSuffix": {
+    "description": "پسوند برای فهرست انتخاب تعداد کلمات هر درس"
+  },
+
+  "createPathInvalidRange": "محدوده نامعتبر",
+  "@createPathInvalidRange": {
+    "description": "متن برای فهرست تعداد آیات در صورت محدوده نامعتبر"
+  },
+
+  "createPathAyahsSuffix": "آیه",
+  "@createPathAyahsSuffix": {
+    "description": "پسوند برای فهرست تعداد آیات، مانند «۱۵ آیه»"
+  },
+
+  "createPathCreateButton": "ایجاد مسیر",
+  "@createPathCreateButton": {
+    "description": "برچسب دکمه برای ایجاد مسیر"
+  },
+
+  "createPathSubmitSemantic": "برای ایجاد مسیر ضربه بزنید",
+  "@createPathSubmitSemantic": {
+    "description": "برچسب معنایی برای دکمه ایجاد مسیر"
+  },
+
+  "commentK": "رشته‌های صفحه ترجمه (Translation Screen)",
+  "translationScreenTitle": "ترجمه",
+  "@translationScreenTitle": {
+    "description": "عنوان نوار بالای صفحه ترجمه"
+  },
+
+  "translationScreenBackArrowSemantic": "بازگشت به درس",
+  "@translationScreenBackArrowSemantic": {
+    "description": "برچسب معنایی برای پیکان بازگشت در صفحه ترجمه"
+  },
+
+  "translationScreenLoadingSemantic": "در حال بارگیری ترجمه‌ها",
+  "@translationScreenLoadingSemantic": {
+    "description": "برچسب معنایی برای ProgressIndicator هنگام بارگیری ترجمه"
+  },
+
+  "translationScreenNoTranslations": "هیچ ترجمه‌ای در دسترس نیست.",
+  "@translationScreenNoTranslations": {
+    "description": "در صورت عدم دریافت ترجمه‌ها"
+  },
+
+  "translationScreenReturnButton": "بازگشت به درس",
+  "@translationScreenReturnButton": {
+    "description": "برچسب دکمه برای بازگشت به صفحه درس"
+  },
+
+  "translationScreenReturnSemantic": "برای بازگشت به درس ضربه بزنید",
+  "@translationScreenReturnSemantic": {
+    "description": "برچسب معنایی برای دکمه بازگشت به صفحه درس"
+  },
+
+  "translationScreenLoadError": "خطا در بارگیری ترجمه‌ها:",
+  "@translationScreenLoadError": {
+    "description": "متن آغازین پیام خطا در صورت عدم موفقیت بارگیری ترجمه‌ها"
+  },
+
+  "commentL": "رشته‌های صفحه انتخاب زبان (Language Selection Screen)",
+  "languageSelectionScreenSemantic": "صفحه انتخاب زبان",
+  "@languageSelectionScreenSemantic": {
+    "description": "برچسب معنایی برای کانتینر اصلی توصیف‌کننده صفحه انتخاب زبان"
+  },
+
+  "languageSelectionTitle": "زبان خود را انتخاب کنید",
+  "@languageSelectionTitle": {
+    "description": "عنوان نوار بالای صفحه انتخاب زبان"
+  },
+
+  "languageSelectionBackSemantic": "بازگشت",
+  "@languageSelectionBackSemantic": {
+    "description": "برچسب معنایی برای دکمه بازگشت در صفحه انتخاب زبان"
+  },
+
+  "languageSelectionSkipSemantic": "رد کردن انتخاب زبان",
+  "@languageSelectionSkipSemantic": {
+    "description": "برچسب معنایی برای دکمه رد کردن در صفحه انتخاب زبان"
+  },
+
+  "languageSelectionInstructions": "لطفاً زبان مورد نظر خود را انتخاب کنید:",
+  "@languageSelectionInstructions": {
+    "description": "متن راهنما برای انتخاب زبان"
+  },
+
+  "languageSelectionNextSemantic": "تأیید انتخاب زبان",
+  "@languageSelectionNextSemantic": {
+    "description": "برچسب معنایی برای دکمه بعد (Next) در صفحه انتخاب زبان"
+  },
+
+  "languageSelectionNextLabel": "بعدی",
+  "@languageSelectionNextLabel": {
+    "description": "متن دکمه برای ادامه پس از انتخاب زبان"
+  },
+
+  "languageSelectionImageSemantic": "تصویر هدهد و قرآن",
+  "@languageSelectionImageSemantic": {
+    "description": "برچسب معنایی برای تصویر پایین صفحه انتخاب زبان"
+  },
+
+  "commentM": "رشته‌های صفحه خوش‌آمدگویی (Welcome Screen)",
+  "welcomeScreenSemantic": "صفحه خوش‌آمدگویی در آنبوردینگ",
+  "@welcomeScreenSemantic": {
+    "description": "برچسب معنایی برای کانتینر اصلی توضیح‌دهنده صفحه خوش‌آمدگویی"
+  },
+
+  "welcomeScreenLogoSemantic": "تصویر هدهد و قرآن",
+  "@welcomeScreenLogoSemantic": {
+    "description": "برچسب معنایی برای لوگوی صفحه خوش‌آمدگویی"
+  },
+
+  "welcomeScreenSkipSemantic": "رد کردن مرحله خوش‌آمدگویی",
+  "@welcomeScreenSkipSemantic": {
+    "description": "برچسب معنایی برای دکمه رد کردن در صفحه خوش‌آمدگویی"
+  },
+
+  "welcomeScreenNextSemantic": "ادامه به مرحله بعد آنبوردینگ",
+  "@welcomeScreenNextSemantic": {
+    "description": "برچسب معنایی برای دکمه «شروع»"
+  },
+
+  "commentN": "رشته‌های صفحه معرفی هدهد (Hudhud Info Screen)",
+  "hudhudInfoSemantic": "صفحه اطلاعات هدهد",
+  "@hudhudInfoSemantic": {
+    "description": "برچسب معنایی برای کانتینر اصلی توصیف‌کننده صفحه اطلاعات هدهد"
+  },
+
+  "hudhudInfoAppBarTitle": "آشنایی با هدهد",
+  "@hudhudInfoAppBarTitle": {
+    "description": "عنوان نوار بالای صفحه اطلاعات هدهد"
+  },
+
+  "hudhudInfoIllustrationSemantic": "تصویر هدهد",
+  "@hudhudInfoIllustrationSemantic": {
+    "description": "برچسب معنایی برای تصویر پرنده هدهد"
+  },
+
+  "hudhudInfoBody1": "هدهد (مرغ سلیمان) نقشی ویژه در کمک به حضرت سلیمان (ع) داشت و با مشاهده و رساندن پیام‌ها فعال بود.",
+  "@hudhudInfoBody1": {
+    "description": "پاراگراف اول توضیح‌دهنده جایگاه هدهد"
+  },
+
+  "hudhudInfoBody2": "یادآوری داستان هدهد نشان می‌دهد حتی یک موجود کوچک هم با دقت و کنجکاوی می‌تواند اثر بزرگی داشته باشد. ما نیز می‌توانیم توجه پیوسته خود را به زیبایی قرآن معطوف کنیم و یادآوری‌های شکرگزاری را در هر لحظه از پیشرفتمان بگنجانیم.",
+  "@hudhudInfoBody2": {
+    "description": "پاراگراف دوم توضیح‌دهنده اهمیت هوشیاری و توجه"
+  },
+
+  "hudhudInfoBody3": "با پیروی از الگوی هدهد—حفظ هوشیاری و مشارکت—امیدواریم ارتباطمان را با قرآن عمیق‌تر کرده و حس شکرگزاری را در زندگی روزمره تقویت کنیم.",
+  "@hudhudInfoBody3": {
+    "description": "پاراگراف سوم بیانگر هدف کلی پیروی از الگوی هدهد"
+  },
+
+  "hudhudInfoNextLabel": "بعدی",
+  "@hudhudInfoNextLabel": {
+    "description": "متن دکمه برای مرحله بعد"
+  },
+
+  "hudhudInfoNextSemantic": "رفتن به بخش بعدی",
+  "@hudhudInfoNextSemantic": {
+    "description": "برچسب معنایی برای دکمه بعدی"
+  },
+
+  "hudhudInfoSkipSemantic": "رد کردن مرحله معرفی هدهد",
+  "@hudhudInfoSkipSemantic": {
+    "description": "برچسب معنایی برای دکمه رد کردن در صفحه اطلاعات هدهد"
+  },
+
+  "commentO": "رشته‌های صفحه انتخاب طرح اشتراک (Subscription Tier Screen)",
+  "subscriptionTierScreenSemantic": "صفحه انتخاب اشتراک",
+  "@subscriptionTierScreenSemantic": {
+    "description": "برچسب معنایی برای کانتینر اصلی توصیف‌کننده صفحه انتخاب اشتراک"
+  },
+
+  "subscriptionTierScreenAppBarTitle": "انتخاب پلن",
+  "@subscriptionTierScreenAppBarTitle": {
+    "description": "عنوان نوار بالای صفحه پلن اشتراک"
+  },
+
+  "subscriptionTierScreenSkipSemantic": "رد کردن انتخاب پلن اشتراک",
+  "@subscriptionTierScreenSkipSemantic": {
+    "description": "برچسب معنایی برای دکمه رد کردن در صفحه انتخاب اشتراک"
+  },
+
+  "subscriptionTierScreenFreeLabel": "رایگان",
+  "@subscriptionTierScreenFreeLabel": {
+    "description": "برچسب برای سطح رایگان"
+  },
+
+  "subscriptionTierScreenSmileySemantic": "آیکون شکلک خندان",
+  "@subscriptionTierScreenSmileySemantic": {
+    "description": "برچسب معنایی برای آیکون ایموجی خندان"
+  },
+
+  "subscriptionTierScreenDonationText": "بخشی از منابع مالی به ابتکار «المبتسم» اختصاص می‌یابد که از طریق سازمان Islamic Relief از یتیمان حمایت می‌کند.",
+  "@subscriptionTierScreenDonationText": {
+    "description": "متن زیر شکلک خندان درباره محل هزینه کمک‌ها"
+  },
+
+  "subscriptionTierScreenConfirmSemantic": "تأیید انتخاب پلن اشتراک",
+  "@subscriptionTierScreenConfirmSemantic": {
+    "description": "برچسب معنایی برای دکمه ادامه/تأیید"
+  },
+
+  "subscriptionTierScreenNextLabel": "بعدی",
+  "@subscriptionTierScreenNextLabel": {
+    "description": "برچسب دکمه برای تأیید و ادامه انتخاب پلن اشتراک"
+  },
+
+  "subscriptionTierScreenRadioSemantic": "برای انتخاب پلن اشتراک {title} ضربه بزنید",
+  "@subscriptionTierScreenRadioSemantic": {
+    "description": "برچسب معنایی برای هر مورد رادیویی پلن اشتراک",
+    "placeholders": {
+      "title": {}
+    }
+  },
+
+  "commentP": "رشته‌های صفحه انتخاب هدف (Goal Selection Screen)",
+  "goalSelectionScreenSemantic": "صفحه انتخاب اهداف",
+  "@goalSelectionScreenSemantic": {
+    "description": "برچسب معنایی برای کانتینر اصلی توصیف‌کننده صفحه انتخاب اهداف"
+  },
+
+  "goalSelectionScreenAppBarTitle": "اهداف خود را انتخاب کنید",
+  "@goalSelectionScreenAppBarTitle": {
+    "description": "عنوان نوار بالای صفحه انتخاب اهداف"
+  },
+
+  "goalSelectionScreenSkipSemantic": "رد کردن انتخاب اهداف",
+  "@goalSelectionScreenSkipSemantic": {
+    "description": "برچسب معنایی برای دکمه رد کردن در صفحه انتخاب اهداف"
+  },
+
+  "goalSelectionScreenIntroText": "کدام یک از اهداف زیر برایتان جذاب است؟ می‌توانید چند گزینه را انتخاب کنید.",
+  "@goalSelectionScreenIntroText": {
+    "description": "متن مقدمه در بالای صفحه انتخاب اهداف"
+  },
+
+  "goalSelectionScreenNextSemantic": "تأیید اهداف انتخابی",
+  "@goalSelectionScreenNextSemantic": {
+    "description": "برچسب معنایی برای دکمه ادامه/تأیید"
+  },
+
+  "goalSelectionScreenNextLabel": "بعدی",
+  "@goalSelectionScreenNextLabel": {
+    "description": "متن دکمه برای تأیید و ادامه انتخاب اهداف"
+  },
+
+  "goalSelectionTileSemantic": "برای انتخاب/لغو انتخاب هدف {goalTitle} ضربه بزنید",
+  "@goalSelectionTileSemantic": {
+    "description": "برچسب معنایی برای کاشی چک‌باکس هر هدف",
+    "placeholders": {
+      "goalTitle": {}
+    }
+  },
+
+  "goalConnectQuranTitle": "ارتباط بیشتر با قرآن",
+  "@goalConnectQuranTitle": {
+    "description": "برچسب چک‌باکس برای هدف «connectQuran»"
+  },
+
+  "goalConnectQuranDesc": "از طریق تلاوت یا تدبر، رابطه خود را تقویت کنید.",
+  "@goalConnectQuranDesc": {
+    "description": "زیرنویس برای هدف «connectQuran»"
+  },
+
+  "goalMemorizeQuranTitle": "حفظ قرآن",
+  "@goalMemorizeQuranTitle": {
+    "description": "برچسب چک‌باکس برای هدف «memorizeQuran»"
+  },
+
+  "goalMemorizeQuranDesc": "شروع سفر حفظ قرآن.",
+  "@goalMemorizeQuranDesc": {
+    "description": "زیرنویس برای هدف «memorizeQuran»"
+  },
+
+  "goalBeMoreGratefulTitle": "شکرگزاری و شادی بیشتر در زندگی",
+  "@goalBeMoreGratefulTitle": {
+    "description": "برچسب چک‌باکس برای هدف «beMoreGrateful»"
+  },
+
+  "goalBeMoreGratefulDesc": "تمرکز بر تمرین شکرگزاری روزمره.",
+  "@goalBeMoreGratefulDesc": {
+    "description": "زیرنویس برای هدف «beMoreGrateful»"
+  },
+
+  "goalBuildConsistencyTitle": "ایجاد تداوم",
+  "@goalBuildConsistencyTitle": {
+    "description": "برچسب چک‌باکس برای هدف «buildConsistency»"
+  },
+
+  "goalBuildConsistencyDesc": "عادت روزانه یا هفتگی ایجاد کنید.",
+  "@goalBuildConsistencyDesc": {
+    "description": "زیرنویس برای هدف «buildConsistency»"
+  },
+
+  "goalImproveArabicTitle": "بهبود زبان عربی",
+  "@goalImproveArabicTitle": {
+    "description": "برچسب چک‌باکس برای هدف «improveArabic»"
+  },
+
+  "goalImproveArabicDesc": "بر مهارت‌های نوشتاری یا گفتاری عربی تمرکز کنید.",
+  "@goalImproveArabicDesc": {
+    "description": "زیرنویس برای هدف «improveArabic»"
+  },
+
+  "goalDeepenTafsirTitle": "تعمیق در تفسیر",
+  "@goalDeepenTafsirTitle": {
+    "description": "برچسب چک‌باکس برای هدف «deepenTafsir»"
+  },
+
+  "goalDeepenTafsirDesc": "مطالعه تفسیر و معانی عمیق‌تر قرآن.",
+  "@goalDeepenTafsirDesc": {
+    "description": "زیرنویس برای هدف «deepenTafsir»"
+  },
+
+  "goalOtherTitle": "سایر",
+  "@goalOtherTitle": {
+    "description": "برچسب چک‌باکس برای هدف «other»"
+  },
+
+  "goalOtherDesc": "سایر اهداف شخصی خود را دنبال کنید.",
+  "@goalOtherDesc": {
+    "description": "زیرنویس برای هدف «other»"
+  },
+
+  "commentQ": "رشته‌های صفحه انتخاب سطح (Level Selection Screen)",
+  "levelSelectionScreenSemantic": "صفحه انتخاب سطح تلاوت",
+  "@levelSelectionScreenSemantic": {
+    "description": "برچسب معنایی برای کانتینر اصلی توصیف‌کننده صفحه انتخاب سطح"
+  },
+
+  "levelSelectionScreenAppBarTitle": "سطح خود را انتخاب کنید",
+  "@levelSelectionScreenAppBarTitle": {
+    "description": "عنوان نوار بالای صفحه انتخاب سطح"
+  },
+
+  "levelSelectionScreenSkipSemantic": "رد کردن انتخاب سطح",
+  "@levelSelectionScreenSkipSemantic": {
+    "description": "برچسب معنایی برای دکمه رد کردن در صفحه انتخاب سطح"
+  },
+
+  "levelSelectionScreenIntroText": "گزینه‌ای را انتخاب کنید که بهترین توصیف سطح تلاوت کنونی شماست:",
+  "@levelSelectionScreenIntroText": {
+    "description": "متن مقدمه در بالای صفحه انتخاب سطح"
+  },
+
+  "levelStarterLabel": "مبتدی",
+  "@levelStarterLabel": {
+    "description": "برچسب گزینه رادیویی برای سطح «starter»"
+  },
+
+  "levelStarterDescription": "تازه‌کار یا یادگیرنده گاه‌به‌گاه که در حال آشنایی با تلاوت قرآن است.",
+  "@levelStarterDescription": {
+    "description": "توضیح سطح «starter»"
+  },
+
+  "levelAdvancedLabel": "پیشرفته",
+  "@levelAdvancedLabel": {
+    "description": "برچسب گزینه رادیویی برای سطح «advanced»"
+  },
+
+  "levelAdvancedDescription": "در خواندن متن عربی راحت است و کمی آشنایی با تجوید دارد.",
+  "@levelAdvancedDescription": {
+    "description": "توضیح سطح «advanced»"
+  },
+
+  "levelQariLabel": "قاری",
+  "@levelQariLabel": {
+    "description": "برچسب گزینه رادیویی برای سطح «qari»"
+  },
+
+  "levelQariDescription": "در تلاوت مهارت بالایی داشته و احکام تجوید را به‌خوبی رعایت می‌کند.",
+  "@levelQariDescription": {
+    "description": "توضیح سطح «qari»"
+  },
+
+  "levelSelectionNextSemantic": "تأیید انتخاب سطح تلاوت",
+  "@levelSelectionNextSemantic": {
+    "description": "برچسب معنایی برای دکمه ادامه/تأیید در صفحه انتخاب سطح"
+  },
+
+  "levelSelectionNextLabel": "بعدی",
+  "@levelSelectionNextLabel": {
+    "description": "برچسب دکمه برای تأیید و ادامه با سطح انتخاب‌شده"
+  },
+
+  "levelSelectionTileSemantic": "برای انتخاب سطح تلاوت {levelTitle} ضربه بزنید",
+  "@levelSelectionTileSemantic": {
+    "description": "برچسب معنایی برای گزینه رادیویی هر سطح تلاوت",
+    "placeholders": {
+      "levelTitle": {}
+    }
+  },
+
+  "commentR": "رشته‌های صفحه اتمام آنبوردینگ (Onboarding Completion)",
+  "onboardingCompletionScreenSemantic": "صفحه تکمیل آنبوردینگ",
+  "@onboardingCompletionScreenSemantic": {
+    "description": "برچسب معنایی برای کانتینر اصلی توصیف‌کننده صفحه اتمام آنبوردینگ"
+  },
+
+  "onboardingCompletionScreenAppBarTitle": "همه چیز آماده است!",
+  "@onboardingCompletionScreenAppBarTitle": {
+    "description": "عنوان نوار بالای صفحه اتمام آنبوردینگ"
+  },
+
+  "onboardingCompletionScreenImageSemantic": "تصویر هدهد و قرآن",
+  "@onboardingCompletionScreenImageSemantic": {
+    "description": "برچسب معنایی برای تصویر نهایی آنبوردینگ"
+  },
+
+  "onboardingCompletionScreenBody1": "تبریک! شما با موفقیت تنظیمات اولیه را انجام دادید. امیدواریم این مسیر شما را به قرآن نزدیک‌تر کرده و شکرگزاری شما را در برابر خداوند افزایش دهد.\n\nان‌شاءالله این برنامه منبعی برای رشد و برکت در زندگی شما و اطرافیانتان باشد.",
+  "@onboardingCompletionScreenBody1": {
+    "description": "پاراگراف اول توضیح تکمیل موفقیت‌آمیز آنبوردینگ"
+  },
+
+  "onboardingCompletionScreenBody2": "هر زمان آماده بودید روی دکمه زیر بزنید. قابلیت‌های اصلی حفظ و پیشرفت منتظر شما هستند، و می‌توانید شکرگزاری خود را ثبت کرده یا مسیری را از نوار پایین انتخاب کنید.",
+  "@onboardingCompletionScreenBody2": {
+    "description": "پاراگراف دوم توضیح مراحل بعدی پس از آنبوردینگ"
+  },
+
+  "onboardingCompletionScreenBody3": "این نسخه اولیه است — از حمایت و صبوری شما سپاسگزاریم و امیدواریم خیلی زود قابلیت‌های بیشتری ارائه دهیم ان‌شاءالله!",
+  "@onboardingCompletionScreenBody3": {
+    "description": "پاراگراف سوم در مورد بروزرسانی‌های آتی و درخواست حمایت"
+  },
+
+  "onboardingCompletionScreenBeginSemantic": "شروع استفاده از برنامه",
+  "@onboardingCompletionScreenBeginSemantic": {
+    "description": "برچسب معنایی برای دکمه «بیایید شروع کنیم»"
+  },
+
+  "onboardingCompletionScreenBeginLabel": "بیایید شروع کنیم",
+  "@onboardingCompletionScreenBeginLabel": {
+    "description": "متن دکمه نهایی در آنبوردینگ"
+  },
+
+  "commentS": "رشته‌های صفحه ورود نام کاربری (Name Entry Screen)",
+  "nameEntryScreenSemantic": "صفحه ورود نام",
+  "@nameEntryScreenSemantic": {
+    "description": "برچسب معنایی برای کانتینر توضیح‌دهنده صفحه ورود نام"
+  },
+
+  "nameEntryScreenAppBarTitle": "نمایه شما",
+  "@nameEntryScreenAppBarTitle": {
+    "description": "عنوان نوار بالای صفحه ورود نام"
+  },
+
+  "nameEntryScreenSkipSemantic": "رد کردن وارد کردن نام",
+  "@nameEntryScreenSkipSemantic": {
+    "description": "برچسب معنایی برای دکمه رد کردن در صفحه ورود نام"
+  },
+
+  "nameEntryScreenIntroText": "نام شما چیست؟",
+  "@nameEntryScreenIntroText": {
+    "description": "متن راهنما که توضیح می‌دهد کاربر می‌تواند نامش را وارد کند یا خالی بگذارد تا «میهمان» باقی بماند"
+  },
+
+  "nameEntryTextFieldSemantic": "فیلد متن ورود نام",
+  "@nameEntryTextFieldSemantic": {
+    "description": "برچسب معنایی برای فیلد متنی ورود نام کاربر"
+  },
+
+  "nameEntryNextSemantic": "تأیید نام واردشده",
+  "@nameEntryNextSemantic": {
+    "description": "برچسب معنایی برای دکمه ادامه/تأیید"
+  },
+
+  "nameEntryNextLabel": "بعدی",
+  "@nameEntryNextLabel": {
+    "description": "برچسب دکمه برای نهایی‌کردن ورود نام"
+  },
+
+  "commentT": "رشته‌های آیکون‌های عمودی درس (VerticalLessonIcons)",
+  "verticalLessonIconsSemantic": "کانتینر آیکون‌های عمودی درس",
+  "@verticalLessonIconsSemantic": {
+    "description": "برچسب معنایی برای کانتینر اصلی توصیف‌کننده مجموعه آیکون‌های عمودی درس"
+  },
+
+  "verticalLessonIconsNoLessons": "هیچ درسی یافت نشد.",
+  "@verticalLessonIconsNoLessons": {
+    "description": "متن پیش‌فرض در صورت عدم وجود درس"
+  },
+
+  "verticalLessonIconsLoadingSurah": "در حال بارگیری جزئیات سوره",
+  "@verticalLessonIconsLoadingSurah": {
+    "description": "برچسب معنایی برای ProgressIndicator هنگام بارگیری جزئیات سوره"
+  },
+
+  "verticalLessonIconsErrorSurah": "خطا در بارگیری جزئیات سوره",
+  "@verticalLessonIconsErrorSurah": {
+    "description": "متن نمایش در صورت خطا در دریافت اطلاعات سوره"
+  },
+
+  "verticalLessonIconsSurahHeaderSemantic": "سربرگ جزئیات سوره",
+  "@verticalLessonIconsSurahHeaderSemantic": {
+    "description": "برچسب معنایی برای متن سربرگ سوره در صفحه اول"
+  },
+
+  "verticalLessonIconsHudhudIconSemantic": "آیکون راهنمای هدهد",
+  "@verticalLessonIconsHudhudIconSemantic": {
+    "description": "برچسب معنایی برای آیکون hudhud_left"
+  },
+
+  "verticalLessonIconsNextPageSemantic": "فلش به پایین برای صفحه بعدی",
+  "@verticalLessonIconsNextPageSemantic": {
+    "description": "برچسب معنایی برای فلش رو به پایین جهت رفتن به صفحه بعد"
+  },
+
+  "verticalLessonIconsPreviousPageSemantic": "فلش به بالا برای صفحه قبلی",
+  "@verticalLessonIconsPreviousPageSemantic": {
+    "description": "برچسب معنایی برای فلش رو به بالا جهت بازگشت به صفحه قبل"
+  },
+
+  "verticalLessonIconsLoadingProgress": "در حال بارگیری پیشرفت درس",
+  "@verticalLessonIconsLoadingProgress": {
+    "description": "برچسب معنایی برای ProgressIndicator هنگام بارگیری پیشرفت درس"
+  },
+
+  "verticalLessonIconsErrorProgress": "خطا در بارگیری پیشرفت",
+  "@verticalLessonIconsErrorProgress": {
+    "description": "متن پیش‌فرض در صورت خطا در بارگیری پیشرفت درس"
+  },
+
+  "verticalLessonIconSemantic": "آیکون درس، {surahAyahRange}، پیشرفت {percent}%",
+  "@verticalLessonIconSemantic": {
+    "description": "برچسب معنایی برای هر آیکون درس در فهرست عمودی",
+    "placeholders": {
+      "surahAyahRange": {},
+      "percent": {}
+    }
+  },
+
+  "verticalLessonIconsCompletedSemantic": "درس تکمیل شده",
+  "@verticalLessonIconsCompletedSemantic": {
+    "description": "برچسب معنایی برای آیکون تیک بر روی درس کاملاً انجام شده"
+  },
+
+  "verticalLessonIconsDialogTitle": "حمایت و ارتقا",
+  "@verticalLessonIconsDialogTitle": {
+    "description": "عنوان کادر گفتگو در مورد ارتقا"
+  },
+
+  "verticalLessonIconsDialogOk": "باشه",
+  "@verticalLessonIconsDialogOk": {
+    "description": "متن دکمه OK در گفت‌وگوی ارتقا"
+  },
+
+  "commentU": "رشته‌های نوار ناوبری (Navbar)",
+  "navBarSemanticLabel": "نوار ناوبری پایین",
+  "@navBarSemanticLabel": {
+    "description": "برچسب معنایی برای کل نوار ناوبری پایین"
+  },
+
+  "navHomeLabel": "خانه",
+  "@navHomeLabel": {
+    "description": "برچسب برگه خانه در نوار ناوبری"
+  },
+
+  "navHomeSemantic": "برگه خانه",
+  "@navHomeSemantic": {
+    "description": "برچسب معنایی برای آیکون خانه در نوار ناوبری"
+  },
+
+  "navQuranLabel": "قرآن",
+  "@navQuranLabel": {
+    "description": "برچسب برگه قرآن در نوار ناوبری"
+  },
+
+  "navQuranSemantic": "برگه قرآن",
+  "@navQuranSemantic": {
+    "description": "برچسب معنایی برای آیکون قرآن در نوار ناوبری"
+  },
+
+  "navGratitudeLabel": "شکرگزاری",
+  "@navGratitudeLabel": {
+    "description": "برچسب برگه شکرگزاری در نوار ناوبری"
+  },
+
+  "navGratitudeSemantic": "برگه شکرگزاری",
+  "@navGratitudeSemantic": {
+    "description": "برچسب معنایی برای آیکون شکرگزاری در نوار ناوبری"
+  },
+
+  "navProfileLabel": "نمایه",
+  "@navProfileLabel": {
+    "description": "برچسب برگه نمایه در نوار ناوبری"
+  },
+
+  "navProfileSemantic": "برگه نمایه",
+  "@navProfileSemantic": {
+    "description": "برچسب معنایی برای آیکون نمایه در نوار ناوبری"
+  },
+
+  "commentV": "رشته‌های نوار بالای صفحه (TopBar)",
+  "topBarSemanticLabel": "نوار ناوبری بالایی",
+  "@topBarSemanticLabel": {
+    "description": "برچسب معنایی برای کل کانتینر نوار بالایی"
+  },
+
+  "topBarTitleSemantic": "عنوان نوار بالا: {title}",
+  "@topBarTitleSemantic": {
+    "description": "برچسب معنایی برای عنوان مرکزی نوار بالا",
+    "placeholders": {
+      "title": {}
+    }
+  },
+
+  "topBarStreakIconSemantic": "آیکون رکورد: {days} روز",
+  "@topBarStreakIconSemantic": {
+    "description": "برچسب معنایی برای آیکون رکورد که تعداد روزهای متوالی را نشان می‌دهد",
+    "placeholders": {
+      "days": {}
+    }
+  },
+
+  "topBarStreakDialogBody": "این عدد نشان می‌دهد چند روز متوالی تلاوت داشته‌اید یا شکرگزاری نوشته‌اید. برای حفظ یا افزایش رکورد خود ادامه دهید!",
+  "@topBarStreakDialogBody": {
+    "description": "متن بدنه گفت‌وگو برای توضیح استفاده از رکورد"
+  },
+
+  "topBarHudhudIconSemantic": "آیکون هدهد، برای حمایت ضربه بزنید",
+  "@topBarHudhudIconSemantic": {
+    "description": "برچسب معنایی برای آیکون هدهد در نوار بالا"
+  },
+
+  "topBarHudhudDialogTitle": "حمایت و ارتقا",
+  "@topBarHudhudDialogTitle": {
+    "description": "عنوان گفت‌وگو برای آیکون هدهد در مورد حمایت و ارتقا"
+  },
+
+  "topBarHudhudDialogBody": "همه امکانات در نسخه رایگان موجود است، اما اگر مایل باشید، می\u200Cتوانید برای توسعه قابلیت\u200Cهای بیشتر از ما حمایت کنید. بخشی از اشتراک شما به سازمان Islamic Relief اهدا می\u200Cشود. جزاک الله خیراً!",
+  "@topBarHudhudDialogBody": {
+    "description": "متن گفت‌وگوی حمایت و ارتقا نوار بالا"
+  },
+
+  "commentW": "رشته‌های پنجره شکرگزاری (Gratitude Modal)",
+  "gratitudeModalSemantic": "پنجره شکرگزاری",
+  "@gratitudeModalSemantic": {
+    "description": "برچسب معنایی برای کل کانتینر پنجره شکرگزاری"
+  },
+
+  "gratitudeModalTitle": "بر اساس این آیات، امروز بابت چه چیزی شکرگزار هستید؟",
+  "@gratitudeModalTitle": {
+    "description": "عنوان بالای پنجره شکرگزاری"
+  },
+
+  "gratitudeModalHint": "الحمدلله برای (مورد شکرگزاری را وارد کنید) #{index}",
+  "@gratitudeModalHint": {
+    "description": "متن راهنما در فیلدهای متنی شکرگزاری",
+    "placeholders": {
+      "index": {}
+    }
+  },
+
+  "gratitudeModalTextFieldSemantic": "ورود شکرگزاری شماره {index}",
+  "@gratitudeModalTextFieldSemantic": {
+    "description": "برچسب معنایی برای فیلد متنی iاُم در پنجره شکرگزاری",
+    "placeholders": {
+      "index": {}
+    }
+  },
+
+  "gratitudeModalEmptyWarning": "لطفاً حداقل یک شکرگزاری وارد کنید.",
+  "@gratitudeModalEmptyWarning": {
+    "description": "در صورت تلاش کاربر برای ارسال پنجره شکرگزاری خالی"
+  },
+
+  "gratitudeModalSubmitError": "ثبت شکرگزاری ناموفق بود. لطفاً دوباره تلاش کنید.",
+  "@gratitudeModalSubmitError": {
+    "description": "پیام خطا در صورت عدم موفقیت در ثبت شکرگزاری"
+  },
+
+  "dailyVoiceLimitReachedTitle": "ماشاءالله!",
+  "@dailyVoiceLimitReachedTitle": {
+    "description": "عنوان پنجره محدودیت روزانه صدا"
+  },
+
+  "dailyVoiceLimitReachedMessage": "۱۰ دقیقه از تلاوت صوتی قرآن را امروز تکمیل کرده‌اید. لطفاً از طریق نوشتن مرور کنید و ادامه تلاوت را به فردا موکول نمایید.",
+  "@dailyVoiceLimitReachedMessage": {
+    "description": "پیام هنگام رسیدن به ۱۰ دقیقه استفاده صوتی"
+  },
+
+  "upgradeVoiceUsageTitle": "ارتقا به پریمیوم",
+  "@upgradeVoiceUsageTitle": {
+    "description": "عنوان گفت‌وگو در صورت اتمام تعداد رکوردهای صوتی رایگان"
+  },
+
+  "gratitudeModalLoadingSemantic": "در حال ثبت شکرگزاری...",
+  "@gratitudeModalLoadingSemantic": {
+    "description": "برچسب معنایی برای چرخش بارگذاری هنگام ارسال شکرگزاری"
+  },
+
+  "commentX": "== کلیدهای جدید برای submission_feedback_modal، progress_bar، surah_selector ==",
+  "submissionFeedbackModalSemanticLabel": "پنجره بازخورد پس از ارسال",
+  "@submissionFeedbackModalSemanticLabel": {
+    "description": "برچسب معنایی برای کل پنجره بازخورد ارسال"
+  },
+
+  "submissionFeedbackModalTitle": "بازخورد ارسال",
+  "@submissionFeedbackModalTitle": {
+    "description": "عنوان کادر محاوره بازخورد ارسال"
+  },
+
+  "submissionFeedbackModalNoNew": "هیچ شکرگزاری جدیدی ارسال نشد.",
+  "@submissionFeedbackModalNoNew": {
+    "description": "پیامی که در صورت نبود شکرگزاری جدید نمایش داده می‌شود"
+  },
+
+  "submissionFeedbackModalYouSubmitted": "شما این موارد شکرگزاری را ثبت کردید:",
+  "@submissionFeedbackModalYouSubmitted": {
+    "description": "برچسب بالای فهرست شکرگزاری‌های تازه ارسال‌شده"
+  },
+
+  "submissionFeedbackModalStreak": "رکورد شکرگزاری فعلی: {days} روز",
+  "@submissionFeedbackModalStreak": {
+    "description": "نمایش رکورد فعلی شکرگزاری پیوسته",
+    "placeholders": {
+      "days": {}
+    }
+  },
+
+  "submissionFeedbackModalTotalDays": "مجموع روزهای شکرگزاری: {count}",
+  "@submissionFeedbackModalTotalDays": {
+    "description": "مجموع روزهای مجزایی که شکرگزاری ثبت شده است",
+    "placeholders": {
+      "count": {}
+    }
+  },
+
+  "submissionFeedbackModalLoading": "در حال بارگیری داده شکرگزاری شما...",
+  "@submissionFeedbackModalLoading": {
+    "description": "نمایش هنگام انتظار برای داده شکرگزاری"
+  },
+
+  "submissionFeedbackModalError": "امکان بارگیری داده شکرگزاری وجود نداشت.",
+  "@submissionFeedbackModalError": {
+    "description": "نمایش در صورت بروز خطا در بارگیری داده شکرگزاری"
+  },
+
+  "submissionFeedbackModalViewLog": "مشاهده لاگ",
+  "@submissionFeedbackModalViewLog": {
+    "description": "متن دکمه برای رفتن به صفحه دفترچه شکرگزاری"
+  },
+
+  "submissionFeedbackModalClose": "بستن",
+  "@submissionFeedbackModalClose": {
+    "description": "متن دکمه برای بستن پنجره بازخورد ارسال"
+  },
+
+  "progressBarSemanticLabel": "پیشرفت: {percent}%",
+  "@progressBarSemanticLabel": {
+    "description": "برچسب معنایی برای نوار پیشرفت خطی به همراه درصد عددی",
+    "placeholders": {
+      "percent": {}
+    }
+  },
+
+  "surahSelectorSemanticLabel": "انتخاب یک سوره",
+  "@surahSelectorSemanticLabel": {
+    "description": "برچسب معنایی برای فهرست کشویی انتخاب سوره"
+  },
+
+  "commentZ": "نام‌ها و توضیحات مسیر قابل بومی‌سازی برای مسیرهای سیستم",
+  "pathNameFatihah": "سوره الفاتحة",
+  "@pathNameFatihah": {
+    "description": "نام path_fatihah"
+  },
+  "pathDescFatihah": "کل سوره (۱:۱–۷). ضروری در هر رکعت.",
+  "@pathDescFatihah": {
+    "description": "توضیح path_fatihah"
+  },
+
+  "pathNameKafirun": "سوره الکافرون",
+  "@pathNameKafirun": {
+    "description": "نام path_kafirun"
+  },
+  "pathDescKafirun": "کل سوره (۱۰۹:۱–۶). بیان توحید.",
+  "@pathDescKafirun": {
+    "description": "توضیح path_kafirun"
+  },
+
+  "pathNameIkhlas": "سوره الإخلاص",
+  "@pathNameIkhlas": {
+    "description": "نام path_ikhlas"
+  },
+  "pathDescIkhlas": "کل سوره (۱۱۲:۱–۴). توحید خداوند.",
+  "@pathDescIkhlas": {
+    "description": "توضیح path_ikhlas"
+  },
+
+  "pathNameFalaq": "سوره الفلق",
+  "@pathNameFalaq": {
+    "description": "نام path_falaq"
+  },
+  "pathDescFalaq": "کل سوره (۱۱۳:۱–۵). پناه بردن از بدی‌های بیرونی.",
+  "@pathDescFalaq": {
+    "description": "توضیح path_falaq"
+  },
+
+  "pathNameNas": "سوره الناس",
+  "@pathNameNas": {
+    "description": "نام path_nas"
+  },
+  "pathDescNas": "کل سوره (۱۱۴:۱–۶). پناه بردن از وسوسه‌های درونی.",
+  "@pathDescNas": {
+    "description": "توضیح path_nas"
+  },
+
+  "pathNameAsrBegin": "سوره العصر",
+  "@pathNameAsrBegin": {
+    "description": "نام path_asr_begin"
+  },
+  "pathDescAsrBegin": "(۱۰۳:۱–۳). فقط ۳ آیه، اما محوریت «صبر».",
+  "@pathDescAsrBegin": {
+    "description": "توضیح path_asr_begin"
+  },
+
+  "pathNameTakathur": "سوره التکاثر",
+  "@pathNameTakathur": {
+    "description": "نام path_takathur"
+  },
+  "pathDescTakathur": "(۱۰۲:۱–۸) درباره رقابت دنیوی و حساب‌رسی آخرت.",
+  "@pathDescTakathur": {
+    "description": "توضیح path_takathur"
+  },
+
+  "pathNameFil": "سوره الفیل",
+  "@pathNameFil": {
+    "description": "نام path_fil"
+  },
+  "pathDescFil": "(۱۰۵:۱–۵). ماجرای اصحاب فیل؛ ۵ آیه کوتاه.",
+  "@pathDescFil": {
+    "description": "توضیح path_fil"
+  },
+
+  "pathNameQuraysh": "سوره قریش",
+  "@pathNameQuraysh": {
+    "description": "نام path_quraysh"
+  },
+  "pathDescQuraysh": "(۱۰۶:۱–۴). در باب شکر به‌خاطر سفرهای امن.",
+  "@pathDescQuraysh": {
+    "description": "توضیح path_quraysh"
+  },
+
+  "pathNameRahmanA": "الرحمن (بخش الف)",
+  "@pathNameRahmanA": {
+    "description": "نام path_rahman_a"
+  },
+  "pathDescRahmanA": "(۵۵:۱–۱۳): آموزش قرآن و خلقت انسان.",
+  "@pathDescRahmanA": {
+    "description": "توضیح path_rahman_a"
+  },
+
+  "pathNameRahmanB": "الرحمن (بخش ب)",
+  "@pathNameRahmanB": {
+    "description": "نام path_rahman_b"
+  },
+  "pathDescRahmanB": "(۵۵:۲۶–۳۶): مسئولیت انسان و جن.",
+  "@pathDescRahmanB": {
+    "description": "توضیح path_rahman_b"
+  },
+
+  "pathNameYasinBlock": "سوره یس (بخش)",
+  "@pathNameYasinBlock": {
+    "description": "نام path_yasin_block"
+  },
+  "pathDescYasinBlock": "(۳۶:۱–۱۲). مقدمه پیام پیامبر و هشدارها.",
+  "@pathDescYasinBlock": {
+    "description": "توضیح path_yasin_block"
+  },
+
+  "pathNameMulkBlock": "سوره الملک (بخش)",
+  "@pathNameMulkBlock": {
+    "description": "نام path_mulk_block"
+  },
+  "pathDescMulkBlock": "(۶۷:۱–۱۵). بر پادشاهی خداوند و تفکر تأکید دارد.",
+  "@pathDescMulkBlock": {
+    "description": "توضیح path_mulk_block"
+  },
+
+  "pathNameBaqarah21_29": "البقرة (۲:۲۱–۲۹)",
+  "@pathNameBaqarah21_29": {
+    "description": "نام path_baqarah_21_29"
+  },
+  "pathDescBaqarah21_29": "۹ آیه درباره خلقت و اندیشه برای شکرگزاری.",
+  "@pathDescBaqarah21_29": {
+    "description": "توضیح path_baqarah_21_29"
+  },
+
+  "pathNameNahl66_72": "النحل (۱۶:۶۶–۷۲)",
+  "@pathNameNahl66_72": {
+    "description": "نام path_nahl_66_72"
+  },
+  "pathDescNahl66_72": "۷ آیه که نعمت‌ها را یاد می‌کند: دام، میوه‌ها و غیره.",
+  "@pathDescNahl66_72": {
+    "description": "توضیح path_nahl_66_72"
+  },
+
+  "pathNameAdDuha": "سوره الضحى",
+  "@pathNameAdDuha": {
+    "description": "نام path_ad_duha"
+  },
+  "pathDescAdDuha": "(۹۳:۱–۱۱)، ۱۱ آیه امید و دلگرمی.",
+  "@pathDescAdDuha": {
+    "description": "توضیح path_ad_duha"
+  },
+
+  "pathNameKahfCave": "الکهف: ماجرای اصحاب کهف",
+  "@pathNameKahfCave": {
+    "description": "نام path_kahf_cave"
+  },
+  "pathDescKahfCave": "(۱۸:۹–۱۶)، داستان جوانان مؤمن در غار.",
+  "@pathDescKahfCave": {
+    "description": "توضیح path_kahf_cave"
+  },
+
+  "pathNameKahfMusa": "الکهف: موسی و خضر",
+  "@pathNameKahfMusa": {
+    "description": "نام path_kahf_musa"
+  },
+  "pathDescKahfMusa": "(۱۸:۶۰–۷۰)، تأکید بر صبر و حکمت پنهان.",
+  "@pathDescKahfMusa": {
+    "description": "توضیح path_kahf_musa"
+  },
+
+  "pathNameWaqiah": "الواقعة (۵۶:۱–۱۵)",
+  "@pathNameWaqiah": {
+    "description": "نام path_waqiah"
+  },
+  "pathDescWaqiah": "۱۵ آیه درباره فرا رسیدن ناگهانی قیامت.",
+  "@pathDescWaqiah": {
+    "description": "توضیح path_waqiah"
+  },
+
+  "pathNameAsrPatience": "سوره العصر (صبر)",
+  "@pathNameAsrPatience": {
+    "description": "نام path_asr_patience"
+  },
+  "pathDescAsrPatience": "(۱۰۳:۱–۳) مجدداً، ۳ آیه معروف در مورد صبر.",
+  "@pathDescAsrPatience": {
+    "description": "توضیح path_asr_patience"
+  },
+
+  "pathNameBaq153_157": "البقرة (۲:۱۵۳–۱۵۷)",
+  "@pathNameBaq153_157": {
+    "description": "نام path_baq_153_157"
+  },
+  "pathDescBaq153_157": "۵ آیه: «از صبر و نماز یاری بجویید.»",
+  "@pathDescBaq153_157": {
+    "description": "توضیح path_baq_153_157"
+  },
+
+  "pathNameYusuf7_14": "یوسف (۱۲:۷–۱۴)",
+  "@pathNameYusuf7_14": {
+    "description": "نام path_yusuf_7_14"
+  },
+  "pathDescYusuf7_14": "حسادت برادران یوسف. آزمون صبر.",
+  "@pathDescYusuf7_14": {
+    "description": "توضیح path_yusuf_7_14"
+  },
+
+  "pathNameYusuf83_92": "یوسف (۱۲:۸۳–۹۲)",
+  "@pathNameYusuf83_92": {
+    "description": "نام path_yusuf_83_92"
+  },
+  "pathDescYusuf83_92": "غم یعقوب و بخشش یوسف (۱۰ آیه).",
+  "@pathDescYusuf83_92": {
+    "description": "توضیح path_yusuf_83_92"
+  },
+
+  "pathNameInshirah": "سوره الانشراح (۹۴:۱–۸)",
+  "@pathNameInshirah": {
+    "description": "نام path_inshirah"
+  },
+  "pathDescInshirah": "۸ آیه: آرامش پس از سختی. مرتبط با صبر و امید.",
+  "@pathDescInshirah": {
+    "description": "توضیح path_inshirah"
+  },
+
+  "verticalLessonIconsSurahAyahFormat": "سوره {surahName}، آیه {startAyah}-{endAyah}",
+  "@verticalLessonIconsSurahAyahFormat": {
+    "description": "رشته‌ای مانند «سوره الفاتحة، آیه ۱-۷» می‌سازد",
+    "placeholders": {
+      "surahName": {},
+      "startAyah": {},
+      "endAyah": {}
+    }
+  },
+
+
+  "finishLabel": "پایان",
+  "@finishLabel": {
+    "description": "Button label for finishing the lesson"
+  },
+
+  "twoWordMultipleChoiceLabel": "دو کلمهٔ صحیح را انتخاب کنید",
+  "@twoWordMultipleChoiceLabel": {
+    "description": "Prompt text for two-word multiple choice"
+  },
+
+  "singleWordMultipleChoiceLabel": "کلمهٔ صحیح را انتخاب کنید",
+  "@singleWordMultipleChoiceLabel": {
+    "description": "Prompt text for single-word multiple choice"
+  },
+
+  "correctAnswerLabel": "درست!",
+  "@correctAnswerLabel": {
+    "description": "Shown after user selects correct multiple choice"
+  },
+
+  "incorrectAnswerLabel": "نادرست!",
+  "@incorrectAnswerLabel": {
+    "description": "Shown after user selects a wrong multiple choice"
+  },
+
+  "lessonCompletedLabel": "درس به پایان رسید!",
+  "@lessonCompletedLabel": {
+    "description": "Shown when the user has no more MC questions to do."
+  },
+
+  "profileAnalyticsScoreLabel": "تحلیل‌ها و امتیاز",
+  "@profileAnalyticsScoreLabel": {
+    "description": "Header label for the analytics/score section in ProfileScreen"
+  },
+
+  "profileDailyLabel": "روزانه",
+  "@profileDailyLabel": {
+    "description": "Label for daily score"
+  },
+
+  "profileWeeklyLabel": "هفتگی",
+  "@profileWeeklyLabel": {
+    "description": "Label for weekly score"
+  },
+
+  "profileMonthlyLabel": "ماهانه",
+  "@profileMonthlyLabel": {
+    "description": "Label for monthly score"
+  },
+
+  "profileTotalLabel": "مجموع",
+  "@profileTotalLabel": {
+    "description": "Label for total/all-time score"
+  },
+
+  "profileViewChart": "نمایش نمودار",
+  "@profileViewChart": {
+    "description": "Button label to open the chart"
+  },
+
+  "profileCloseLabel": "بستن",
+  "@profileCloseLabel": {
+    "description": "Button label to close the dialog"
+  },
+
+  "profileScoreChartTitle": "نمودار امتیاز",
+  "@profileScoreChartTitle": {
+    "description": "Used in the alert dialog's title, e.g. 'Daily Score Chart'"
+  },
+
+  "profileScoreChartHistory": "تاریخچه",
+  "@profileScoreChartHistory": {
+    "description": "Used in the chart's internal title, e.g. 'Daily History'"
+  },
+
+  "profileNoData": "بدون داده",
+  "@profileNoData": {
+    "description": "Shown if the chart has no data to display"
+  },
+
+  "topBarDailyScoreLabel": "⭐ امروز",
+  "@topBarDailyScoreLabel": {
+    "description": "Short label for daily score displayed on the left side of the TopBar."
+  },
+
+  "topBarDailyScoreSemantic": "امتیاز روزانهٔ شما {score} است",
+  "@topBarDailyScoreSemantic": {
+    "description": "Accessibility label for daily score in the TopBar, announcing how many points the user has earned.",
+    "placeholders": {
+      "score": {}
+    }
+  },
+
+  "profilePremiumNeeded": "لطفاً برای مشاهدهٔ تقویم پیشرفت ارتقا دهید و ما را در توسعهٔ ویژگی‌های بیشتر ان‌شاءالله یاری کنید!",
+  "@profilePremiumNeeded": {
+    "description": "Shown if user is free tier but wants to see weekly progress"
+  },
+
+  "levelMultipleChoiceLabel": "چندگزینه‌ای",
+  "@levelMultipleChoiceLabel": {
+    "description": "Radio label for the 'multipleChoice' level"
+  },
+
+  "levelMultipleChoiceDescription": "مراحل چندگزینه‌ای تک‌واژه‌ای یا دوواژه‌ای با امکان عبور اختیاری از جفت‌ها.",
+  "@levelMultipleChoiceDescription": {
+    "description": "Description for the 'multipleChoice' level"
+  },
+
+  "levelBeginnerLabel": "مبتدی",
+  "@levelBeginnerLabel": {
+    "description": "Radio label for the 'starter' or 'beginner' level"
+  },
+
+  "levelBeginnerDescription": "حذف تدریجی واژه‌ها در توالی‌های گروهی برای حفظ تدریجی.",
+  "@levelBeginnerDescription": {
+    "description": "Description for the 'beginner' level"
+  },
+
+  "subscriptionTierScreenPremiumLabel": "Plus",
+  "@subscriptionTierScreenPremiumLabel": {
+    "description": "Label for the Premium tier"
+  },
+
+
+  "featureUnavailableOffline": "این قابلیت به‌صورت آفلاین در دسترس نیست. لطفاً اتصال خود را برقرار کنید یا با ارتقاء به Plus یا Pro Beta، حالت آفلاین را فعال کنید.",
+  "@featureUnavailableOffline": {
+    "description": "این پیام هنگامی نشان داده می‌شود که یک کاربر رایگان تلاش می‌کند از ویژگی‌های آفلاین استفاده کند."
+  },
+
+  "submissionFeedbackModalTotalCount": "تعداد کل ثبت‌های قدردانی: {count}",
+  "@submissionFeedbackModalTotalCount": {
+    "description": "نشان می‌دهد کاربر به‌طور کلی چند ورودی قدردانی دارد. {count} با عدد واقعی جایگزین می‌شود."
+  },
+
+  "notificationDailyTitle": "یادآوری ملایم قرآن",
+  "@notificationDailyTitle": {
+    "description": "عنوان اعلان یادآوری روزانه قرآن"
+  },
+
+  "notificationWeeklyTitle": "بررسی هفتگی قرآن",
+  "@notificationWeeklyTitle": {
+    "description": "عنوان اعلان یادآوری هفتگی قرآن"
+  },
+  "notificationWeeklyBody": "در مورد پیشرفت خود تأمل کنید و همراه با تمرین شکرگزاری، بخشی جدید از قرآن را حفظ کنید.",
+  "@notificationWeeklyBody": {
+    "description": "متن اعلان یادآوری هفتگی"
+  },
+
+  "notificationChannelDailyRemindersName": "یادآوری‌های روزانه",
+  "@notificationChannelDailyRemindersName": {
+    "description": "نام کانال برای یادآوری‌های روزانه"
+  },
+  "notificationChannelDailyRemindersDesc": "یادآوری‌ها برای حفظ روزانه قرآن",
+  "@notificationChannelDailyRemindersDesc": {
+    "description": "توضیحات کانال برای یادآوری‌های روزانه"
+  },
+
+  "notificationChannelWeeklyRemindersName": "یادآوری‌های هفتگی",
+  "@notificationChannelWeeklyRemindersName": {
+    "description": "نام کانال برای یادآوری‌های هفتگی"
+  },
+  "notificationChannelWeeklyRemindersDesc": "یادآوری‌ها برای بررسی هفتگی حفظ قرآن",
+  "@notificationChannelWeeklyRemindersDesc": {
+    "description": "توضیحات کانال برای یادآوری‌های هفتگی"
+  },
+
+  "nameEntryNotificationFrequencyDaily": "روزانه",
+  "@nameEntryNotificationFrequencyDaily": {
+    "description": "گزینه‌ای در فهرست که نشانگر یادآوری‌های روزانه است"
+  },
+
+
+  "topBarStreakDialogTitle": "رکورد مداومت",
+  "@topBarStreakDialogTitle": {
+    "description": "عنوان کادری که مداومت کاربر را توضیح می‌دهد"
+  },
+  "fillInTheBlanksLabel": "جای‌خالی‌ها را پر کنید",
+  "@fillInTheBlanksLabel": {
+    "description": "متن جداکننده غیرقابل کلیک که پس از «چهارگزینه‌ای» در منوی دشواری نمایش داده می‌شود"
+  },
+
+  "loadingDataLabel": "در حال بارگذاری…",
+  "@loadingDataLabel": {
+    "description": "در حین بارگذاری داده‌ها نمایش داده می‌شود"
+  },
+
+  "ayahRangeLabel": "آیه {start} - {end}",
+  "@ayahRangeLabel": {
+    "description": "متنی برای محدوده آیات در صفحه اول، به‌عنوان مثال 1-7 در سوره فاتحه",
+    "placeholders": {
+      "start": {},
+      "end": {}
+    }
+  },
+
+  "nextPageSemanticLabel": "صفحه بعد",
+  "@nextPageSemanticLabel": {
+    "description": "برچسب معنایی برای فلش رو به پایین برای رفتن به صفحه بعد"
+  },
+
+  "prevPageSemanticLabel": "صفحه قبل",
+  "@prevPageSemanticLabel": {
+    "description": "برچسب معنایی برای فلش رو به بالا برای بازگشت به صفحه قبل"
+  },
+
+  "pageXOfYLabel": "صفحه {current} از {total}",
+  "@pageXOfYLabel": {
+    "description": "متن نوار اطلاع بعد از زدن دکمه پیمایش، نشان‌دهنده صفحه فعلی و کل صفحات",
+    "placeholders": {
+      "current": {},
+      "total": {}
+    }
+  },
+
+  "verseSemanticLabel": "آیه {ayahNumber} از سوره {surahName}",
+  "@verseSemanticLabel": {
+    "description": "برچسب معنایی برای کارت آیه که شماره آیه و نام سوره را نشان می‌دهد",
+    "placeholders": {
+      "ayahNumber": {},
+      "surahName": {}
+    }
+  },
+
+  "ayahLabel": "آیه",
+  "@ayahLabel": {
+    "description": "برچسب پیشوندی برای شماره آیه، مثلاً «آیه 3»"
+  },
+
+  "goToSurahViewLabel": "مشاهده سوره",
+  "@goToSurahViewLabel": {
+    "description": "برچسب دکمه‌ای که به صفحه مبتنی بر مسیر سوره می‌رود"
+  },
+
+  "clickOnAyaToOpenLesson": "روی هر آیه در زیر کلیک کنید تا درس را شروع کنید",
+
+  "difficultyChoosingScreenIntro": "ترجیح خود را انتخاب کنید: چهارگزینه‌ای یا پر کردن جای‌خالی، و تعداد تکرار هر مرحله و پخش صوت را تنظیم کنید.",
+  "@difficultyChoosingScreenIntro": {
+    "description": "متن معرفی در بالای صفحه انتخاب سطح دشواری"
+  },
+
+  "upgradeVoiceUsageMessage": "با ارتقاء به Pro Beta قابلیت صوتی را امتحان کنید و به ما در بهبود آن کمک کنید!",
+  "@upgradeVoiceUsageMessage": {
+    "description": "پیام اصلی در صورتی که کاربر از حد مجاز استفاده صوتی رایگان فراتر رود"
+  },
+
+  "restorePurchasesLabel": "بازیابی خریدها",
+  "@restorePurchasesLabel": {
+    "description": "برچسب دکمه برای بازیابی خریدها"
+  },
+
+  "subscriptionTierScreenMonthly": "ماهانه",
+  "@subscriptionTierScreenMonthly": {
+    "description": "برچسب مربوط به گزینه ماهانه"
+  },
+
+  "subscriptionTierScreenYearly": "سالانه",
+  "@subscriptionTierScreenYearly": {
+    "description": "برچسب مربوط به گزینه سالانه"
+  },
+
+  "subscriptionTierScreenFreePrice": "رایگان",
+  "@subscriptionTierScreenFreePrice": {
+    "description": "قیمت نمایشی برای سطح رایگان"
+  },
+
+  "subscriptionTierScreenPremiumMonthlyPrice": "اکنون ۳ دلار/ماه (قبلاً ۵ دلار)",
+  "@subscriptionTierScreenPremiumMonthlyPrice": {
+    "description": "قیمت ماهانه با تخفیف برای Premium"
+  },
+
+  "subscriptionTierScreenPremiumYearlyPrice": "اکنون ۲۸ دلار/سال (قبلاً ۶۰ دلار)",
+  "@subscriptionTierScreenPremiumYearlyPrice": {
+    "description": "قیمت سالانه با تخفیف برای Premium"
+  },
+
+  "subscriptionTierScreenPremiumPlusMonthlyPrice": "اکنون ۷ دلار/ماه (قبلاً ۱۰ دلار)",
+  "@subscriptionTierScreenPremiumPlusMonthlyPrice": {
+    "description": "قیمت ماهانه با تخفیف برای PremiumPlus"
+  },
+
+  "subscriptionTierScreenPremiumPlusYearlyPrice": "اکنون ۴۵ دلار/سال (قبلاً ۸۴ دلار)",
+  "@subscriptionTierScreenPremiumPlusYearlyPrice": {
+    "description": "قیمت سالانه با تخفیف برای PremiumPlus"
+  },
+
+  "subscriptionPurchaseError": "خطا در خرید اشتراک",
+  "@subscriptionPurchaseError": {
+    "description": "پیام خطای عمومی در خرید اشتراک"
+  },
+
+  "topBarExplorePlansLabel": "مشاهده طرح‌ها",
+  "@topBarExplorePlansLabel": {
+    "description": "متن دکمه برای رفتن به صفحه اشتراک"
+  },
+
+  "topBarBackHomeLabel": "بازگشت به خانه",
+  "@topBarBackHomeLabel": {
+    "description": "متن دکمه برای بازگشت به صفحه خانه"
+  },
+  "profileRequiresPlanUpdate": "نیاز به به‌روزرسانی طرح دارد",
+  "@profileRequiresPlanUpdate": {
+    "description": "نشان‌دهنده‌ای که وقتی اشتراک/طرح ویژه مورد نیاز است، نمایش داده می‌شود"
+  },
+
+  "subscriptionTierScreenPremiumDescription": "هرآنچه در نسخه رایگان است به‌علاوه یادگیری آفلاین درس‌ها و دریافت بازخورد، تحلیل‌های تاریخی، همچنین نوارهای پیشرفت، پروفایل و شخصی‌سازی قرآن. با حمایت شما می‌توانیم امکانات بیشتری بسازیم!",
+  "@subscriptionTierScreenPremiumDescription": {
+    "description": "توضیحات مربوط به نسخه Premium"
+  },
+
+  "subscriptionAutoRenewNotice": "اشتراک به‌صورت خودکار تمدید می‌شود و می‌توانید آن را لغو کنید تا برای دوره بعدی هزینه‌ای دریافت نشود. بخشی از مبالغ از طریق ابتکار Almubtasim \uD83D\uDE00 به Islamic Relief اهدا خواهد شد.",
+  "@subscriptionAutoRenewNotice": {
+    "description": "یادداشت کوتاه درباره تمدید خودکار و اهدای کمک"
+  },
+
+  "subscriptionTierScreenSubscribeLabel": "اشتراک",
+  "@subscriptionTierScreenSubscribeLabel": {
+    "description": "دکمه برای تأیید خرید اشتراک"
+  },
+
+  "subscriptionTierScreenFinalMessage": "ما قدردان حمایت شما هستیم!",
+  "@subscriptionTierScreenFinalMessage": {
+    "description": "پیام کوتاه پایانی در انتهای صفحه اشتراک"
+  },
+  "subscriptionPurchaseRestoreSuccess": "خریدهای شما با موفقیت بازیابی شدند.",
+  "@subscriptionPurchaseRestoreSuccess": {
+    "description": "وقتی فرایند بازیابی خریدها با موفقیت انجام شود"
+  },
+
+  "subscriptionTierScreenRestoreLabel": "بازیابی خریدها",
+  "@subscriptionTierScreenRestoreLabel": {
+    "description": "دکمه‌ای برای بازیابی اشتراک‌های خریداری شده قبلی"
+  },
+
+  "arabicLabel": "عربی",
+  "@arabicLabel": {
+    "description": "برچسب برای گزینه‌ای که کاربر می‌خواهد متن را به زبان عربی مشاهده کند."
+  },
+
+  "transliterationLabel": "انگلیسی",
+  "@transliterationLabel": {
+    "description": "برچسب برای گزینه‌ای که کاربر می‌خواهد متن را با حروف لاتین ببیند."
+  },
+
+  "surahSearchScreenTitle": "جستجوی سوره",
+  "@surahSearchScreenTitle": {
+    "description": "عنوان صفحه جستجوی سوره"
+  },
+
+  "genericBack": "بازگشت",
+  "@genericBack": {
+    "description": "برچسب دکمه بازگشت در نوار اپلیکیشن"
+  },
+
+  "surahSearchSelectSurah": "یک سوره را انتخاب کنید:",
+  "@surahSearchSelectSurah": {
+    "description": "عبارتی برای اینکه کاربر یک سوره را از لیست انتخاب کند"
+  },
+
+  "surahSearchExistingPaths": "مسیرهای موجود برای این سوره",
+  "@surahSearchExistingPaths": {
+    "description": "عنوان بخشی که مسیرهای کاربر/سیستم مربوط به سوره انتخاب‌شده را نشان می‌دهد"
+  },
+
+  "surahSearchNoMatches": "هیچ مسیری یافت نشد.",
+  "@surahSearchNoMatches": {
+    "description": "پیام در صورت نبود هیچ مسیر مربوط به سوره انتخاب‌شده"
+  },
+
+  "surahSearchHideCreateForm": "مخفی کردن فرم ایجاد",
+  "@surahSearchHideCreateForm": {
+    "description": "برچسب برای خاموش کردن فرم ایجاد مسیر"
+  },
+
+  "surahSearchShowCreateForm": "ایجاد مسیر جدید برای سوره",
+  "@surahSearchShowCreateForm": {
+    "description": "برچسب برای روشن کردن فرم ایجاد مسیر"
+  },
+
+  "createPathTrackProgress": "ردیابی پیشرفت؟",
+  "@createPathTrackProgress": {
+    "description": "برچسب برای یک سوئیچ جهت فعال‌کردن ردیابی پیشرفت مسیر"
+  },
+
+  "themeScreenSearchIconSemantic": "جستجوی سوره‌ها",
+  "@themeScreenSearchIconSemantic": {
+    "description": "متن راهنما برای آیکون جستجو در نوار بالای صفحه پوسته/تم"
+  },
+
+  "pathListSearchIconSemantic": "جستجوی سوره‌ها",
+  "@pathListSearchIconSemantic": {
+    "description": "متن راهنما برای آیکون جستجو در صفحه لیست مسیرها"
+  },
+
+  "pathLessonsSearchIconSemantic": "جستجوی سوره‌ها",
+  "@pathLessonsSearchIconSemantic": {
+    "description": "متن راهنما برای آیکون جستجو در صفحه درس‌های مسیر"
+  },
+
+  "playAllSurahSemantic": "پخش کل سوره",
+  "@playAllSurahSemantic": {
+    "description": "متن راهنما برای آیکونی که کل سوره را پخش می‌کند"
+  },
+
+  "toggleTransliterationLabel": "تغییر وضعیت آوانویسی",
+  "@toggleTransliterationLabel": {
+    "description": "متن راهنما برای تغییر دادن حالت آوانویسی (عربی در برابر متن لاتین)"
+  },
+
+  "englishLabel": "انگلیسی",
+  "@englishLabel": {
+    "description": "برچسبی که برای گزینه آوانویسی انگلیسی نمایش داده می‌شود"
+  },
+
+  "subscriptionTierScreenPremiumPlusLabel": "حمایت از ما (سالانه)",
+  "@subscriptionTierScreenPremiumPlusLabel": {
+    "description": "برچسب مربوط به سطح Premium Plus"
+  },
+
+  "subscriptionTierScreenFreeDescription": "همه امکانات رایگان و بدون تبلیغات!",
+  "@subscriptionTierScreenFreeDescription": {
+    "description": "توضیحات مربوط به سطح رایگان"
+  },
+
+  "subscriptionTierScreenPremiumPlusDescription": "در تامین هزینه امکانات و بهبود آن‌ها کمک کنید! همچنین سرمایه‌گذاری اندک می‌تواند در ایجاد عادت کمک کند!",
+  "@subscriptionTierScreenPremiumPlusDescription": {
+    "description": "توضیحات مربوط به سطح Pro"
+  },
+
+  "subscriptionTierScreenSupportLabel": "حمایت سالانه",
+  "@subscriptionTierScreenSupportLabel": {
+    "description": "برچسب برای سطح «حمایت» به صورت سالانه"
+  },
+  "verticalLessonIconsDialogBody": "همه امکانات در نسخه رایگان موجود است، اما اگر مایل باشید، می‌توانید برای توسعه قابلیت‌های بیشتر از ما حمایت کنید. بخشی از اشتراک شما به سازمان Islamic Relief اهدا می‌شود. جزاک الله خیراً!",
+  "@verticalLessonIconsDialogBody": {
+    "description": "متن بدنهٔ دیالوگ ارتقا که مزایا و امور خیریه را شرح می‌دهد"
+  },
+  "welcomeBody": "هدهد نقش ویژه‌ای در یاری به حضرت سلیمان [علیه‌السلام] داشت، با مشاهده و رساندن پیام‌ها.\n\nاو بدون در نظر گرفتن جایگاه شما در مسیرتان، قضاوتی ندارد و مشتاق است در مسیر کشف زیبایی قرآن و اضافه‌کردن یادآوری‌های شکرگزاری برای قدردانی از هر لحظه با شما همراه باشد.",
+  "@welcomeBody": {
+    "description": "متن اصلی که هدف برنامه را توضیح می‌دهد"
+  },
+
+
+  "surahSearchByName": "جستجو بر اساس نام (انگلیسی یا عربی)",
+  "@surahSearchByName": {
+    "description": "برچسب بالای بخش تکمیل خودکار برای جستجوی سوره با نام"
+  },
+
+  "surahSearchHintAnyName": "نام هر سوره‌ای را وارد کنید...",
+  "@surahSearchHintAnyName": {
+    "description": "راهنمای فیلد جستجوی خودکار"
+  },
+
+  "surahSearchFieldLabel": "جستجوی سوره",
+  "@surahSearchFieldLabel": {
+    "description": "برچسب فیلد جستجوی خودکار"
+  },
+
+  "surahSearchInvalidLessonsError": "یک یا چند درس نامعتبر است. امکان ساخت مسیر وجود ندارد.",
+  "@surahSearchInvalidLessonsError": {
+    "description": "پیام نوار اعلان در صورت نامعتبر بودن درس‌های تولیدی"
+  },
+
+  "surahSearchUserSurahPrefix": "سوره کاربر",
+  "@surahSearchUserSurahPrefix": {
+    "description": "به‌عنوان پیشوند نام مسیر در صورت عدم واردکردن نام توسط کاربر"
+  },
+
+  "notificationDailyBody": "لحظه‌ای وقت بگذارید تا با قرآن آرامش بیابید و به خود یادآوری کنید چرا امروز شکرگزار هستید.",
+  "@notificationDailyBody": {
+    "description": "متن روزانه برای یادآوری"
+  }
+}
+
+

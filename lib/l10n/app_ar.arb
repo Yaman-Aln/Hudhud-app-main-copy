@@ -1,0 +1,2290 @@
+{
+  "@@locale": "ar",
+
+  "commentA": "مفاتيح شاشة الترحيب",
+  "appBarTitleWelcome": "مرحبا",
+  "@appBarTitleWelcome": {
+    "description": "يظهر على شريط التطبيق في شاشة الترحيب"
+  },
+
+  "skipLabel": "تخطي",
+  "@skipLabel": {
+    "description": "زر عام لتخطي خطوة معينة"
+  },
+
+  "welcomeHeadline": "مرحبًا بك في تطبيق القرآن مع هدهد!",
+  "@welcomeHeadline": {
+    "description": "نص العنوان الرئيسي في شاشة الترحيب"
+  },
+
+  "getStartedLabel": "ابدأ الآن",
+  "@getStartedLabel": {
+    "description": "زر للانتقال إلى الخطوة التالية في شاشة الترحيب"
+  },
+
+  "commentB": "مفاتيح شاشة الدرس",
+  "lessonScreenAppBarTitle": "الدرس",
+  "@lessonScreenAppBarTitle": {
+    "description": "نص عنوان شريط التطبيق في شاشة الدرس"
+  },
+
+  "noAyahAvailable": "لا توجد آية متاحة للتشغيل.",
+  "@noAyahAvailable": {
+    "description": "رسالة تظهر إذا لم تتوفر آية للتشغيل الصوتي"
+  },
+
+  "audioNotFound": "لم يتم العثور على الصوت في {url}",
+  "@audioNotFound": {
+    "description": "رسالة خطأ عند عدم توفر الصوت على الخادم",
+    "placeholders": {
+      "url": {}
+    }
+  },
+
+  "restartLessonTitle": "إعادة بدء الدرس",
+  "@restartLessonTitle": {
+    "description": "عنوان مربع الحوار عند محاولة المستخدم إعادة تعيين تقدم الدرس"
+  },
+
+  "resetLessonBody": "هل تريد إعادة تعيين تقدمك بالكامل في هذا الدرس؟",
+  "@resetLessonBody": {
+    "description": "نص مربع الحوار لإعادة تعيين الدرس"
+  },
+
+  "cancelLabel": "إلغاء",
+  "@cancelLabel": {
+    "description": "زر عام لإلغاء الإجراء"
+  },
+
+  "yesLabel": "نعم",
+  "@yesLabel": {
+    "description": "زر عام لتأكيد الإجراء"
+  },
+
+  "errorResettingLesson": "حدث خطأ أثناء إعادة تعيين الدرس",
+  "@errorResettingLesson": {
+    "description": "النص الظاهر إذا فشلنا في إعادة تعيين الدرس"
+  },
+
+  "startLabel": "ابدأ",
+  "@startLabel": {
+    "description": "زر لبدء الدرس أو الجلسة"
+  },
+
+  "submitLabel": "إرسال",
+  "@submitLabel": {
+    "description": "زر للإرسال أو التأكيد"
+  },
+
+  "nextLabel": "التالي",
+  "@nextLabel": {
+    "description": "زر للانتقال إلى الخطوة التالية"
+  },
+
+  "voiceErrorMicDeniedTitle": "تم رفض الوصول للميكروفون",
+  "@voiceErrorMicDeniedTitle": {
+    "description": "عنوان النافذة المنبثقة عند رفض إذن الميكروفون"
+  },
+  "voiceErrorMicDeniedBody": "يتطلب التسجيل الوصول للميكروفون. يرجى منح الإذن في الإعدادات.",
+  "@voiceErrorMicDeniedBody": {
+    "description": "نص التفاصيل في النافذة المنبثقة لرفض الميكروفون"
+  },
+  "voiceErrorMicDeniedSemanticLabel": "مربع حوار رفض إذن الميكروفون",
+  "@voiceErrorMicDeniedSemanticLabel": {
+    "description": "وصف للمساعدات البصرية لذوي الاحتياجات"
+  },
+
+  "voiceErrorRecorderStartTitle": "خطأ في التسجيل",
+  "@voiceErrorRecorderStartTitle": {
+    "description": "عنوان النافذة المنبثقة عند فشل بدء التسجيل"
+  },
+  "voiceErrorRecorderStartBody": "تعذر بدء جهاز التسجيل. يرجى المحاولة مرة أخرى.",
+  "@voiceErrorRecorderStartBody": {
+    "description": "نص التفاصيل عند فشل بدء التسجيل"
+  },
+  "voiceErrorRecorderStartSemanticLabel": "حوار خطأ بدء التسجيل",
+  "@voiceErrorRecorderStartSemanticLabel": {
+    "description": "وصف للمساعدات البصرية لذوي الاحتياجات"
+  },
+
+  "voiceErrorRecorderStopTitle": "خطأ عند إيقاف التسجيل",
+  "@voiceErrorRecorderStopTitle": {
+    "description": "عنوان النافذة المنبثقة عند فشل إيقاف التسجيل"
+  },
+  "voiceErrorRecorderStopBody": "تعذر إيقاف جهاز التسجيل بشكل صحيح. يرجى المحاولة مرة أخرى.",
+  "@voiceErrorRecorderStopBody": {
+    "description": "نص التفاصيل عند فشل إيقاف التسجيل"
+  },
+  "voiceErrorRecorderStopSemanticLabel": "حوار خطأ إيقاف التسجيل",
+  "@voiceErrorRecorderStopSemanticLabel": {
+    "description": "وصف للمساعدات البصرية لذوي الاحتياجات"
+  },
+
+  "voiceErrorNoSoundTitle": "لم يتم اكتشاف أي صوت",
+  "@voiceErrorNoSoundTitle": {
+    "description": "عنوان النافذة المنبثقة عند خلو التسجيل من الصوت"
+  },
+  "voiceErrorNoSoundBody": "تسجيلك كان صامتًا أو منخفضًا جدًا. يرجى المحاولة مرة أخرى.",
+  "@voiceErrorNoSoundBody": {
+    "description": "نص التفاصيل في حالة عدم اكتشاف الصوت"
+  },
+  "voiceErrorNoSoundSemanticLabel": "مربع حوار عدم اكتشاف الصوت",
+  "@voiceErrorNoSoundSemanticLabel": {
+    "description": "وصف للمساعدات البصرية لذوي الاحتياجات"
+  },
+
+  "voiceErrorTranscriptionTitle": "خطأ في تحويل الصوت إلى نص",
+  "@voiceErrorTranscriptionTitle": {
+    "description": "العنوان في حال فشل الشبكة أو الخادم في تحويل الصوت إلى نص"
+  },
+  "voiceErrorTranscriptionBody": "تعذر تحويل تسجيلك إلى نص. يرجى التحقق من اتصالك والمحاولة مرة أخرى.",
+  "@voiceErrorTranscriptionBody": {
+    "description": "نص الخطأ في حالة فشل تحويل الصوت إلى نص"
+  },
+  "voiceErrorTranscriptionSemanticLabel": "مربع حوار خطأ التحويل النصي",
+  "@voiceErrorTranscriptionSemanticLabel": {
+    "description": "وصف للمساعدات البصرية لذوي الاحتياجات"
+  },
+
+  "tapColoredWordsHint": "اضغط على الكلمات المميزة للاطلاع على التصحيح.",
+  "@tapColoredWordsHint": {
+    "description": "إعلام المستخدمين بإمكانية عرض الكلمات المصححة في القرآن"
+  },
+
+  "emptyInputWarning": "يجب إدخال شيء قبل الإرسال",
+  "@emptyInputWarning": {
+    "description": "تحذير إذا حاول المستخدم الإرسال دون كتابة أي نص"
+  },
+
+  "getHintLabel": "أظهر المساعدة",
+  "@getHintLabel": {
+    "description": "زر للحصول على تلميح"
+  },
+
+  "removeHintLabel": "أزل المساعدة",
+  "@removeHintLabel": {
+    "description": "زر لإزالة التلميح المطبق"
+  },
+
+  "typeTheMissingWordsLabel": "اكتب الكلمة(الكلمات) الناقصة",
+  "@typeTheMissingWordsLabel": {
+    "description": "التسمية فوق الحقل النصي الخاص بالكلمات الناقصة"
+  },
+
+  "difficultyLabel": "الصعوبة",
+  "@difficultyLabel": {
+    "description": "التسمية فوق قائمة مستوى الصعوبة"
+  },
+
+  "repeatCountLabel": "عدد التكرارات",
+  "@repeatCountLabel": {
+    "description": "التسمية فوق قائمة عدد التكرارات"
+  },
+
+  "backButtonLabel": "رجوع",
+  "@backButtonLabel": {
+    "description": "وصف بالمعنى لسهم الرجوع في شريط التطبيق لشاشة الدرس"
+  },
+
+  "toggleTranslationLabel": "تبديل الترجمة الفورية",
+  "@toggleTranslationLabel": {
+    "description": "وصف بالمعنى لأيقونة تبديل إظهار الترجمة"
+  },
+
+  "openTranslationScreenLabel": "فتح شاشة الترجمة",
+  "@openTranslationScreenLabel": {
+    "description": "وصف بالمعنى للأيقونة التي تفتح شاشة الترجمة المنفصلة"
+  },
+
+  "restartLessonSemanticLabel": "إعادة بدء الدرس",
+  "@restartLessonSemanticLabel": {
+    "description": "وصف بالمعنى لزر أيقونة إعادة بدء الدرس"
+  },
+
+  "verseDisplayAreaLabel": "منطقة عرض الآيات القرآنية",
+  "@verseDisplayAreaLabel": {
+    "description": "وصف بالمعنى للحاوية الرئيسية التي تعرض الآيات"
+  },
+
+  "playAudioSemanticLabel": "تشغيل تلاوة الآية",
+  "@playAudioSemanticLabel": {
+    "description": "وصف بالمعنى لزر تشغيل الصوت"
+  },
+
+  "openGratitudeSemanticLabel": "فتح نافذة الامتنان",
+  "@openGratitudeSemanticLabel": {
+    "description": "وصف بالمعنى لزر أيقونة فتح نافذة الامتنان"
+  },
+
+  "voiceUsageSemanticLabel": "استخدام الصوت بالدقائق",
+  "@voiceUsageSemanticLabel": {
+    "description": "وصف بالمعنى لمنطقة عرض إحصائيات استخدام الصوت (PremiumPlus)"
+  },
+
+  "voiceRecordSemanticLabel": "بدء أو إيقاف التسجيل الصوتي",
+  "@voiceRecordSemanticLabel": {
+    "description": "وصف بالمعنى لزر الميكروفون في حقل النص"
+  },
+
+  "commentC": "نصوص شاشة الصفحة الرئيسية (Home)",
+  "homeTitle": "الرئيسية",
+  "@homeTitle": {
+    "description": "عنوان الشريط العلوي لشاشة الصفحة الرئيسية"
+  },
+
+  "noPathsLabel": "لا توجد مسارات صالحة متاحة.",
+  "@noPathsLabel": {
+    "description": "يظهر إذا لم يتم العثور على مسارات نشطة"
+  },
+
+  "errorLoadingActivePath": "خطأ في تحميل المسار النشط: {err}",
+  "@errorLoadingActivePath": {
+    "description": "رسالة خطأ عند فشل جلب المسار النشط",
+    "placeholders": {
+      "err": {}
+    }
+  },
+
+  "verticalLessonIconsGoToTheme": "انتقل إلى المحور",
+  "@verticalLessonIconsGoToTheme": {
+    "description": "زر للانتقال إلى شاشة المحور (ThemeScreen) عند إنهاء المسار"
+  },
+
+  "homePathCardLabel": "اضغط لفتح شاشة المحور",
+  "@homePathCardLabel": {
+    "description": "وصف بالمعنى عند الضغط على بطاقة المسار"
+  },
+
+  "arrowForwardSemanticLabel": "فتح التفاصيل",
+  "@arrowForwardSemanticLabel": {
+    "description": "وصف بالمعنى لأيقونة السهم المتجه للأمام في بطاقة المسار"
+  },
+
+  "noTrackProgressLabel": "هذا المسار لا يتتبع التقدم.",
+  "@noTrackProgressLabel": {
+    "description": "يظهر إذا كان المسار لا يدعم تتبع التقدم"
+  },
+
+  "premiumRequiredLabel": "قم بالترقية لإلغاء تأمين ميزة التقدم. ادعمنا لنتمكن من تقديم المزيد!",
+  "@premiumRequiredLabel": {
+    "description": "يظهر إذا كان المستخدم في الخطة المجانية والمسار يدعم التقدم"
+  },
+
+  "completedLabel": "مكتمل",
+  "@completedLabel": {
+    "description": "لاحقة مثل '٪ مكتمل'"
+  },
+
+  "fabLogGratitudeLabel": "اضغط لتسجيل الامتنان",
+  "@fabLogGratitudeLabel": {
+    "description": "وصف بالمعنى لزر الإجراء العائم الذي يسجل الامتنان"
+  },
+
+  "errorNavigatingToLesson": "حدث خطأ أثناء الانتقال إلى الدرس",
+  "@errorNavigatingToLesson": {
+    "description": "رسالة خطأ عند فشل فتح شاشة الدرس"
+  },
+
+  "commentD": "نصوص شاشة الملف الشخصي",
+  "profileTitle": "ملفي الشخصي",
+  "@profileTitle": {
+    "description": "عنوان شريط التطبيق لشاشة الملف الشخصي"
+  },
+
+  "profileBackArrowLabel": "الرجوع إلى الشاشة السابقة",
+  "@profileBackArrowLabel": {
+    "description": "وصف بالمعنى لسهم الرجوع في شاشة الملف الشخصي"
+  },
+
+  "profileAvatarSemanticLabel": "الصورة الرمزية للمستخدم",
+  "@profileAvatarSemanticLabel": {
+    "description": "وصف بالمعنى للصورة الدائرية التي تعرض الحرف الأول من اسم المستخدم"
+  },
+
+  "profileEnterYourName": "أدخل اسمك",
+  "@profileEnterYourName": {
+    "description": "النص الإرشادي في حقل اسم المستخدم"
+  },
+
+  "nameEntryNotificationFrequencyDropdownLabel": "تكرار التنبيهات",
+  "@nameEntryNotificationFrequencyDropdownLabel": {
+    "description": "وصف لقائمة اختيار معدل التنبيهات"
+  },
+
+  "nameEntryNotificationFrequencyWeekly": "أسبوعيًا",
+  "@nameEntryNotificationFrequencyWeekly": {
+    "description": "خيار في القائمة يشير إلى التذكيرات الأسبوعية"
+  },
+
+  "nameEntryNotificationFrequencyNone": "لا يوجد",
+  "@nameEntryNotificationFrequencyNone": {
+    "description": "خيار في القائمة يشير إلى عدم وجود تذكيرات"
+  },
+
+  "notificationPermissionPrompt": "نرغب في إرسال تذكيرات لطيفة لإكمال سجلات الامتنان أو الدروس — يرجى السماح بالتنبيهات إذا كنت تريد مساعدتنا في بناء العادة \uD83D\uDE03.",
+  "@notificationPermissionPrompt": {
+    "description": "شرح موجز عن سبب طلب التطبيق أذونات الإشعارات"
+  },
+
+  "profileNameSave": "حفظ",
+  "@profileNameSave": {
+    "description": "زر لحفظ الاسم الجديد للمستخدم"
+  },
+
+  "profileNameCancel": "إلغاء",
+  "@profileNameCancel": {
+    "description": "زر لإلغاء تعديل الاسم"
+  },
+
+  "profileNameGuest": "ضيف",
+  "@profileNameGuest": {
+    "description": "اسم افتراضي إذا لم يدخل المستخدم أي اسم"
+  },
+
+  "profileNameEdit": "تعديل",
+  "@profileNameEdit": {
+    "description": "زر للبدء في تعديل الاسم"
+  },
+
+  "profilePreferredLanguage": "اللغة:",
+  "@profilePreferredLanguage": {
+    "description": "التسمية أعلى قائمة اختيار اللغة في شاشة الملف الشخصي"
+  },
+
+  "okLabel": "حسناً",
+  "@okLabel": {
+    "description": "زر عام للتأكيد أو الموافقة"
+  },
+
+  "profileReciterLabel": "القارئ",
+  "@profileReciterLabel": {
+    "description": "التسمية لقائمة اختيار القارئ في شاشة الملف الشخصي"
+  },
+
+  "profileFontLabel": "الخط:",
+  "@profileFontLabel": {
+    "description": "التسمية لقائمة اختيار الخط في شاشة الملف الشخصي"
+  },
+
+  "profileReciterMishary": "مشاري راشد العفاسي",
+  "@profileReciterMishary": {
+    "description": "اسم القارئ الأول"
+  },
+
+  "profileReciterShatri": "أبو بكر الشاطري",
+  "@profileReciterShatri": {
+    "description": "اسم القارئ الثاني"
+  },
+
+  "profileReciterQatami": "ناصر القطامي",
+  "@profileReciterQatami": {
+    "description": "اسم القارئ الثالث"
+  },
+
+  "profileUpgradePremiumTitle": "افتح المزيد من خيارات التخصيص!",
+  "@profileUpgradeProTitle": {
+    "description": "عنوان مربع الحوار الذي يطلب من المستخدم الترقية إلى النسخة Pro."
+  },
+  "profileUpgradePremiumBody": "يمكنك الاستمتاع بتغيير الخطوط واختيار القراء عبر الترقية إلى النسخة Pro. ادعم جهودنا المستمرة وتمتع بمزيد من التخصيص!",
+  "@profileUpgradeProBody": {
+    "description": "النص الذي يشجع المستخدم على الترقية إلى النسخة Pro للحصول على تخصيص إضافي."
+  },
+
+  "profileWeeksProgress": "ما شاء الله، هذا إنجازك الأسبوعي:",
+  "@profileWeeksProgress": {
+    "description": "عنوان قسم تقدم المستخدم الأسبوعي"
+  },
+
+  "profileGratefulnessCalendar": "تقويم الامتنان",
+  "@profileGratefulnessCalendar": {
+    "description": "عنوان التقويم الأسبوعي للاعتمادية في الامتنان"
+  },
+
+  "profileQuranLearningCalendar": "تقويم تعلم القرآن",
+  "@profileQuranLearningCalendar": {
+    "description": "عنوان التقويم الأسبوعي لإكمال الدروس"
+  },
+
+  "profilePrevWeekSemantic": "الانتقال إلى الأسبوع السابق",
+  "@profilePrevWeekSemantic": {
+    "description": "وصف بالمعنى للسهم الأيسر الذي يعرض الأسبوع السابق"
+  },
+
+  "profileNextWeekSemantic": "الانتقال إلى الأسبوع التالي",
+  "@profileNextWeekSemantic": {
+    "description": "وصف بالمعنى للسهم الأيمن الذي يعرض الأسبوع التالي"
+  },
+
+  "profileNotificationFrequency": "تكرار التنبيهات",
+  "@profileNotificationFrequency": {
+    "description": "التسمية أعلى قائمة اختيار معدل التنبيهات في شاشة الملف الشخصي"
+  },
+
+
+  "commentE": "نصوص شاشة سجل الامتنان",
+  "gratitudeLogTitle": "سجل امتناني",
+  "@gratitudeLogTitle": {
+    "description": "عنوان شريط التطبيق لشاشة سجل الامتنان"
+  },
+
+  "gratitudeLogBackArrowSemantic": "العودة إلى الرئيسية",
+  "@gratitudeLogBackArrowSemantic": {
+    "description": "وصف بالمعنى لسهم الرجوع في سجل الامتنان"
+  },
+
+  "gratitudeLogClearAllSemantic": "مسح جميع مدخلات الامتنان",
+  "@gratitudeLogClearAllSemantic": {
+    "description": "وصف بالمعنى لأيقونة الحذف في سجل الامتنان"
+  },
+
+  "gratitudeLogAddSemantic": "إضافة مدخلة امتنان جديدة",
+  "@gratitudeLogAddSemantic": {
+    "description": "وصف بالمعنى لأيقونة الإضافة في سجل الامتنان"
+  },
+
+  "gratitudeLogClearDialogTitle": "مسح سجل الامتنان",
+  "@gratitudeLogClearDialogTitle": {
+    "description": "عنوان مربع الحوار لتأكيد مسح جميع مدخلات الامتنان"
+  },
+
+  "gratitudeLogClearDialogBody": "هل أنت متأكد من رغبتك بمسح جميع مدخلات الامتنان؟ لا يمكن التراجع عن هذا الإجراء.",
+  "@gratitudeLogClearDialogBody": {
+    "description": "نص مربع الحوار عند مسح جميع مدخلات الامتنان"
+  },
+
+  "gratitudeLogClearConfirm": "نعم، امسح",
+  "@gratitudeLogClearConfirm": {
+    "description": "زر لتأكيد مسح جميع المدخلات"
+  },
+
+  "gratitudeLogStreak": "⭐ سلسلة الامتنان: {days} أيام",
+  "@gratitudeLogStreak": {
+    "description": "سلسلة الامتنان (عدد الأيام المتتالية)",
+    "placeholders": {
+      "days": {}
+    }
+  },
+
+  "gratitudeLogStreakLoading": "جاري حساب السلسلة...",
+  "@gratitudeLogStreakLoading": {
+    "description": "يظهر أثناء تحميل بيانات السلسلة"
+  },
+
+  "gratitudeLogStreakError": "فشل في حساب سلسلة الامتنان.",
+  "@gratitudeLogStreakError": {
+    "description": "نص للخطأ إذا فشل حساب السلسلة"
+  },
+
+  "gratitudeLogTotalDays": "إجمالي أيام الامتنان: {count}",
+  "@gratitudeLogTotalDays": {
+    "description": "إجمالي الأيام المختلفة التي سجّل فيها المستخدم امتنانًا",
+    "placeholders": {
+      "count": {}
+    }
+  },
+
+  "gratitudeLogDataLoading": "جاري تحميل بيانات الامتنان...",
+  "@gratitudeLogDataLoading": {
+    "description": "يظهر أثناء تحميل بيانات الامتنان"
+  },
+
+  "gratitudeLogDataError": "فشل في تحميل بيانات الامتنان.",
+  "@gratitudeLogDataError": {
+    "description": "نص خطأ عند فشل تحميل بيانات الامتنان"
+  },
+
+  "gratitudeLogCardSemantic": "بطاقة مدخلة الامتنان",
+  "@gratitudeLogCardSemantic": {
+    "description": "وصف بالمعنى لكل بطاقة امتنان في القائمة"
+  },
+
+  "gratitudeLogItemIcon": "أيقونة الامتنان",
+  "@gratitudeLogItemIcon": {
+    "description": "وصف بالمعنى لأيقونة القلب بجانب كل عنصر"
+  },
+
+  "gratitudeLogEmptyIconSemantic": "اضغط لإضافة أول امتنان لك",
+  "@gratitudeLogEmptyIconSemantic": {
+    "description": "وصف بالمعنى للأيقونة البرتقالية الكبيرة في حالة عدم وجود أي مدخلات امتنان"
+  },
+
+  "gratitudeLogEmptyMessage": "لا توجد أي مدخلات امتنان بعد.\nاضغط على “+” لإضافة أول امتنان لك!",
+  "@gratitudeLogEmptyMessage": {
+    "description": "تعليمات تظهر إذا كان السجل فارغًا"
+  },
+
+  "gratitudeLogEntriesAdded": "تمت إضافة الامتنان بنجاح!",
+  "@gratitudeLogEntriesAdded": {
+    "description": "نص التنبيه عند نجاح إضافة الامتنان"
+  },
+
+  "gratitudeLogEntriesFailed": "فشل في إضافة الامتنان. يرجى المحاولة مرة أخرى.",
+  "@gratitudeLogEntriesFailed": {
+    "description": "نص التنبيه عند فشل إضافة الامتنان"
+  },
+
+  "commentF": "نصوص شاشة إتمام الدرس",
+  "lessonCompletedTitle": "تم إتمام الدرس",
+  "@lessonCompletedTitle": {
+    "description": "عنوان شريط التطبيق لشاشة إتمام الدرس"
+  },
+
+  "lessonCompletedBackArrowSemantic": "الرجوع إلى الرئيسية",
+  "@lessonCompletedBackArrowSemantic": {
+    "description": "وصف بالمعنى لسهم الرجوع في شاشة إتمام الدرس"
+  },
+
+  "lessonCompletedMashaAllah": "ما شاء الله!",
+  "@lessonCompletedMashaAllah": {
+    "description": "نص تهنئة كبير"
+  },
+
+  "lessonCompletedMashaAllahSemantic": "نص تهنئة",
+  "@lessonCompletedMashaAllahSemantic": {
+    "description": "وصف بالمعنى للنص الأخضر الكبير"
+  },
+
+  "lessonCompletedMessage": "لقد أتممت هذا الدرس!",
+  "@lessonCompletedMessage": {
+    "description": "نص فرعي يشير إلى انتهاء الدرس"
+  },
+
+  "lessonCompletedImageSemantic": "رسم توضيحي لهدهد والقرآن",
+  "@lessonCompletedImageSemantic": {
+    "description": "وصف بالمعنى للصورة المعروضة للدلالة على النجاح"
+  },
+
+  "lessonCompletedGoBackSemantic": "العودة إلى اختيار المسارات",
+  "@lessonCompletedGoBackSemantic": {
+    "description": "وصف بالمعنى لزر 'الرجوع إلى المسار'"
+  },
+
+  "lessonCompletedGoBackButton": "الرجوع إلى المسار",
+  "@lessonCompletedGoBackButton": {
+    "description": "زر للعودة إلى شاشة المسار/الرئيسية"
+  },
+
+  "lessonCompletedRestartSemantic": "إعادة بدء الدرس",
+  "@lessonCompletedRestartSemantic": {
+    "description": "وصف بالمعنى لزر 'إعادة بدء الدرس'"
+  },
+
+  "lessonCompletedRestartButton": "إعادة بدء الدرس",
+  "@lessonCompletedRestartButton": {
+    "description": "زر لإعادة الدرس نفسه من البداية"
+  },
+
+  "lessonCompletedEncouragement": "واصل العمل الرائع!",
+  "@lessonCompletedEncouragement": {
+    "description": "نص تشجيعي نهائي في الأسفل"
+  },
+
+  "commentG": "نصوص شاشة المحاور (Themes)",
+  "themeScreenTitle": "المحاور",
+  "@themeScreenTitle": {
+    "description": "عنوان الشريط العلوي لشاشة المحاور"
+  },
+
+  "themeNameCoreRecitation": "التلاوة اليومية الأساسية",
+  "@themeNameCoreRecitation": {
+    "description": "اسم المحور الذي يضم سورة الفاتحة والإخلاص وغيرها"
+  },
+
+  "themeNameBeginJourney": "بداية الرحلة",
+  "@themeNameBeginJourney": {
+    "description": "اسم المحور لسور قصيرة للمبتدئين"
+  },
+
+  "themeNameMercyAndHope": "الرحمة والأمل",
+  "@themeNameMercyAndHope": {
+    "description": "اسم المحور الذي يركز على رحمة الله والإيجابية"
+  },
+
+  "themeNameGratitudeReflection": "الشكر والتأمل",
+  "@themeNameGratitudeReflection": {
+    "description": "اسم المحور الذي يركز على آيات الامتنان"
+  },
+
+  "themeNameStoriesReminders": "القصص والعبر والتذكير",
+  "@themeNameStoriesReminders": {
+    "description": "اسم المحور الذي يحتوي آيات قصصية وتذكيرية"
+  },
+
+  "themeNamePatience": "الصبر",
+  "@themeNamePatience": {
+    "description": "اسم المحور الذي يركز على المثابرة والصبر"
+  },
+
+  "themeNameUserCreated": "منشأ بواسطة المستخدم",
+  "@themeNameUserCreated": {
+    "description": "اسم للمحور المخصص الذي ينشئه المستخدم"
+  },
+
+  "themeScreenNoThemesLabel": "لا توجد محاور متاحة",
+  "@themeScreenNoThemesLabel": {
+    "description": "يظهر إذا لم يتم إرجاع أي محور"
+  },
+
+  "themeScreenBackArrowSemantic": "الرجوع",
+  "@themeScreenBackArrowSemantic": {
+    "description": "وصف بالمعنى لسهم العودة في شريط التطبيق لشاشة المحاور"
+  },
+
+  "themeScreenThemeCardSemantic": "اضغط لفتح مسارات المحور",
+  "@themeScreenThemeCardSemantic": {
+    "description": "وصف بالمعنى لكل بطاقة محور في القائمة"
+  },
+
+  "themeScreenLockIconSemantic": "المحور مقفول. يتطلب الترقية.",
+  "@themeScreenLockIconSemantic": {
+    "description": "وصف بالمعنى لأيقونة القفل إن كان المحور يحتاج ترقية"
+  },
+
+  "pathListExploreOtherThemes": "اكتشف محاور أخرى",
+  "@pathListExploreOtherThemes": {
+    "description": "زر للانتقال إلى شاشة المحاور لاستكشاف محاور أخرى."
+  },
+
+  "themeScreenUserCreatedSubtitle": "أنشأته بنفسك — خصصه كما تشاء.",
+  "@themeScreenUserCreatedSubtitle": {
+    "description": "العنوان الفرعي للمحاور التي أنشأها المستخدم"
+  },
+
+  "themeSubtitleCoreRecitation": "سور أساسية للصلوات اليومية والحماية.",
+  "@themeSubtitleCoreRecitation": {
+    "description": "العنوان الفرعي لـ theme_core_recitation"
+  },
+
+  "themeSubtitleBeginJourney": "سور قصيرة لبداية رحلتك مع القرآن.",
+  "@themeSubtitleBeginJourney": {
+    "description": "العنوان الفرعي لـ theme_begin_journey"
+  },
+
+  "themeSubtitleMercyAndHope": "تدبر رحمة الله وإحياء الأمل.",
+  "@themeSubtitleMercyAndHope": {
+    "description": "العنوان الفرعي لـ theme_mercy_and_hope"
+  },
+
+  "themeSubtitleGratitudeReflection": "نمِّ شعور الشكر والتأمل من خلال آيات مختارة.",
+  "@themeSubtitleGratitudeReflection": {
+    "description": "العنوان الفرعي لـ theme_gratitude_reflection"
+  },
+
+  "themeSubtitleStoriesReminders": "استكشف القصص القرآنية للعبرة والتذكير.",
+  "@themeSubtitleStoriesReminders": {
+    "description": "العنوان الفرعي لـ theme_stories_reminders"
+  },
+
+  "themeSubtitlePatience": "آيات تركز على الصبر والمثابرة.",
+  "@themeSubtitlePatience": {
+    "description": "العنوان الفرعي لـ theme_patience"
+  },
+
+  "themeSubtitleDefault": "مجموعة من السور لتحقيق نمو روحي أعمق.",
+  "@themeSubtitleDefault": {
+    "description": "عنوان فرعي افتراضي إذا لم يتم تحديد معرف محور معروف"
+  },
+
+  "themeScreenRequiredPremium": "يتطلب بريميوم",
+  "@themeScreenRequiredPremium": {
+    "description": "يظهر إذا كان المحور يتطلب اشتراك Premium"
+  },
+
+  "themeScreenRequiredPremiumPlus": "يتطلب بريميوم بلس",
+  "@themeScreenRequiredPremiumPlus": {
+    "description": "يظهر إذا كان المحور يتطلب اشتراك Premium Plus"
+  },
+
+  "commentH": "نصوص شاشة قائمة المسارات (Path List)",
+  "pathListScreenTitle": "مسارات المحور",
+  "@pathListScreenTitle": {
+    "description": "عنوان شريط التطبيق لشاشة قائمة المسارات"
+  },
+
+  "pathListScreenBackArrowSemantic": "الرجوع",
+  "@pathListScreenBackArrowSemantic": {
+    "description": "وصف بالمعنى لسهم الرجوع في شريط التطبيق"
+  },
+
+  "pathListScreenAddIconSemantic": "إضافة مسار جديد",
+  "@pathListScreenAddIconSemantic": {
+    "description": "وصف بالمعنى لأيقونة الإضافة في شريط التطبيق"
+  },
+
+  "pathListAddNewPathTooltip": "إضافة مسار جديد",
+  "@pathListAddNewPathTooltip": {
+    "description": "تلميح يظهر عند تمرير المؤشر على أيقونة إضافة مسار جديد"
+  },
+
+  "pathListScreenAddIconSemanticEmpty": "اضغط لإضافة أول مسار",
+  "@pathListScreenAddIconSemanticEmpty": {
+    "description": "وصف بالمعنى للأيقونة الكبيرة عند عدم وجود مسارات"
+  },
+
+  "pathListEmptyMessage": "لا توجد أي مسارات حتى الآن.\nاضغط على “+” لإنشاء أول مسار!",
+  "@pathListEmptyMessage": {
+    "description": "رسالة تظهر إذا لم توجد مسارات قائمة"
+  },
+
+  "pathListUnavailableLabel": "هذا المسار غير متاح حاليًا",
+  "@pathListUnavailableLabel": {
+    "description": "يظهر إذا كان المسار غير صالح"
+  },
+
+  "pathListThemeLabel": "محور",
+  "@pathListThemeLabel": {
+    "description": "يظهر بعد اسم المحور، مثل '“الرحمة” محور'"
+  },
+
+  "pathListPathCardSemantic": "اضغط لفتح تفاصيل المسار",
+  "@pathListPathCardSemantic": {
+    "description": "وصف بالمعنى لكل بطاقة مسار في القائمة"
+  },
+
+  "pathListCompleteIconSemantic": "المسار مكتمل",
+  "@pathListCompleteIconSemantic": {
+    "description": "وصف بالمعنى لأيقونة الاختيار الأخضر"
+  },
+
+  "pathListInProgressIconSemantic": "المسار قيد التقدم",
+  "@pathListInProgressIconSemantic": {
+    "description": "وصف بالمعنى لأيقونة الساعة الرملية"
+  },
+
+  "pathListInvalidIconSemantic": "مسار غير صالح أو غير متاح",
+  "@pathListInvalidIconSemantic": {
+    "description": "وصف بالمعنى لأيقونة الخطأ الحمراء"
+  },
+
+  "pathListErrorLoadingPaths": "خطأ في تحميل المسارات:",
+  "@pathListErrorLoadingPaths": {
+    "description": "بادئة لرسالة الخطأ عند فشل تحميل بيانات المسارات"
+  },
+
+  "commentI": "نصوص شاشة تفاصيل المسار (Path Detail)",
+  "pathDetailScreenTitle": "تفاصيل المسار",
+  "@pathDetailScreenTitle": {
+    "description": "عنوان شريط التطبيق لشاشة تفاصيل المسار"
+  },
+
+  "pathDetailScreenBackArrowSemantic": "الرجوع إلى قائمة المسارات",
+  "@pathDetailScreenBackArrowSemantic": {
+    "description": "وصف بالمعنى لسهم الرجوع في شاشة تفاصيل المسار"
+  },
+
+  "pathDetailScreenNotFound": "لم يتم العثور على المسار.",
+  "@pathDetailScreenNotFound": {
+    "description": "يظهر إذا فشلنا في استرداد المسار"
+  },
+
+  "pathDetailScreenFailToUpdate": "فشل تحديث تقدم المسار:",
+  "@pathDetailScreenFailToUpdate": {
+    "description": "بادئة لرسالة خطأ عند فشل تحديث تقدم المسار"
+  },
+
+  "pathDetailScreenProgressDisabled": "التتبع غير متوفر لهذا المسار.",
+  "@pathDetailScreenProgressDisabled": {
+    "description": "يظهر إذا كان path.tracksProgress == false"
+  },
+
+  "pathDetailScreenLessonsHeading": "الدروس:",
+  "@pathDetailScreenLessonsHeading": {
+    "description": "نص عنوان فوق قائمة الدروس"
+  },
+
+  "pathDetailScreenNoLessonsLabel": "لا توجد دروس متاحة.",
+  "@pathDetailScreenNoLessonsLabel": {
+    "description": "يظهر إذا لم يحتوي المسار على أي دروس"
+  },
+
+  "pathDetailScreenErrorLoading": "خطأ في تحميل المسار أو الدروس:",
+  "@pathDetailScreenErrorLoading": {
+    "description": "بادئة لرسائل الخطأ في شاشة تفاصيل المسار"
+  },
+
+  "pathDetailScreenLessonCardSemantic": "اضغط لفتح تفاصيل الدرس",
+  "@pathDetailScreenLessonCardSemantic": {
+    "description": "وصف بالمعنى لكل بطاقة درس في قائمة تفاصيل المسار"
+  },
+
+  "pathDetailScreenLessonCompleteIconSemantic": "الدرس مكتمل",
+  "@pathDetailScreenLessonCompleteIconSemantic": {
+    "description": "وصف بالمعنى لأيقونة الاختيار الأخضر في الدرس المكتمل"
+  },
+
+  "pathDetailScreenLessonInProgressIconSemantic": "الدرس قيد التقدم",
+  "@pathDetailScreenLessonInProgressIconSemantic": {
+    "description": "وصف بالمعنى لأيقونة الساعة الرملية في الدرس غير المكتمل"
+  },
+
+  "pathDetailScreenLessonInvalidIconSemantic": "الدرس غير صالح أو غير متاح",
+  "@pathDetailScreenLessonInvalidIconSemantic": {
+    "description": "وصف بالمعنى لأيقونة الخطأ الحمراء في الدرس"
+  },
+
+  "pathDetailScreenLessonProgressUnavailable": "التقدم غير متاح",
+  "@pathDetailScreenLessonProgressUnavailable": {
+    "description": "عنوان فرعي إذا كان الدرس غير صالح"
+  },
+
+  "pathDetailScreenLessonNoProgress": "لا يوجد تتبع للتقدم لهذا المسار",
+  "@pathDetailScreenLessonNoProgress": {
+    "description": "عنوان فرعي إذا كان المسار لا يدعم التتبع"
+  },
+
+  "pathDetailScreenLessonUpgrade": "قم بالترقية للحصول على ميزة التقدم.",
+  "@pathDetailScreenLessonUpgrade": {
+    "description": "عنوان فرعي إذا كان المستخدم لا يستطيع رؤية التقدم"
+  },
+
+  "pathDetailScreenLessonProgressLabel": "التقدم: {progress}٪",
+  "@pathDetailScreenLessonProgressLabel": {
+    "description": "عنوان فرعي يظهر نسبة التقدم مثل 'التقدم: 42٪'",
+    "placeholders": {
+      "progress": {}
+    }
+  },
+
+  "pathDetailScreenLessonTitle": "الدرس {lessonIndex}: {surahName} - آية {startAyah}-{endAyah}",
+  "@pathDetailScreenLessonTitle": {
+    "description": "عنوان كل درس في قائمة تفاصيل المسار",
+    "placeholders": {
+      "lessonIndex": {},
+      "surahName": {},
+      "startAyah": {},
+      "endAyah": {}
+    }
+  },
+
+  "commentJ": "نصوص شاشة إنشاء المسار (Create Path)",
+  "createPathTitle": "إنشاء مسار جديد",
+  "@createPathTitle": {
+    "description": "عنوان شريط التطبيق لشاشة إنشاء المسار"
+  },
+
+  "createPathBackArrowSemantic": "الرجوع إلى الشاشة السابقة",
+  "@createPathBackArrowSemantic": {
+    "description": "وصف بالمعنى لسهم الرجوع في شاشة إنشاء المسار"
+  },
+
+  "createPathNameLabel": "اسم المسار",
+  "@createPathNameLabel": {
+    "description": "تسمية حقل النص الخاص باسم المسار"
+  },
+
+  "createPathNameValidation": "يرجى إدخال اسم للمسار",
+  "@createPathNameValidation": {
+    "description": "رسالة التحقق إذا ترك حقل اسم المسار فارغًا"
+  },
+
+  "createPathDescriptionLabel": "الوصف",
+  "@createPathDescriptionLabel": {
+    "description": "تسمية حقل النص الخاص بوصف المسار"
+  },
+
+  "createPathDescriptionValidation": "يرجى إدخال وصف",
+  "@createPathDescriptionValidation": {
+    "description": "رسالة التحقق إذا ترك حقل الوصف فارغًا"
+  },
+
+  "createPathSurahSelectorLabel": "اختر سورة:",
+  "@createPathSurahSelectorLabel": {
+    "description": "عنوان أعلى قائمة السور"
+  },
+
+  "createPathStartAyahLabel": "بداية الآية",
+  "@createPathStartAyahLabel": {
+    "description": "تسمية حقل النص الخاص ببداية الآية"
+  },
+
+  "createPathNumAyahsLabel": "عدد الآيات في المسار",
+  "@createPathNumAyahsLabel": {
+    "description": "تسمية للقائمة المنسدلة لاختيار عدد الآيات"
+  },
+
+  "createPathEndAyahLabel": "نهاية الآية",
+  "@createPathEndAyahLabel": {
+    "description": "تسمية حقل النص (للقراءة فقط) الذي يعرض رقم الآية الأخيرة"
+  },
+
+  "createPathWordsPerLessonLabel": "عدد الكلمات في الدرس",
+  "@createPathWordsPerLessonLabel": {
+    "description": "تسمية للقائمة المنسدلة لاختيار عدد الكلمات في كل درس"
+  },
+
+  "createPathWordsSuffix": "كلمة",
+  "@createPathWordsSuffix": {
+    "description": "لاحقة لعدد الكلمات لكل درس"
+  },
+
+  "createPathInvalidRange": "نطاق غير صالح",
+  "@createPathInvalidRange": {
+    "description": "نص يظهر في القائمة المنسدلة لعدد الآيات إذا كان النطاق غير صالح"
+  },
+
+  "createPathAyahsSuffix": "آيات",
+  "@createPathAyahsSuffix": {
+    "description": "لاحقة لعدد الآيات، مثل '15 آية'"
+  },
+
+  "createPathCreateButton": "إنشاء المسار",
+  "@createPathCreateButton": {
+    "description": "تسمية زر إنشاء المسار"
+  },
+
+  "createPathSubmitSemantic": "اضغط لإنشاء المسار",
+  "@createPathSubmitSemantic": {
+    "description": "وصف بالمعنى لزر إنشاء المسار"
+  },
+
+  "commentK": "نصوص شاشة الترجمة",
+  "translationScreenTitle": "الترجمة",
+  "@translationScreenTitle": {
+    "description": "عنوان شريط التطبيق لشاشة الترجمة"
+  },
+
+  "translationScreenBackArrowSemantic": "العودة إلى الدرس",
+  "@translationScreenBackArrowSemantic": {
+    "description": "وصف بالمعنى لسهم الرجوع في شاشة الترجمة"
+  },
+
+  "translationScreenLoadingSemantic": "جاري تحميل الترجمات",
+  "@translationScreenLoadingSemantic": {
+    "description": "وصف بالمعنى لدائرة التحميل أثناء إحضار الترجمات"
+  },
+
+  "translationScreenNoTranslations": "لا توجد ترجمات متاحة.",
+  "@translationScreenNoTranslations": {
+    "description": "يظهر إذا لم يتم إرجاع أي ترجمات"
+  },
+
+  "translationScreenReturnButton": "العودة إلى الدرس",
+  "@translationScreenReturnButton": {
+    "description": "زر للعودة إلى شاشة الدرس"
+  },
+
+  "translationScreenReturnSemantic": "اضغط للعودة إلى الدرس",
+  "@translationScreenReturnSemantic": {
+    "description": "وصف بالمعنى لزر الرجوع إلى شاشة الدرس"
+  },
+
+  "translationScreenLoadError": "حدث خطأ في تحميل الترجمات:",
+  "@translationScreenLoadError": {
+    "description": "بادئة للتنبيه عند فشل تحميل الترجمات"
+  },
+
+  "commentL": "نصوص شاشة اختيار اللغة",
+  "languageSelectionScreenSemantic": "شاشة اختيار اللغة",
+  "@languageSelectionScreenSemantic": {
+    "description": "وصف بالمعنى للشاشة الرئيسية لاختيار اللغة"
+  },
+
+  "languageSelectionTitle": "اختر لغتك",
+  "@languageSelectionTitle": {
+    "description": "عنوان شريط التطبيق لشاشة اختيار اللغة"
+  },
+
+  "languageSelectionBackSemantic": "رجوع",
+  "@languageSelectionBackSemantic": {
+    "description": "وصف بالمعنى لسهم الرجوع في شاشة اختيار اللغة"
+  },
+
+  "languageSelectionSkipSemantic": "تخطي الاختيار",
+  "@languageSelectionSkipSemantic": {
+    "description": "وصف بالمعنى لزر التخطي في شاشة اختيار اللغة"
+  },
+
+  "languageSelectionInstructions": "يرجى اختيار اللغة المفضلة لديك:",
+  "@languageSelectionInstructions": {
+    "description": "نص إرشادي لاختيار اللغة"
+  },
+
+  "languageSelectionNextSemantic": "اضغط لتأكيد اختيار اللغة",
+  "@languageSelectionNextSemantic": {
+    "description": "وصف بالمعنى لزر (التالي) في شاشة اختيار اللغة"
+  },
+
+  "languageSelectionNextLabel": "التالي",
+  "@languageSelectionNextLabel": {
+    "description": "زر للمتابعة بعد اختيار اللغة"
+  },
+
+  "languageSelectionImageSemantic": "صورة هدهد مع القرآن",
+  "@languageSelectionImageSemantic": {
+    "description": "وصف بالمعنى للصورة السفلية في شاشة اختيار اللغة"
+  },
+
+  "commentM": "نصوص شاشة الترحيب",
+  "welcomeScreenSemantic": "شاشة ترحيبية في عملية الإعداد",
+  "@welcomeScreenSemantic": {
+    "description": "وصف بالمعنى للحاوية الرئيسية لشاشة الترحيب في عملية الإعداد"
+  },
+
+  "welcomeScreenLogoSemantic": "صورة هدهد مع القرآن",
+  "@welcomeScreenLogoSemantic": {
+    "description": "وصف بالمعنى لصورة شعار شاشة الترحيب"
+  },
+
+  "welcomeScreenSkipSemantic": "تخطي خطوة الترحيب",
+  "@welcomeScreenSkipSemantic": {
+    "description": "وصف بالمعنى لزر التخطي في شاشة الترحيب"
+  },
+
+  "welcomeScreenNextSemantic": "الانتقال إلى الخطوة التالية في الإعداد",
+  "@welcomeScreenNextSemantic": {
+    "description": "وصف بالمعنى لزر 'ابدأ الآن'"
+  },
+
+  "commentN": "نصوص شاشة معلومات هدهد",
+  "hudhudInfoSemantic": "شاشة معلومات هدهد",
+  "@hudhudInfoSemantic": {
+    "description": "وصف بالمعنى للحاوية الرئيسية في شاشة معلومات هدهد"
+  },
+
+  "hudhudInfoAppBarTitle": "تعرف على هدهد",
+  "@hudhudInfoAppBarTitle": {
+    "description": "يظهر في شريط التطبيق لشاشة معلومات هدهد"
+  },
+
+  "hudhudInfoIllustrationSemantic": "رسم توضيحي للهدهد",
+  "@hudhudInfoIllustrationSemantic": {
+    "description": "وصف بالمعنى للصورة التي تمثل الطائر"
+  },
+
+  "hudhudInfoBody1": "الهدهد، المعروف أيضًا بطائر الهدهد، لعب دورًا خاصًا في مساعدة النبي سليمان عليه السلام بالمراقبة ونقل الرسائل.",
+  "@hudhudInfoBody1": {
+    "description": "الفقرة الأولى التي تصف أهمية الهدهد"
+  },
+
+  "hudhudInfoBody2": "تذكرنا قصة الهدهد بأن مخلوقًا صغيرًا يمكن أن يكون له تأثير كبير من خلال الملاحظة والفضول والمبادرة بالأمور المهمة. وفي رحلتنا هذه، يمكننا توجيه اهتمامنا المستمر لجمال القرآن، وإدخال تذكيرات الامتنان لتقدير كل لحظة من التقدم.",
+  "@hudhudInfoBody2": {
+    "description": "الفقرة الثانية التي تصف أهمية اليقظة"
+  },
+
+  "hudhudInfoBody3": "باتباع مثال الهدهد—بالبقاء يقظين ومشاركين—نأمل أن نُعمِّق ارتباطنا بالقرآن وننمي شعور الامتنان في حياتنا اليومية.",
+  "@hudhudInfoBody3": {
+    "description": "الفقرة الثالثة التي توضح الهدف العام للاقتداء بالهدهد"
+  },
+
+  "hudhudInfoNextLabel": "التالي",
+  "@hudhudInfoNextLabel": {
+    "description": "زر (التالي)"
+  },
+
+  "hudhudInfoNextSemantic": "الانتقال إلى القسم التالي",
+  "@hudhudInfoNextSemantic": {
+    "description": "وصف بالمعنى لزر (التالي)"
+  },
+
+  "hudhudInfoSkipSemantic": "تخطي خطوة التعرف على هدهد",
+  "@hudhudInfoSkipSemantic": {
+    "description": "وصف بالمعنى لزر التخطي في شاشة معلومات هدهد"
+  },
+
+  "commentO": "نصوص شاشة اختيار خطة الاشتراك",
+  "subscriptionTierScreenSemantic": "شاشة اختيار فئة الاشتراك",
+  "@subscriptionTierScreenSemantic": {
+    "description": "وصف بالمعنى للحاوية الرئيسية لشاشة اختيار الاشتراك"
+  },
+
+  "subscriptionTierScreenAppBarTitle": "اختر خطتك",
+  "@subscriptionTierScreenAppBarTitle": {
+    "description": "عنوان شريط التطبيق لشاشة اختيار خطة الاشتراك"
+  },
+
+  "subscriptionTierScreenSkipSemantic": "تخطي اختيار فئة الاشتراك",
+  "@subscriptionTierScreenSkipSemantic": {
+    "description": "وصف بالمعنى لزر التخطي في شاشة اختيار خطة الاشتراك"
+  },
+
+  "subscriptionTierScreenFreeLabel": "مجاني",
+  "@subscriptionTierScreenFreeLabel": {
+    "description": "تسمية فئة الخطة المجانية"
+  },
+
+
+  "subscriptionTierScreenSmileySemantic": "أيقونة وجه مبتسم",
+  "@subscriptionTierScreenSmileySemantic": {
+    "description": "وصف بالمعنى لأيقونة الإيموجي المبتسم"
+  },
+
+  "subscriptionTierScreenDonationText": "يُخصص جزء من المساهمات لمبادرة المبُتسم، لدعم الأيتام عبر الإغاثة الإسلامية.",
+  "@subscriptionTierScreenDonationText": {
+    "description": "نص يظهر أسفل الوجه المبتسم حول توجيه جزء من التبرعات"
+  },
+
+  "subscriptionTierScreenConfirmSemantic": "تأكيد اختيار فئة الاشتراك",
+  "@subscriptionTierScreenConfirmSemantic": {
+    "description": "وصف بالمعنى لزر (التالي/تأكيد)"
+  },
+
+  "subscriptionTierScreenNextLabel": "التالي",
+  "@subscriptionTierScreenNextLabel": {
+    "description": "زر لتأكيد ومتابعة اختيار الخطة"
+  },
+
+  "subscriptionTierScreenRadioSemantic": "اضغط لاختيار فئة الاشتراك {title}",
+  "@subscriptionTierScreenRadioSemantic": {
+    "description": "وصف بالمعنى لكل خيار راديو يمثل فئة اشتراك",
+    "placeholders": {
+      "title": {}
+    }
+  },
+
+  "commentP": "نصوص شاشة اختيار الأهداف",
+  "goalSelectionScreenSemantic": "شاشة اختيار الأهداف",
+  "@goalSelectionScreenSemantic": {
+    "description": "وصف بالمعنى للحاوية الرئيسية لشاشة اختيار الأهداف"
+  },
+
+  "goalSelectionScreenAppBarTitle": "اختر أهدافك",
+  "@goalSelectionScreenAppBarTitle": {
+    "description": "عنوان شريط التطبيق لشاشة اختيار الأهداف"
+  },
+
+  "goalSelectionScreenSkipSemantic": "تخطي اختيار الأهداف",
+  "@goalSelectionScreenSkipSemantic": {
+    "description": "وصف بالمعنى لزر التخطي في شاشة اختيار الأهداف"
+  },
+
+  "goalSelectionScreenIntroText": "ما هي الأهداف التي تهمك؟ يمكنك اختيار أكثر من خيار.",
+  "@goalSelectionScreenIntroText": {
+    "description": "نص توجيهي أعلى شاشة اختيار الأهداف"
+  },
+
+  "goalSelectionScreenNextSemantic": "تأكيد اختيار الأهداف",
+  "@goalSelectionScreenNextSemantic": {
+    "description": "وصف بالمعنى لزر (التالي/تأكيد)"
+  },
+
+  "goalSelectionScreenNextLabel": "التالي",
+  "@goalSelectionScreenNextLabel": {
+    "description": "زر لتأكيد ومتابعة الأهداف المختارة"
+  },
+
+  "goalSelectionTileSemantic": "اضغط لتحديد أو إلغاء تحديد هدف {goalTitle}",
+  "@goalSelectionTileSemantic": {
+    "description": "وصف بالمعنى لكل خيار هدف",
+    "placeholders": {
+      "goalTitle": {}
+    }
+  },
+
+  "goalConnectQuranTitle": "تعميق الارتباط بالقرآن",
+  "@goalConnectQuranTitle": {
+    "description": "التسمية لخانة الهدف 'connectQuran'"
+  },
+
+  "goalConnectQuranDesc": "تعزيز علاقتك من خلال القراءة أو التدبر.",
+  "@goalConnectQuranDesc": {
+    "description": "النص الفرعي للهدف 'connectQuran'"
+  },
+
+  "goalMemorizeQuranTitle": "حفظ القرآن",
+  "@goalMemorizeQuranTitle": {
+    "description": "التسمية لخانة الهدف 'memorizeQuran'"
+  },
+
+  "goalMemorizeQuranDesc": "ابدأ رحلة الحفظ.",
+  "@goalMemorizeQuranDesc": {
+    "description": "النص الفرعي للهدف 'memorizeQuran'"
+  },
+
+  "goalBeMoreGratefulTitle": "زيادة الامتنان والسعادة في الحياة",
+  "@goalBeMoreGratefulTitle": {
+    "description": "التسمية لخانة الهدف 'beMoreGrateful'"
+  },
+
+  "goalBeMoreGratefulDesc": "ركز على ممارسة الامتنان اليومي.",
+  "@goalBeMoreGratefulDesc": {
+    "description": "النص الفرعي للهدف 'beMoreGrateful'"
+  },
+
+  "goalBuildConsistencyTitle": "بناء الاستمرارية",
+  "@goalBuildConsistencyTitle": {
+    "description": "التسمية لخانة الهدف 'buildConsistency'"
+  },
+
+  "goalBuildConsistencyDesc": "طوّر عادة يومية أو أسبوعية.",
+  "@goalBuildConsistencyDesc": {
+    "description": "النص الفرعي للهدف 'buildConsistency'"
+  },
+
+  "goalImproveArabicTitle": "تحسين لغتي العربية",
+  "@goalImproveArabicTitle": {
+    "description": "التسمية لخانة الهدف 'improveArabic'"
+  },
+
+  "goalImproveArabicDesc": "ركز على مهارات الكتابة أو النطق بالعربية.",
+  "@goalImproveArabicDesc": {
+    "description": "النص الفرعي للهدف 'improveArabic'"
+  },
+
+  "goalDeepenTafsirTitle": "عمق فهم القران",
+  "@goalDeepenTafsirTitle": {
+    "description": "التسمية لخانة الهدف 'deepenTafsir'"
+  },
+
+  "goalDeepenTafsirDesc": "ادرس التعليق والمعاني الأعمق للقرآن.",
+  "@goalDeepenTafsirDesc": {
+    "description": "النص الفرعي للهدف 'deepenTafsir'"
+  },
+
+  "goalOtherTitle": "هدف اخر",
+  "@goalOtherTitle": {
+    "description": "التسمية لخانة الهدف 'other'"
+  },
+
+  "goalOtherDesc": "اسعَ وراء أي هدف شخصي آخر.",
+  "@goalOtherDesc": {
+    "description": "النص الفرعي للهدف 'other'"
+  },
+
+  "commentQ": "نصوص شاشة اختيار المستوى",
+  "levelSelectionScreenSemantic": "شاشة اختيار المستوى",
+  "@levelSelectionScreenSemantic": {
+    "description": "وصف بالمعنى للحاوية الرئيسية لشاشة اختيار المستوى"
+  },
+
+  "levelSelectionScreenAppBarTitle": "اختر مستواك",
+  "@levelSelectionScreenAppBarTitle": {
+    "description": "عنوان شريط التطبيق لشاشة اختيار المستوى"
+  },
+
+  "levelSelectionScreenSkipSemantic": "تخطي اختيار المستوى",
+  "@levelSelectionScreenSkipSemantic": {
+    "description": "وصف بالمعنى لزر التخطي في شاشة اختيار المستوى"
+  },
+
+  "levelSelectionScreenIntroText": "اختر الوصف الأقرب لمستوى تلاوتك الحالي:",
+  "@levelSelectionScreenIntroText": {
+    "description": "نص توجيهي في شاشة اختيار المستوى"
+  },
+
+  "levelStarterLabel": "مبتدئ",
+  "@levelStarterLabel": {
+    "description": "وصف خانة المستوى 'starter'"
+  },
+
+  "levelStarterDescription": "متعلم جديد أو غير منتظم، في بداية استكشاف تلاوة القرآن.",
+  "@levelStarterDescription": {
+    "description": "وصف المستوى 'starter'"
+  },
+
+  "levelAdvancedLabel": "متقدم",
+  "@levelAdvancedLabel": {
+    "description": "وصف خانة المستوى 'advanced'"
+  },
+
+  "levelAdvancedDescription": "مرتاح في قراءة النص العربي مع بعض معرفة التجويد.",
+  "@levelAdvancedDescription": {
+    "description": "وصف المستوى 'advanced'"
+  },
+
+  "levelQariLabel": "قارئ",
+  "@levelQariLabel": {
+    "description": "وصف خانة المستوى 'qari'"
+  },
+
+  "levelQariDescription": "متمكن من التلاوة مع إتقان قوي للتجويد.",
+  "@levelQariDescription": {
+    "description": "وصف المستوى 'qari'"
+  },
+
+  "levelSelectionNextSemantic": "تأكيد اختيار المستوى",
+  "@levelSelectionNextSemantic": {
+    "description": "وصف بالمعنى لزر (التالي/تأكيد) في شاشة اختيار المستوى"
+  },
+
+  "levelSelectionNextLabel": "التالي",
+  "@levelSelectionNextLabel": {
+    "description": "زر لتأكيد ومتابعة اختيار المستوى"
+  },
+
+  "levelSelectionTileSemantic": "اضغط لاختيار مستوى التلاوة {levelTitle}",
+  "@levelSelectionTileSemantic": {
+    "description": "وصف بالمعنى لكل زر راديو يمثل مستوى التلاوة",
+    "placeholders": {
+      "levelTitle": {}
+    }
+  },
+
+  "commentR": "نصوص شاشة إتمام عملية الإعداد",
+  "onboardingCompletionScreenSemantic": "شاشة إتمام عملية الإعداد",
+  "@onboardingCompletionScreenSemantic": {
+    "description": "وصف بالمعنى للحاوية الرئيسية لشاشة الإتمام"
+  },
+
+  "onboardingCompletionScreenAppBarTitle": "كل شيء جاهز!",
+  "@onboardingCompletionScreenAppBarTitle": {
+    "description": "عنوان شريط التطبيق لشاشة إتمام عملية الإعداد"
+  },
+
+  "onboardingCompletionScreenImageSemantic": "صورة هدهد مع القرآن",
+  "@onboardingCompletionScreenImageSemantic": {
+    "description": "وصف بالمعنى للصورة الختامية في شاشة الإعداد"
+  },
+
+  "onboardingCompletionScreenBody1": "تهانينا! لقد أكملت عملية الإعداد بنجاح. نأمل أن تقربك هذه الرحلة من القرآن وتعزز امتنانك لله. \n \nنسأل الله أن يكون هذا التطبيق مصدر نمو وخير لك ولمن حولك.",
+  "@onboardingCompletionScreenBody1": {
+    "description": "الفقرة الأولى للتهنئة بإتمام الإعداد"
+  },
+
+  "onboardingCompletionScreenBody2": "عندما تكون مستعدًا، اضغط على الزر أدناه للمتابعة. الميزات الرئيسية للحفظ والتقدم بانتظارك، ويمكنك تسجيل امتنانك أو اختيار مسار من الشريط السفلي.",
+  "@onboardingCompletionScreenBody2": {
+    "description": "الفقرة الثانية توضح الخطوات التالية بعد الإعداد"
+  },
+
+  "onboardingCompletionScreenBody3": "هذا إصدار مبكر — نشكرك على دعمك وصبرك ونأمل تزويدك بالمزيد من الميزات قريبًا إن شاء الله!",
+  "@onboardingCompletionScreenBody3": {
+    "description": "الفقرة الثالثة لتشجيع المستخدم على التحديث والدعم"
+  },
+
+  "onboardingCompletionScreenBeginSemantic": "ابدأ استخدام التطبيق",
+  "@onboardingCompletionScreenBeginSemantic": {
+    "description": "وصف بالمعنى لزر (لنبدأ)"
+  },
+
+  "onboardingCompletionScreenBeginLabel": "لنبدأ",
+  "@onboardingCompletionScreenBeginLabel": {
+    "description": "تسمية زر الخطوة النهائية في الإعداد"
+  },
+
+  "commentS": "نصوص شاشة إدخال الاسم",
+  "nameEntryScreenSemantic": "شاشة إدخال الاسم",
+  "@nameEntryScreenSemantic": {
+    "description": "وصف بالمعنى للحاوية الرئيسية لشاشة إدخال الاسم"
+  },
+
+  "nameEntryScreenAppBarTitle": "ملفك الشخصي",
+  "@nameEntryScreenAppBarTitle": {
+    "description": "عنوان شريط التطبيق لشاشة إدخال الاسم"
+  },
+
+  "nameEntryScreenSkipSemantic": "تخطي إدخال اسمك",
+  "@nameEntryScreenSkipSemantic": {
+    "description": "وصف بالمعنى لزر التخطي في شاشة إدخال الاسم"
+  },
+
+  "nameEntryScreenIntroText": "ما هو اسمك؟",
+  "@nameEntryScreenIntroText": {
+    "description": "نص يوضح للمستخدم إدخال اسمه أو البقاء على وضع الضيف"
+  },
+
+  "nameEntryTextFieldSemantic": "حقل نص لإدخال الاسم",
+  "@nameEntryTextFieldSemantic": {
+    "description": "وصف بالمعنى لحقل النص الذي يدخل فيه المستخدم اسمه"
+  },
+
+  "nameEntryNextSemantic": "تأكيد إدخال الاسم",
+  "@nameEntryNextSemantic": {
+    "description": "وصف بالمعنى لزر (التالي/تأكيد)"
+  },
+
+  "nameEntryNextLabel": "التالي",
+  "@nameEntryNextLabel": {
+    "description": "زر لإنهاء إدخال الاسم"
+  },
+
+  "commentT": "نصوص أيقونات الدرس العمودية",
+  "verticalLessonIconsSemantic": "حاوية أيقونات الدرس العمودية",
+  "@verticalLessonIconsSemantic": {
+    "description": "وصف بالمعنى للحاوية الرئيسية التي تعرض الأيقونات عموديًا"
+  },
+
+  "verticalLessonIconsNoLessons": "لا توجد دروس.",
+  "@verticalLessonIconsNoLessons": {
+    "description": "نص احتياطي إذا لم نجد أي دروس"
+  },
+
+  "verticalLessonIconsLoadingSurah": "جاري تحميل تفاصيل السورة",
+  "@verticalLessonIconsLoadingSurah": {
+    "description": "وصف بالمعنى لدائرة التحميل أثناء جلب معلومات السورة"
+  },
+
+  "verticalLessonIconsErrorSurah": "خطأ في تحميل تفاصيل السورة",
+  "@verticalLessonIconsErrorSurah": {
+    "description": "يظهر عند حدوث خطأ في جلب رأس السورة"
+  },
+
+  "verticalLessonIconsSurahHeaderSemantic": "عنوان تفاصيل السورة",
+  "@verticalLessonIconsSurahHeaderSemantic": {
+    "description": "وصف بالمعنى لنص رأس السورة في الصفحة الأولى"
+  },
+
+  "verticalLessonIconsHudhudIconSemantic": "أيقونة الهدهد المساعد",
+  "@verticalLessonIconsHudhudIconSemantic": {
+    "description": "وصف بالمعنى لأيقونة الهدهد_left"
+  },
+
+  "verticalLessonIconsNextPageSemantic": "سهم الصفحة التالية",
+  "@verticalLessonIconsNextPageSemantic": {
+    "description": "وصف بالمعنى للسهم المتجه للأسفل للانتقال للصفحة التالية"
+  },
+
+  "verticalLessonIconsPreviousPageSemantic": "سهم الصفحة السابقة",
+  "@verticalLessonIconsPreviousPageSemantic": {
+    "description": "وصف بالمعنى للسهم المتجه للأعلى للعودة للصفحة السابقة"
+  },
+
+  "verticalLessonIconsLoadingProgress": "جاري تحميل تقدم الدرس",
+  "@verticalLessonIconsLoadingProgress": {
+    "description": "وصف بالمعنى لدائرة التحميل أثناء جلب تقدم الدرس"
+  },
+
+  "verticalLessonIconsErrorProgress": "خطأ في تحميل التقدم",
+  "@verticalLessonIconsErrorProgress": {
+    "description": "نص احتياطي عند حدوث خطأ في تحميل تقدم الدرس"
+  },
+
+  "verticalLessonIconSemantic": "أيقونة الدرس، {surahAyahRange}، نسبة التقدم {percent}٪",
+  "@verticalLessonIconSemantic": {
+    "description": "وصف بالمعنى لكل أيقونة درس في القائمة العمودية",
+    "placeholders": {
+      "surahAyahRange": {},
+      "percent": {}
+    }
+  },
+
+  "verticalLessonIconsCompletedSemantic": "تم إكمال الدرس",
+  "@verticalLessonIconsCompletedSemantic": {
+    "description": "وصف بالمعنى لأيقونة علامة الاختيار فوق الدرس المكتمل"
+  },
+
+  "verticalLessonIconsDialogTitle": "الدعم والترقية",
+  "@verticalLessonIconsDialogTitle": {
+    "description": "عنوان مربع الحوار للدعم والترقية"
+  },
+
+  "verticalLessonIconsDialogOk": "حسناً",
+  "@verticalLessonIconsDialogOk": {
+    "description": "زر تأكيد في مربع حوار الترقية"
+  },
+
+  "commentU": "نصوص شريط التنقل السفلي (Navbar)",
+  "navBarSemanticLabel": "شريط التنقل السفلي",
+  "@navBarSemanticLabel": {
+    "description": "وصف بالمعنى لشريط التنقل السفلي بالكامل"
+  },
+
+  "navHomeLabel": "الرئيسية",
+  "@navHomeLabel": {
+    "description": "تسمية تبويب (Home) في الشريط السفلي"
+  },
+
+  "navHomeSemantic": "تبويب الرئيسية",
+  "@navHomeSemantic": {
+    "description": "وصف بالمعنى لأيقونة الرئيسية في الشريط السفلي"
+  },
+
+  "navQuranLabel": "القرآن",
+  "@navQuranLabel": {
+    "description": "تسمية تبويب (Quran) في الشريط السفلي"
+  },
+
+  "navQuranSemantic": "تبويب القرآن",
+  "@navQuranSemantic": {
+    "description": "وصف بالمعنى لأيقونة القرآن في الشريط السفلي"
+  },
+
+  "navGratitudeLabel": "امتنان",
+  "@navGratitudeLabel": {
+    "description": "تسمية تبويب (Gratitude) في الشريط السفلي"
+  },
+
+  "navGratitudeSemantic": "تبويب الامتنان",
+  "@navGratitudeSemantic": {
+    "description": "وصف بالمعنى لأيقونة الامتنان في الشريط السفلي"
+  },
+
+  "navProfileLabel": "ملف شخصي",
+  "@navProfileLabel": {
+    "description": "تسمية تبويب (Profile) في الشريط السفلي"
+  },
+
+  "navProfileSemantic": "تبويب الملف الشخصي",
+  "@navProfileSemantic": {
+    "description": "وصف بالمعنى لأيقونة الملف الشخصي في الشريط السفلي"
+  },
+
+  "commentV": "نصوص الشريط العلوي (TopBar)",
+  "topBarSemanticLabel": "شريط التنقل العلوي",
+  "@topBarSemanticLabel": {
+    "description": "وصف بالمعنى للحاوية الكاملة للشريط العلوي"
+  },
+
+  "topBarTitleSemantic": "عنوان الشريط العلوي: {title}",
+  "@topBarTitleSemantic": {
+    "description": "وصف بالمعنى لنص العنوان الأوسط في الشريط العلوي",
+    "placeholders": {
+      "title": {}
+    }
+  },
+
+  "topBarStreakIconSemantic": "أيقونة السلسلة: {days} يوم",
+  "@topBarStreakIconSemantic": {
+    "description": "وصف بالمعنى لأيقونة السلسلة التي تعرض عدد أيام السلسلة",
+    "placeholders": {
+      "days": {}
+    }
+  },
+
+  "topBarStreakDialogBody": "هذه الأيقونة تعرض عدد الأيام المتتالية التي قمت فيها بالتلاوة أو كتابة الامتنان. استمر في ذلك للحفاظ على السلسلة أو زيادتها!",
+  "@topBarStreakDialogBody": {
+    "description": "نص مربع الحوار يشرح استخدام السلسلة"
+  },
+
+  "topBarHudhudIconSemantic": "أيقونة هدهد، اضغط للحصول على الدعم",
+  "@topBarHudhudIconSemantic": {
+    "description": "وصف بالمعنى لأيقونة الهدهد في الشريط العلوي"
+  },
+
+  "topBarHudhudDialogTitle": "الدعم والترقية",
+  "@topBarHudhudDialogTitle": {
+    "description": "عنوان مربع الحوار لأيقونة الهدهد حول الدعم والترقية"
+  },
+
+  "topBarHudhudDialogBody": "جميع الميزات متاحة في الإصدار المجاني، ولكن إذا أردت يمكنك دعمنا لتطوير المزيد من الميزات. سيتم التبرع بجزء من اشتراكك لمؤسسة Islamic Relief. جزاك الله خيرًا!",
+  "@topBarHudhudDialogBody": {
+    "description": "نص مربع الحوار في الشريط العلوي لعرض 'الدعم والترقية'"
+  },
+
+  "commentW": "نصوص نافذة الامتنان المنبثقة (Modal)",
+  "gratitudeModalSemantic": "مربع حوار نافذة الامتنان",
+  "@gratitudeModalSemantic": {
+    "description": "وصف بالمعنى للحاوية الكاملة للنافذة المنبثقة الخاصة بالامتنان"
+  },
+
+  "gratitudeModalTitle": "على ماذا تشعر بالامتنان اليوم بناءً على هذه الآيات؟",
+  "@gratitudeModalTitle": {
+    "description": "عنوان النافذة المنبثقة في الأعلى"
+  },
+
+  "gratitudeModalHint": "الحمد لله على (أدخل الامتنان) #{index}",
+  "@gratitudeModalHint": {
+    "description": "نص توضيحي في حقول نص الامتنان",
+    "placeholders": {
+      "index": {}
+    }
+  },
+
+  "gratitudeModalTextFieldSemantic": "أدخل الامتنان رقم #{index}",
+  "@gratitudeModalTextFieldSemantic": {
+    "description": "وصف بالمعنى لكل حقل نصي في نافذة الامتنان",
+    "placeholders": {
+      "index": {}
+    }
+  },
+
+  "gratitudeModalEmptyWarning": "يرجى إدخال امتنان واحد على الأقل.",
+  "@gratitudeModalEmptyWarning": {
+    "description": "يظهر إذا حاول المستخدم الإرسال دون إدخال امتنان"
+  },
+
+  "gratitudeModalSubmitError": "فشل في حفظ الامتنان. يرجى المحاولة مرة أخرى.",
+  "@gratitudeModalSubmitError": {
+    "description": "رسالة خطأ إذا فشل تسجيل الامتنان"
+  },
+
+  "dailyVoiceLimitReachedTitle": "ما شاء الله!",
+  "@dailyVoiceLimitReachedTitle": {
+    "description": "عنوان النافذة المنبثقة عند بلوغ الحد اليومي للصوت"
+  },
+
+  "dailyVoiceLimitReachedMessage": "أكملتَ 10 دقائق من تلاوة القرآن بالصوت. يرجى الاستمرار بالمراجعة كتابيًا، ومواصلة التلاوة غدًا.",
+  "@dailyVoiceLimitReachedMessage": {
+    "description": "الرسالة التي تظهر عند وصول المستخدم إلى 10 دقائق من استخدام الصوت"
+  },
+
+  "upgradeVoiceUsageTitle": "الترقية إلى Pro Beta",
+  "@upgradeVoiceUsageTitle": {
+    "description": "عنوان مربع الحوار الذي يطالب المستخدم بالترقية بعد استنفاذ الاستخدام المجاني للصوت"
+  },
+
+  "gratitudeModalLoadingSemantic": "جاري إرسال الامتنان",
+  "@gratitudeModalLoadingSemantic": {
+    "description": "وصف بالمعنى لدائرة التحميل في حال كان الإرسال قيد التقدم"
+  },
+
+  "commentX": "== مفاتيح جديدة للنافذة المنبثقة لتغذية الملاحظات بعد الإرسال، شريط التقدم، ومحدد السورة ==",
+  "submissionFeedbackModalSemanticLabel": "مربع حوار تغذية راجعة للإرسال",
+  "@submissionFeedbackModalSemanticLabel": {
+    "description": "وصف بالمعنى لكامل نافذة التغذية الراجعة"
+  },
+
+  "submissionFeedbackModalTitle": "تغذية راجعة للإرسال",
+  "@submissionFeedbackModalTitle": {
+    "description": "عنوان مربع حوار التغذية الراجعة"
+  },
+
+  "submissionFeedbackModalNoNew": "لم يتم إرسال أي امتنانات جديدة.",
+  "@submissionFeedbackModalNoNew": {
+    "description": "رسالة تظهر عندما لا تكون هناك امتنانات جديدة"
+  },
+
+  "submissionFeedbackModalYouSubmitted": "لقد أضفت هذه الامتنانات:",
+  "@submissionFeedbackModalYouSubmitted": {
+    "description": "تسمية أعلى قائمة الامتنانات المضافة للتو"
+  },
+
+  "submissionFeedbackModalStreak": "سلسلة الامتنان الحالية: {days} يوم",
+  "@submissionFeedbackModalStreak": {
+    "description": "عرض السلسلة الحالية من أيام الامتنان المتتالية",
+    "placeholders": {
+      "days": {}
+    }
+  },
+
+  "submissionFeedbackModalTotalDays": "إجمالي أيام الامتنان: {count}",
+  "@submissionFeedbackModalTotalDays": {
+    "description": "عرض العدد الإجمالي لأيام الامتنان المسجلة",
+    "placeholders": {
+      "count": {}
+    }
+  },
+
+  "submissionFeedbackModalLoading": "جاري تحميل بيانات الامتنان...",
+  "@submissionFeedbackModalLoading": {
+    "description": "يظهر أثناء انتظار بيانات الامتنان"
+  },
+
+  "submissionFeedbackModalError": "تعذر تحميل بيانات الامتنان.",
+  "@submissionFeedbackModalError": {
+    "description": "يظهر عند فشل تحميل بيانات الامتنان"
+  },
+
+  "submissionFeedbackModalViewLog": "عرض السجل",
+  "@submissionFeedbackModalViewLog": {
+    "description": "زر للانتقال إلى شاشة سجل الامتنان"
+  },
+
+  "submissionFeedbackModalClose": "إغلاق",
+  "@submissionFeedbackModalClose": {
+    "description": "زر لإغلاق نافذة التغذية الراجعة"
+  },
+
+  "progressBarSemanticLabel": "التقدم: {percent}٪",
+  "@progressBarSemanticLabel": {
+    "description": "وصف بالمعنى لشريط التقدم يتضمن النسبة المئوية",
+    "placeholders": {
+      "percent": {}
+    }
+  },
+
+  "surahSelectorSemanticLabel": "اختر سورة",
+  "@surahSelectorSemanticLabel": {
+    "description": "وصف بالمعنى لقائمة الاختيار التي تسمح باختيار سورة"
+  },
+
+  "commentZ": "أسماء المسارات ووصفها (مُعرفة في النظام) للترجمة",
+
+  "pathNameFatihah": "سورة الفاتحة",
+  "@pathNameFatihah": { "description": "اسم للمسار path_fatihah" },
+  "pathDescFatihah": "السورة كاملة (1:1–7). أساسية في كل ركعة.",
+  "@pathDescFatihah": { "description": "وصف للمسار path_fatihah" },
+
+  "pathNameKafirun": "سورة الكافرون",
+  "@pathNameKafirun": { "description": "اسم للمسار path_kafirun" },
+  "pathDescKafirun": "السورة كاملة (109:1–6). تأكيد التوحيد.",
+  "@pathDescKafirun": { "description": "وصف للمسار path_kafirun" },
+
+  "pathNameIkhlas": "سورة الإخلاص",
+  "@pathNameIkhlas": { "description": "اسم للمسار path_ikhlas" },
+  "pathDescIkhlas": "السورة كاملة (112:1–4). توحيد الله.",
+  "@pathDescIkhlas": { "description": "وصف للمسار path_ikhlas" },
+
+  "pathNameFalaq": "سورة الفلق",
+  "@pathNameFalaq": { "description": "اسم للمسار path_falaq" },
+  "pathDescFalaq": "السورة كاملة (113:1–5). استعاذة من الشرور الخارجية.",
+  "@pathDescFalaq": { "description": "وصف للمسار path_falaq" },
+
+  "pathNameNas": "سورة الناس",
+  "@pathNameNas": { "description": "اسم للمسار path_nas" },
+  "pathDescNas": "السورة كاملة (114:1–6). استعاذة من الوساوس الداخلية.",
+  "@pathDescNas": { "description": "وصف للمسار path_nas" },
+
+  "pathNameAsrBegin": "سورة العصر",
+  "@pathNameAsrBegin": { "description": "اسم للمسار path_asr_begin" },
+  "pathDescAsrBegin": "(103:1–3). ثلاث آيات فقط لكنها جوهر “الصبر”.",
+  "@pathDescAsrBegin": { "description": "وصف للمسار path_asr_begin" },
+
+  "pathNameTakathur": "سورة التكاثر",
+  "@pathNameTakathur": { "description": "اسم للمسار path_takathur" },
+  "pathDescTakathur": "(102:1–8) عن التنافس الدنيوي والمحاسبة.",
+  "@pathDescTakathur": { "description": "وصف للمسار path_takathur" },
+
+  "pathNameFil": "سورة الفيل",
+  "@pathNameFil": { "description": "اسم للمسار path_fil" },
+  "pathDescFil": "(105:1–5). حادثة أصحاب الفيل؛ خمس آيات قصيرة.",
+  "@pathDescFil": { "description": "وصف للمسار path_fil" },
+
+  "pathNameQuraysh": "سورة قريش",
+  "@pathNameQuraysh": { "description": "اسم للمسار path_quraysh" },
+  "pathDescQuraysh": "(106:1–4). عن شكر نعمة رحلة الشتاء والصيف.",
+  "@pathDescQuraysh": { "description": "وصف للمسار path_quraysh" },
+
+  "pathNameRahmanA": "الرحمن أ",
+  "@pathNameRahmanA": { "description": "اسم للمسار path_rahman_a" },
+  "pathDescRahmanA": "(55:1–13): تعليم القرآن وخلق الإنسان.",
+  "@pathDescRahmanA": { "description": "وصف للمسار path_rahman_a" },
+
+  "pathNameRahmanB": "الرحمن ب",
+  "@pathNameRahmanB": { "description": "اسم للمسار path_rahman_b" },
+  "pathDescRahmanB": "(55:26–36): مسؤولية الإنس والجن.",
+  "@pathDescRahmanB": { "description": "وصف للمسار path_rahman_b" },
+
+  "pathNameYasinBlock": "سورة يس (جزء)",
+  "@pathNameYasinBlock": { "description": "اسم للمسار path_yasin_block" },
+  "pathDescYasinBlock": "(36:1–12). مقدمة لرسالة النبي وتحذيراته.",
+  "@pathDescYasinBlock": { "description": "وصف للمسار path_yasin_block" },
+
+  "pathNameMulkBlock": "سورة الملك (جزء)",
+  "@pathNameMulkBlock": { "description": "اسم للمسار path_mulk_block" },
+  "pathDescMulkBlock": "(67:1–15). تأكيد سيادة الله ودعوة للتأمل.",
+  "@pathDescMulkBlock": { "description": "وصف للمسار path_mulk_block" },
+
+  "pathNameBaqarah21_29": "البقرة (2:21–29)",
+  "@pathNameBaqarah21_29": { "description": "اسم للمسار path_baqarah_21_29" },
+  "pathDescBaqarah21_29": "تسع آيات عن الخلق والتدبر من أجل الشكر.",
+  "@pathDescBaqarah21_29": { "description": "وصف للمسار path_baqarah_21_29" },
+
+  "pathNameNahl66_72": "النحل (16:66–72)",
+  "@pathNameNahl66_72": { "description": "اسم للمسار path_nahl_66_72" },
+  "pathDescNahl66_72": "سبع آيات تُعدد النعم: الأنعام والثمار وغيرها.",
+  "@pathDescNahl66_72": { "description": "وصف للمسار path_nahl_66_72" },
+
+  "pathNameAdDuha": "سورة الضحى",
+  "@pathNameAdDuha": { "description": "اسم للمسار path_ad_duha" },
+  "pathDescAdDuha": "(93:1–11) إحدى عشرة آية تعطي الأمل والطمأنينة.",
+  "@pathDescAdDuha": { "description": "وصف للمسار path_ad_duha" },
+
+  "pathNameKahfCave": "الكهف: فتية الكهف",
+  "@pathNameKahfCave": { "description": "اسم للمسار path_kahf_cave" },
+  "pathDescKahfCave": "(18:9–16) قصة الشباب المؤمنين في الكهف.",
+  "@pathDescKahfCave": { "description": "وصف للمسار path_kahf_cave" },
+
+  "pathNameKahfMusa": "الكهف: موسى والخضر",
+  "@pathNameKahfMusa": { "description": "اسم للمسار path_kahf_musa" },
+  "pathDescKahfMusa": "(18:60–70) يؤكد على الصبر والحكمة الخفية.",
+  "@pathDescKahfMusa": { "description": "وصف للمسار path_kahf_musa" },
+
+  "pathNameWaqiah": "الواقعة (56:1–15)",
+  "@pathNameWaqiah": { "description": "اسم للمسار path_waqiah" },
+  "pathDescWaqiah": "خمس عشرة آية حول مجيء الساعة المفاجئ.",
+  "@pathDescWaqiah": { "description": "وصف للمسار path_waqiah" },
+
+  "pathNameAsrPatience": "سورة العصر (الصبر)",
+  "@pathNameAsrPatience": { "description": "اسم للمسار path_asr_patience" },
+  "pathDescAsrPatience": "(103:1–3) مجددًا، ثلاث آيات تتمحور حول الصبر.",
+  "@pathDescAsrPatience": { "description": "وصف للمسار path_asr_patience" },
+
+  "pathNameBaq153_157": "البقرة (2:153–157)",
+  "@pathNameBaq153_157": { "description": "اسم للمسار path_baq_153_157" },
+  "pathDescBaq153_157": "خمس آيات: “استعينوا بالصبر والصلاة”.",
+  "@pathDescBaq153_157": { "description": "وصف للمسار path_baq_153_157" },
+
+  "pathNameYusuf7_14": "يوسف (12:7–14)",
+  "@pathNameYusuf7_14": { "description": "اسم للمسار path_yusuf_7_14" },
+  "pathDescYusuf7_14": "غيرة إخوة يوسف. اختبار للصبر.",
+  "@pathDescYusuf7_14": { "description": "وصف للمسار path_yusuf_7_14" },
+
+  "pathNameYusuf83_92": "يوسف (12:83–92)",
+  "@pathNameYusuf83_92": { "description": "اسم للمسار path_yusuf_83_92" },
+  "pathDescYusuf83_92": "حزن يعقوب وعفو يوسف (10 آيات).",
+  "@pathDescYusuf83_92": { "description": "وصف للمسار path_yusuf_83_92" },
+
+  "pathNameInshirah": "سورة الشرح (94:1–8)",
+  "@pathNameInshirah": { "description": "اسم للمسار path_inshirah" },
+  "pathDescInshirah": "ثمان آيات: طمأنة بعد العسر. يرتبط بالصبر والأمل.",
+  "@pathDescInshirah": { "description": "وصف للمسار path_inshirah" },
+
+  "verticalLessonIconsSurahAyahFormat": "سورة {surahName}، آية {startAyah}-{endAyah}",
+  "@verticalLessonIconsSurahAyahFormat": {
+    "description": "ينشئ نصًا مثل 'سورة الفاتحة، آية 1-7'.",
+    "placeholders": {
+      "surahName": {},
+      "startAyah": {},
+      "endAyah": {}
+    }
+  },
+
+  "finishLabel": "إنهاء",
+  "@finishLabel": {
+    "description": "Button label for finishing the lesson"
+  },
+
+  "twoWordMultipleChoiceLabel": "اختر الكلمتين الصحيحتين",
+  "@twoWordMultipleChoiceLabel": {
+    "description": "Prompt text for two-word multiple choice"
+  },
+
+  "singleWordMultipleChoiceLabel": "اختر الكلمة الصحيحة",
+  "@singleWordMultipleChoiceLabel": {
+    "description": "Prompt text for single-word multiple choice"
+  },
+
+  "correctAnswerLabel": "صحيح!",
+  "@correctAnswerLabel": {
+    "description": "Shown after user selects correct multiple choice"
+  },
+
+  "incorrectAnswerLabel": "غير صحيح!",
+  "@incorrectAnswerLabel": {
+    "description": "Shown after user selects a wrong multiple choice"
+  },
+
+  "lessonCompletedLabel": "تم استكمال الدرس!",
+  "@lessonCompletedLabel": {
+    "description": "Shown when the user has no more MC questions to do."
+  },
+
+  "profileAnalyticsScoreLabel": "التحليلات والنقاط",
+  "@profileAnalyticsScoreLabel": {
+    "description": "Header label for the analytics/score section in ProfileScreen"
+  },
+
+  "profileDailyLabel": "يومي",
+  "@profileDailyLabel": {
+    "description": "Label for daily score"
+  },
+
+  "profileWeeklyLabel": "أسبوعي",
+  "@profileWeeklyLabel": {
+    "description": "Label for weekly score"
+  },
+
+  "profileMonthlyLabel": "شهري",
+  "@profileMonthlyLabel": {
+    "description": "Label for monthly score"
+  },
+
+  "profileTotalLabel": "المجموع",
+  "@profileTotalLabel": {
+    "description": "Label for total/all-time score"
+  },
+
+  "profileViewChart": "عرض المخطط",
+  "@profileViewChart": {
+    "description": "Button label to open the chart"
+  },
+
+  "profileCloseLabel": "إغلاق",
+  "@profileCloseLabel": {
+    "description": "Button label to close the dialog"
+  },
+
+  "profileScoreChartTitle": "مخطط الدرجات",
+  "@profileScoreChartTitle": {
+    "description": "Used in the alert dialog's title, e.g. 'Daily Score Chart'"
+  },
+
+  "profileScoreChartHistory": "السجل",
+  "@profileScoreChartHistory": {
+    "description": "Used in the chart's internal title, e.g. 'Daily History'"
+  },
+
+  "profileNoData": "لا توجد بيانات",
+  "@profileNoData": {
+    "description": "Shown if the chart has no data to display"
+  },
+
+  "topBarDailyScoreLabel": "⭐ اليوم",
+  "@topBarDailyScoreLabel": {
+    "description": "Short label for daily score displayed on the left side of the TopBar."
+  },
+
+  "topBarDailyScoreSemantic": "درجتك اليومية هي {score}",
+  "@topBarDailyScoreSemantic": {
+    "description": "Accessibility label for daily score in the TopBar, announcing how many points the user has earned.",
+    "placeholders": {
+      "score": {}
+    }
+  },
+
+  "profilePremiumNeeded": "يرجى الترقية لعرض تقويم التقدم ودعمنا في بناء مزيد من الميزات إن شاء الله!",
+  "@profilePremiumNeeded": {
+    "description": "Shown if user is free tier but wants to see weekly progress"
+  },
+
+  "levelMultipleChoiceLabel": "اختيار من متعدد",
+  "@levelMultipleChoiceLabel": {
+    "description": "Radio label for the 'multipleChoice' level"
+  },
+
+  "levelMultipleChoiceDescription": "خطوات اختيار من متعدد بكلمة واحدة أو كلمتين مع إمكانية تخطي الاختيارات.",
+  "@levelMultipleChoiceDescription": {
+    "description": "Description for the 'multipleChoice' level"
+  },
+
+  "levelBeginnerLabel": "مبتدئ",
+  "@levelBeginnerLabel": {
+    "description": "Radio label for the 'starter' or 'beginner' level"
+  },
+
+  "levelBeginnerDescription": "إزالة تدريجية للكلمات في تسلسلات مجمّعة لتسهيل الحفظ بشكل متدرج.",
+  "@levelBeginnerDescription": {
+    "description": "Description for the 'beginner' level"
+  },
+
+  "subscriptionTierScreenPremiumLabel": "Plus",
+  "@subscriptionTierScreenPremiumLabel": {
+    "description": "Label for the Premium tier"
+  },
+
+  "featureUnavailableOffline": "الميزة غير متاحة في وضع عدم الاتصال. يرجى الاتصال أو تمكين وضع عدم الاتصال عن طريق الترقية إلى Plus أو Pro Beta.",
+  "@featureUnavailableOffline": {
+    "description": "يتم عرض هذه الرسالة عندما يحاول مستخدم مجاني استخدام ميزات في وضع عدم الاتصال."
+  },
+
+  "submissionFeedbackModalTotalCount": "إجمالي عدد مداخلات الشكر: {count}",
+  "@submissionFeedbackModalTotalCount": {
+    "description": "يُظهر العدد الإجمالي لمداخلات الشكر التي يملكها المستخدم. يتم استبدال {count} بالرقم الفعلي."
+  },
+
+
+  "notificationDailyTitle": "تذكير لطيف بالقرآن",
+  "@notificationDailyTitle": {
+    "description": "عنوان إشعار التذكير اليومي بالقرآن"
+  },
+
+  "notificationWeeklyTitle": "مراجعة أسبوعية للقرآن",
+  "@notificationWeeklyTitle": {
+    "description": "عنوان إشعار التذكير الأسبوعي بالقرآن"
+  },
+  "notificationWeeklyBody": "تأمل في تقدمك واحفظ جزءًا جديدًا من القرآن مع ممارسة الشكر.",
+  "@notificationWeeklyBody": {
+    "description": "نص إشعار التذكير الأسبوعي"
+  },
+
+  "notificationChannelDailyRemindersName": "التذكيرات اليومية",
+  "@notificationChannelDailyRemindersName": {
+    "description": "اسم القناة للتذكيرات اليومية"
+  },
+  "notificationChannelDailyRemindersDesc": "تذكيرات لحفظ القرآن يوميًا",
+  "@notificationChannelDailyRemindersDesc": {
+    "description": "وصف القناة للتذكيرات اليومية"
+  },
+
+  "notificationChannelWeeklyRemindersName": "التذكيرات الأسبوعية",
+  "@notificationChannelWeeklyRemindersName": {
+    "description": "اسم القناة للتذكيرات الأسبوعية"
+  },
+  "notificationChannelWeeklyRemindersDesc": "تذكيرات للمراجعة الأسبوعية لحفظ القرآن",
+  "@notificationChannelWeeklyRemindersDesc": {
+    "description": "وصف القناة للتذكيرات الأسبوعية"
+  },
+
+  "nameEntryNotificationFrequencyDaily": "يوميًا",
+  "@nameEntryNotificationFrequencyDaily": {
+    "description": "خيار في القائمة يشير إلى التذكيرات اليومية"
+  },
+
+
+
+  "topBarStreakDialogTitle": "السلسلة",
+  "@topBarStreakDialogTitle": {
+    "description": "عنوان مربع الحوار الذي يشرح سلسلة استخدام المستخدم"
+  },
+
+  "fillInTheBlanksLabel": "أكمل الفراغات",
+  "@fillInTheBlanksLabel": {
+    "description": "نص فاصل غير قابل للنقر يظهر بعد 'الاختيار من متعدد' في قائمة الصعوبة المنسدلة"
+  },
+
+  "loadingDataLabel": "جاري التحميل…",
+  "@loadingDataLabel": {
+    "description": "يظهر أثناء تحميل البيانات"
+  },
+
+  "ayahRangeLabel": "الآية {start} - {end}",
+  "@ayahRangeLabel": {
+    "description": "نص بديل لنطاق الآيات في الصفحة الأولى، مثل 1-7 في سورة الفاتحة",
+    "placeholders": {
+      "start": {},
+      "end": {}
+    }
+  },
+
+  "nextPageSemanticLabel": "الصفحة التالية",
+  "@nextPageSemanticLabel": {
+    "description": "التسمية الدلالية للسهم للأسفل للانتقال إلى الصفحة التالية"
+  },
+
+  "prevPageSemanticLabel": "الصفحة السابقة",
+  "@prevPageSemanticLabel": {
+    "description": "التسمية الدلالية للسهم للأعلى للعودة إلى الصفحة السابقة"
+  },
+
+  "pageXOfYLabel": "الصفحة {current} من {total}",
+  "@pageXOfYLabel": {
+    "description": "نص الشريط العلوي عند الضغط على سهم التصفح، يظهر رقم الصفحة الحالية وإجمالي الصفحات",
+    "placeholders": {
+      "current": {},
+      "total": {}
+    }
+  },
+
+  "verseSemanticLabel": "الآية {ayahNumber} من سورة {surahName}",
+  "@verseSemanticLabel": {
+    "description": "تسمية دلالية لبطاقة الآية، تشير إلى رقم الآية واسم السورة",
+    "placeholders": {
+      "ayahNumber": {},
+      "surahName": {}
+    }
+  },
+
+  "ayahLabel": "آية",
+  "@ayahLabel": {
+    "description": "تسمية بادئة لرقم الآية، مثلاً 'آية 3'"
+  },
+
+  "goToSurahViewLabel": "عرض السورة",
+  "@goToSurahViewLabel": {
+    "description": "زر ينتقل إلى شاشة السورة المعتمدة على المسار"
+  },
+
+  "clickOnAyaToOpenLesson": "انقر على أي آية أدناه لبدء الدرس",
+
+  "difficultyChoosingScreenIntro": "اختر تفضيلاتك: الاختيار من متعدد أو إكمال الفراغات، وعدد مرات تكرار كل خطوة وتشغيل الصوت.",
+  "@difficultyChoosingScreenIntro": {
+    "description": "نص تمهيدي في أعلى شاشة اختيار مستوى الصعوبة"
+  },
+
+
+  "upgradeVoiceUsageMessage": "قم بالترقية إلى Pro Beta لتجربة ميزة الصوت ومساعدتنا في تحسينها!",
+  "@upgradeVoiceUsageMessage": {
+    "description": "الرسالة الأساسية التي تظهر عند تجاوز الحد المجاني لاستخدام الصوت"
+  },
+
+  "restorePurchasesLabel": "استعادة المشتريات",
+  "@restorePurchasesLabel": {
+    "description": "زر لاستعادة المشتريات"
+  },
+
+  "subscriptionTierScreenMonthly": "شهريًا",
+  "@subscriptionTierScreenMonthly": {
+    "description": "تسمية للتبديل الشهري"
+  },
+
+  "subscriptionTierScreenYearly": "سنويًا",
+  "@subscriptionTierScreenYearly": {
+    "description": "تسمية للتبديل السنوي"
+  },
+
+  "subscriptionTierScreenFreePrice": "مجانًا",
+  "@subscriptionTierScreenFreePrice": {
+    "description": "السعر المعروض للاشتراك المجاني"
+  },
+
+  "subscriptionTierScreenPremiumMonthlyPrice": "الآن 3 دولارات/شهر (كانت 5 دولارات)",
+  "@subscriptionTierScreenPremiumMonthlyPrice": {
+    "description": "سعر الاشتراك الشهري المخفّض لـ Premium"
+  },
+
+  "subscriptionTierScreenPremiumYearlyPrice": "الآن 28 دولارًا/سنة (كانت 60 دولارًا)",
+  "@subscriptionTierScreenPremiumYearlyPrice": {
+    "description": "سعر الاشتراك السنوي المخفّض لـ Premium"
+  },
+
+  "subscriptionTierScreenPremiumPlusMonthlyPrice": "الآن 7 دولارات/شهر (كانت 10 دولارات)",
+  "@subscriptionTierScreenPremiumPlusMonthlyPrice": {
+    "description": "سعر الاشتراك الشهري المخفّض لـ PremiumPlus"
+  },
+
+  "subscriptionTierScreenPremiumPlusYearlyPrice": "الآن 45 دولارًا/سنة (كانت 84 دولارًا)",
+  "@subscriptionTierScreenPremiumPlusYearlyPrice": {
+    "description": "سعر الاشتراك السنوي المخفّض لـ PremiumPlus"
+  },
+
+  "subscriptionPurchaseError": "حدث خطأ أثناء شراء الاشتراك",
+  "@subscriptionPurchaseError": {
+    "description": "رسالة خطأ عامة عند شراء الاشتراك"
+  },
+
+  "topBarExplorePlansLabel": "استكشف الخطط",
+  "@topBarExplorePlansLabel": {
+    "description": "نص الزر للانتقال إلى شاشة الاشتراك"
+  },
+
+  "topBarBackHomeLabel": "العودة إلى الصفحة الرئيسية",
+  "@topBarBackHomeLabel": {
+    "description": "نص الزر للعودة إلى الشاشة الرئيسية"
+  },
+
+  "profileRequiresPlanUpdate": "يتطلب تحديث الخطة",
+  "@profileRequiresPlanUpdate": {
+    "description": "مؤشر يُظهر عند الحاجة إلى اشتراك/خطة مميزة"
+  },
+
+  "subscriptionTierScreenPremiumDescription": "كل ما في النسخة المجانية، بالإضافة إلى الدروس في وضع عدم الاتصال والتعليقات، والتحليلات التاريخية، إلى جانب أشرطة التقدم، والملف الشخصي، وتخصيص القرآن. ادعمنا في بناء مزيد من الميزات!",
+  "@subscriptionTierScreenPremiumDescription": {
+    "description": "وصف لباقة Premium"
+  },
+
+
+
+  "subscriptionAutoRenewNotice": "سيتم تجديد الاشتراك تلقائيًا، ويمكن إلغاؤه لتجنب الرسوم في الفترة القادمة. سيتم التبرع بجزء من الأموال إلى Islamic Relief عبر مبادرة المبتسم \uD83D\uDE00.",
+  "@subscriptionAutoRenewNotice": {
+    "description": "ملاحظة قصيرة معروضة فوق زر الشراء حول التجديد التلقائي والتبرع"
+  },
+
+  "subscriptionTierScreenSubscribeLabel": "اشترك",
+  "@subscriptionTierScreenSubscribeLabel": {
+    "description": "زر لتأكيد شراء الاشتراك"
+  },
+
+  "subscriptionTierScreenFinalMessage": "نقدّر دعمك!",
+  "@subscriptionTierScreenFinalMessage": {
+    "description": "رسالة ختامية قصيرة في أسفل شاشة الاشتراك"
+  },
+  "subscriptionPurchaseRestoreSuccess": "تمت استعادة مشترياتك بنجاح.",
+  "@subscriptionPurchaseRestoreSuccess": {
+    "description": "يظهر عند نجاح عملية استعادة المشتريات"
+  },
+
+  "subscriptionTierScreenRestoreLabel": "استعادة المشتريات",
+  "@subscriptionTierScreenRestoreLabel": {
+    "description": "زر لاستعادة الاشتراكات التي تم شراؤها سابقًا"
+  },
+
+
+  "arabicLabel": "العربية",
+  "@arabicLabel": {
+    "description": "تسمية خيار التبديل عندما يختار المستخدم عرض النص باللغة العربية."
+  },
+
+  "transliterationLabel": "الإنجليزية",
+  "@transliterationLabel": {
+    "description": "تسمية خيار التبديل عندما يختار المستخدم عرض نص مترجم بالحروف اللاتينية."
+  },
+
+  "surahSearchScreenTitle": "البحث عن سورة",
+  "@surahSearchScreenTitle": {
+    "description": "عنوان شاشة البحث عن سورة"
+  },
+
+  "genericBack": "رجوع",
+  "@genericBack": {
+    "description": "تسمية زر الرجوع في شريط التطبيق"
+  },
+
+  "surahSearchSelectSurah": "اختر سورة:",
+  "@surahSearchSelectSurah": {
+    "description": "طلب من المستخدم لاختيار سورة من القائمة"
+  },
+
+  "surahSearchExistingPaths": "المسارات الحالية لهذه السورة",
+  "@surahSearchExistingPaths": {
+    "description": "عنوان القسم الذي يعرض أي مسارات مستخدم/نظام موجودة للسورة المختارة"
+  },
+
+  "surahSearchNoMatches": "لم يتم العثور على أي مسارات حالية.",
+  "@surahSearchNoMatches": {
+    "description": "رسالة في حال عدم وجود أي مسار متعلق بالسورة المختارة"
+  },
+
+  "surahSearchHideCreateForm": "إخفاء نموذج الإنشاء",
+  "@surahSearchHideCreateForm": {
+    "description": "تسمية لإيقاف نموذج إنشاء المسار"
+  },
+
+  "surahSearchShowCreateForm": "إنشاء مسار جديد للسورة",
+  "@surahSearchShowCreateForm": {
+    "description": "تسمية لتشغيل نموذج إنشاء المسار"
+  },
+
+  "createPathTrackProgress": "تتبع التقدم؟",
+  "@createPathTrackProgress": {
+    "description": "تسمية لمفتاح تبديل أو خيار لتفعيل تتبع التقدم للمسار"
+  },
+
+  "themeScreenSearchIconSemantic": "ابحث عن السور",
+  "@themeScreenSearchIconSemantic": {
+    "description": "نص الأداة لرمز البحث في شريط تطبيق شاشة السمات"
+  },
+
+  "pathListSearchIconSemantic": "ابحث عن السور",
+  "@pathListSearchIconSemantic": {
+    "description": "نص الأداة لرمز البحث في شريط تطبيق قائمة المسارات"
+  },
+
+  "pathLessonsSearchIconSemantic": "ابحث عن السور",
+  "@pathLessonsSearchIconSemantic": {
+    "description": "نص الأداة لرمز البحث في شريط تطبيق دروس المسارات"
+  },
+
+  "playAllSurahSemantic": "تشغيل السورة بأكملها",
+  "@playAllSurahSemantic": {
+    "description": "تلميح للأيقونة التي تشغل السورة بالكامل"
+  },
+
+  "toggleTransliterationLabel": "تبديل الترجمة الحرفية",
+  "@toggleTransliterationLabel": {
+    "description": "تلميح لتبديل وضع الترجمة الحرفية (العربية مقابل النص المحرف بالحروف اللاتينية)"
+  },
+
+  "englishLabel": "الإنجليزية",
+  "@englishLabel": {
+    "description": "تسمية معروضة لخيار الترجمة الحرفية باللغة الإنجليزية"
+  },
+
+  "subscriptionTierScreenPremiumPlusLabel": "ادعمنا (سنويًا)",
+  "@subscriptionTierScreenPremiumPlusLabel": {
+    "description": "تسمية لمستوى Premium Plus"
+  },
+
+  "subscriptionTierScreenFreeDescription": "جميع الميزات مجانية وبدون إعلانات!",
+  "@subscriptionTierScreenFreeDescription": {
+    "description": "وصف للخطة المجانية"
+  },
+
+  "subscriptionTierScreenPremiumPlusDescription": "ساعد في تمويل الميزات والتحسينات الجديدة! أيضًا، المساهمة المالية البسيطة قد تساعدك في بناء العادة!",
+  "@subscriptionTierScreenPremiumPlusDescription": {
+    "description": "وصف لخطة Pro"
+  },
+
+  "subscriptionTierScreenSupportLabel": "الدعم السنوي",
+  "@subscriptionTierScreenSupportLabel": {
+    "description": "تسمية لخطة الدعم السنوي"
+  },
+
+  "verticalLessonIconsDialogBody": "جميع الميزات متاحة في الإصدار المجاني، ولكن إذا أردت يمكنك دعمنا لتطوير المزيد من الميزات. سيتم التبرع بجزء من اشتراكك لمؤسسة Islamic Relief. جزاك الله خيرًا!",
+  "@verticalLessonIconsDialogBody": {
+    "description": "النص الموجود في مربع حوار الترقية الذي يصف الفوائد والصدقة"
+  },
+  "welcomeBody": "لعب الهدهد دورًا مميزًا في مساعدة النبي سليمان [عليه السلام] من خلال المراقبة ونقل الرسائل.\n\nلا يحكم عليك بغض النظر عن موقعك في رحلتك، وهو متحمس لإرشادك في رحلة اكتشاف جمال القرآن ودمج تذكيرات الشكر للتقدير في كل لحظة معه.",
+  "@welcomeBody": {
+    "description": "النص الرئيسي الذي يوضح الغرض من التطبيق"
+  },
+
+  "surahSearchByName": "ابحث بالاسم (إنجليزي أو عربي)",
+  "@surahSearchByName": {
+    "description": "تسمية أعلى الإكمال التلقائي للبحث عن سورة بالاسم"
+  },
+
+  "surahSearchHintAnyName": "اكتب أي اسم سورة...",
+  "@surahSearchHintAnyName": {
+    "description": "نص تلميح في حقل البحث التلقائي"
+  },
+
+  "surahSearchFieldLabel": "ابحث عن سورة",
+  "@surahSearchFieldLabel": {
+    "description": "تسمية حقل البحث في الإكمال التلقائي"
+  },
+
+  "surahSearchInvalidLessonsError": "درس واحد أو أكثر غير صالح. لا يمكن إنشاء المسار.",
+  "@surahSearchInvalidLessonsError": {
+    "description": "رسالة شريط التنبيه عند عدم صلاحية الدروس التي تم إنشاؤها"
+  },
+
+  "surahSearchUserSurahPrefix": "سورة المستخدم",
+  "@surahSearchUserSurahPrefix": {
+    "description": "يُستخدم كمقدمة لاسم المسار الافتراضي إذا لم يدخل المستخدم اسمًا"
+  },
+
+  "notificationDailyBody": "خذ لحظة للعثور على بعض السكينة عبر القرآن وذكّر نفسك بسبب امتنانك اليوم.",
+  "@notificationDailyBody": {
+    "description": "نص التذكير اليومي"
+  }
+
+}

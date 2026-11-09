@@ -1,0 +1,2382 @@
+{
+  "@@locale": "fr",
+
+  "commentA": "Clés d'Onboarding",
+  "appBarTitleWelcome": "Bienvenue",
+  "@appBarTitleWelcome": {
+    "description": "Affiché sur la barre d'app de l'écran de bienvenue"
+  },
+
+  "skipLabel": "Ignorer",
+  "@skipLabel": {
+    "description": "Libellé générique pour un bouton permettant de sauter une étape"
+  },
+
+  "welcomeHeadline": "Bienvenue dans Quran avec Hudhud !",
+  "@welcomeHeadline": {
+    "description": "Texte principal d’en-tête sur l’écran de bienvenue d’Onboarding"
+  },
+
+
+  "getStartedLabel": "Commencer",
+  "@getStartedLabel": {
+    "description": "Libellé de bouton pour passer à l’étape suivante de l’onboarding"
+  },
+
+  "commentB": "Clés d'écran de leçon",
+  "lessonScreenAppBarTitle": "Leçon",
+  "@lessonScreenAppBarTitle": {
+    "description": "Texte pour le titre de la barre d'app de la leçon"
+  },
+
+  "noAyahAvailable": "Aucune āyah disponible à lire.",
+  "@noAyahAvailable": {
+    "description": "Message de la Snackbar si aucune āyah n’est disponible"
+  },
+
+  "audioNotFound": "Audio introuvable à l’adresse {url}",
+  "@audioNotFound": {
+    "description": "Message d'erreur lorsque l'audio n'existe pas sur le serveur",
+    "placeholders": {
+      "url": {}
+    }
+  },
+
+  "restartLessonTitle": "Redémarrer la leçon",
+  "@restartLessonTitle": {
+    "description": "Titre de la boîte de dialogue lorsque l’utilisateur tente de réinitialiser toute la progression de la leçon"
+  },
+
+  "resetLessonBody": "Réinitialiser toute votre progression pour cette leçon ?",
+  "@resetLessonBody": {
+    "description": "Texte de la boîte de dialogue pour réinitialiser une leçon"
+  },
+
+  "cancelLabel": "Annuler",
+  "@cancelLabel": {
+    "description": "Libellé générique pour un bouton annulant une action"
+  },
+
+  "yesLabel": "Oui",
+  "@yesLabel": {
+    "description": "Libellé générique pour un bouton confirmant une action"
+  },
+
+  "errorResettingLesson": "Erreur lors de la réinitialisation de la leçon",
+  "@errorResettingLesson": {
+    "description": "Préfixe de la Snackbar si la réinitialisation de la leçon échoue"
+  },
+
+  "startLabel": "Démarrer",
+  "@startLabel": {
+    "description": "Libellé de bouton pour démarrer une leçon ou une session"
+  },
+
+  "submitLabel": "Envoyer",
+  "@submitLabel": {
+    "description": "Libellé de bouton pour une soumission"
+  },
+
+  "nextLabel": "Suivant",
+  "@nextLabel": {
+    "description": "Libellé de bouton pour aller à l’étape suivante"
+  },
+
+  "voiceErrorMicDeniedTitle": "Microphone refusé",
+  "@voiceErrorMicDeniedTitle": {
+    "description": "Titre de la fenêtre pop-up lorsque l’utilisateur refuse la permission du micro"
+  },
+  "voiceErrorMicDeniedBody": "L’enregistrement requiert l’accès au microphone. Veuillez accorder l’autorisation dans les paramètres.",
+  "@voiceErrorMicDeniedBody": {
+    "description": "Texte du corps pour la pop-up de refus du microphone"
+  },
+  "voiceErrorMicDeniedSemanticLabel": "Dialogue d’autorisation de microphone refusée",
+  "@voiceErrorMicDeniedSemanticLabel": {
+    "description": "Libellé sémantique pour les lecteurs d’écran"
+  },
+
+  "voiceErrorRecorderStartTitle": "Erreur d’enregistrement",
+  "@voiceErrorRecorderStartTitle": {
+    "description": "Titre de la pop-up si nous ne parvenons pas à lancer l’enregistrement"
+  },
+  "voiceErrorRecorderStartBody": "Nous n'avons pas pu démarrer l’enregistreur. Veuillez réessayer.",
+  "@voiceErrorRecorderStartBody": {
+    "description": "Texte du corps si le démarrage de l’enregistreur échoue"
+  },
+  "voiceErrorRecorderStartSemanticLabel": "Dialogue d’erreur de démarrage de l’enregistreur",
+  "@voiceErrorRecorderStartSemanticLabel": {
+    "description": "Libellé sémantique pour les lecteurs d’écran"
+  },
+
+  "voiceErrorRecorderStopTitle": "Erreur à l’arrêt de l’enregistrement",
+  "@voiceErrorRecorderStopTitle": {
+    "description": "Titre de la pop-up si nous ne parvenons pas à arrêter l’enregistreur"
+  },
+  "voiceErrorRecorderStopBody": "Nous n’avons pas pu arrêter correctement l’enregistreur. Veuillez réessayer.",
+  "@voiceErrorRecorderStopBody": {
+    "description": "Texte du corps si l’arrêt de l’enregistreur échoue"
+  },
+  "voiceErrorRecorderStopSemanticLabel": "Dialogue d’erreur à l’arrêt de l’enregistreur",
+  "@voiceErrorRecorderStopSemanticLabel": {
+    "description": "Libellé sémantique pour les lecteurs d’écran"
+  },
+
+  "voiceErrorNoSoundTitle": "Aucun son détecté",
+  "@voiceErrorNoSoundTitle": {
+    "description": "Titre de la pop-up si l’audio est vide ou silencieux"
+  },
+  "voiceErrorNoSoundBody": "Votre enregistrement était silencieux ou trop faible. Veuillez réessayer.",
+  "@voiceErrorNoSoundBody": {
+    "description": "Texte du corps pour la pop-up indiquant qu’aucun son n’a été détecté"
+  },
+  "voiceErrorNoSoundSemanticLabel": "Dialogue aucun son détecté",
+  "@voiceErrorNoSoundSemanticLabel": {
+    "description": "Libellé sémantique pour les lecteurs d’écran"
+  },
+
+  "voiceErrorTranscriptionTitle": "Erreur de transcription",
+  "@voiceErrorTranscriptionTitle": {
+    "description": "Titre si la transcription échoue côté réseau ou serveur"
+  },
+  "voiceErrorTranscriptionBody": "Nous n’avons pas pu transcrire votre enregistrement. Veuillez vérifier votre connexion et réessayer.",
+  "@voiceErrorTranscriptionBody": {
+    "description": "Texte du corps pour la pop-up d’erreur de transcription"
+  },
+  "voiceErrorTranscriptionSemanticLabel": "Dialogue d’erreur de transcription",
+  "@voiceErrorTranscriptionSemanticLabel": {
+    "description": "Libellé sémantique pour les lecteurs d’écran"
+  },
+
+  "tapColoredWordsHint": "Appuyez sur les mots surlignés pour voir la version corrigée.",
+  "@tapColoredWordsHint": {
+    "description": "Indique aux utilisateurs la fonctionnalité du Coran corrigé."
+  },
+
+  "emptyInputWarning": "Vous devez saisir quelque chose avant d’envoyer",
+  "@emptyInputWarning": {
+    "description": "Avertissement affiché si l’utilisateur tente d’envoyer un texte vide"
+  },
+
+  "getHintLabel": "Obtenir un indice",
+  "@getHintLabel": {
+    "description": "Libellé de bouton pour dévoiler un indice"
+  },
+
+  "removeHintLabel": "Retirer l’indice",
+  "@removeHintLabel": {
+    "description": "Libellé de bouton pour retirer un indice appliqué"
+  },
+
+  "typeTheMissingWordsLabel": "Tapez le(s) mot(s) manquant(s)",
+  "@typeTheMissingWordsLabel": {
+    "description": "Libellé au-dessus du champ texte pour les mots manquants"
+  },
+
+  "difficultyLabel": "Difficulté",
+  "@difficultyLabel": {
+    "description": "Libellé au-dessus du menu déroulant de la difficulté"
+  },
+
+  "repeatCountLabel": "Nb de répétitions",
+  "@repeatCountLabel": {
+    "description": "Libellé au-dessus du menu déroulant du nombre de répétitions"
+  },
+
+  "backButtonLabel": "Retour",
+  "@backButtonLabel": {
+    "description": "Libellé sémantique pour la flèche retour dans la barre d'app de la leçon"
+  },
+
+  "toggleTranslationLabel": "Basculer la traduction intégrée",
+  "@toggleTranslationLabel": {
+    "description": "Libellé sémantique pour l’icône qui bascule l’affichage de la traduction des versets"
+  },
+
+  "openTranslationScreenLabel": "Ouvrir l’écran de traduction",
+  "@openTranslationScreenLabel": {
+    "description": "Libellé sémantique pour l’icône ouvrant l’écran de traduction séparé"
+  },
+
+  "restartLessonSemanticLabel": "Redémarrer la leçon",
+  "@restartLessonSemanticLabel": {
+    "description": "Libellé sémantique pour le bouton d’icône de redémarrage de la leçon"
+  },
+
+  "verseDisplayAreaLabel": "Zone d’affichage des versets du Coran",
+  "@verseDisplayAreaLabel": {
+    "description": "Libellé sémantique pour le conteneur principal qui affiche les versets"
+  },
+
+  "playAudioSemanticLabel": "Lire l’audio de l’āyah",
+  "@playAudioSemanticLabel": {
+    "description": "Libellé sémantique pour le bouton d’icône de lecture audio"
+  },
+
+  "openGratitudeSemanticLabel": "Ouvrir la fenêtre modale de gratitude",
+  "@openGratitudeSemanticLabel": {
+    "description": "Libellé sémantique pour le bouton d’icône qui ouvre la fenêtre de gratitude"
+  },
+
+  "voiceUsageSemanticLabel": "Utilisation vocale en minutes",
+  "@voiceUsageSemanticLabel": {
+    "description": "Libellé sémantique pour la zone affichant les statistiques d’utilisation vocale (PremiumPlus)"
+  },
+
+  "voiceRecordSemanticLabel": "Démarrer ou arrêter l’enregistrement vocal",
+  "@voiceRecordSemanticLabel": {
+    "description": "Libellé sémantique pour l’icône micro dans le suffixe du champ de texte"
+  },
+
+  "commentC": "Nouvelles chaînes pour l’écran d’accueil (HOME)",
+  "homeTitle": "Accueil",
+  "@homeTitle": {
+    "description": "Titre de la barre supérieure pour l’écran d’accueil"
+  },
+
+  "noPathsLabel": "Aucun parcours valide disponible.",
+  "@noPathsLabel": {
+    "description": "Affiché si aucun parcours actif n’est trouvé"
+  },
+
+  "errorLoadingActivePath": "Erreur lors du chargement du parcours actif : {err}",
+  "@errorLoadingActivePath": {
+    "description": "Message d’erreur si la récupération du parcours actif échoue",
+    "placeholders": {
+      "err": {}
+    }
+  },
+
+  "verticalLessonIconsGoToTheme": "Aller au thème",
+  "@verticalLessonIconsGoToTheme": {
+    "description": "Libellé de bouton pour naviguer vers l’écran du thème lorsque l’utilisateur termine le parcours"
+  },
+
+  "homePathCardLabel": "Appuyez pour ouvrir l’écran du thème",
+  "@homePathCardLabel": {
+    "description": "Libellé sémantique pour appuyer sur la carte du parcours"
+  },
+
+  "arrowForwardSemanticLabel": "Ouvrir les détails",
+  "@arrowForwardSemanticLabel": {
+    "description": "Libellé sémantique pour l’icône de flèche avant dans la carte du parcours"
+  },
+
+  "noTrackProgressLabel": "Ce parcours ne suit pas la progression.",
+  "@noTrackProgressLabel": {
+    "description": "Affiché si le parcours ne suit pas la progression"
+  },
+
+  "premiumRequiredLabel": "Mettez à niveau pour débloquer la fonctionnalité de progression. Soutenez-nous pour créer plus de fonctionnalités !",
+  "@premiumRequiredLabel": {
+    "description": "Affiché si l’utilisateur est en version gratuite mais que le parcours suit la progression"
+  },
+
+  "completedLabel": "terminé",
+  "@completedLabel": {
+    "description": "Suffixe pour ex. « xx % terminé »"
+  },
+
+  "fabLogGratitudeLabel": "Appuyez pour enregistrer une gratitude",
+  "@fabLogGratitudeLabel": {
+    "description": "Libellé sémantique pour le bouton d’action flottant qui enregistre la gratitude"
+  },
+
+  "errorNavigatingToLesson": "Erreur lors de la navigation vers la leçon",
+  "@errorNavigatingToLesson": {
+    "description": "Préfixe de la Snackbar si l’ouverture de l’écran de la leçon échoue"
+  },
+
+  "commentD": "Chaînes de l’écran du profil",
+  "profileTitle": "Profil",
+  "@profileTitle": {
+    "description": "Titre de la barre d'app pour l’écran du profil"
+  },
+
+  "profileBackArrowLabel": "Retour à l’écran précédent",
+  "@profileBackArrowLabel": {
+    "description": "Libellé sémantique pour la flèche de retour sur l’écran du profil"
+  },
+
+  "profileAvatarSemanticLabel": "Avatar de l’utilisateur",
+  "@profileAvatarSemanticLabel": {
+    "description": "Libellé sémantique pour l’avatar circulaire affichant l’initiale de l’utilisateur"
+  },
+
+  "profileEnterYourName": "Saisissez votre nom",
+  "@profileEnterYourName": {
+    "description": "Texte d’indice dans le champ de texte pour le nom de l’utilisateur"
+  },
+
+  "nameEntryNotificationFrequencyDropdownLabel": "Fréquence des notifications",
+  "@nameEntryNotificationFrequencyDropdownLabel": {
+    "description": "Libellé décrivant le menu déroulant pour sélectionner la fréquence des notifications"
+  },
+
+  "nameEntryNotificationFrequencyWeekly": "Hebdomadaire",
+  "@nameEntryNotificationFrequencyWeekly": {
+    "description": "Option dans la liste indiquant des rappels hebdomadaires"
+  },
+
+  "nameEntryNotificationFrequencyNone": "Aucun",
+  "@nameEntryNotificationFrequencyNone": {
+    "description": "Option dans la liste indiquant l’absence de rappels"
+  },
+
+  "notificationPermissionPrompt": "Nous aimerions vous envoyer de doux rappels pour compléter votre gratitude ou vos leçons – veuillez autoriser les notifications si vous souhaitez que nous vous aidions à bâtir cette habitude \uD83D\uDE03.",
+  "@notificationPermissionPrompt": {
+    "description": "Brève explication de la raison pour laquelle l’app demande la permission d’envoyer des notifications"
+  },
+
+  "profileNameSave": "Enregistrer",
+  "@profileNameSave": {
+    "description": "Libellé du bouton pour sauvegarder le nouveau nom d’utilisateur"
+  },
+
+  "profileNameCancel": "Annuler",
+  "@profileNameCancel": {
+    "description": "Libellé du bouton pour annuler la modification du nom d’utilisateur"
+  },
+
+  "profileNameGuest": "Invité",
+  "@profileNameGuest": {
+    "description": "Nom de secours si l’utilisateur ne saisit rien"
+  },
+
+  "profileNameEdit": "Modifier",
+  "@profileNameEdit": {
+    "description": "Libellé du bouton pour commencer à modifier le nom d’utilisateur"
+  },
+
+  "profilePreferredLanguage": "Langue :",
+  "@profilePreferredLanguage": {
+    "description": "Libellé au-dessus de la liste déroulante de la langue dans l’écran du profil"
+  },
+
+  "okLabel": "OK",
+  "@okLabel": {
+    "description": "Bouton générique de confirmation ou d’acceptation"
+  },
+
+  "profileReciterLabel": "Récitateur",
+  "@profileReciterLabel": {
+    "description": "Libellé pour la liste déroulante du récitateur dans l’écran du profil"
+  },
+
+  "profileFontLabel": "Police :",
+  "@profileFontLabel": {
+    "description": "Libellé pour la liste déroulante de police dans l’écran du profil"
+  },
+
+  "profileReciterMishary": "Mishary Rashid Al-Afasy",
+  "@profileReciterMishary": {
+    "description": "Nom affiché pour le récitateur #1"
+  },
+
+  "profileReciterShatri": "Abu Bakr Al-Shatri",
+  "@profileReciterShatri": {
+    "description": "Nom affiché pour le récitateur #2"
+  },
+
+  "profileReciterQatami": "Nasser Al Qatami",
+  "@profileReciterQatami": {
+    "description": "Nom affiché pour le récitateur #3"
+  },
+
+  "profileUpgradePremiumTitle": "Débloquez plus de personnalisation !",
+  "@profileUpgradeProTitle": {
+    "description": "Titre de la boîte de dialogue demandant à l’utilisateur de passer en version Pro."
+  },
+  "profileUpgradePremiumBody": "Vous pouvez profiter de la modification des polices et du choix des récitateurs en passant à la version Pro. Soutenez nos efforts continus et personnalisez encore plus votre expérience !",
+  "@profileUpgradeProBody": {
+    "description": "Texte incitant l’utilisateur à passer à la version Pro pour bénéficier de plus de personnalisations."
+  },
+
+  "profileWeeksProgress": "MashaAllah, voici votre progression de la semaine :",
+  "@profileWeeksProgress": {
+    "description": "En-tête de section pour la progression hebdomadaire de l’utilisateur"
+  },
+
+  "profileGratefulnessCalendar": "Calendrier de gratitude",
+  "@profileGratefulnessCalendar": {
+    "description": "En-tête pour le calendrier hebdomadaire de gratitude"
+  },
+
+  "profileQuranLearningCalendar": "Calendrier d’apprentissage du Coran",
+  "@profileQuranLearningCalendar": {
+    "description": "En-tête pour le calendrier hebdomadaire de soumission des leçons"
+  },
+
+  "profilePrevWeekSemantic": "Aller à la semaine précédente",
+  "@profilePrevWeekSemantic": {
+    "description": "Libellé sémantique pour la flèche gauche naviguant vers la semaine précédente"
+  },
+
+  "profileNextWeekSemantic": "Aller à la semaine suivante",
+  "@profileNextWeekSemantic": {
+    "description": "Libellé sémantique pour la flèche droite naviguant vers la semaine suivante"
+  },
+
+  "profileNotificationFrequency": "Fréquence des notifications",
+  "@profileNotificationFrequency": {
+    "description": "Libellé au-dessus de la liste déroulante de la fréquence des notifications dans l’écran du profil"
+  },
+
+  "commentE": "Chaînes de l’écran du Journal de gratitude",
+  "gratitudeLogTitle": "Mon journal de gratitude",
+  "@gratitudeLogTitle": {
+    "description": "Titre de la barre d’app pour le journal de gratitude"
+  },
+
+  "gratitudeLogBackArrowSemantic": "Retour à l’accueil",
+  "@gratitudeLogBackArrowSemantic": {
+    "description": "Libellé sémantique pour la flèche de retour dans le journal de gratitude"
+  },
+
+  "gratitudeLogClearAllSemantic": "Effacer toutes les entrées de gratitude",
+  "@gratitudeLogClearAllSemantic": {
+    "description": "Libellé sémantique pour l’icône de suppression dans le journal de gratitude"
+  },
+
+  "gratitudeLogAddSemantic": "Ajouter une nouvelle entrée de gratitude",
+  "@gratitudeLogAddSemantic": {
+    "description": "Libellé sémantique pour l’icône d’ajout dans le journal de gratitude"
+  },
+
+  "gratitudeLogClearDialogTitle": "Effacer le journal de gratitude",
+  "@gratitudeLogClearDialogTitle": {
+    "description": "Titre de la boîte de dialogue pour confirmer la suppression de toutes les entrées de gratitude"
+  },
+
+  "gratitudeLogClearDialogBody": "Êtes-vous sûr de vouloir effacer toutes vos entrées de gratitude ? Cette action est irréversible.",
+  "@gratitudeLogClearDialogBody": {
+    "description": "Texte de la boîte de dialogue pour effacer toutes les entrées de gratitude"
+  },
+
+  "gratitudeLogClearConfirm": "Oui, effacer",
+  "@gratitudeLogClearConfirm": {
+    "description": "Libellé du bouton pour confirmer la suppression de toutes les entrées"
+  },
+
+  "gratitudeLogStreak": "⭐ Série de gratitude : {days} jours",
+  "@gratitudeLogStreak": {
+    "description": "Ligne affichant la série, ex. 3 jours d’affilée",
+    "placeholders": {
+      "days": {}
+    }
+  },
+
+  "gratitudeLogStreakLoading": "Calcul de la série en cours…",
+  "@gratitudeLogStreakLoading": {
+    "description": "Affiché pendant le chargement des données de la série"
+  },
+
+  "gratitudeLogStreakError": "Échec du calcul de la série.",
+  "@gratitudeLogStreakError": {
+    "description": "Texte d’erreur si le calcul de la série échoue"
+  },
+
+  "gratitudeLogTotalDays": "Total de jours de gratitude : {count}",
+  "@gratitudeLogTotalDays": {
+    "description": "Nombre total de jours distincts où l’utilisateur a enregistré de la gratitude",
+    "placeholders": {
+      "count": {}
+    }
+  },
+
+  "gratitudeLogDataLoading": "Chargement des données de gratitude…",
+  "@gratitudeLogDataLoading": {
+    "description": "Affiché pendant le chargement des données de gratitude"
+  },
+
+  "gratitudeLogDataError": "Échec du chargement des données de gratitude.",
+  "@gratitudeLogDataError": {
+    "description": "Texte d’erreur si nous ne parvenons pas à charger les données de gratitude"
+  },
+
+  "gratitudeLogCardSemantic": "Carte d’entrée de gratitude",
+  "@gratitudeLogCardSemantic": {
+    "description": "Libellé sémantique pour chaque carte de gratitude dans la liste"
+  },
+
+  "gratitudeLogItemIcon": "Icône de gratitude",
+  "@gratitudeLogItemIcon": {
+    "description": "Libellé sémantique pour l’icône de cœur à côté de chaque élément"
+  },
+
+  "gratitudeLogEmptyIconSemantic": "Appuyez pour ajouter votre première gratitude",
+  "@gratitudeLogEmptyIconSemantic": {
+    "description": "Libellé sémantique pour la grande icône orange dans l’écran vide"
+  },
+
+  "gratitudeLogEmptyMessage": "Aucune entrée de gratitude pour le moment.\nAppuyez sur « + » pour ajouter votre première gratitude !",
+  "@gratitudeLogEmptyMessage": {
+    "description": "Instructions affichées si le journal est vide"
+  },
+
+  "gratitudeLogEntriesAdded": "Les gratitudes ont été ajoutées avec succès !",
+  "@gratitudeLogEntriesAdded": {
+    "description": "Texte de la Snackbar si l’ajout d’une nouvelle gratitude a réussi"
+  },
+
+  "gratitudeLogEntriesFailed": "Échec de l’ajout de gratitudes. Veuillez réessayer.",
+  "@gratitudeLogEntriesFailed": {
+    "description": "Texte de la Snackbar si l’ajout d’une nouvelle gratitude a échoué"
+  },
+
+  "commentF": "Chaînes de l’écran d’achèvement de la leçon",
+  "lessonCompletedTitle": "Leçon terminée",
+  "@lessonCompletedTitle": {
+    "description": "Titre de la barre d’app pour l’écran de fin de leçon"
+  },
+
+  "lessonCompletedBackArrowSemantic": "Retour à l’accueil",
+  "@lessonCompletedBackArrowSemantic": {
+    "description": "Libellé sémantique pour la flèche de retour sur l’écran d’achèvement de la leçon"
+  },
+
+  "lessonCompletedMashaAllah": "MashaAllah !",
+  "@lessonCompletedMashaAllah": {
+    "description": "Texte de félicitations en gros"
+  },
+
+  "lessonCompletedMashaAllahSemantic": "Texte de félicitations",
+  "@lessonCompletedMashaAllahSemantic": {
+    "description": "Libellé sémantique pour le grand texte vert"
+  },
+
+  "lessonCompletedMessage": "Vous avez terminé cette leçon !",
+  "@lessonCompletedMessage": {
+    "description": "Sous-titre indiquant que l’utilisateur a fini la leçon"
+  },
+
+  "lessonCompletedImageSemantic": "Illustration Hudhud et Coran",
+  "@lessonCompletedImageSemantic": {
+    "description": "Libellé sémantique pour l’image de succès affichée"
+  },
+
+  "lessonCompletedGoBackSemantic": "Retour à la sélection du parcours",
+  "@lessonCompletedGoBackSemantic": {
+    "description": "Libellé sémantique pour le bouton « Retour au parcours »"
+  },
+
+  "lessonCompletedGoBackButton": "Retour au parcours",
+  "@lessonCompletedGoBackButton": {
+    "description": "Libellé de bouton pour naviguer vers l’écran du parcours/accueil"
+  },
+
+  "lessonCompletedRestartSemantic": "Redémarrer la leçon",
+  "@lessonCompletedRestartSemantic": {
+    "description": "Libellé sémantique pour le bouton « Redémarrer la leçon »"
+  },
+
+  "lessonCompletedRestartButton": "Redémarrer la leçon",
+  "@lessonCompletedRestartButton": {
+    "description": "Libellé de bouton pour redémarrer la même leçon"
+  },
+
+  "lessonCompletedEncouragement": "Continuez votre excellent travail !",
+  "@lessonCompletedEncouragement": {
+    "description": "Texte d’encouragement final en bas"
+  },
+
+  "commentG": "Chaînes de l’écran Thème",
+  "themeScreenTitle": "Thèmes",
+  "@themeScreenTitle": {
+    "description": "Titre de la barre supérieure pour l’écran des thèmes"
+  },
+
+  "themeNameCoreRecitation": "Récitation quotidienne principale",
+  "@themeNameCoreRecitation": {
+    "description": "Nom du thème avec sourate Fātiḥa, Ikhlāṣ, etc."
+  },
+
+  "themeNameBeginJourney": "Commencer le voyage",
+  "@themeNameBeginJourney": {
+    "description": "Nom du thème composé de sourates courtes pour les nouveaux récitateurs"
+  },
+
+  "themeNameMercyAndHope": "Miséricorde et Espoir",
+  "@themeNameMercyAndHope": {
+    "description": "Nom du thème axé sur la compassion d’Allah et la positivité"
+  },
+
+  "themeNameGratitudeReflection": "Gratitude et réflexion",
+  "@themeNameGratitudeReflection": {
+    "description": "Nom du thème axé sur des passages liés à la gratitude"
+  },
+
+  "themeNameStoriesReminders": "Histoires, leçons et rappels",
+  "@themeNameStoriesReminders": {
+    "description": "Nom du thème contenant divers passages narratifs"
+  },
+
+  "themeNamePatience": "Patience (Ṣabr)",
+  "@themeNamePatience": {
+    "description": "Nom du thème axé sur la persévérance/la patience"
+  },
+
+  "themeNameUserCreated": "Créé par l’utilisateur",
+  "@themeNameUserCreated": {
+    "description": "Nom pour le thème personnalisé créé par l’utilisateur"
+  },
+
+  "themeScreenNoThemesLabel": "Aucun thème disponible",
+  "@themeScreenNoThemesLabel": {
+    "description": "Affiché si aucune donnée de thème n’est renvoyée"
+  },
+
+  "themeScreenBackArrowSemantic": "Revenir en arrière",
+  "@themeScreenBackArrowSemantic": {
+    "description": "Libellé sémantique pour la flèche de retour de la barre d’app sur l’écran du thème"
+  },
+
+  "themeScreenThemeCardSemantic": "Appuyez pour ouvrir les parcours du thème",
+  "@themeScreenThemeCardSemantic": {
+    "description": "Libellé sémantique pour chaque carte de thème dans la liste"
+  },
+
+  "themeScreenLockIconSemantic": "Thème verrouillé. Mise à niveau requise.",
+  "@themeScreenLockIconSemantic": {
+    "description": "Libellé sémantique pour l’icône de cadenas si le thème est verrouillé"
+  },
+
+  "pathListExploreOtherThemes": "Explorer d’autres thèmes",
+  "@pathListExploreOtherThemes": {
+    "description": "Libellé de bouton qui navigue vers l’écran Thème pour explorer d’autres thèmes."
+  },
+
+  "themeScreenUserCreatedSubtitle": "Créé par vous — personnalisez-le comme vous le souhaitez.",
+  "@themeScreenUserCreatedSubtitle": {
+    "description": "Sous-titre pour les thèmes créés par l’utilisateur"
+  },
+
+  "themeSubtitleCoreRecitation": "Sourates essentielles pour les prières quotidiennes et la protection.",
+  "@themeSubtitleCoreRecitation": {
+    "description": "Sous-titre pour theme_core_recitation"
+  },
+
+  "themeSubtitleBeginJourney": "Sourates courtes pour débuter votre parcours coranique.",
+  "@themeSubtitleBeginJourney": {
+    "description": "Sous-titre pour theme_begin_journey"
+  },
+
+  "themeSubtitleMercyAndHope": "Réfléchissez à la compassion d’Allah et cultivez l’espoir.",
+  "@themeSubtitleMercyAndHope": {
+    "description": "Sous-titre pour theme_mercy_and_hope"
+  },
+
+  "themeSubtitleGratitudeReflection": "Favorisez la reconnaissance et l’introspection à travers des āyāt sélectionnées.",
+  "@themeSubtitleGratitudeReflection": {
+    "description": "Sous-titre pour theme_gratitude_reflection"
+  },
+
+  "themeSubtitleStoriesReminders": "Explorez des récits coraniques qui guident et rappellent.",
+  "@themeSubtitleStoriesReminders": {
+    "description": "Sous-titre pour theme_stories_reminders"
+  },
+
+  "themeSubtitlePatience": "Sourates et passages qui soulignent la patience et la persévérance.",
+  "@themeSubtitlePatience": {
+    "description": "Sous-titre pour theme_patience"
+  },
+
+  "themeSubtitleDefault": "Un ensemble dédié de sourates pour un approfondissement spirituel.",
+  "@themeSubtitleDefault": {
+    "description": "Sous-titre par défaut si aucun ID de thème connu n’est associé"
+  },
+
+  "themeScreenRequiredPremium": "Nécessite Premium",
+  "@themeScreenRequiredPremium": {
+    "description": "Libellé affiché si un thème nécessite un abonnement Premium"
+  },
+
+  "themeScreenRequiredPremiumPlus": "Nécessite Pro Beta",
+  "@themeScreenRequiredPremiumPlus": {
+    "description": "Libellé affiché si un thème nécessite un abonnement Premium Plus"
+  },
+
+  "commentH": "Chaînes de l’écran Liste des parcours (Path List)",
+  "pathListScreenTitle": "Parcours du thème",
+  "@pathListScreenTitle": {
+    "description": "Titre de la barre d’app pour l’écran PathListScreen"
+  },
+
+  "pathListScreenBackArrowSemantic": "Revenir en arrière",
+  "@pathListScreenBackArrowSemantic": {
+    "description": "Libellé sémantique pour la flèche de retour de la barre d’app"
+  },
+
+  "pathListScreenAddIconSemantic": "Ajouter un nouveau parcours",
+  "@pathListScreenAddIconSemantic": {
+    "description": "Libellé sémantique pour l’icône d’ajout dans la barre d’app"
+  },
+
+  "pathListAddNewPathTooltip": "Ajouter un nouveau parcours",
+  "@pathListAddNewPathTooltip": {
+    "description": "Info-bulle pour le bouton d’ajout de nouveau parcours"
+  },
+
+  "pathListScreenAddIconSemanticEmpty": "Appuyez pour ajouter votre premier parcours",
+  "@pathListScreenAddIconSemanticEmpty": {
+    "description": "Libellé sémantique pour la grande icône d’ajout dans l’écran vide de parcours"
+  },
+
+  "pathListEmptyMessage": "Aucun parcours pour le moment.\nAppuyez sur « + » pour créer votre premier parcours !",
+  "@pathListEmptyMessage": {
+    "description": "Message affiché s’il n’y a pas de parcours existants"
+  },
+
+  "pathListUnavailableLabel": "Ce parcours n’est pas disponible pour le moment",
+  "@pathListUnavailableLabel": {
+    "description": "Affiché si le parcours n’est pas valide"
+  },
+
+  "pathListThemeLabel": "Thème",
+  "@pathListThemeLabel": {
+    "description": "Utilisé après le nom du thème, ex. « “Miséricorde” Thème »"
+  },
+
+  "pathListPathCardSemantic": "Appuyez pour ouvrir les détails du parcours",
+  "@pathListPathCardSemantic": {
+    "description": "Libellé sémantique pour chaque carte de parcours dans la liste"
+  },
+
+  "pathListCompleteIconSemantic": "Parcours terminé",
+  "@pathListCompleteIconSemantic": {
+    "description": "Libellé sémantique pour l’icône verte de validation"
+  },
+
+  "pathListInProgressIconSemantic": "Parcours en cours",
+  "@pathListInProgressIconSemantic": {
+    "description": "Libellé sémantique pour l’icône de sablier"
+  },
+
+  "pathListInvalidIconSemantic": "Parcours invalide ou indisponible",
+  "@pathListInvalidIconSemantic": {
+    "description": "Libellé sémantique pour l’icône rouge d’erreur"
+  },
+
+  "pathListErrorLoadingPaths": "Erreur lors du chargement des parcours :",
+  "@pathListErrorLoadingPaths": {
+    "description": "Préfixe pour un message d’erreur quand le chargement des données de parcours échoue"
+  },
+
+  "commentI": "Chaînes de l’écran Détails du parcours (Path Detail)",
+  "pathDetailScreenTitle": "Détails du parcours",
+  "@pathDetailScreenTitle": {
+    "description": "Titre de la barre d’app pour l’écran des détails de parcours"
+  },
+
+  "pathDetailScreenBackArrowSemantic": "Retour à la liste des parcours",
+  "@pathDetailScreenBackArrowSemantic": {
+    "description": "Libellé sémantique pour la flèche de retour dans PathDetailScreen"
+  },
+
+  "pathDetailScreenNotFound": "Parcours introuvable.",
+  "@pathDetailScreenNotFound": {
+    "description": "Affiché si nous ne parvenons pas à récupérer le parcours"
+  },
+
+  "pathDetailScreenFailToUpdate": "Échec de la mise à jour de la progression du parcours :",
+  "@pathDetailScreenFailToUpdate": {
+    "description": "Préfixe de la Snackbar si la mise à jour de la progression du parcours échoue"
+  },
+
+  "pathDetailScreenProgressDisabled": "Le suivi de progression est désactivé pour ce parcours.",
+  "@pathDetailScreenProgressDisabled": {
+    "description": "Affiché si path.tracksProgress == false"
+  },
+
+  "pathDetailScreenLessonsHeading": "Leçons :",
+  "@pathDetailScreenLessonsHeading": {
+    "description": "Texte de l’en-tête au-dessus de la liste de leçons"
+  },
+
+  "pathDetailScreenNoLessonsLabel": "Aucune leçon disponible.",
+  "@pathDetailScreenNoLessonsLabel": {
+    "description": "Affiché si le parcours ne contient aucune leçon"
+  },
+
+  "pathDetailScreenErrorLoading": "Erreur lors du chargement du parcours ou des leçons :",
+  "@pathDetailScreenErrorLoading": {
+    "description": "Préfixe pour les messages d’erreur dans l’écran de détails du parcours"
+  },
+
+  "pathDetailScreenLessonCardSemantic": "Appuyez pour ouvrir les détails de la leçon",
+  "@pathDetailScreenLessonCardSemantic": {
+    "description": "Libellé sémantique pour chaque carte de leçon dans la liste des détails du parcours"
+  },
+
+  "pathDetailScreenLessonCompleteIconSemantic": "Leçon terminée",
+  "@pathDetailScreenLessonCompleteIconSemantic": {
+    "description": "Libellé sémantique pour l’icône verte de validation dans une leçon terminée"
+  },
+
+  "pathDetailScreenLessonInProgressIconSemantic": "Leçon en cours",
+  "@pathDetailScreenLessonInProgressIconSemantic": {
+    "description": "Libellé sémantique pour l’icône de sablier dans une leçon incomplète"
+  },
+
+  "pathDetailScreenLessonInvalidIconSemantic": "Leçon invalide ou indisponible",
+  "@pathDetailScreenLessonInvalidIconSemantic": {
+    "description": "Libellé sémantique pour l’icône rouge d’erreur dans une leçon invalide"
+  },
+
+  "pathDetailScreenLessonProgressUnavailable": "Progression indisponible",
+  "@pathDetailScreenLessonProgressUnavailable": {
+    "description": "Sous-titre si la leçon est invalide"
+  },
+
+  "pathDetailScreenLessonNoProgress": "Pas de progression pour ce parcours",
+  "@pathDetailScreenLessonNoProgress": {
+    "description": "Sous-titre si le parcours ne suit pas la progression"
+  },
+
+  "pathDetailScreenLessonUpgrade": "Mettez à niveau pour la fonctionnalité de progression.",
+  "@pathDetailScreenLessonUpgrade": {
+    "description": "Sous-titre si l’utilisateur ne peut pas voir la progression de la leçon"
+  },
+
+  "pathDetailScreenLessonProgressLabel": "Progression : {progress} %",
+  "@pathDetailScreenLessonProgressLabel": {
+    "description": "Sous-titre pour l’élément de leçon affichant la progression, ex. « Progression : 42 % »",
+    "placeholders": {
+      "progress": {}
+    }
+  },
+
+  "pathDetailScreenLessonTitle": "Leçon {lessonIndex} : {surahName} – Āyah {startAyah}-{endAyah}",
+  "@pathDetailScreenLessonTitle": {
+    "description": "Titre pour chaque élément de leçon dans la liste de détails du parcours",
+    "placeholders": {
+      "lessonIndex": {},
+      "surahName": {},
+      "startAyah": {},
+      "endAyah": {}
+    }
+  },
+
+  "commentJ": "Chaînes de l’écran Créer un parcours (Create Path)",
+  "createPathTitle": "Créer un nouveau parcours",
+  "@createPathTitle": {
+    "description": "Titre de la barre d’app pour l’écran de création de parcours"
+  },
+
+  "createPathBackArrowSemantic": "Retour à l’écran précédent",
+  "@createPathBackArrowSemantic": {
+    "description": "Libellé sémantique pour la flèche de retour sur l’écran de création de parcours"
+  },
+
+  "createPathNameLabel": "Nom du parcours",
+  "@createPathNameLabel": {
+    "description": "Texte du libellé pour le champ du nom du parcours"
+  },
+
+  "createPathNameValidation": "Entrez un nom de parcours",
+  "@createPathNameValidation": {
+    "description": "Message de validation si le nom du parcours est vide"
+  },
+
+  "createPathDescriptionLabel": "Description",
+  "@createPathDescriptionLabel": {
+    "description": "Texte du libellé pour le champ de description"
+  },
+
+  "createPathDescriptionValidation": "Entrez une description",
+  "@createPathDescriptionValidation": {
+    "description": "Message de validation si la description est vide"
+  },
+
+  "createPathSurahSelectorLabel": "Sélectionner la sourate :",
+  "@createPathSurahSelectorLabel": {
+    "description": "Titre au-dessus de la liste déroulante ou sélecteur de sourate"
+  },
+
+  "createPathStartAyahLabel": "Āyah de début",
+  "@createPathStartAyahLabel": {
+    "description": "Libellé pour le champ texte de l’āyah de début"
+  },
+
+  "createPathNumAyahsLabel": "Nombre d’āyāt dans le parcours",
+  "@createPathNumAyahsLabel": {
+    "description": "Libellé pour la liste déroulante indiquant combien d’āyāt inclure"
+  },
+
+  "createPathEndAyahLabel": "Āyah de fin",
+  "@createPathEndAyahLabel": {
+    "description": "Libellé pour le champ texte en lecture seule affichant l’āyah de fin"
+  },
+
+  "createPathWordsPerLessonLabel": "Mots par leçon",
+  "@createPathWordsPerLessonLabel": {
+    "description": "Libellé pour la liste déroulante du nombre de mots par leçon"
+  },
+
+  "createPathWordsSuffix": "mots",
+  "@createPathWordsSuffix": {
+    "description": "Suffixe pour la liste déroulante de mots par leçon"
+  },
+
+  "createPathInvalidRange": "Plage invalide",
+  "@createPathInvalidRange": {
+    "description": "Texte pour la liste déroulante du nombre d’āyāt si la plage est invalide"
+  },
+
+  "createPathAyahsSuffix": "Āyāt",
+  "@createPathAyahsSuffix": {
+    "description": "Suffixe pour la liste déroulante du nombre d’āyāt, ex. « 15 Āyāt »"
+  },
+
+  "createPathCreateButton": "Créer le parcours",
+  "@createPathCreateButton": {
+    "description": "Libellé pour le bouton qui crée le parcours"
+  },
+
+  "createPathSubmitSemantic": "Appuyez pour créer le parcours",
+  "@createPathSubmitSemantic": {
+    "description": "Libellé sémantique pour le bouton de création de parcours"
+  },
+
+  "commentK": "Chaînes de l’écran de Traduction",
+  "translationScreenTitle": "Traduction",
+  "@translationScreenTitle": {
+    "description": "Titre de la barre d’app pour l’écran de traduction"
+  },
+
+  "translationScreenBackArrowSemantic": "Retour à la leçon",
+  "@translationScreenBackArrowSemantic": {
+    "description": "Libellé sémantique pour la flèche de retour dans l’écran de traduction"
+  },
+
+  "translationScreenLoadingSemantic": "Chargement des traductions",
+  "@translationScreenLoadingSemantic": {
+    "description": "Libellé sémantique pour l’indicateur de progression circulaire pendant le chargement des traductions"
+  },
+
+  "translationScreenNoTranslations": "Aucune traduction disponible.",
+  "@translationScreenNoTranslations": {
+    "description": "Affiché si aucune traduction n’est renvoyée"
+  },
+
+  "translationScreenReturnButton": "Retour à la leçon",
+  "@translationScreenReturnButton": {
+    "description": "Texte du bouton pour revenir à l’écran de la leçon"
+  },
+
+  "translationScreenReturnSemantic": "Appuyez pour revenir à la leçon",
+  "@translationScreenReturnSemantic": {
+    "description": "Libellé sémantique pour le bouton retournant à l’écran de la leçon"
+  },
+
+  "translationScreenLoadError": "Erreur lors du chargement des traductions :",
+  "@translationScreenLoadError": {
+    "description": "Préfixe de la Snackbar si nous ne parvenons pas à charger les traductions"
+  },
+
+  "commentL": "Chaînes de l’écran de Sélection de langue",
+  "languageSelectionScreenSemantic": "Écran de sélection de langue",
+  "@languageSelectionScreenSemantic": {
+    "description": "Libellé sémantique pour le conteneur principal décrivant l’écran de sélection de langue"
+  },
+
+  "languageSelectionTitle": "Sélectionnez votre langue",
+  "@languageSelectionTitle": {
+    "description": "Titre de la barre d’app pour l’écran de sélection de langue"
+  },
+
+  "languageSelectionBackSemantic": "Retour",
+  "@languageSelectionBackSemantic": {
+    "description": "Libellé sémantique pour la flèche de retour dans l’écran de sélection de langue"
+  },
+
+  "languageSelectionSkipSemantic": "Ignorer la sélection",
+  "@languageSelectionSkipSemantic": {
+    "description": "Libellé sémantique pour le bouton d’ignorance de l’écran de sélection de langue"
+  },
+
+  "languageSelectionInstructions": "Veuillez choisir votre langue préférée :",
+  "@languageSelectionInstructions": {
+    "description": "Texte d’instruction pour choisir une langue"
+  },
+
+  "languageSelectionNextSemantic": "Appuyez pour confirmer le choix de la langue",
+  "@languageSelectionNextSemantic": {
+    "description": "Libellé sémantique pour le bouton Suivant dans l’écran de sélection de langue"
+  },
+
+  "languageSelectionNextLabel": "Suivant",
+  "@languageSelectionNextLabel": {
+    "description": "Texte du bouton pour poursuivre après avoir choisi une langue"
+  },
+
+  "languageSelectionImageSemantic": "Illustration Hudhud et Coran",
+  "@languageSelectionImageSemantic": {
+    "description": "Libellé sémantique pour l’image au bas de l’écran de sélection de langue"
+  },
+
+  "commentM": "Chaînes de l’écran de Bienvenue (Onboarding)",
+  "welcomeScreenSemantic": "Écran de bienvenue de l’onboarding",
+  "@welcomeScreenSemantic": {
+    "description": "Libellé sémantique pour le conteneur principal décrivant l’écran de bienvenue de l’onboarding"
+  },
+
+  "welcomeScreenLogoSemantic": "Illustration Hudhud et Coran",
+  "@welcomeScreenLogoSemantic": {
+    "description": "Libellé sémantique pour l’image du logo sur l’écran de bienvenue"
+  },
+
+  "welcomeScreenSkipSemantic": "Ignorer l’étape de bienvenue",
+  "@welcomeScreenSkipSemantic": {
+    "description": "Libellé sémantique pour le bouton d’ignorance dans l’écran de bienvenue"
+  },
+
+  "welcomeScreenNextSemantic": "Passer à l’étape suivante de l’onboarding",
+  "@welcomeScreenNextSemantic": {
+    "description": "Libellé sémantique pour le bouton « Commencer »"
+  },
+
+  "commentN": "Chaînes de l’écran d’information sur Hudhud",
+  "hudhudInfoSemantic": "Écran d’information sur Hudhud",
+  "@hudhudInfoSemantic": {
+    "description": "Libellé sémantique pour le conteneur principal décrivant l’écran d’information sur Hudhud"
+  },
+
+  "hudhudInfoAppBarTitle": "Rencontrez Hudhud",
+  "@hudhudInfoAppBarTitle": {
+    "description": "Affiché dans la barre d’app pour l’écran d’information sur Hudhud"
+  },
+
+  "hudhudInfoIllustrationSemantic": "Illustration de Hudhud",
+  "@hudhudInfoIllustrationSemantic": {
+    "description": "Libellé sémantique pour l’image représentant l’oiseau"
+  },
+
+  "hudhudInfoBody1": "Hudhud, également connu sous le nom de huppe, a joué un rôle spécial en aidant le prophète Soulaymân [AS] en observant et en transmettant des messages.",
+  "@hudhudInfoBody1": {
+    "description": "Premier paragraphe décrivant l’importance de Hudhud"
+  },
+
+  "hudhudInfoBody2": "L’histoire de Hudhud nous rappelle que même une petite créature peut avoir un grand impact en étant observatrice, curieuse et proactive pour ce qui est juste. Dans notre parcours, nous pouvons porter notre attention constante sur la beauté du Coran et intégrer des rappels de gratitude pour apprécier chaque instant de progression.",
+  "@hudhudInfoBody2": {
+    "description": "Deuxième paragraphe décrivant l’importance d’être attentif"
+  },
+
+  "hudhudInfoBody3": "En suivant l’exemple de Hudhud — rester vigilant et engagé — nous espérons approfondir notre lien avec le Coran et favoriser un sentiment de gratitude dans la vie de tous les jours.",
+  "@hudhudInfoBody3": {
+    "description": "Troisième paragraphe décrivant l’objectif général de suivre l’exemple de Hudhud"
+  },
+
+  "hudhudInfoNextLabel": "Suivant",
+  "@hudhudInfoNextLabel": {
+    "description": "Texte du bouton Suivant"
+  },
+
+  "hudhudInfoNextSemantic": "Passer à la section suivante",
+  "@hudhudInfoNextSemantic": {
+    "description": "Libellé sémantique pour le bouton Suivant"
+  },
+
+  "hudhudInfoSkipSemantic": "Ignorer l’étape d’information sur Hudhud",
+  "@hudhudInfoSkipSemantic": {
+    "description": "Libellé sémantique pour le bouton d’ignorance dans l’écran d’information sur Hudhud"
+  },
+
+  "commentO": "Chaînes de l’écran de Sélection de forfait (Subscription Tier)",
+  "subscriptionTierScreenSemantic": "Écran de sélection du forfait d’abonnement",
+  "@subscriptionTierScreenSemantic": {
+    "description": "Libellé sémantique pour le conteneur principal décrivant l’écran de sélection d’abonnement"
+  },
+
+  "subscriptionTierScreenAppBarTitle": "Choisissez votre abonnement",
+  "@subscriptionTierScreenAppBarTitle": {
+    "description": "Titre de la barre d’app pour l’écran des forfaits d’abonnement"
+  },
+
+  "subscriptionTierScreenSkipSemantic": "Ignorer la sélection du forfait",
+  "@subscriptionTierScreenSkipSemantic": {
+    "description": "Libellé sémantique pour le bouton d’ignorance dans l’écran de sélection du forfait"
+  },
+
+  "subscriptionTierScreenFreeLabel": "Gratuit",
+  "@subscriptionTierScreenFreeLabel": {
+    "description": "Libellé pour le forfait gratuit"
+  },
+
+
+  "subscriptionTierScreenSmileySemantic": "Icône de visage souriant",
+  "@subscriptionTierScreenSmileySemantic": {
+    "description": "Libellé sémantique pour l’icône emoji sourire"
+  },
+
+  "subscriptionTierScreenDonationText": "Une partie des fonds est reversée à l’initiative Almubtasim, qui aide les orphelins via Islamic Relief.",
+  "@subscriptionTierScreenDonationText": {
+    "description": "Texte affiché sous le visage souriant concernant l’usage des dons"
+  },
+
+  "subscriptionTierScreenConfirmSemantic": "Confirmer la sélection du forfait d’abonnement",
+  "@subscriptionTierScreenConfirmSemantic": {
+    "description": "Libellé sémantique pour le bouton Suivant/Confirmer"
+  },
+
+  "subscriptionTierScreenNextLabel": "Suivant",
+  "@subscriptionTierScreenNextLabel": {
+    "description": "Libellé du bouton pour confirmer et poursuivre avec le forfait d’abonnement sélectionné"
+  },
+
+  "subscriptionTierScreenRadioSemantic": "Appuyez pour sélectionner le forfait d’abonnement {title}",
+  "@subscriptionTierScreenRadioSemantic": {
+    "description": "Libellé sémantique pour chaque option radio représentant un forfait d’abonnement",
+    "placeholders": {
+      "title": {}
+    }
+  },
+
+  "commentP": "Chaînes de l’écran de Sélection d’objectif (Goal Selection)",
+  "goalSelectionScreenSemantic": "Écran de sélection d’objectifs",
+  "@goalSelectionScreenSemantic": {
+    "description": "Libellé sémantique pour le conteneur principal décrivant l’écran de sélection d’objectifs"
+  },
+
+  "goalSelectionScreenAppBarTitle": "Sélectionnez vos objectifs",
+  "@goalSelectionScreenAppBarTitle": {
+    "description": "Texte de la barre d’app pour l’écran de sélection d’objectifs"
+  },
+
+  "goalSelectionScreenSkipSemantic": "Ignorer la sélection d’objectifs",
+  "@goalSelectionScreenSkipSemantic": {
+    "description": "Libellé sémantique pour le bouton d’ignorance dans l’écran de sélection d’objectifs"
+  },
+
+  "goalSelectionScreenIntroText": "Parmi les objectifs suivants, lesquels vous intéressent ? Vous pouvez en sélectionner plusieurs.",
+  "@goalSelectionScreenIntroText": {
+    "description": "Texte d’introduction affiché en haut de l’écran de sélection d’objectifs"
+  },
+
+  "goalSelectionScreenNextSemantic": "Confirmer les sélections d’objectifs",
+  "@goalSelectionScreenNextSemantic": {
+    "description": "Libellé sémantique pour le bouton Suivant/Confirmer"
+  },
+
+  "goalSelectionScreenNextLabel": "Suivant",
+  "@goalSelectionScreenNextLabel": {
+    "description": "Libellé de bouton pour confirmer et poursuivre avec les objectifs sélectionnés"
+  },
+
+  "goalSelectionTileSemantic": "Appuyez pour sélectionner ou désélectionner l’objectif {goalTitle}",
+  "@goalSelectionTileSemantic": {
+    "description": "Libellé sémantique pour chaque case à cocher d’objectif",
+    "placeholders": {
+      "goalTitle": {}
+    }
+  },
+
+  "goalConnectQuranTitle": "Se rapprocher davantage du Coran",
+  "@goalConnectQuranTitle": {
+    "description": "Libellé de case à cocher pour l’objectif 'connectQuran'"
+  },
+
+  "goalConnectQuranDesc": "Renforcez votre relation par la lecture ou la réflexion.",
+  "@goalConnectQuranDesc": {
+    "description": "Texte sous-titre pour l’objectif 'connectQuran'"
+  },
+
+  "goalMemorizeQuranTitle": "Mémoriser le Coran",
+  "@goalMemorizeQuranTitle": {
+    "description": "Libellé de case à cocher pour l’objectif 'memorizeQuran'"
+  },
+
+  "goalMemorizeQuranDesc": "Entreprenez un parcours de mémorisation.",
+  "@goalMemorizeQuranDesc": {
+    "description": "Texte sous-titre pour l’objectif 'memorizeQuran'"
+  },
+
+  "goalBeMoreGratefulTitle": "Être plus reconnaissant et heureux dans la vie",
+  "@goalBeMoreGratefulTitle": {
+    "description": "Libellé de case à cocher pour l’objectif 'beMoreGrateful'"
+  },
+
+  "goalBeMoreGratefulDesc": "Concentrez-vous sur les pratiques de gratitude au quotidien.",
+  "@goalBeMoreGratefulDesc": {
+    "description": "Texte sous-titre pour l’objectif 'beMoreGrateful'"
+  },
+
+  "goalBuildConsistencyTitle": "Construire de la régularité",
+  "@goalBuildConsistencyTitle": {
+    "description": "Libellé de case à cocher pour l’objectif 'buildConsistency'"
+  },
+
+  "goalBuildConsistencyDesc": "Établissez une habitude quotidienne ou hebdomadaire.",
+  "@goalBuildConsistencyDesc": {
+    "description": "Texte sous-titre pour l’objectif 'buildConsistency'"
+  },
+
+  "goalImproveArabicTitle": "Améliorer mon arabe",
+  "@goalImproveArabicTitle": {
+    "description": "Libellé de case à cocher pour l’objectif 'improveArabic'"
+  },
+
+  "goalImproveArabicDesc": "Concentrez-vous sur les compétences écrites ou orales.",
+  "@goalImproveArabicDesc": {
+    "description": "Texte sous-titre pour l’objectif 'improveArabic'"
+  },
+
+  "goalDeepenTafsirTitle": "Approfondir le Tafsîr",
+  "@goalDeepenTafsirTitle": {
+    "description": "Libellé de case à cocher pour l’objectif 'deepenTafsir'"
+  },
+
+  "goalDeepenTafsirDesc": "Étudiez le commentaire et les sens plus profonds du Coran.",
+  "@goalDeepenTafsirDesc": {
+    "description": "Texte sous-titre pour l’objectif 'deepenTafsir'"
+  },
+
+  "goalOtherTitle": "Autre",
+  "@goalOtherTitle": {
+    "description": "Libellé de case à cocher pour l’objectif 'other'"
+  },
+
+  "goalOtherDesc": "Poursuivez tout autre objectif personnel.",
+  "@goalOtherDesc": {
+    "description": "Texte sous-titre pour l’objectif 'other'"
+  },
+
+  "commentQ": "Chaînes de l’écran de Sélection de niveau",
+  "levelSelectionScreenSemantic": "Écran de sélection de niveau",
+  "@levelSelectionScreenSemantic": {
+    "description": "Libellé sémantique pour le conteneur principal décrivant l’écran de sélection de niveau"
+  },
+
+  "levelSelectionScreenAppBarTitle": "Sélectionnez votre niveau",
+  "@levelSelectionScreenAppBarTitle": {
+    "description": "Texte de la barre d’app pour l’écran de sélection de niveau"
+  },
+
+  "levelSelectionScreenSkipSemantic": "Ignorer la sélection de niveau",
+  "@levelSelectionScreenSkipSemantic": {
+    "description": "Libellé sémantique pour le bouton d’ignorance dans l’écran de sélection de niveau"
+  },
+
+  "levelSelectionScreenIntroText": "Veuillez sélectionner l’option qui décrit le mieux votre niveau actuel de récitation :",
+  "@levelSelectionScreenIntroText": {
+    "description": "Texte d’introduction affiché en haut de l’écran de sélection de niveau"
+  },
+
+  "levelStarterLabel": "Débutant",
+  "@levelStarterLabel": {
+    "description": "Libellé radio pour le niveau 'starter'"
+  },
+
+  "levelStarterDescription": "Nouvel apprenant ou occasionnel, commençant à explorer la récitation du Coran.",
+  "@levelStarterDescription": {
+    "description": "Description du niveau 'starter'"
+  },
+
+  "levelAdvancedLabel": "Avancé",
+  "@levelAdvancedLabel": {
+    "description": "Libellé radio pour le niveau 'advanced'"
+  },
+
+  "levelAdvancedDescription": "À l’aise pour lire le script arabe avec quelques connaissances de tajwîd.",
+  "@levelAdvancedDescription": {
+    "description": "Description du niveau 'advanced'"
+  },
+
+  "levelQariLabel": "Qari",
+  "@levelQariLabel": {
+    "description": "Libellé radio pour le niveau 'qari'"
+  },
+
+  "levelQariDescription": "Compétent en récitation avec une forte maîtrise du tajwîd.",
+  "@levelQariDescription": {
+    "description": "Description du niveau 'qari'"
+  },
+
+  "levelSelectionNextSemantic": "Confirmer la sélection du niveau",
+  "@levelSelectionNextSemantic": {
+    "description": "Libellé sémantique pour le bouton Suivant/Confirmer dans l’écran de sélection de niveau"
+  },
+
+  "levelSelectionNextLabel": "Suivant",
+  "@levelSelectionNextLabel": {
+    "description": "Libellé du bouton pour confirmer et poursuivre avec le niveau sélectionné"
+  },
+
+  "levelSelectionTileSemantic": "Appuyez pour sélectionner l’option de niveau de récitation {levelTitle}",
+  "@levelSelectionTileSemantic": {
+    "description": "Libellé sémantique pour chaque option radio représentant un niveau de récitation",
+    "placeholders": {
+      "levelTitle": {}
+    }
+  },
+
+  "commentR": "Chaînes de l’écran d’achèvement de l’onboarding",
+  "onboardingCompletionScreenSemantic": "Écran d’achèvement de l’onboarding",
+  "@onboardingCompletionScreenSemantic": {
+    "description": "Libellé sémantique pour le conteneur principal décrivant l’écran final d’achèvement de l’onboarding"
+  },
+
+  "onboardingCompletionScreenAppBarTitle": "Tout est prêt !",
+  "@onboardingCompletionScreenAppBarTitle": {
+    "description": "Texte de la barre d’app pour l’écran d’achèvement de l’onboarding"
+  },
+
+  "onboardingCompletionScreenImageSemantic": "Illustration Hudhud et Coran",
+  "@onboardingCompletionScreenImageSemantic": {
+    "description": "Libellé sémantique pour l’image finale de l’onboarding"
+  },
+
+  "onboardingCompletionScreenBody1": "Félicitations ! Vous avez terminé la configuration avec succès. Nous espérons que ce voyage vous rapprochera du Coran et renforcera votre gratitude envers Allah. \n \nPuisse cette application être une source de développement et de bénédictions dans votre vie et celle des personnes que vous touchez.",
+  "@onboardingCompletionScreenBody1": {
+    "description": "Premier paragraphe décrivant la réussite de l’onboarding"
+  },
+
+  "onboardingCompletionScreenBody2": "Lorsque vous êtes prêt, appuyez sur le bouton ci-dessous pour continuer. Les principales fonctionnalités de mémorisation et de progression vous attendent, et vous pouvez enregistrer votre gratitude ou choisir un parcours via la barre de navigation.",
+  "@onboardingCompletionScreenBody2": {
+    "description": "Deuxième paragraphe décrivant les étapes suivantes après l’onboarding"
+  },
+
+  "onboardingCompletionScreenBody3": "Ceci est une des premières versions — nous apprécions votre soutien et votre patience et espérons vous offrir encore plus de fonctionnalités très prochainement inshAllah !",
+  "@onboardingCompletionScreenBody3": {
+    "description": "Troisième paragraphe encourageant les mises à jour et le soutien potentiel"
+  },
+
+  "onboardingCompletionScreenBeginSemantic": "Commencer à utiliser l’app",
+  "@onboardingCompletionScreenBeginSemantic": {
+    "description": "Libellé sémantique pour le bouton « Commençons »"
+  },
+
+  "onboardingCompletionScreenBeginLabel": "Commençons",
+  "@onboardingCompletionScreenBeginLabel": {
+    "description": "Libellé du bouton pour l’étape finale de l’onboarding"
+  },
+
+  "commentS": "Chaînes de l’écran de saisie du nom",
+  "nameEntryScreenSemantic": "Écran de saisie du nom",
+  "@nameEntryScreenSemantic": {
+    "description": "Libellé sémantique pour le conteneur décrivant l’écran de saisie du nom"
+  },
+
+  "nameEntryScreenAppBarTitle": "Votre profil",
+  "@nameEntryScreenAppBarTitle": {
+    "description": "Titre de la barre d’app pour l’écran de saisie du nom"
+  },
+
+  "nameEntryScreenSkipSemantic": "Ignorer la saisie de votre nom",
+  "@nameEntryScreenSkipSemantic": {
+    "description": "Libellé sémantique pour le bouton d’ignorance sur l’écran de saisie du nom"
+  },
+
+  "nameEntryScreenIntroText": "Quel est votre nom ? ",
+  "@nameEntryScreenIntroText": {
+    "description": "Texte d’instruction expliquant que l’utilisateur peut saisir son nom ou le laisser vide pour rester « Invité »"
+  },
+
+  "nameEntryTextFieldSemantic": "Champ de texte pour le nom",
+  "@nameEntryTextFieldSemantic": {
+    "description": "Libellé sémantique pour le champ texte où l’utilisateur saisit son nom"
+  },
+
+  "nameEntryNextSemantic": "Confirmer la saisie du nom",
+  "@nameEntryNextSemantic": {
+    "description": "Libellé sémantique pour le bouton Suivant/Confirmer"
+  },
+
+  "nameEntryNextLabel": "Suivant",
+  "@nameEntryNextLabel": {
+    "description": "Libellé de bouton pour finaliser la saisie du nom"
+  },
+
+  "commentT": "Chaînes pour VerticalLessonIcons",
+  "verticalLessonIconsSemantic": "Conteneur d’icônes de leçons verticales",
+  "@verticalLessonIconsSemantic": {
+    "description": "Libellé sémantique pour le conteneur principal décrivant la pile d’icônes de leçons verticales"
+  },
+
+  "verticalLessonIconsNoLessons": "Aucune leçon trouvée.",
+  "@verticalLessonIconsNoLessons": {
+    "description": "Texte de repli si nous n’avons aucune leçon"
+  },
+
+  "verticalLessonIconsLoadingSurah": "Chargement des détails de la sourate",
+  "@verticalLessonIconsLoadingSurah": {
+    "description": "Libellé sémantique pour l’indicateur de progression circulaire pendant le chargement des détails de la sourate"
+  },
+
+  "verticalLessonIconsErrorSurah": "Erreur lors du chargement des détails de la sourate",
+  "@verticalLessonIconsErrorSurah": {
+    "description": "Affiché s’il y a une erreur pour obtenir les détails d’en-tête de la sourate"
+  },
+
+  "verticalLessonIconsSurahHeaderSemantic": "En-tête des détails de la sourate",
+  "@verticalLessonIconsSurahHeaderSemantic": {
+    "description": "Libellé sémantique pour le texte d’en-tête de la sourate sur la première page"
+  },
+
+  "verticalLessonIconsHudhudIconSemantic": "Icône d’assistant Hudhud",
+  "@verticalLessonIconsHudhudIconSemantic": {
+    "description": "Libellé sémantique pour l’icône hudhud_left"
+  },
+
+  "verticalLessonIconsNextPageSemantic": "Flèche page suivante",
+  "@verticalLessonIconsNextPageSemantic": {
+    "description": "Libellé sémantique pour la flèche vers le bas menant à la page suivante"
+  },
+
+  "verticalLessonIconsPreviousPageSemantic": "Flèche page précédente",
+  "@verticalLessonIconsPreviousPageSemantic": {
+    "description": "Libellé sémantique pour la flèche vers le haut menant à la page précédente"
+  },
+
+  "verticalLessonIconsLoadingProgress": "Chargement de la progression de la leçon",
+  "@verticalLessonIconsLoadingProgress": {
+    "description": "Libellé sémantique pour l’indicateur de progression circulaire pendant le chargement de la progression de la leçon"
+  },
+
+  "verticalLessonIconsErrorProgress": "Erreur lors du chargement de la progression",
+  "@verticalLessonIconsErrorProgress": {
+    "description": "Texte de repli s’il y a une erreur de chargement de la progression de la leçon"
+  },
+
+  "verticalLessonIconSemantic": "Icône de leçon, {surahAyahRange}, la progression est de {percent} %",
+  "@verticalLessonIconSemantic": {
+    "description": "Libellé sémantique pour chaque icône de leçon dans la liste verticale",
+    "placeholders": {
+      "surahAyahRange": {},
+      "percent": {}
+    }
+  },
+
+  "verticalLessonIconsCompletedSemantic": "Leçon terminée",
+  "@verticalLessonIconsCompletedSemantic": {
+    "description": "Libellé sémantique pour l’icône de coche sur une leçon entièrement terminée"
+  },
+
+  "verticalLessonIconsDialogTitle": "Aide et mise à niveau",
+  "@verticalLessonIconsDialogTitle": {
+    "description": "Titre pour la boîte de dialogue de support et mise à niveau"
+  },
+
+  "verticalLessonIconsDialogOk": "OK",
+  "@verticalLessonIconsDialogOk": {
+    "description": "Texte du bouton OK dans la boîte de dialogue de mise à niveau"
+  },
+
+  "commentU": "Chaînes de la barre de navigation (Navbar)",
+  "navBarSemanticLabel": "Barre de navigation inférieure",
+  "@navBarSemanticLabel": {
+    "description": "Libellé sémantique pour l’ensemble de la barre de navigation inférieure"
+  },
+
+  "navHomeLabel": "Accueil",
+  "@navHomeLabel": {
+    "description": "Libellé pour l’onglet Accueil dans la barre de navigation"
+  },
+
+  "navHomeSemantic": "Onglet Accueil",
+  "@navHomeSemantic": {
+    "description": "Libellé sémantique pour l’icône d’accueil dans la barre de navigation"
+  },
+
+  "navQuranLabel": "Coran",
+  "@navQuranLabel": {
+    "description": "Libellé pour l’onglet Coran dans la barre de navigation"
+  },
+
+  "navQuranSemantic": "Onglet Coran",
+  "@navQuranSemantic": {
+    "description": "Libellé sémantique pour l’icône du Coran dans la barre de navigation"
+  },
+
+  "navGratitudeLabel": "Gratitude",
+  "@navGratitudeLabel": {
+    "description": "Libellé pour l’onglet Gratitude dans la barre de navigation"
+  },
+
+  "navGratitudeSemantic": "Onglet Gratitude",
+  "@navGratitudeSemantic": {
+    "description": "Libellé sémantique pour l’icône de gratitude dans la barre de navigation"
+  },
+
+  "navProfileLabel": "Profil",
+  "@navProfileLabel": {
+    "description": "Libellé pour l’onglet Profil dans la barre de navigation"
+  },
+
+  "navProfileSemantic": "Onglet Profil",
+  "@navProfileSemantic": {
+    "description": "Libellé sémantique pour l’icône de profil dans la barre de navigation"
+  },
+
+  "commentV": "Chaînes de la barre supérieure (TopBar)",
+  "topBarSemanticLabel": "Barre de navigation supérieure",
+  "@topBarSemanticLabel": {
+    "description": "Libellé sémantique pour l’ensemble du conteneur de la barre supérieure"
+  },
+
+  "topBarTitleSemantic": "Titre de la barre supérieure : {title}",
+  "@topBarTitleSemantic": {
+    "description": "Libellé sémantique pour le texte du titre au centre de la barre supérieure",
+    "placeholders": {
+      "title": {}
+    }
+  },
+
+  "topBarStreakIconSemantic": "Icône de série : {days} jours",
+  "@topBarStreakIconSemantic": {
+    "description": "Libellé sémantique pour l’icône de série affichant les jours de série",
+    "placeholders": {
+      "days": {}
+    }
+  },
+
+  "topBarStreakDialogBody": "Cela montre combien de jours consécutifs vous avez récité ou écrit une gratitude. Continuez ainsi pour maintenir ou augmenter votre série !",
+  "@topBarStreakDialogBody": {
+    "description": "Texte de la boîte de dialogue expliquant l’utilisation de la série"
+  },
+
+  "topBarHudhudIconSemantic": "Icône Hudhud, appuyez pour du support",
+  "@topBarHudhudIconSemantic": {
+    "description": "Libellé sémantique pour l’icône Hudhud dans la barre supérieure"
+  },
+
+  "topBarHudhudDialogTitle": "Support & Mise à niveau",
+  "@topBarHudhudDialogTitle": {
+    "description": "Titre de la boîte de dialogue pour l’icône Hudhud concernant le support + mise à niveau"
+  },
+
+  "topBarHudhudDialogBody": "Toutes les fonctionnalités sont disponibles dans la version gratuite, mais si vous le souhaitez, vous pouvez nous soutenir afin de développer davantage de fonctionnalités. Une partie de votre abonnement est versée à Islamic Relief. Jazāk Allāhu Khayran !",
+  "@topBarHudhudDialogBody": {
+    "description": "Texte de la boîte de dialogue dans la barre supérieure pour l’invite « Support & Mise à niveau »"
+  },
+
+  "commentW": "Chaînes de la fenêtre modale de gratitude",
+  "gratitudeModalSemantic": "Dialogue modal de gratitude",
+  "@gratitudeModalSemantic": {
+    "description": "Libellé sémantique pour l’ensemble du conteneur de la fenêtre modale de gratitude"
+  },
+
+  "gratitudeModalTitle": "Pour quoi êtes-vous reconnaissant aujourd’hui en vous basant sur ces versets ?",
+  "@gratitudeModalTitle": {
+    "description": "Texte du titre en haut de la fenêtre modale de gratitude"
+  },
+
+  "gratitudeModalHint": "Alhamdulilah pour (entrez votre gratitude) #{index}",
+  "@gratitudeModalHint": {
+    "description": "Texte d’indice dans les champs de texte de gratitude",
+    "placeholders": {
+      "index": {}
+    }
+  },
+
+  "gratitudeModalTextFieldSemantic": "Entrez la gratitude #{index}",
+  "@gratitudeModalTextFieldSemantic": {
+    "description": "Libellé sémantique pour le i-ème champ de texte dans la fenêtre de gratitude",
+    "placeholders": {
+      "index": {}
+    }
+  },
+
+  "gratitudeModalEmptyWarning": "Veuillez saisir au moins une gratitude.",
+  "@gratitudeModalEmptyWarning": {
+    "description": "Affiché si l’utilisateur tente d’envoyer la fenêtre de gratitude vide"
+  },
+
+  "gratitudeModalSubmitError": "Échec de l’enregistrement de la gratitude. Veuillez réessayer.",
+  "@gratitudeModalSubmitError": {
+    "description": "Message d’erreur si la soumission de gratitude échoue"
+  },
+
+  "dailyVoiceLimitReachedTitle": "MachaAllah !",
+  "@dailyVoiceLimitReachedTitle": {
+    "description": "Titre pour la pop-up de la limite vocale quotidienne"
+  },
+
+  "dailyVoiceLimitReachedMessage": "Vous avez complété 10 minutes de récitation vocale du Coran. Veuillez continuer à réviser par écrit et reprendre la récitation demain.",
+  "@dailyVoiceLimitReachedMessage": {
+    "description": "Message affiché lorsque l’utilisateur atteint 10 minutes d’utilisation vocale"
+  },
+
+  "upgradeVoiceUsageTitle": "Mettez à niveau vers Premium",
+  "@upgradeVoiceUsageTitle": {
+    "description": "Titre de la boîte de dialogue incitant l’utilisateur à mettre à niveau après avoir épuisé l’utilisation vocale gratuite"
+  },
+
+  "gratitudeModalLoadingSemantic": "Soumission de gratitude en cours",
+  "@gratitudeModalLoadingSemantic": {
+    "description": "Libellé sémantique pour le curseur de chargement si la soumission est en cours"
+  },
+
+  "commentX": "== NOUVELLES CLÉS pour submission_feedback_modal, progress_bar, surah_selector ==",
+  "submissionFeedbackModalSemanticLabel": "Dialogue de commentaires de soumission",
+  "@submissionFeedbackModalSemanticLabel": {
+    "description": "Libellé sémantique pour l’ensemble de la fenêtre modale de commentaires de soumission"
+  },
+
+  "submissionFeedbackModalTitle": "Commentaires de soumission",
+  "@submissionFeedbackModalTitle": {
+    "description": "Titre de l’AlertDialog pour la fenêtre modale de commentaires"
+  },
+
+  "submissionFeedbackModalNoNew": "Aucune nouvelle gratitude n’a été soumise.",
+  "@submissionFeedbackModalNoNew": {
+    "description": "Message affiché lorsqu’aucune nouvelle gratitude n’a été envoyée"
+  },
+
+  "submissionFeedbackModalYouSubmitted": "Vous avez soumis ces gratitudes :",
+  "@submissionFeedbackModalYouSubmitted": {
+    "description": "Libellé au-dessus de la liste des gratitudes tout juste soumises"
+  },
+
+  "submissionFeedbackModalStreak": "Série de gratitude actuelle : {days} jours",
+  "@submissionFeedbackModalStreak": {
+    "description": "Affiche la série actuelle de gratitude consécutive",
+    "placeholders": {
+      "days": {}
+    }
+  },
+
+  "submissionFeedbackModalTotalDays": "Nombre total de jours de gratitude : {count}",
+  "@submissionFeedbackModalTotalDays": {
+    "description": "Affiche le nombre total de jours distincts de gratitude enregistrés",
+    "placeholders": {
+      "count": {}
+    }
+  },
+
+  "submissionFeedbackModalLoading": "Chargement de vos données de gratitude…",
+  "@submissionFeedbackModalLoading": {
+    "description": "Affiché pendant l’attente des données de gratitude"
+  },
+
+  "submissionFeedbackModalError": "Impossible de charger les données de gratitude.",
+  "@submissionFeedbackModalError": {
+    "description": "Affiché s’il y a une erreur lors du chargement des données de gratitude"
+  },
+
+  "submissionFeedbackModalViewLog": "Afficher le journal",
+  "@submissionFeedbackModalViewLog": {
+    "description": "Texte du bouton pour aller à l’écran du journal de gratitude"
+  },
+
+  "submissionFeedbackModalClose": "Fermer",
+  "@submissionFeedbackModalClose": {
+    "description": "Texte du bouton pour fermer la fenêtre modale de commentaires"
+  },
+
+  "progressBarSemanticLabel": "Progression : {percent} %",
+  "@progressBarSemanticLabel": {
+    "description": "Libellé sémantique pour la barre de progression linéaire, incluant le pourcentage numérique",
+    "placeholders": {
+      "percent": {}
+    }
+  },
+
+  "surahSelectorSemanticLabel": "Sélectionner une sourate",
+  "@surahSelectorSemanticLabel": {
+    "description": "Libellé sémantique pour la liste déroulante qui permet de choisir une sourate"
+  },
+
+  "commentZ": "Noms et Descriptions de parcours localisables pour les parcours définis par le système",
+
+
+  "pathNameFatihah": "Sourate Al-Fātiḥah",
+  "@pathNameFatihah": {
+    "description": "Nom pour path_fatihah"
+  },
+  "pathDescFatihah": "Sourate complète (1:1–7). Essentielle dans chaque rakʿah.",
+  "@pathDescFatihah": {
+    "description": "Description pour path_fatihah"
+  },
+
+  "pathNameKafirun": "Sourate Al-Kāfirūn",
+  "@pathNameKafirun": {
+    "description": "Nom pour path_kafirun"
+  },
+  "pathDescKafirun": "Sourate complète (109:1–6). Déclaration du Tawḥīd.",
+  "@pathDescKafirun": {
+    "description": "Description pour path_kafirun"
+  },
+
+  "pathNameIkhlas": "Sourate Al-Ikhlāṣ",
+  "@pathNameIkhlas": {
+    "description": "Nom pour path_ikhlas"
+  },
+  "pathDescIkhlas": "Sourate complète (112:1–4). Tawḥīd d’Allah.",
+  "@pathDescIkhlas": {
+    "description": "Description pour path_ikhlas"
+  },
+
+  "pathNameFalaq": "Sourate Al-Falaq",
+  "@pathNameFalaq": {
+    "description": "Nom pour path_falaq"
+  },
+  "pathDescFalaq": "Sourate complète (113:1–5). Protection contre le mal extérieur.",
+  "@pathDescFalaq": {
+    "description": "Description pour path_falaq"
+  },
+
+  "pathNameNas": "Sourate An-Nās",
+  "@pathNameNas": {
+    "description": "Nom pour path_nas"
+  },
+  "pathDescNas": "Sourate complète (114:1–6). Protection contre les murmures intérieurs.",
+  "@pathDescNas": {
+    "description": "Description pour path_nas"
+  },
+
+  "pathNameAsrBegin": "Sourate Al-ʿAṣr",
+  "@pathNameAsrBegin": {
+    "description": "Nom pour path_asr_begin"
+  },
+  "pathDescAsrBegin": "(103:1–3). Seulement 3 versets mais essentiels pour la « patience ».",
+  "@pathDescAsrBegin": {
+    "description": "Description pour path_asr_begin"
+  },
+
+  "pathNameTakathur": "Sourate At-Takāthur",
+  "@pathNameTakathur": {
+    "description": "Nom pour path_takathur"
+  },
+  "pathDescTakathur": "(102:1–8) Au sujet de la compétition mondaine et de la responsabilité.",
+  "@pathDescTakathur": {
+    "description": "Description pour path_takathur"
+  },
+
+  "pathNameFil": "Sourate Al-Fīl",
+  "@pathNameFil": {
+    "description": "Nom pour path_fil"
+  },
+  "pathDescFil": "(105:1–5). L’incident de l’éléphant ; 5 versets courts.",
+  "@pathDescFil": {
+    "description": "Description pour path_fil"
+  },
+
+  "pathNameQuraysh": "Sourate Quraysh",
+  "@pathNameQuraysh": {
+    "description": "Nom pour path_quraysh"
+  },
+  "pathDescQuraysh": "(106:1–4). Sur la gratitude pour les voyages en sécurité.",
+  "@pathDescQuraysh": {
+    "description": "Description pour path_quraysh"
+  },
+
+  "pathNameRahmanA": "Ar-Raḥmān A",
+  "@pathNameRahmanA": {
+    "description": "Nom pour path_rahman_a"
+  },
+  "pathDescRahmanA": "(55:1–13) : Enseignement du Coran et création de l’humanité.",
+  "@pathDescRahmanA": {
+    "description": "Description pour path_rahman_a"
+  },
+
+  "pathNameRahmanB": "Ar-Raḥmān B",
+  "@pathNameRahmanB": {
+    "description": "Nom pour path_rahman_b"
+  },
+  "pathDescRahmanB": "(55:26–36) : Responsabilité des humains et des jinns.",
+  "@pathDescRahmanB": {
+    "description": "Description pour path_rahman_b"
+  },
+
+  "pathNameYasinBlock": "Sourate Yā Sīn (Bloc)",
+  "@pathNameYasinBlock": {
+    "description": "Nom pour path_yasin_block"
+  },
+  "pathDescYasinBlock": "(36:1–12). Introduction au message du Prophète et avertissements.",
+  "@pathDescYasinBlock": {
+    "description": "Description pour path_yasin_block"
+  },
+
+  "pathNameMulkBlock": "Sourate Al-Mulk (Bloc)",
+  "@pathNameMulkBlock": {
+    "description": "Nom pour path_mulk_block"
+  },
+  "pathDescMulkBlock": "(67:1–15). Souligne la souveraineté d’Allah et l’importance de la réflexion.",
+  "@pathDescMulkBlock": {
+    "description": "Description pour path_mulk_block"
+  },
+
+  "pathNameBaqarah21_29": "Al-Baqarah (2:21–29)",
+  "@pathNameBaqarah21_29": {
+    "description": "Nom pour path_baqarah_21_29"
+  },
+  "pathDescBaqarah21_29": "9 versets sur la création et la réflexion pour la gratitude.",
+  "@pathDescBaqarah21_29": {
+    "description": "Description pour path_baqarah_21_29"
+  },
+
+  "pathNameNahl66_72": "An-Naḥl (16:66–72)",
+  "@pathNameNahl66_72": {
+    "description": "Nom pour path_nahl_66_72"
+  },
+  "pathDescNahl66_72": "7 versets énumérant les bienfaits : bétail, fruits, etc.",
+  "@pathDescNahl66_72": {
+    "description": "Description pour path_nahl_66_72"
+  },
+
+  "pathNameAdDuha": "Sourate Aḍ-Ḍuḥā",
+  "@pathNameAdDuha": {
+    "description": "Nom pour path_ad_duha"
+  },
+  "pathDescAdDuha": "(93:1–11) 11 versets d’espoir et d’assurance.",
+  "@pathDescAdDuha": {
+    "description": "Description pour path_ad_duha"
+  },
+
+  "pathNameKahfCave": "Al-Kahf : Les Jeunes de la Caverne",
+  "@pathNameKahfCave": {
+    "description": "Nom pour path_kahf_cave"
+  },
+  "pathDescKahfCave": "(18:9–16) L’histoire des jeunes croyants dans une caverne.",
+  "@pathDescKahfCave": {
+    "description": "Description pour path_kahf_cave"
+  },
+
+  "pathNameKahfMusa": "Al-Kahf : Mūsā & Al-Khiḍr",
+  "@pathNameKahfMusa": {
+    "description": "Nom pour path_kahf_musa"
+  },
+  "pathDescKahfMusa": "(18:60–70) Souligne la patience et la sagesse cachée.",
+  "@pathDescKahfMusa": {
+    "description": "Description pour path_kahf_musa"
+  },
+
+  "pathNameWaqiah": "Al-Wāqiʿah (56:1–15)",
+  "@pathNameWaqiah": {
+    "description": "Nom pour path_waqiah"
+  },
+  "pathDescWaqiah": "15 versets sur l’arrivée soudaine de l’Heure.",
+  "@pathDescWaqiah": {
+    "description": "Description pour path_waqiah"
+  },
+
+  "pathNameAsrPatience": "Sourate Al-ʿAṣr (Patience)",
+  "@pathNameAsrPatience": {
+    "description": "Nom pour path_asr_patience"
+  },
+  "pathDescAsrPatience": "(103:1–3) encore 3 versets, connus pour parler de patience.",
+  "@pathDescAsrPatience": {
+    "description": "Description pour path_asr_patience"
+  },
+
+  "pathNameBaq153_157": "Al-Baqarah (2:153–157)",
+  "@pathNameBaq153_157": {
+    "description": "Nom pour path_baq_153_157"
+  },
+  "pathDescBaq153_157": "5 versets : « Cherchez aide dans la patience et la prière. »",
+  "@pathDescBaq153_157": {
+    "description": "Description pour path_baq_153_157"
+  },
+
+  "pathNameYusuf7_14": "Sourate Yūsuf (12:7–14)",
+  "@pathNameYusuf7_14": {
+    "description": "Nom pour path_yusuf_7_14"
+  },
+  "pathDescYusuf7_14": "La jalousie des frères de Yusuf. Épreuve de patience.",
+  "@pathDescYusuf7_14": {
+    "description": "Description pour path_yusuf_7_14"
+  },
+
+  "pathNameYusuf83_92": "Sourate Yūsuf (12:83–92)",
+  "@pathNameYusuf83_92": {
+    "description": "Nom pour path_yusuf_83_92"
+  },
+  "pathDescYusuf83_92": "La tristesse de Yaʿqūb et le pardon de Yusuf (10 versets).",
+  "@pathDescYusuf83_92": {
+    "description": "Description pour path_yusuf_83_92"
+  },
+
+  "pathNameInshirah": "Sourate Al-Inshirāḥ (94:1–8)",
+  "@pathNameInshirah": {
+    "description": "Nom pour path_inshirah"
+  },
+  "pathDescInshirah": "8 versets : réconfort après l’adversité. Relié à la patience et à l’espoir.",
+  "@pathDescInshirah": {
+    "description": "Description pour path_inshirah"
+  },
+
+  "verticalLessonIconsSurahAyahFormat": "Sourate {surahName}, Āyah {startAyah}-{endAyah}",
+  "@verticalLessonIconsSurahAyahFormat": {
+    "description": "Construit une chaîne du type « Sourate Al-Fatiha, Āyah 1-7 ».",
+    "placeholders": {
+      "surahName": {},
+      "startAyah": {},
+      "endAyah": {}
+    }
+  },
+
+  "finishLabel": "Terminer",
+  "@finishLabel": {
+    "description": "Button label for finishing the lesson"
+  },
+
+  "twoWordMultipleChoiceLabel": "Sélectionnez les deux mots corrects",
+  "@twoWordMultipleChoiceLabel": {
+    "description": "Prompt text for two-word multiple choice"
+  },
+
+  "singleWordMultipleChoiceLabel": "Sélectionnez le mot correct",
+  "@singleWordMultipleChoiceLabel": {
+    "description": "Prompt text for single-word multiple choice"
+  },
+
+  "correctAnswerLabel": "Correct !",
+  "@correctAnswerLabel": {
+    "description": "Shown after user selects correct multiple choice"
+  },
+
+  "incorrectAnswerLabel": "Incorrect !",
+  "@incorrectAnswerLabel": {
+    "description": "Shown after user selects a wrong multiple choice"
+  },
+
+  "lessonCompletedLabel": "Leçon terminée !",
+  "@lessonCompletedLabel": {
+    "description": "Shown when the user has no more MC questions to do."
+  },
+
+  "profileAnalyticsScoreLabel": "Analyses & score",
+  "@profileAnalyticsScoreLabel": {
+    "description": "Header label for the analytics/score section in ProfileScreen"
+  },
+
+  "profileDailyLabel": "Quotidien",
+  "@profileDailyLabel": {
+    "description": "Label for daily score"
+  },
+
+  "profileWeeklyLabel": "Hebdomadaire",
+  "@profileWeeklyLabel": {
+    "description": "Label for weekly score"
+  },
+
+  "profileMonthlyLabel": "Mensuel",
+  "@profileMonthlyLabel": {
+    "description": "Label for monthly score"
+  },
+
+  "profileTotalLabel": "Total",
+  "@profileTotalLabel": {
+    "description": "Label for total/all-time score"
+  },
+
+  "profileViewChart": "Voir le graphique",
+  "@profileViewChart": {
+    "description": "Button label to open the chart"
+  },
+
+  "profileCloseLabel": "Fermer",
+  "@profileCloseLabel": {
+    "description": "Button label to close the dialog"
+  },
+
+  "profileScoreChartTitle": "Graphique des scores",
+  "@profileScoreChartTitle": {
+    "description": "Used in the alert dialog's title, e.g. 'Daily Score Chart'"
+  },
+
+  "profileScoreChartHistory": "Historique",
+  "@profileScoreChartHistory": {
+    "description": "Used in the chart's internal title, e.g. 'Daily History'"
+  },
+
+  "profileNoData": "Aucune donnée",
+  "@profileNoData": {
+    "description": "Shown if the chart has no data to display"
+  },
+
+  "topBarDailyScoreLabel": "⭐ Aujourd’hui ",
+  "@topBarDailyScoreLabel": {
+    "description": "Short label for daily score displayed on the left side of the TopBar."
+  },
+
+  "topBarDailyScoreSemantic": "Votre score quotidien est {score}",
+  "@topBarDailyScoreSemantic": {
+    "description": "Accessibility label for daily score in the TopBar, announcing how many points the user has earned.",
+    "placeholders": {
+      "score": {}
+    }
+  },
+
+  "profilePremiumNeeded": "Veuillez passer à la version supérieure pour afficher le calendrier de progression et nous soutenir dans le développement de nouvelles fonctionnalités, Incha’Allah !",
+  "@profilePremiumNeeded": {
+    "description": "Shown if user is free tier but wants to see weekly progress"
+  },
+
+  "levelMultipleChoiceLabel": "Choix multiples",
+  "@levelMultipleChoiceLabel": {
+    "description": "Radio label for the 'multipleChoice' level"
+  },
+
+  "levelMultipleChoiceDescription": "Étapes QCM à un ou deux mots, avec possibilité de sauter des paires.",
+  "@levelMultipleChoiceDescription": {
+    "description": "Description for the 'multipleChoice' level"
+  },
+
+  "levelBeginnerLabel": "Débutant",
+  "@levelBeginnerLabel": {
+    "description": "Radio label for the 'starter' or 'beginner' level"
+  },
+
+  "levelBeginnerDescription": "Suppression progressive de mots dans des séquences groupées pour une mémorisation progressive.",
+  "@levelBeginnerDescription": {
+    "description": "Description for the 'beginner' level"
+  },
+
+
+  "subscriptionTierScreenPremiumLabel": "Plus",
+  "@subscriptionTierScreenPremiumLabel": {
+    "description": "Label for the Premium tier"
+  },
+
+  "featureUnavailableOffline": "Fonctionnalité indisponible hors ligne. Connectez-vous ou débloquez le mode hors ligne en passant à Plus ou Pro Beta.",
+  "@featureUnavailableOffline": {
+    "description": "Message affiché lorsqu'un utilisateur gratuit tente d'utiliser des fonctionnalités hors ligne."
+  },
+
+  "submissionFeedbackModalTotalCount": "Nombre total de remerciements saisis : {count}",
+  "@submissionFeedbackModalTotalCount": {
+    "description": "Indique le nombre total d’entrées de remerciements dont dispose l’utilisateur. {count} est remplacé par le nombre réel."
+  },
+
+
+  "notificationDailyTitle": "Rappel doux du Coran",
+  "@notificationDailyTitle": {
+    "description": "Titre pour la notification quotidienne de rappel du Coran"
+  },
+
+
+  "notificationWeeklyTitle": "Bilan hebdomadaire du Coran",
+  "@notificationWeeklyTitle": {
+    "description": "Titre pour la notification de rappel hebdomadaire du Coran"
+  },
+  "notificationWeeklyBody": "Réfléchissez à vos progrès et mémorisez une nouvelle partie du Coran tout en pratiquant la gratitude.",
+  "@notificationWeeklyBody": {
+    "description": "Texte pour la notification hebdomadaire"
+  },
+
+  "notificationChannelDailyRemindersName": "Rappels quotidiens",
+  "@notificationChannelDailyRemindersName": {
+    "description": "Nom du canal pour les rappels quotidiens"
+  },
+  "notificationChannelDailyRemindersDesc": "Rappels pour la mémorisation quotidienne du Coran",
+  "@notificationChannelDailyRemindersDesc": {
+    "description": "Description du canal pour les rappels quotidiens"
+  },
+
+  "notificationChannelWeeklyRemindersName": "Rappels hebdomadaires",
+  "@notificationChannelWeeklyRemindersName": {
+    "description": "Nom du canal pour les rappels hebdomadaires"
+  },
+  "notificationChannelWeeklyRemindersDesc": "Rappels pour la vérification hebdomadaire de la mémorisation du Coran",
+  "@notificationChannelWeeklyRemindersDesc": {
+    "description": "Description du canal pour les rappels hebdomadaires"
+  },
+
+  "nameEntryNotificationFrequencyDaily": "Quotidien",
+  "@nameEntryNotificationFrequencyDaily": {
+    "description": "Option dans la liste indiquant des rappels quotidiens"
+  },
+
+  "topBarStreakDialogTitle": "Série",
+  "@topBarStreakDialogTitle": {
+    "description": "Titre de la boîte de dialogue expliquant la série d'utilisation de l’utilisateur"
+  },
+  "fillInTheBlanksLabel": "Remplir les blancs",
+  "@fillInTheBlanksLabel": {
+    "description": "Texte de séparation non cliquable affiché après « Choix multiples » dans le menu déroulant de la difficulté"
+  },
+
+  "loadingDataLabel": "Chargement…",
+  "@loadingDataLabel": {
+    "description": "Libellé affiché pendant le chargement des données"
+  },
+
+  "ayahRangeLabel": "Ayah {start} - {end}",
+  "@ayahRangeLabel": {
+    "description": "Espace réservé pour l'intervalle d'ayahs sur la première page, par exemple 1-7 dans Al-Fatihah",
+    "placeholders": {
+      "start": {},
+      "end": {}
+    }
+  },
+
+  "nextPageSemanticLabel": "Page suivante",
+  "@nextPageSemanticLabel": {
+    "description": "Libellé sémantique pour la flèche vers le bas menant à la page suivante"
+  },
+
+  "prevPageSemanticLabel": "Page précédente",
+  "@prevPageSemanticLabel": {
+    "description": "Libellé sémantique pour la flèche vers le haut menant à la page précédente"
+  },
+
+  "pageXOfYLabel": "Page {current} sur {total}",
+  "@pageXOfYLabel": {
+    "description": "Texte de la barre de notification après avoir cliqué sur la flèche de pagination, indiquant la page actuelle et le total",
+    "placeholders": {
+      "current": {},
+      "total": {}
+    }
+  },
+
+  "verseSemanticLabel": "Ayah {ayahNumber} de la sourate {surahName}",
+  "@verseSemanticLabel": {
+    "description": "Libellé sémantique pour une carte de verset, faisant référence au numéro de l'ayah et au nom de la sourate",
+    "placeholders": {
+      "ayahNumber": {},
+      "surahName": {}
+    }
+  },
+
+  "ayahLabel": "Ayah",
+  "@ayahLabel": {
+    "description": "Libellé pour un numéro d'ayah, par exemple « Ayah 3 »"
+  },
+
+  "goToSurahViewLabel": "Vue de la sourate",
+  "@goToSurahViewLabel": {
+    "description": "Libellé d'un bouton qui mène à l'écran de sourate basé sur le chemin"
+  },
+
+  "clickOnAyaToOpenLesson": "Cliquez sur n’importe quelle ayah ci-dessous pour démarrer une leçon",
+
+  "difficultyChoosingScreenIntro": "Sélectionnez votre préférence : choix multiples ou remplir les blancs, et le nombre de répétitions de chaque étape et lecture audio.",
+  "@difficultyChoosingScreenIntro": {
+    "description": "Texte d’introduction en haut de l’écran de choix de la difficulté"
+  },
+
+  "upgradeVoiceUsageMessage": "Passez à Pro Beta pour essayer la fonctionnalité vocale et nous aider à l’améliorer !",
+  "@upgradeVoiceUsageMessage": {
+    "description": "Message principal affiché lorsque l’utilisateur a dépassé l’utilisation vocale gratuite"
+  },
+
+  "restorePurchasesLabel": "Restaurer les achats",
+  "@restorePurchasesLabel": {
+    "description": "Libellé du bouton pour restaurer les achats"
+  },
+
+  "subscriptionTierScreenMonthly": "Mensuel",
+  "@subscriptionTierScreenMonthly": {
+    "description": "Libellé pour l’option mensuelle"
+  },
+
+  "subscriptionTierScreenYearly": "Annuel",
+  "@subscriptionTierScreenYearly": {
+    "description": "Libellé pour l’option annuelle"
+  },
+
+  "subscriptionTierScreenFreePrice": "Gratuit",
+  "@subscriptionTierScreenFreePrice": {
+    "description": "Le prix affiché pour l'offre gratuite"
+  },
+
+  "subscriptionTierScreenPremiumMonthlyPrice": "Maintenant 3 $/mois (au lieu de 5 $)",
+  "@subscriptionTierScreenPremiumMonthlyPrice": {
+    "description": "Prix mensuel réduit pour Premium"
+  },
+
+  "subscriptionTierScreenPremiumYearlyPrice": "Maintenant 28 $/an (au lieu de 60 $)",
+  "@subscriptionTierScreenPremiumYearlyPrice": {
+    "description": "Prix annuel réduit pour Premium"
+  },
+
+  "subscriptionTierScreenPremiumPlusMonthlyPrice": "Maintenant 7 $/mois (au lieu de 10 $)",
+  "@subscriptionTierScreenPremiumPlusMonthlyPrice": {
+    "description": "Prix mensuel réduit pour PremiumPlus"
+  },
+
+  "subscriptionTierScreenPremiumPlusYearlyPrice": "Maintenant 45 $/an (au lieu de 84 $)",
+  "@subscriptionTierScreenPremiumPlusYearlyPrice": {
+    "description": "Prix annuel réduit pour PremiumPlus"
+  },
+
+  "subscriptionPurchaseError": "Erreur lors de l’achat de l’abonnement",
+  "@subscriptionPurchaseError": {
+    "description": "Message d’erreur générique pour l’achat d’un abonnement"
+  },
+
+  "topBarExplorePlansLabel": "Découvrir les forfaits",
+  "@topBarExplorePlansLabel": {
+    "description": "Texte du bouton pour naviguer vers l’écran d’abonnement"
+  },
+
+  "topBarBackHomeLabel": "Retour à l’accueil",
+  "@topBarBackHomeLabel": {
+    "description": "Texte du bouton pour revenir à l’accueil"
+  },
+  "profileRequiresPlanUpdate": "Nécessite une mise à jour de l’abonnement",
+  "@profileRequiresPlanUpdate": {
+    "description": "Indicateur affiché lorsqu’un abonnement/plan premium est requis"
+  },
+
+
+  "subscriptionTierScreenPremiumDescription": "Tout ce qui est disponible dans la version gratuite, plus l’apprentissage hors ligne et les retours, l’analyse historique, ainsi que les barres de progression, le profil et la personnalisation du Coran. Soutenez-nous pour développer plus de fonctionnalités !",
+  "@subscriptionTierScreenPremiumDescription": {
+    "description": "Description pour le niveau Premium"
+  },
+
+  "subscriptionAutoRenewNotice": "L’abonnement se renouvelle automatiquement et peut être annulé pour éviter d’être facturé lors de la prochaine période. Une partie des fonds sera versée à Islamic Relief via l’initiative Almubtasim \uD83D\uDE00.",
+  "@subscriptionAutoRenewNotice": {
+    "description": "Note courte sur le renouvellement automatique et la donation"
+  },
+
+  "subscriptionTierScreenSubscribeLabel": "S’abonner",
+  "@subscriptionTierScreenSubscribeLabel": {
+    "description": "Bouton pour confirmer l’achat de l’abonnement"
+  },
+
+  "subscriptionTierScreenFinalMessage": "Nous apprécions votre soutien !",
+  "@subscriptionTierScreenFinalMessage": {
+    "description": "Message final en bas de l’écran d’abonnement"
+  },
+  "subscriptionPurchaseRestoreSuccess": "Vos achats ont été restaurés avec succès.",
+  "@subscriptionPurchaseRestoreSuccess": {
+    "description": "Affiché lorsque la restauration des achats a abouti"
+  },
+
+  "subscriptionTierScreenRestoreLabel": "Restaurer les achats",
+  "@subscriptionTierScreenRestoreLabel": {
+    "description": "Bouton pour restaurer les abonnements précédemment achetés"
+  },
+
+  "arabicLabel": "Arabe",
+  "@arabicLabel": {
+    "description": "Libellé pour l’option de bascule lorsque l’utilisateur souhaite le texte en arabe."
+  },
+
+  "transliterationLabel": "Anglais",
+  "@transliterationLabel": {
+    "description": "Libellé pour l’option de bascule lorsque l’utilisateur souhaite un texte translittéré en caractères latins."
+  },
+
+  "surahSearchScreenTitle": "Recherche de Sourate",
+  "@surahSearchScreenTitle": {
+    "description": "Titre pour l’écran de recherche de sourate"
+  },
+
+  "genericBack": "Retour",
+  "@genericBack": {
+    "description": "Libellé pour le bouton de retour dans la barre de l’application"
+  },
+
+  "surahSearchSelectSurah": "Sélectionnez une Sourate :",
+  "@surahSearchSelectSurah": {
+    "description": "Invite l’utilisateur à choisir une sourate dans la liste"
+  },
+
+  "surahSearchExistingPaths": "Chemins existants pour cette Sourate",
+  "@surahSearchExistingPaths": {
+    "description": "Titre de la section listant les chemins utilisateur/système existants pour la sourate choisie"
+  },
+
+  "surahSearchNoMatches": "Aucun chemin existant trouvé.",
+  "@surahSearchNoMatches": {
+    "description": "Message si aucun chemin ne fait référence à la sourate choisie"
+  },
+
+  "surahSearchHideCreateForm": "Masquer le formulaire de création",
+  "@surahSearchHideCreateForm": {
+    "description": "Libellé pour désactiver le formulaire de création"
+  },
+
+  "surahSearchShowCreateForm": "Créer un nouveau chemin pour la Sourate",
+  "@surahSearchShowCreateForm": {
+    "description": "Libellé pour activer le formulaire de création"
+  },
+
+  "createPathTrackProgress": "Suivre la progression ?",
+  "@createPathTrackProgress": {
+    "description": "Libellé pour un interrupteur permettant d’activer le suivi de progression du chemin"
+  },
+
+  "themeScreenSearchIconSemantic": "Rechercher des sourates",
+  "@themeScreenSearchIconSemantic": {
+    "description": "Info-bulle pour l’icône de recherche sur l’écran du thème"
+  },
+
+  "pathListSearchIconSemantic": "Rechercher des sourates",
+  "@pathListSearchIconSemantic": {
+    "description": "Info-bulle pour l’icône de recherche dans la barre de l’écran de liste des chemins"
+  },
+
+  "pathLessonsSearchIconSemantic": "Rechercher des sourates",
+  "@pathLessonsSearchIconSemantic": {
+    "description": "Info-bulle pour l’icône de recherche dans la barre de l’écran des leçons du chemin"
+  },
+
+  "playAllSurahSemantic": "Lire la sourate entière",
+  "@playAllSurahSemantic": {
+    "description": "Info-bulle pour l’icône qui lit la sourate en entier"
+  },
+
+  "toggleTransliterationLabel": "Basculer la translittération",
+  "@toggleTransliterationLabel": {
+    "description": "Info-bulle pour basculer entre arabe et translittération"
+  },
+
+  "englishLabel": "Anglais",
+  "@englishLabel": {
+    "description": "Libellé affiché pour l’option de translittération en anglais"
+  },
+
+  "subscriptionTierScreenPremiumPlusLabel": "Nous soutenir (Annuel)",
+  "@subscriptionTierScreenPremiumPlusLabel": {
+    "description": "Libellé pour le niveau Premium Plus"
+  },
+
+  "subscriptionTierScreenFreeDescription": "Toutes les fonctionnalités sont gratuites et sans publicité !",
+  "@subscriptionTierScreenFreeDescription": {
+    "description": "Description pour l’offre gratuite"
+  },
+
+  "subscriptionTierScreenPremiumPlusDescription": "Aidez à financer de nouvelles fonctionnalités et améliorations ! De plus, investir une petite somme peut aider à ancrer l’habitude !",
+  "@subscriptionTierScreenPremiumPlusDescription": {
+    "description": "Description pour l’offre Pro"
+  },
+
+  "subscriptionTierScreenSupportLabel": "Soutien Annuel",
+  "@subscriptionTierScreenSupportLabel": {
+    "description": "Libellé pour le niveau de « Soutien » annuel"
+  },
+
+  "verticalLessonIconsDialogBody": "Toutes les fonctionnalités sont disponibles dans la version gratuite, mais si vous le souhaitez, vous pouvez nous soutenir afin de développer davantage de fonctionnalités. Une partie de votre abonnement est versée à Islamic Relief. Jazāk Allāhu Khayran !",
+  "@verticalLessonIconsDialogBody": {
+    "description": "Texte du dialogue de mise à niveau décrivant les avantages et le don"
+  },
+  "welcomeBody": "Hudhud a joué un rôle spécial en aidant le prophète Souleiman [AS] en observant et en transmettant des messages.\n\nIl ne vous juge pas, peu importe où vous en êtes dans votre cheminement, et il est enthousiaste à l’idée de vous guider pour découvrir la beauté du Coran et intégrer des rappels de gratitude afin de profiter de chaque instant avec lui.",
+  "@welcomeBody": {
+    "description": "Texte principal expliquant l’objectif de l’application"
+  },
+
+  "surahSearchByName": "Rechercher par nom (en anglais ou en arabe)",
+  "@surahSearchByName": {
+    "description": "Libellé au-dessus de l’autocomplétion pour rechercher une sourate par nom"
+  },
+
+  "surahSearchHintAnyName": "Tapez le nom de n’importe quelle sourate...",
+  "@surahSearchHintAnyName": {
+    "description": "Texte d’indice dans le champ de recherche autocomplété"
+  },
+
+  "surahSearchFieldLabel": "Rechercher une sourate",
+  "@surahSearchFieldLabel": {
+    "description": "Libellé du champ de recherche autocomplété"
+  },
+
+  "surahSearchInvalidLessonsError": "Une ou plusieurs leçons ne sont pas valides. Impossible de créer le chemin.",
+  "@surahSearchInvalidLessonsError": {
+    "description": "Message de la barre de notification quand les leçons générées ne sont pas valides"
+  },
+
+  "surahSearchUserSurahPrefix": "Sourate utilisateur",
+  "@surahSearchUserSurahPrefix": {
+    "description": "Utilisé comme préfixe de nom de chemin par défaut si l’utilisateur n’en saisit pas un"
+  },
+
+  "notificationDailyBody": "Prenez un instant pour trouver la paix grâce au Coran et rappelez-vous pourquoi vous êtes reconnaissant aujourd’hui.",
+  "@notificationDailyBody": {
+    "description": "Texte du rappel quotidien"
+  }
+
+}

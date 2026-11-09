@@ -1,0 +1,2280 @@
+{
+  "@@locale": "ms",
+
+  "commentA": "Kunci pengenalan (Onboarding)",
+  "appBarTitleWelcome": "Selamat Datang",
+  "@appBarTitleWelcome": {
+    "description": "Ditunjukkan pada bar atas di Skrin Selamat Datang"
+  },
+
+  "skipLabel": "Langkau",
+  "@skipLabel": {
+    "description": "Label butang umum untuk melangkau satu langkah"
+  },
+
+  "welcomeHeadline": "Selamat Datang ke Al-Quran bersama Hudhud!",
+  "@welcomeHeadline": {
+    "description": "Teks tajuk di skrin Onboarding Selamat Datang"
+  },
+
+  "getStartedLabel": "Mula",
+  "@getStartedLabel": {
+    "description": "Label butang untuk meneruskan ke langkah onboarding seterusnya"
+  },
+
+  "commentB": "Kunci skrin Pelajaran",
+  "lessonScreenAppBarTitle": "Pelajaran",
+  "@lessonScreenAppBarTitle": {
+    "description": "Teks tajuk untuk bar atas skrin Pelajaran"
+  },
+
+  "noAyahAvailable": "Tiada ayat tersedia untuk dimainkan.",
+  "@noAyahAvailable": {
+    "description": "Mesej Snackbar jika tiada ayat untuk dimainkan"
+  },
+
+  "audioNotFound": "Audio tidak dijumpai di {url}",
+  "@audioNotFound": {
+    "description": "Mesej ralat apabila audio tidak wujud di pelayan",
+    "placeholders": {
+      "url": {}
+    }
+  },
+
+  "restartLessonTitle": "Mulakan Semula Pelajaran",
+  "@restartLessonTitle": {
+    "description": "Tajuk dialog apabila pengguna cuba menetapkan semula semua kemajuan pelajaran"
+  },
+
+  "resetLessonBody": "Tetapkan semula semua kemajuan anda untuk pelajaran ini?",
+  "@resetLessonBody": {
+    "description": "Teks badan dialog untuk menetapkan semula pelajaran"
+  },
+
+  "cancelLabel": "Batal",
+  "@cancelLabel": {
+    "description": "Label butang umum untuk membatalkan tindakan"
+  },
+
+  "yesLabel": "Ya",
+  "@yesLabel": {
+    "description": "Label butang umum untuk mengesahkan tindakan"
+  },
+
+  "errorResettingLesson": "Ralat menetapkan semula pelajaran",
+  "@errorResettingLesson": {
+    "description": "Prefiks Snackbar jika kita gagal menetapkan semula pelajaran"
+  },
+
+  "startLabel": "Mula",
+  "@startLabel": {
+    "description": "Label butang untuk memulakan pelajaran atau sesi"
+  },
+
+  "submitLabel": "Hantar",
+  "@submitLabel": {
+    "description": "Label butang untuk penghantaran"
+  },
+
+  "nextLabel": "Seterusnya",
+  "@nextLabel": {
+    "description": "Label butang untuk beralih ke langkah seterusnya"
+  },
+
+  "voiceErrorMicDeniedTitle": "Mikrofon Ditolak",
+  "@voiceErrorMicDeniedTitle": {
+    "description": "Tajuk timbul apabila pengguna menolak kebenaran mikrofon"
+  },
+  "voiceErrorMicDeniedBody": "Rakaman memerlukan akses mikrofon. Sila berikan kebenaran dalam Tetapan.",
+  "@voiceErrorMicDeniedBody": {
+    "description": "Teks badan untuk popup mikrofon ditolak"
+  },
+  "voiceErrorMicDeniedSemanticLabel": "Dialog kebenaran mikrofon ditolak",
+  "@voiceErrorMicDeniedSemanticLabel": {
+    "description": "Label semantik untuk pembaca skrin"
+  },
+
+  "voiceErrorRecorderStartTitle": "Ralat Rakaman",
+  "@voiceErrorRecorderStartTitle": {
+    "description": "Tajuk timbul jika kita gagal memulakan rakaman"
+  },
+  "voiceErrorRecorderStartBody": "Kami tidak dapat memulakan perakam. Sila cuba lagi.",
+  "@voiceErrorRecorderStartBody": {
+    "description": "Teks badan jika memulakan perakam gagal"
+  },
+  "voiceErrorRecorderStartSemanticLabel": "Dialog ralat memulakan perakam",
+  "@voiceErrorRecorderStartSemanticLabel": {
+    "description": "Label semantik untuk pembaca skrin"
+  },
+
+  "voiceErrorRecorderStopTitle": "Ralat Berhenti Merakam",
+  "@voiceErrorRecorderStopTitle": {
+    "description": "Tajuk timbul jika kita gagal menghentikan rakaman"
+  },
+  "voiceErrorRecorderStopBody": "Kami tidak dapat menghentikan perakam dengan betul. Sila cuba lagi.",
+  "@voiceErrorRecorderStopBody": {
+    "description": "Teks badan jika menghentikan perakam gagal"
+  },
+  "voiceErrorRecorderStopSemanticLabel": "Dialog ralat memberhentikan perakam",
+  "@voiceErrorRecorderStopSemanticLabel": {
+    "description": "Label semantik untuk pembaca skrin"
+  },
+
+  "voiceErrorNoSoundTitle": "Tiada Bunyi Dikesan",
+  "@voiceErrorNoSoundTitle": {
+    "description": "Tajuk timbul jika audio kosong atau senyap"
+  },
+  "voiceErrorNoSoundBody": "Rakaman anda senyap atau terlalu perlahan. Sila cuba lagi.",
+  "@voiceErrorNoSoundBody": {
+    "description": "Teks badan popup untuk tiada bunyi"
+  },
+  "voiceErrorNoSoundSemanticLabel": "Dialog tiada bunyi dikesan",
+  "@voiceErrorNoSoundSemanticLabel": {
+    "description": "Label semantik untuk pembaca skrin"
+  },
+
+  "voiceErrorTranscriptionTitle": "Ralat Transkripsi",
+  "@voiceErrorTranscriptionTitle": {
+    "description": "Tajuk jika rangkaian atau pelayan gagal untuk transkripsi"
+  },
+  "voiceErrorTranscriptionBody": "Kami tidak dapat mentranskripsikan rakaman anda. Sila semak sambungan anda dan cuba lagi.",
+  "@voiceErrorTranscriptionBody": {
+    "description": "Teks badan untuk popup ralat transkripsi"
+  },
+  "voiceErrorTranscriptionSemanticLabel": "Dialog ralat transkripsi",
+  "@voiceErrorTranscriptionSemanticLabel": {
+    "description": "Label semantik untuk pembaca skrin"
+  },
+
+  "tapColoredWordsHint": "Ketik perkataan yang diserlahkan untuk melihat versi yang dibetulkan.",
+  "@tapColoredWordsHint": {
+    "description": "Memaklumkan pengguna mengenai ciri Quran yang diperbetulkan."
+  },
+
+  "emptyInputWarning": "Anda mesti memasukkan sesuatu sebelum menghantar",
+  "@emptyInputWarning": {
+    "description": "Amaran ditunjukkan jika pengguna cuba menghantar teks kosong"
+  },
+
+  "getHintLabel": "Dapatkan Petunjuk",
+  "@getHintLabel": {
+    "description": "Label butang untuk menzahirkan petunjuk"
+  },
+
+  "removeHintLabel": "Buang Petunjuk",
+  "@removeHintLabel": {
+    "description": "Label butang untuk mengalih keluar petunjuk yang digunakan"
+  },
+
+  "typeTheMissingWordsLabel": "Taip perkataan yang tertinggal",
+  "@typeTheMissingWordsLabel": {
+    "description": "Label di atas medan teks untuk perkataan yang tertinggal"
+  },
+
+  "difficultyLabel": "Kesukaran",
+  "@difficultyLabel": {
+    "description": "Label di atas dropdown Tahap Kesukaran"
+  },
+
+  "repeatCountLabel": "# Ulangan",
+  "@repeatCountLabel": {
+    "description": "Label di atas dropdown bilangan ulangan"
+  },
+
+  "backButtonLabel": "Kembali",
+  "@backButtonLabel": {
+    "description": "Label semantik untuk butang anak panah kembali di bar atas pelajaran"
+  },
+
+  "toggleTranslationLabel": "Tukar terjemahan sebaris",
+  "@toggleTranslationLabel": {
+    "description": "Label semantik untuk ikon yang menukar terjemahan ayat"
+  },
+
+  "openTranslationScreenLabel": "Buka skrin terjemahan",
+  "@openTranslationScreenLabel": {
+    "description": "Label semantik untuk ikon yang membuka skrin Terjemahan berasingan"
+  },
+
+  "restartLessonSemanticLabel": "Mulakan semula pelajaran",
+  "@restartLessonSemanticLabel": {
+    "description": "Label semantik untuk butang ikon mulakan semula pelajaran"
+  },
+
+  "verseDisplayAreaLabel": "Kawasan paparan ayat Quran",
+  "@verseDisplayAreaLabel": {
+    "description": "Label semantik untuk kontena utama yang memaparkan ayat-ayat"
+  },
+
+  "playAudioSemanticLabel": "Mainkan audio ayat",
+  "@playAudioSemanticLabel": {
+    "description": "Label semantik untuk butang ikon mainkan audio"
+  },
+
+  "openGratitudeSemanticLabel": "Buka mod kesyukuran",
+  "@openGratitudeSemanticLabel": {
+    "description": "Label semantik untuk butang ikon yang membuka mod kesyukuran"
+  },
+
+  "voiceUsageSemanticLabel": "Penggunaan suara dalam minit",
+  "@voiceUsageSemanticLabel": {
+    "description": "Label semantik untuk kawasan yang memaparkan statistik penggunaan suara (PremiumPlus)"
+  },
+
+  "voiceRecordSemanticLabel": "Mulakan atau hentikan rakaman suara",
+  "@voiceRecordSemanticLabel": {
+    "description": "Label semantik untuk butang ikon mikrofon di hujung medan teks"
+  },
+
+  "commentC": "String SKRIN HOME baharu",
+  "homeTitle": "Laman Utama",
+  "@homeTitle": {
+    "description": "Tajuk bar atas untuk skrin utama"
+  },
+
+  "noPathsLabel": "Tiada laluan yang sah.",
+  "@noPathsLabel": {
+    "description": "Ditunjukkan jika tiada laluan aktif"
+  },
+
+  "errorLoadingActivePath": "Ralat memuatkan laluan aktif: {err}",
+  "@errorLoadingActivePath": {
+    "description": "Mesej ralat jika pengambilan laluan aktif gagal",
+    "placeholders": {
+      "err": {}
+    }
+  },
+
+  "verticalLessonIconsGoToTheme": "Pergi ke Tema",
+  "@verticalLessonIconsGoToTheme": {
+    "description": "Label butang untuk menavigasi ke Skrin Tema apabila pengguna menamatkan laluan"
+  },
+
+  "homePathCardLabel": "Ketik untuk membuka skrin tema",
+  "@homePathCardLabel": {
+    "description": "Label semantik untuk mengetik kad laluan"
+  },
+
+  "arrowForwardSemanticLabel": "Buka butiran",
+  "@arrowForwardSemanticLabel": {
+    "description": "Label semantik untuk ikon anak panah ke hadapan di kad laluan"
+  },
+
+  "noTrackProgressLabel": "Laluan ini tidak menjejak kemajuan.",
+  "@noTrackProgressLabel": {
+    "description": "Ditunjukkan jika laluan tidak menjejak kemajuan"
+  },
+
+  "premiumRequiredLabel": "Tingkatkan untuk membuka fungsi kemajuan. Sokong kami menghasilkan lebih banyak ciri!",
+  "@premiumRequiredLabel": {
+    "description": "Ditunjukkan jika pengguna adalah tier percuma tetapi laluan tersebut menjejak kemajuan"
+  },
+
+  "completedLabel": "selesai",
+  "@completedLabel": {
+    "description": "Sufiks contohnya 'xx% selesai'"
+  },
+
+  "fabLogGratitudeLabel": "Ketik untuk catat kesyukuran",
+  "@fabLogGratitudeLabel": {
+    "description": "Label semantik untuk butang tindakan terapung yang mencatat kesyukuran"
+  },
+
+  "errorNavigatingToLesson": "Ralat menavigasi ke pelajaran",
+  "@errorNavigatingToLesson": {
+    "description": "Prefiks Snackbar jika skrin pelajaran gagal dibuka"
+  },
+
+  "commentD": "String skrin Profil",
+  "profileTitle": "Profil",
+  "@profileTitle": {
+    "description": "Tajuk AppBar untuk skrin profil"
+  },
+
+  "profileBackArrowLabel": "Kembali ke skrin sebelumnya",
+  "@profileBackArrowLabel": {
+    "description": "Label semantik untuk anak panah kembali di skrin profil"
+  },
+
+  "profileAvatarSemanticLabel": "Avatar pengguna",
+  "@profileAvatarSemanticLabel": {
+    "description": "Label semantik untuk avatar bulat yang memaparkan inisial pengguna"
+  },
+
+  "profileEnterYourName": "Masukkan nama anda",
+  "@profileEnterYourName": {
+    "description": "Teks petunjuk dalam medan teks untuk nama pengguna"
+  },
+
+  "nameEntryNotificationFrequencyDropdownLabel": "Kekerapan Pemberitahuan",
+  "@nameEntryNotificationFrequencyDropdownLabel": {
+    "description": "Label yang menerangkan dropdown untuk memilih kekerapan pemberitahuan"
+  },
+
+  "nameEntryNotificationFrequencyWeekly": "Mingguan",
+  "@nameEntryNotificationFrequencyWeekly": {
+    "description": "Pilihan dalam dropdown menunjukkan peringatan mingguan"
+  },
+
+  "nameEntryNotificationFrequencyNone": "Tiada",
+  "@nameEntryNotificationFrequencyNone": {
+    "description": "Pilihan dalam dropdown menunjukkan tiada peringatan"
+  },
+
+  "notificationPermissionPrompt": "Kami ingin menghantar peringatan lembut untuk melengkapkan kesyukuran atau penghantaran pelajaran anda - sila benarkan pemberitahuan jika anda ingin kami membantu membina tabiat \uD83D\uDE03.",
+  "@notificationPermissionPrompt": {
+    "description": "Penjelasan ringkas tentang kenapa aplikasi meminta kebenaran pemberitahuan"
+  },
+
+  "profileNameSave": "Simpan",
+  "@profileNameSave": {
+    "description": "Label butang untuk menyimpan nama pengguna yang baharu"
+  },
+
+  "profileNameCancel": "Batal",
+  "@profileNameCancel": {
+    "description": "Label butang untuk membatalkan suntingan nama pengguna"
+  },
+
+  "profileNameGuest": "Tetamu",
+  "@profileNameGuest": {
+    "description": "Nama pengganti jika pengguna tidak memasukkan apa-apa"
+  },
+
+  "profileNameEdit": "Sunting",
+  "@profileNameEdit": {
+    "description": "Label butang untuk mula menyunting nama pengguna"
+  },
+
+  "profilePreferredLanguage": "Bahasa:",
+  "@profilePreferredLanguage": {
+    "description": "Label di atas dropdown bahasa di skrin profil"
+  },
+
+  "okLabel": "OK",
+  "@okLabel": {
+    "description": "Butang pengesahan atau pengakuan umum"
+  },
+
+  "profileReciterLabel": "Qari",
+  "@profileReciterLabel": {
+    "description": "Label untuk dropdown qari di skrin Profil"
+  },
+
+  "profileFontLabel": "Fon:",
+  "@profileFontLabel": {
+    "description": "Label untuk dropdown fon di skrin Profil"
+  },
+
+  "profileReciterMishary": "Mishary Rashid Al-Afasy",
+  "@profileReciterMishary": {
+    "description": "Nama paparan untuk qari #1"
+  },
+
+  "profileReciterShatri": "Abu Bakr Al-Shatri",
+  "@profileReciterShatri": {
+    "description": "Nama paparan untuk qari #2"
+  },
+
+  "profileReciterQatami": "Nasser Al Qatami",
+  "@profileReciterQatami": {
+    "description": "Nama paparan untuk qari #3"
+  },
+
+  "profileUpgradePremiumTitle": "Buka Lebih Banyak Penyesuaian!",
+  "@profileUpgradeProTitle": {
+    "description": "Tajuk dialog meminta pengguna menaik taraf ke Pro."
+  },
+  "profileUpgradePremiumBody": "Anda boleh menikmati penukaran fon dan qari dengan menaik taraf ke Pro. Sokong usaha berterusan kami dan peribadikan pengalaman anda dengan lebih jauh!",
+  "@profileUpgradeProBody": {
+    "description": "Teks badan yang menggalakkan pengguna untuk menaik taraf ke Pro demi lebih banyak penyesuaian."
+  },
+
+  "profileWeeksProgress": "MasyaAllah, berikut adalah kemajuan anda minggu ini:",
+  "@profileWeeksProgress": {
+    "description": "Tajuk bahagian untuk kemajuan mingguan pengguna"
+  },
+
+  "profileGratefulnessCalendar": "Kalendar Kesyukuran",
+  "@profileGratefulnessCalendar": {
+    "description": "Tajuk untuk kalendar kesyukuran mingguan"
+  },
+
+  "profileQuranLearningCalendar": "Kalendar Pembelajaran Al-Quran",
+  "@profileQuranLearningCalendar": {
+    "description": "Tajuk untuk kalendar penyerahan pelajaran mingguan"
+  },
+
+  "profilePrevWeekSemantic": "Pergi ke minggu sebelumnya",
+  "@profilePrevWeekSemantic": {
+    "description": "Label semantik untuk anak panah kiri yang membawa ke minggu sebelumnya"
+  },
+
+  "profileNextWeekSemantic": "Pergi ke minggu seterusnya",
+  "@profileNextWeekSemantic": {
+    "description": "Label semantik untuk anak panah kanan yang membawa ke minggu seterusnya"
+  },
+
+  "profileNotificationFrequency": "Kekerapan Pemberitahuan",
+  "@profileNotificationFrequency": {
+    "description": "Label di atas dropdown kekerapan pemberitahuan di skrin profil"
+  },
+
+  "commentE": "String Skrin Log Kesyukuran",
+  "gratitudeLogTitle": "Log Kesyukuran Saya",
+  "@gratitudeLogTitle": {
+    "description": "Tajuk untuk bar aplikasi log kesyukuran"
+  },
+
+  "gratitudeLogBackArrowSemantic": "Kembali ke laman utama",
+  "@gratitudeLogBackArrowSemantic": {
+    "description": "Label semantik untuk anak panah kembali di log kesyukuran"
+  },
+
+  "gratitudeLogClearAllSemantic": "Padam semua entri kesyukuran",
+  "@gratitudeLogClearAllSemantic": {
+    "description": "Label semantik untuk ikon padam di log kesyukuran"
+  },
+
+  "gratitudeLogAddSemantic": "Tambah entri kesyukuran baharu",
+  "@gratitudeLogAddSemantic": {
+    "description": "Label semantik untuk ikon tambah di log kesyukuran"
+  },
+
+  "gratitudeLogClearDialogTitle": "Kosongkan Log Kesyukuran",
+  "@gratitudeLogClearDialogTitle": {
+    "description": "Tajuk dialog untuk mengesahkan mengosongkan semua entri kesyukuran"
+  },
+
+  "gratitudeLogClearDialogBody": "Adakah anda pasti ingin mengosongkan semua entri kesyukuran anda? Tindakan ini tidak boleh dibatalkan.",
+  "@gratitudeLogClearDialogBody": {
+    "description": "Teks badan dialog untuk mengosongkan semua entri kesyukuran"
+  },
+
+  "gratitudeLogClearConfirm": "Ya, Kosongkan",
+  "@gratitudeLogClearConfirm": {
+    "description": "Label butang untuk mengesahkan mengosongkan semua entri"
+  },
+
+  "gratitudeLogStreak": "⭐ Rentetan Kesyukuran: {days} hari",
+  "@gratitudeLogStreak": {
+    "description": "Baris rentetan yang dipaparkan, cth. 3 hari berturut-turut",
+    "placeholders": {
+      "days": {}
+    }
+  },
+
+  "gratitudeLogStreakLoading": "Mengira rentetan...",
+  "@gratitudeLogStreakLoading": {
+    "description": "Ditunjukkan semasa data rentetan sedang dimuatkan"
+  },
+
+  "gratitudeLogStreakError": "Gagal mengira rentetan.",
+  "@gratitudeLogStreakError": {
+    "description": "Teks ralat jika data rentetan gagal"
+  },
+
+  "gratitudeLogTotalDays": "Jumlah Hari Kesyukuran: {count}",
+  "@gratitudeLogTotalDays": {
+    "description": "Jumlah hari berbeza yang pengguna telah catatkan kesyukuran",
+    "placeholders": {
+      "count": {}
+    }
+  },
+
+  "gratitudeLogDataLoading": "Memuatkan data kesyukuran...",
+  "@gratitudeLogDataLoading": {
+    "description": "Ditunjukkan semasa data kesyukuran sedang dimuatkan"
+  },
+
+  "gratitudeLogDataError": "Gagal memuatkan data kesyukuran.",
+  "@gratitudeLogDataError": {
+    "description": "Teks ralat jika gagal memuatkan data kesyukuran"
+  },
+
+  "gratitudeLogCardSemantic": "Kad entri kesyukuran",
+  "@gratitudeLogCardSemantic": {
+    "description": "Label semantik untuk setiap kad kesyukuran dalam senarai"
+  },
+
+  "gratitudeLogItemIcon": "Ikon kesyukuran",
+  "@gratitudeLogItemIcon": {
+    "description": "Label semantik untuk ikon hati di sebelah setiap item"
+  },
+
+  "gratitudeLogEmptyIconSemantic": "Ketik untuk menambah kesyukuran pertama anda",
+  "@gratitudeLogEmptyIconSemantic": {
+    "description": "Label semantik untuk ikon oren besar pada skrin kosong"
+  },
+
+  "gratitudeLogEmptyMessage": "Tiada entri kesyukuran setakat ini.\nKetik “+” untuk menambah kesyukuran pertama anda!",
+  "@gratitudeLogEmptyMessage": {
+    "description": "Arahan ditunjukkan jika log kosong"
+  },
+
+  "gratitudeLogEntriesAdded": "Kesyukuran berjaya ditambah!",
+  "@gratitudeLogEntriesAdded": {
+    "description": "Teks Snackbar jika penambahan kesyukuran baharu berjaya"
+  },
+
+  "gratitudeLogEntriesFailed": "Gagal menambah kesyukuran. Sila cuba lagi.",
+  "@gratitudeLogEntriesFailed": {
+    "description": "Teks Snackbar jika penambahan kesyukuran baharu gagal"
+  },
+
+  "commentF": "String Skrin Penyelesaian Pelajaran",
+  "lessonCompletedTitle": "Pelajaran Selesai",
+  "@lessonCompletedTitle": {
+    "description": "Tajuk AppBar untuk skrin Penyelesaian Pelajaran"
+  },
+
+  "lessonCompletedBackArrowSemantic": "Kembali ke laman utama",
+  "@lessonCompletedBackArrowSemantic": {
+    "description": "Label semantik untuk anak panah kembali di skrin penyelesaian pelajaran"
+  },
+
+  "lessonCompletedMashaAllah": "MashaAllah!",
+  "@lessonCompletedMashaAllah": {
+    "description": "Teks ucapan tahniah yang besar"
+  },
+
+  "lessonCompletedMashaAllahSemantic": "Teks ucapan tahniah",
+  "@lessonCompletedMashaAllahSemantic": {
+    "description": "Label semantik untuk teks hijau besar"
+  },
+
+  "lessonCompletedMessage": "Anda telah menamatkan pelajaran ini!",
+  "@lessonCompletedMessage": {
+    "description": "Subtajuk yang menunjukkan pengguna telah menamatkan pelajaran"
+  },
+
+  "lessonCompletedImageSemantic": "Ilustrasi Hudhud Quran",
+  "@lessonCompletedImageSemantic": {
+    "description": "Label semantik untuk imej kejayaan yang dipaparkan"
+  },
+
+  "lessonCompletedGoBackSemantic": "Kembali ke pemilihan laluan",
+  "@lessonCompletedGoBackSemantic": {
+    "description": "Label semantik untuk butang 'Kembali ke Laluan'"
+  },
+
+  "lessonCompletedGoBackButton": "Kembali ke Laluan",
+  "@lessonCompletedGoBackButton": {
+    "description": "Label butang untuk kembali ke skrin laluan/utama"
+  },
+
+  "lessonCompletedRestartSemantic": "Mulakan semula pelajaran",
+  "@lessonCompletedRestartSemantic": {
+    "description": "Label semantik untuk butang 'Mulakan Semula Pelajaran'"
+  },
+
+  "lessonCompletedRestartButton": "Mulakan Semula Pelajaran",
+  "@lessonCompletedRestartButton": {
+    "description": "Label butang untuk memulakan semula pelajaran yang sama"
+  },
+
+  "lessonCompletedEncouragement": "Teruskan usaha yang baik!",
+  "@lessonCompletedEncouragement": {
+    "description": "Teks galakan terakhir di bahagian bawah"
+  },
+
+  "commentG": "String Skrin Tema",
+  "themeScreenTitle": "Tema",
+  "@themeScreenTitle": {
+    "description": "Tajuk bar atas untuk skrin tema"
+  },
+
+  "themeNameCoreRecitation": "Tilawah Harian Teras",
+  "@themeNameCoreRecitation": {
+    "description": "Nama tema dengan Surah Al-Fatihah, Al-Ikhlas, dsb."
+  },
+
+  "themeNameBeginJourney": "Memulakan Perjalanan",
+  "@themeNameBeginJourney": {
+    "description": "Nama tema surah pendek untuk qari baharu"
+  },
+
+  "themeNameMercyAndHope": "Rahmat dan Harapan",
+  "@themeNameMercyAndHope": {
+    "description": "Nama tema yang menumpukan kepada belas kasihan Allah dan positif"
+  },
+
+  "themeNameGratitudeReflection": "Kesyukuran dan Renungan",
+  "@themeNameGratitudeReflection": {
+    "description": "Nama tema yang menekankan ayat-ayat berasaskan kesyukuran"
+  },
+
+  "themeNameStoriesReminders": "Kisah, Pelajaran, dan Peringatan",
+  "@themeNameStoriesReminders": {
+    "description": "Nama tema yang mengandungi pelbagai petikan naratif"
+  },
+
+  "themeNamePatience": "Kesabaran (Ṣabr)",
+  "@themeNamePatience": {
+    "description": "Nama tema yang menumpu pada ketabahan/kesabaran"
+  },
+
+  "themeNameUserCreated": "Dicipta Pengguna",
+  "@themeNameUserCreated": {
+    "description": "Nama untuk tema khusus yang dicipta oleh pengguna"
+  },
+
+  "themeScreenNoThemesLabel": "Tiada Tema Tersedia",
+  "@themeScreenNoThemesLabel": {
+    "description": "Ditunjukkan jika tiada data tema"
+  },
+
+  "themeScreenBackArrowSemantic": "Kembali",
+  "@themeScreenBackArrowSemantic": {
+    "description": "Label semantik untuk anak panah kembali AppBar di skrin tema"
+  },
+
+  "themeScreenThemeCardSemantic": "Ketik untuk membuka laluan tema",
+  "@themeScreenThemeCardSemantic": {
+    "description": "Label semantik untuk setiap kad tema dalam senarai"
+  },
+
+  "themeScreenLockIconSemantic": "Tema terkunci. Memerlukan naik taraf.",
+  "@themeScreenLockIconSemantic": {
+    "description": "Label semantik untuk ikon kunci jika tema dikunci"
+  },
+
+  "pathListExploreOtherThemes": "Teroka Tema Lain",
+  "@pathListExploreOtherThemes": {
+    "description": "Label butang yang menavigasi ke Skrin Tema untuk meneroka tema lain."
+  },
+
+  "themeScreenUserCreatedSubtitle": "Dicipta oleh anda—peribadikannya sesuka anda.",
+  "@themeScreenUserCreatedSubtitle": {
+    "description": "Subtajuk untuk tema dicipta pengguna"
+  },
+
+  "themeSubtitleCoreRecitation": "Surah penting untuk solat harian dan perlindungan.",
+  "@themeSubtitleCoreRecitation": {
+    "description": "Subtajuk untuk theme_core_recitation"
+  },
+
+  "themeSubtitleBeginJourney": "Surah-surah pendek untuk memulakan perjalanan Al-Quran anda.",
+  "@themeSubtitleBeginJourney": {
+    "description": "Subtajuk untuk theme_begin_journey"
+  },
+
+  "themeSubtitleMercyAndHope": "Renungkan belas kasihan Allah dan pupuk harapan.",
+  "@themeSubtitleMercyAndHope": {
+    "description": "Subtajuk untuk theme_mercy_and_hope"
+  },
+
+  "themeSubtitleGratitudeReflection": "Tingkatkan rasa syukur dan muhasabah melalui ayat-ayat terpilih.",
+  "@themeSubtitleGratitudeReflection": {
+    "description": "Subtajuk untuk theme_gratitude_reflection"
+  },
+
+  "themeSubtitleStoriesReminders": "Terokai kisah Al-Quran yang memandu dan mengingatkan.",
+  "@themeSubtitleStoriesReminders": {
+    "description": "Subtajuk untuk theme_stories_reminders"
+  },
+
+  "themeSubtitlePatience": "Surah dan petikan yang menekankan kesabaran dan ketabahan.",
+  "@themeSubtitlePatience": {
+    "description": "Subtajuk untuk theme_patience"
+  },
+
+  "themeSubtitleDefault": "Set surah khusus untuk pertumbuhan rohani yang lebih mendalam.",
+  "@themeSubtitleDefault": {
+    "description": "Subtajuk lalai jika tiada ID tema yang diketahui dipadankan"
+  },
+
+  "themeScreenRequiredPremium": "Memerlukan Premium",
+  "@themeScreenRequiredPremium": {
+    "description": "Label yang ditunjukkan jika tema memerlukan langganan Premium"
+  },
+
+  "themeScreenRequiredPremiumPlus": "Memerlukan Premium Plus",
+  "@themeScreenRequiredPremiumPlus": {
+    "description": "Label yang ditunjukkan jika tema memerlukan langganan Premium Plus"
+  },
+
+  "commentH": "String Skrin Senarai Laluan (Path List)",
+  "pathListScreenTitle": "Laluan untuk Tema",
+  "@pathListScreenTitle": {
+    "description": "Tajuk AppBar untuk PathListScreen"
+  },
+
+  "pathListScreenBackArrowSemantic": "Kembali",
+  "@pathListScreenBackArrowSemantic": {
+    "description": "Label semantik untuk anak panah kembali bar atas"
+  },
+
+  "pathListScreenAddIconSemantic": "Tambah laluan baharu",
+  "@pathListScreenAddIconSemantic": {
+    "description": "Label semantik untuk ikon tambah di AppBar"
+  },
+
+  "pathListAddNewPathTooltip": "Tambah Laluan Baharu",
+  "@pathListAddNewPathTooltip": {
+    "description": "Tooltip untuk butang Ikon tambah-laluan-baharu"
+  },
+
+  "pathListScreenAddIconSemanticEmpty": "Ketik untuk menambah laluan pertama anda",
+  "@pathListScreenAddIconSemanticEmpty": {
+    "description": "Label semantik untuk ikon tambah besar di skrin laluan kosong"
+  },
+
+  "pathListEmptyMessage": "Tiada laluan setakat ini.\nKetik “+” untuk mencipta laluan pertama anda!",
+  "@pathListEmptyMessage": {
+    "description": "Mesej yang ditunjukkan jika tiada laluan wujud"
+  },
+
+  "pathListUnavailableLabel": "Laluan ini tidak tersedia buat masa ini",
+  "@pathListUnavailableLabel": {
+    "description": "Ditunjukkan jika laluan tidak sah"
+  },
+
+  "pathListThemeLabel": "Tema",
+  "@pathListThemeLabel": {
+    "description": "Digunakan selepas nama tema, cth. 'Tema “Mercy”'"
+  },
+
+  "pathListPathCardSemantic": "Ketik untuk membuka butiran laluan",
+  "@pathListPathCardSemantic": {
+    "description": "Label semantik untuk setiap kad laluan dalam senarai"
+  },
+
+  "pathListCompleteIconSemantic": "Laluan selesai",
+  "@pathListCompleteIconSemantic": {
+    "description": "Label semantik untuk ikon tanda semak hijau"
+  },
+
+  "pathListInProgressIconSemantic": "Laluan dalam proses",
+  "@pathListInProgressIconSemantic": {
+    "description": "Label semantik untuk ikon jam pasir"
+  },
+
+  "pathListInvalidIconSemantic": "Laluan tidak sah atau tidak tersedia",
+  "@pathListInvalidIconSemantic": {
+    "description": "Label semantik untuk ikon ralat merah"
+  },
+
+  "pathListErrorLoadingPaths": "Ralat memuatkan laluan:",
+  "@pathListErrorLoadingPaths": {
+    "description": "Prefiks mesej ralat apabila data laluan gagal"
+  },
+
+  "commentI": "String Skrin Butiran Laluan (Path Detail)",
+  "pathDetailScreenTitle": "Butiran Laluan",
+  "@pathDetailScreenTitle": {
+    "description": "Tajuk AppBar untuk skrin Butiran Laluan"
+  },
+
+  "pathDetailScreenBackArrowSemantic": "Kembali ke senarai laluan",
+  "@pathDetailScreenBackArrowSemantic": {
+    "description": "Label semantik untuk anak panah kembali di PathDetailScreen"
+  },
+
+  "pathDetailScreenNotFound": "Laluan tidak dijumpai.",
+  "@pathDetailScreenNotFound": {
+    "description": "Ditunjukkan jika kita gagal mendapatkan laluan"
+  },
+
+  "pathDetailScreenFailToUpdate": "Gagal mengemas kini kemajuan laluan:",
+  "@pathDetailScreenFailToUpdate": {
+    "description": "Prefiks Snackbar jika kemas kini kemajuan laluan gagal"
+  },
+
+  "pathDetailScreenProgressDisabled": "Kemajuan dimatikan untuk laluan ini.",
+  "@pathDetailScreenProgressDisabled": {
+    "description": "Ditunjukkan jika path.tracksProgress == false"
+  },
+
+  "pathDetailScreenLessonsHeading": "Pelajaran:",
+  "@pathDetailScreenLessonsHeading": {
+    "description": "Teks tajuk di atas senarai pelajaran"
+  },
+
+  "pathDetailScreenNoLessonsLabel": "Tiada pelajaran tersedia.",
+  "@pathDetailScreenNoLessonsLabel": {
+    "description": "Ditunjukkan jika laluan mempunyai sifar pelajaran"
+  },
+
+  "pathDetailScreenErrorLoading": "Ralat memuatkan laluan atau pelajaran:",
+  "@pathDetailScreenErrorLoading": {
+    "description": "Prefiks mesej ralat dalam skrin butiran laluan"
+  },
+
+  "pathDetailScreenLessonCardSemantic": "Ketik untuk membuka butiran pelajaran",
+  "@pathDetailScreenLessonCardSemantic": {
+    "description": "Label semantik untuk setiap kad pelajaran dalam senarai butiran laluan"
+  },
+
+  "pathDetailScreenLessonCompleteIconSemantic": "Pelajaran selesai",
+  "@pathDetailScreenLessonCompleteIconSemantic": {
+    "description": "Label semantik untuk ikon semak hijau dalam pelajaran yang lengkap"
+  },
+
+  "pathDetailScreenLessonInProgressIconSemantic": "Pelajaran dalam proses",
+  "@pathDetailScreenLessonInProgressIconSemantic": {
+    "description": "Label semantik untuk ikon jam pasir dalam pelajaran yang tidak lengkap"
+  },
+
+  "pathDetailScreenLessonInvalidIconSemantic": "Pelajaran tidak sah atau tidak tersedia",
+  "@pathDetailScreenLessonInvalidIconSemantic": {
+    "description": "Label semantik untuk ikon ralat merah dalam pelajaran yang rosak"
+  },
+
+  "pathDetailScreenLessonProgressUnavailable": "Kemajuan tidak tersedia",
+  "@pathDetailScreenLessonProgressUnavailable": {
+    "description": "Subtajuk jika pelajaran tidak sah"
+  },
+
+  "pathDetailScreenLessonNoProgress": "Tiada kemajuan untuk laluan ini",
+  "@pathDetailScreenLessonNoProgress": {
+    "description": "Subtajuk jika laluan tidak menjejak kemajuan"
+  },
+
+  "pathDetailScreenLessonUpgrade": "Tingkatkan untuk fungsi kemajuan.",
+  "@pathDetailScreenLessonUpgrade": {
+    "description": "Subtajuk jika pengguna tidak dapat melihat kemajuan pelajaran"
+  },
+
+  "pathDetailScreenLessonProgressLabel": "Kemajuan: {progress}%",
+  "@pathDetailScreenLessonProgressLabel": {
+    "description": "Subtajuk untuk item pelajaran yang menunjukkan kemajuan cth. 'Kemajuan: 42%'",
+    "placeholders": {
+      "progress": {}
+    }
+  },
+
+  "pathDetailScreenLessonTitle": "Pelajaran {lessonIndex}: {surahName} - Ayat {startAyah}-{endAyah}",
+  "@pathDetailScreenLessonTitle": {
+    "description": "Tajuk untuk setiap item pelajaran dalam senarai butiran laluan",
+    "placeholders": {
+      "lessonIndex": {},
+      "surahName": {},
+      "startAyah": {},
+      "endAyah": {}
+    }
+  },
+
+  "commentJ": "String Skrin Cipta Laluan (Create Path)",
+  "createPathTitle": "Cipta Laluan Baharu",
+  "@createPathTitle": {
+    "description": "Tajuk bar atas untuk skrin cipta laluan"
+  },
+
+  "createPathBackArrowSemantic": "Kembali ke skrin sebelumnya",
+  "@createPathBackArrowSemantic": {
+    "description": "Label semantik untuk anak panah kembali di skrin cipta laluan"
+  },
+
+  "createPathNameLabel": "Nama Laluan",
+  "@createPathNameLabel": {
+    "description": "Teks label untuk medan teks nama laluan"
+  },
+
+  "createPathNameValidation": "Masukkan nama laluan",
+  "@createPathNameValidation": {
+    "description": "Mesej pengesahan jika nama laluan kosong"
+  },
+
+  "createPathDescriptionLabel": "Penerangan",
+  "@createPathDescriptionLabel": {
+    "description": "Teks label untuk medan teks penerangan"
+  },
+
+  "createPathDescriptionValidation": "Masukkan penerangan",
+  "@createPathDescriptionValidation": {
+    "description": "Mesej pengesahan jika penerangan kosong"
+  },
+
+  "createPathSurahSelectorLabel": "Pilih Surah:",
+  "@createPathSurahSelectorLabel": {
+    "description": "Tajuk di atas dropdown atau pemilih Surah"
+  },
+
+  "createPathStartAyahLabel": "Ayat Mula",
+  "@createPathStartAyahLabel": {
+    "description": "Label untuk medan teks ayat mula"
+  },
+
+  "createPathNumAyahsLabel": "Bilangan Ayat dalam Laluan",
+  "@createPathNumAyahsLabel": {
+    "description": "Label untuk dropdown memilih berapa banyak ayat yang hendak dimasukkan"
+  },
+
+  "createPathEndAyahLabel": "Ayat Akhir",
+  "@createPathEndAyahLabel": {
+    "description": "Label untuk medan teks hanya-baca yang memaparkan ayat akhir"
+  },
+
+  "createPathWordsPerLessonLabel": "Bilangan Perkataan setiap Pelajaran",
+  "@createPathWordsPerLessonLabel": {
+    "description": "Label untuk dropdown memilih bilangan perkataan setiap pelajaran"
+  },
+
+  "createPathWordsSuffix": "perkataan",
+  "@createPathWordsSuffix": {
+    "description": "Sufiks untuk dropdown perkataan per pelajaran"
+  },
+
+  "createPathInvalidRange": "Julat tidak sah",
+  "@createPathInvalidRange": {
+    "description": "Teks untuk dropdown bilangan ayat jika julat tidak sah"
+  },
+
+  "createPathAyahsSuffix": "Ayat",
+  "@createPathAyahsSuffix": {
+    "description": "Sufiks untuk dropdown bilangan ayat, cth. '15 Ayat'"
+  },
+
+  "createPathCreateButton": "Cipta Laluan",
+  "@createPathCreateButton": {
+    "description": "Label untuk butang yang mencipta laluan"
+  },
+
+  "createPathSubmitSemantic": "Ketik untuk mencipta laluan",
+  "@createPathSubmitSemantic": {
+    "description": "Label semantik untuk butang cipta laluan"
+  },
+
+  "commentK": "String Skrin Terjemahan (Translation Screen)",
+  "translationScreenTitle": "Terjemahan",
+  "@translationScreenTitle": {
+    "description": "Tajuk AppBar untuk skrin terjemahan"
+  },
+
+  "translationScreenBackArrowSemantic": "Kembali ke pelajaran",
+  "@translationScreenBackArrowSemantic": {
+    "description": "Label semantik untuk anak panah kembali di skrin terjemahan"
+  },
+
+  "translationScreenLoadingSemantic": "Memuatkan terjemahan",
+  "@translationScreenLoadingSemantic": {
+    "description": "Label semantik untuk CircularProgressIndicator semasa terjemahan dimuatkan"
+  },
+
+  "translationScreenNoTranslations": "Tiada terjemahan tersedia.",
+  "@translationScreenNoTranslations": {
+    "description": "Ditunjukkan jika tiada terjemahan dikembalikan"
+  },
+
+  "translationScreenReturnButton": "Kembali ke Pelajaran",
+  "@translationScreenReturnButton": {
+    "description": "Teks butang untuk kembali ke skrin Pelajaran"
+  },
+
+  "translationScreenReturnSemantic": "Ketik untuk kembali ke pelajaran",
+  "@translationScreenReturnSemantic": {
+    "description": "Label semantik untuk butang kembali ke skrin Pelajaran"
+  },
+
+  "translationScreenLoadError": "Ralat memuatkan terjemahan:",
+  "@translationScreenLoadError": {
+    "description": "Prefiks Snackbar jika gagal memuatkan terjemahan"
+  },
+
+  "commentL": "String Skrin Pilih Bahasa (Language Selection)",
+  "languageSelectionScreenSemantic": "Skrin Pilihan Bahasa",
+  "@languageSelectionScreenSemantic": {
+    "description": "Label semantik untuk kontena peringkat teratas yang menerangkan skrin pemilihan bahasa"
+  },
+
+  "languageSelectionTitle": "Pilih Bahasa Anda",
+  "@languageSelectionTitle": {
+    "description": "Tajuk AppBar untuk skrin pemilihan bahasa"
+  },
+
+  "languageSelectionBackSemantic": "Kembali",
+  "@languageSelectionBackSemantic": {
+    "description": "Label semantik untuk anak panah kembali di skrin pemilihan bahasa"
+  },
+
+  "languageSelectionSkipSemantic": "Langkau pemilihan",
+  "@languageSelectionSkipSemantic": {
+    "description": "Label semantik untuk butang teks langkau di skrin pemilihan bahasa"
+  },
+
+  "languageSelectionInstructions": "Sila pilih bahasa pilihan anda:",
+  "@languageSelectionInstructions": {
+    "description": "Teks arahan untuk memilih bahasa"
+  },
+
+  "languageSelectionNextSemantic": "Ketik untuk sahkan pilihan bahasa",
+  "@languageSelectionNextSemantic": {
+    "description": "Label semantik untuk butang Seterusnya di skrin pemilihan bahasa"
+  },
+
+  "languageSelectionNextLabel": "Seterusnya",
+  "@languageSelectionNextLabel": {
+    "description": "Teks butang untuk meneruskan selepas memilih bahasa"
+  },
+
+  "languageSelectionImageSemantic": "Ilustrasi Hudhud Quran",
+  "@languageSelectionImageSemantic": {
+    "description": "Label semantik untuk imej di bahagian bawah skrin pemilihan bahasa"
+  },
+
+  "commentM": "String Skrin Selamat Datang (Welcome Screen)",
+  "welcomeScreenSemantic": "Skrin Onboarding Selamat Datang",
+  "@welcomeScreenSemantic": {
+    "description": "Label semantik untuk kontena utama yang menerangkan skrin onboarding selamat datang"
+  },
+
+  "welcomeScreenLogoSemantic": "Ilustrasi Hudhud Quran",
+  "@welcomeScreenLogoSemantic": {
+    "description": "Label semantik untuk imej logo skrin selamat datang"
+  },
+
+  "welcomeScreenSkipSemantic": "Langkau langkah selamat datang",
+  "@welcomeScreenSkipSemantic": {
+    "description": "Label semantik untuk butang langkau di skrin selamat datang"
+  },
+
+  "welcomeScreenNextSemantic": "Teruskan ke langkah onboarding seterusnya",
+  "@welcomeScreenNextSemantic": {
+    "description": "Label semantik untuk butang 'Mula'"
+  },
+
+  "commentN": "String Skrin Info Hudhud (Hudhud Info)",
+  "hudhudInfoSemantic": "Skrin Maklumat Hudhud",
+  "@hudhudInfoSemantic": {
+    "description": "Label semantik untuk kontena peringkat teratas yang menerangkan skrin info Hudhud"
+  },
+
+  "hudhudInfoAppBarTitle": "Kenali Hudhud",
+  "@hudhudInfoAppBarTitle": {
+    "description": "Ditunjukkan di bar aplikasi untuk skrin info Hudhud"
+  },
+
+  "hudhudInfoIllustrationSemantic": "Ilustrasi Hudhud",
+  "@hudhudInfoIllustrationSemantic": {
+    "description": "Label semantik untuk imej ilustrasi burung"
+  },
+
+  "hudhudInfoBody1": "Hudhud, juga dikenali sebagai burung hud-hud, memainkan peranan istimewa dalam membantu Nabi Sulaiman [AS] dengan memerhati dan menyampaikan mesej.",
+  "@hudhudInfoBody1": {
+    "description": "Perenggan pertama menerangkan kepentingan Hudhud"
+  },
+
+  "hudhudInfoBody2": "Kisah Hudhud mengingatkan kita bahawa makhluk kecil sekalipun mampu memberi impak besar dengan menjadi pemerhati, ingin tahu, dan proaktif mengenai perkara yang betul. Dalam perjalanan kita, kita boleh memberikan tumpuan berterusan pada keindahan Al-Quran, dan menggabungkan peringatan kesyukuran untuk menghargai setiap kemajuan.",
+  "@hudhudInfoBody2": {
+    "description": "Perenggan kedua menerangkan kepentingan berjaga-jaga"
+  },
+
+  "hudhudInfoBody3": "Dengan mencontohi Hudhud—sentiasa peka dan terlibat—kami berharap dapat memperdalam hubungan kita dengan Al-Quran dan memupuk rasa kesyukuran dalam kehidupan seharian.",
+  "@hudhudInfoBody3": {
+    "description": "Perenggan ketiga menerangkan matlamat keseluruhan mengikut teladan Hudhud"
+  },
+
+  "hudhudInfoNextLabel": "Seterusnya",
+  "@hudhudInfoNextLabel": {
+    "description": "Teks label untuk butang Seterusnya"
+  },
+
+  "hudhudInfoNextSemantic": "Teruskan ke bahagian seterusnya",
+  "@hudhudInfoNextSemantic": {
+    "description": "Label semantik untuk butang Seterusnya"
+  },
+
+  "hudhudInfoSkipSemantic": "Langkau langkah info Hudhud",
+  "@hudhudInfoSkipSemantic": {
+    "description": "Label semantik untuk butang langkau di skrin info Hudhud"
+  },
+
+  "commentO": "String Skrin Pilihan Tahap Langganan (Subscription Tier)",
+  "subscriptionTierScreenSemantic": "Skrin Pemilihan Tahap Langganan",
+  "@subscriptionTierScreenSemantic": {
+    "description": "Label semantik untuk kontena utama yang menerangkan skrin pemilihan tahap langganan"
+  },
+
+  "subscriptionTierScreenAppBarTitle": "Pilih Pelan Anda",
+  "@subscriptionTierScreenAppBarTitle": {
+    "description": "Tajuk AppBar untuk skrin tahap langganan"
+  },
+
+  "subscriptionTierScreenSkipSemantic": "Langkau pemilihan tahap langganan",
+  "@subscriptionTierScreenSkipSemantic": {
+    "description": "Label semantik untuk butang langkau di skrin tahap langganan"
+  },
+
+  "subscriptionTierScreenFreeLabel": "Percuma",
+  "@subscriptionTierScreenFreeLabel": {
+    "description": "Label untuk tahap Percuma"
+  },
+
+  "subscriptionTierScreenSmileySemantic": "Ikon muka tersenyum",
+  "@subscriptionTierScreenSmileySemantic": {
+    "description": "Label semantik untuk ikon emoji tersenyum"
+  },
+
+  "subscriptionTierScreenDonationText": "Sebahagian dana akan disalurkan ke Inisiatif Almubtasim, membantu anak yatim melalui Islamic Relief.",
+  "@subscriptionTierScreenDonationText": {
+    "description": "Teks yang ditunjukkan di bawah muka tersenyum mengenai penggunaan derma"
+  },
+
+  "subscriptionTierScreenConfirmSemantic": "Sahkan pemilihan tahap langganan",
+  "@subscriptionTierScreenConfirmSemantic": {
+    "description": "Label semantik untuk butang Seterusnya/Sahkan"
+  },
+
+  "subscriptionTierScreenNextLabel": "Seterusnya",
+  "@subscriptionTierScreenNextLabel": {
+    "description": "Label butang untuk mengesahkan dan meneruskan dengan tahap langganan yang dipilih"
+  },
+
+  "subscriptionTierScreenRadioSemantic": "Ketik untuk memilih tahap langganan {title}",
+  "@subscriptionTierScreenRadioSemantic": {
+    "description": "Label semantik untuk setiap jubin radio mewakili satu tahap langganan",
+    "placeholders": {
+      "title": {}
+    }
+  },
+
+  "commentP": "String Skrin Pilihan Matlamat (Goal Selection)",
+  "goalSelectionScreenSemantic": "Skrin Pemilihan Matlamat",
+  "@goalSelectionScreenSemantic": {
+    "description": "Label semantik untuk kontena utama yang menerangkan skrin pemilihan matlamat"
+  },
+
+  "goalSelectionScreenAppBarTitle": "Pilih Matlamat Anda",
+  "@goalSelectionScreenAppBarTitle": {
+    "description": "Teks tajuk AppBar untuk skrin pemilihan matlamat"
+  },
+
+  "goalSelectionScreenSkipSemantic": "Langkau pemilihan matlamat",
+  "@goalSelectionScreenSkipSemantic": {
+    "description": "Label semantik untuk butang langkau di skrin pemilihan matlamat"
+  },
+
+  "goalSelectionScreenIntroText": "Antara matlamat berikut, yang manakah menarik minat anda? Anda boleh pilih lebih daripada satu.",
+  "@goalSelectionScreenIntroText": {
+    "description": "Teks pengenalan yang ditunjukkan di bahagian atas skrin pemilihan matlamat"
+  },
+
+  "goalSelectionScreenNextSemantic": "Sahkan pemilihan matlamat",
+  "@goalSelectionScreenNextSemantic": {
+    "description": "Label semantik untuk butang Seterusnya/Sahkan"
+  },
+
+  "goalSelectionScreenNextLabel": "Seterusnya",
+  "@goalSelectionScreenNextLabel": {
+    "description": "Label butang untuk mengesahkan dan meneruskan dengan matlamat yang dipilih"
+  },
+
+  "goalSelectionTileSemantic": "Ketik untuk pilih atau batal pilih pilihan matlamat {goalTitle}",
+  "@goalSelectionTileSemantic": {
+    "description": "Label semantik untuk jubin kotak semak setiap matlamat",
+    "placeholders": {
+      "goalTitle": {}
+    }
+  },
+
+  "goalConnectQuranTitle": "Berhubung lebih jauh dengan Al-Quran",
+  "@goalConnectQuranTitle": {
+    "description": "Label kotak semak untuk matlamat 'connectQuran'"
+  },
+
+  "goalConnectQuranDesc": "Perkukuh hubungan anda melalui pembacaan atau renungan.",
+  "@goalConnectQuranDesc": {
+    "description": "Teks subtajuk untuk matlamat 'connectQuran'"
+  },
+
+  "goalMemorizeQuranTitle": "Menghafaz Al-Quran",
+  "@goalMemorizeQuranTitle": {
+    "description": "Label kotak semak untuk matlamat 'memorizeQuran'"
+  },
+
+  "goalMemorizeQuranDesc": "Mulakan perjalanan hafazan.",
+  "@goalMemorizeQuranDesc": {
+    "description": "Teks subtajuk untuk matlamat 'memorizeQuran'"
+  },
+
+  "goalBeMoreGratefulTitle": "Lebih bersyukur dan gembira dalam hidup",
+  "@goalBeMoreGratefulTitle": {
+    "description": "Label kotak semak untuk matlamat 'beMoreGrateful'"
+  },
+
+  "goalBeMoreGratefulDesc": "Fokus pada amalan kesyukuran harian.",
+  "@goalBeMoreGratefulDesc": {
+    "description": "Teks subtajuk untuk matlamat 'beMoreGrateful'"
+  },
+
+  "goalBuildConsistencyTitle": "Bina konsistensi",
+  "@goalBuildConsistencyTitle": {
+    "description": "Label kotak semak untuk matlamat 'buildConsistency'"
+  },
+
+  "goalBuildConsistencyDesc": "Bina tabiat harian atau mingguan.",
+  "@goalBuildConsistencyDesc": {
+    "description": "Teks subtajuk untuk matlamat 'buildConsistency'"
+  },
+
+  "goalImproveArabicTitle": "Perbaiki bahasa Arab saya",
+  "@goalImproveArabicTitle": {
+    "description": "Label kotak semak untuk matlamat 'improveArabic'"
+  },
+
+  "goalImproveArabicDesc": "Fokus pada kemahiran bahasa Arab bertulis atau lisan.",
+  "@goalImproveArabicDesc": {
+    "description": "Teks subtajuk untuk matlamat 'improveArabic'"
+  },
+
+  "goalDeepenTafsirTitle": "Mendalami Tafsir",
+  "@goalDeepenTafsirTitle": {
+    "description": "Label kotak semak untuk matlamat 'deepenTafsir'"
+  },
+
+  "goalDeepenTafsirDesc": "Kaji huraian dan makna lebih mendalam Al-Quran.",
+  "@goalDeepenTafsirDesc": {
+    "description": "Teks subtajuk untuk matlamat 'deepenTafsir'"
+  },
+
+  "goalOtherTitle": "Lain-lain",
+  "@goalOtherTitle": {
+    "description": "Label kotak semak untuk matlamat 'other'"
+  },
+
+  "goalOtherDesc": "Capai apa-apa matlamat peribadi lain.",
+  "@goalOtherDesc": {
+    "description": "Teks subtajuk untuk matlamat 'other'"
+  },
+
+  "commentQ": "String Skrin Pemilihan Tahap (Level Selection)",
+  "levelSelectionScreenSemantic": "Skrin Pemilihan Tahap",
+  "@levelSelectionScreenSemantic": {
+    "description": "Label semantik untuk kontena peringkat teratas yang menerangkan skrin pemilihan tahap"
+  },
+
+  "levelSelectionScreenAppBarTitle": "Pilih Tahap Anda",
+  "@levelSelectionScreenAppBarTitle": {
+    "description": "Teks tajuk AppBar untuk skrin pemilihan tahap"
+  },
+
+  "levelSelectionScreenSkipSemantic": "Langkau pemilihan tahap",
+  "@levelSelectionScreenSkipSemantic": {
+    "description": "Label semantik untuk butang langkau di skrin pemilihan tahap"
+  },
+
+  "levelSelectionScreenIntroText": "Sila pilih pilihan yang paling menggambarkan tahap bacaan anda sekarang:",
+  "@levelSelectionScreenIntroText": {
+    "description": "Teks pengenalan yang ditunjukkan di bahagian atas skrin pemilihan tahap"
+  },
+
+  "levelStarterLabel": "Permulaan",
+  "@levelStarterLabel": {
+    "description": "Label radio untuk tahap 'starter'"
+  },
+
+  "levelStarterDescription": "Pembelajar baru atau santai, mula meneroka bacaan Al-Quran.",
+  "@levelStarterDescription": {
+    "description": "Penerangan untuk tahap 'starter'"
+  },
+
+  "levelAdvancedLabel": "Lanjutan",
+  "@levelAdvancedLabel": {
+    "description": "Label radio untuk tahap 'advanced'"
+  },
+
+  "levelAdvancedDescription": "Selesa membaca teks Arab dengan sedikit pengetahuan tajwid.",
+  "@levelAdvancedDescription": {
+    "description": "Penerangan untuk tahap 'advanced'"
+  },
+
+  "levelQariLabel": "Qari",
+  "@levelQariLabel": {
+    "description": "Label radio untuk tahap 'qari'"
+  },
+
+  "levelQariDescription": "Cekap dalam bacaan dengan kecekapan tajwid yang kukuh.",
+  "@levelQariDescription": {
+    "description": "Penerangan untuk tahap 'qari'"
+  },
+
+  "levelSelectionNextSemantic": "Sahkan pemilihan tahap",
+  "@levelSelectionNextSemantic": {
+    "description": "Label semantik untuk butang Seterusnya/Sahkan di skrin pemilihan tahap"
+  },
+
+  "levelSelectionNextLabel": "Seterusnya",
+  "@levelSelectionNextLabel": {
+    "description": "Label butang untuk mengesahkan dan meneruskan dengan tahap yang dipilih"
+  },
+
+  "levelSelectionTileSemantic": "Ketik untuk memilih pilihan tahap bacaan {levelTitle}",
+  "@levelSelectionTileSemantic": {
+    "description": "Label semantik untuk setiap jubin radio mewakili tahap bacaan",
+    "placeholders": {
+      "levelTitle": {}
+    }
+  },
+
+  "commentR": "String Skrin Penyelesaian Onboarding",
+  "onboardingCompletionScreenSemantic": "Skrin Penyelesaian Onboarding",
+  "@onboardingCompletionScreenSemantic": {
+    "description": "Label semantik untuk kontena utama yang menerangkan skrin penyelesaian onboarding"
+  },
+
+  "onboardingCompletionScreenAppBarTitle": "Semua Selesai!",
+  "@onboardingCompletionScreenAppBarTitle": {
+    "description": "Teks tajuk AppBar untuk skrin penyelesaian onboarding"
+  },
+
+  "onboardingCompletionScreenImageSemantic": "Ilustrasi Hudhud Quran",
+  "@onboardingCompletionScreenImageSemantic": {
+    "description": "Label semantik untuk imej akhir onboarding"
+  },
+
+  "onboardingCompletionScreenBody1": "Tahniah! Anda telah berjaya melengkapkan tetapan. Kami berharap perjalanan ini akan mendekatkan anda dengan Al-Quran dan meningkatkan kesyukuran anda kepada Allah. \n\nSemoga aplikasi ini menjadi sumber pertumbuhan dan keberkatan dalam hidup anda dan mereka yang anda sentuh.",
+  "@onboardingCompletionScreenBody1": {
+    "description": "Perenggan pertama menerangkan kejayaan menamatkan onboarding"
+  },
+
+  "onboardingCompletionScreenBody2": "Bila-bila masa anda bersedia, ketik butang di bawah untuk meneruskan. Ciri hafalan dan kemajuan utama sedang menanti, dan anda boleh merekod kesyukuran atau memilih laluan dari Navbar.",
+  "@onboardingCompletionScreenBody2": {
+    "description": "Perenggan kedua menerangkan langkah seterusnya selepas onboarding"
+  },
+
+  "onboardingCompletionScreenBody3": "Ini ialah versi awal — kami hargai sokongan dan kesabaran anda dan berharap untuk menawarkan lebih banyak ciri tidak lama lagi insyaAllah!",
+  "@onboardingCompletionScreenBody3": {
+    "description": "Perenggan ketiga menggalakkan kemas kini dan sokongan yang berpotensi"
+  },
+
+  "onboardingCompletionScreenBeginSemantic": "Mulakan menggunakan aplikasi",
+  "@onboardingCompletionScreenBeginSemantic": {
+    "description": "Label semantik untuk butang 'Mari Mula'"
+  },
+
+  "onboardingCompletionScreenBeginLabel": "Mari Mula",
+  "@onboardingCompletionScreenBeginLabel": {
+    "description": "Teks butang untuk langkah akhir dalam onboarding"
+  },
+
+  "commentS": "String Skrin Masukkan Nama (Name Entry)",
+  "nameEntryScreenSemantic": "Skrin Masukkan Nama",
+  "@nameEntryScreenSemantic": {
+    "description": "Label semantik untuk kontena yang menerangkan skrin masukkan nama"
+  },
+
+  "nameEntryScreenAppBarTitle": "Profil anda",
+  "@nameEntryScreenAppBarTitle": {
+    "description": "Tajuk AppBar untuk skrin masukkan nama"
+  },
+
+  "nameEntryScreenSkipSemantic": "Langkau memasukkan nama anda",
+  "@nameEntryScreenSkipSemantic": {
+    "description": "Label semantik untuk butang langkau di skrin masukkan nama"
+  },
+
+  "nameEntryScreenIntroText": "Siapa nama anda?",
+  "@nameEntryScreenIntroText": {
+    "description": "Teks arahan yang menerangkan pengguna boleh masukkan nama atau biarkan kosong untuk kekal 'Tetamu'"
+  },
+
+  "nameEntryTextFieldSemantic": "Medan teks input nama",
+  "@nameEntryTextFieldSemantic": {
+    "description": "Label semantik untuk medan teks di mana pengguna memasukkan nama"
+  },
+
+  "nameEntryNextSemantic": "Sahkan masukan nama",
+  "@nameEntryNextSemantic": {
+    "description": "Label semantik untuk butang Seterusnya/Sahkan"
+  },
+
+  "nameEntryNextLabel": "Seterusnya",
+  "@nameEntryNextLabel": {
+    "description": "Label butang untuk memuktamadkan masukan nama"
+  },
+
+  "commentT": "String VerticalLessonIcons",
+  "verticalLessonIconsSemantic": "Kontena Ikon Pelajaran Menegak",
+  "@verticalLessonIconsSemantic": {
+    "description": "Label semantik untuk kontena peringkat teratas yang menerangkan susunan ikon pelajaran menegak"
+  },
+
+  "verticalLessonIconsNoLessons": "Tiada pelajaran dijumpai.",
+  "@verticalLessonIconsNoLessons": {
+    "description": "Teks sandaran jika kita tiada pelajaran"
+  },
+
+  "verticalLessonIconsLoadingSurah": "Memuatkan butiran Surah",
+  "@verticalLessonIconsLoadingSurah": {
+    "description": "Label semantik untuk CircularProgressIndicator semasa butiran surah dimuatkan"
+  },
+
+  "verticalLessonIconsErrorSurah": "Ralat memuatkan butiran surah",
+  "@verticalLessonIconsErrorSurah": {
+    "description": "Ditunjukkan jika terdapat ralat mendapatkan butiran surah"
+  },
+
+  "verticalLessonIconsSurahHeaderSemantic": "Pengepala butiran Surah",
+  "@verticalLessonIconsSurahHeaderSemantic": {
+    "description": "Label semantik untuk teks pengepala surah di halaman pertama"
+  },
+
+  "verticalLessonIconsHudhudIconSemantic": "Ikon pembantu Hudhud",
+  "@verticalLessonIconsHudhudIconSemantic": {
+    "description": "Label semantik untuk ikon hudhud_left"
+  },
+
+  "verticalLessonIconsNextPageSemantic": "Anak panah halaman seterusnya",
+  "@verticalLessonIconsNextPageSemantic": {
+    "description": "Label semantik untuk anak panah ke bawah yang pergi ke halaman seterusnya"
+  },
+
+  "verticalLessonIconsPreviousPageSemantic": "Anak panah halaman sebelumnya",
+  "@verticalLessonIconsPreviousPageSemantic": {
+    "description": "Label semantik untuk anak panah ke atas yang kembali ke halaman sebelumnya"
+  },
+
+  "verticalLessonIconsLoadingProgress": "Memuatkan kemajuan pelajaran",
+  "@verticalLessonIconsLoadingProgress": {
+    "description": "Label semantik untuk CircularProgressIndicator semasa kemajuan pelajaran dimuatkan"
+  },
+
+  "verticalLessonIconsErrorProgress": "Ralat memuatkan kemajuan",
+  "@verticalLessonIconsErrorProgress": {
+    "description": "Teks sandaran jika ada ralat memuatkan kemajuan pelajaran"
+  },
+
+  "verticalLessonIconSemantic": "Ikon pelajaran, {surahAyahRange}, kemajuan {percent}%",
+  "@verticalLessonIconSemantic": {
+    "description": "Label semantik untuk setiap ikon pelajaran dalam senarai menegak",
+    "placeholders": {
+      "surahAyahRange": {},
+      "percent": {}
+    }
+  },
+
+  "verticalLessonIconsCompletedSemantic": "Pelajaran selesai",
+  "@verticalLessonIconsCompletedSemantic": {
+    "description": "Label semantik untuk ikon semak di atas pelajaran yang sepenuhnya lengkap"
+  },
+
+  "verticalLessonIconsDialogTitle": "Sokongan & Naik Taraf",
+  "@verticalLessonIconsDialogTitle": {
+    "description": "Tajuk untuk dialog sokongan & naik taraf"
+  },
+
+  "verticalLessonIconsDialogOk": "OK",
+  "@verticalLessonIconsDialogOk": {
+    "description": "Teks butang OK dalam dialog naik taraf"
+  },
+
+  "commentU": "String Navbar",
+  "navBarSemanticLabel": "Bar navigasi bawah",
+  "@navBarSemanticLabel": {
+    "description": "Label semantik untuk keseluruhan bar navigasi bawah"
+  },
+
+  "navHomeLabel": "Utama",
+  "@navHomeLabel": {
+    "description": "Label untuk tab Home di navbar"
+  },
+
+  "navHomeSemantic": "Tab Utama",
+  "@navHomeSemantic": {
+    "description": "Label semantik untuk ikon Home di navbar"
+  },
+
+  "navQuranLabel": "Al-Quran",
+  "@navQuranLabel": {
+    "description": "Label untuk tab Quran di navbar"
+  },
+
+  "navQuranSemantic": "Tab Quran",
+  "@navQuranSemantic": {
+    "description": "Label semantik untuk ikon Quran di navbar"
+  },
+
+  "navGratitudeLabel": "Kesyukuran",
+  "@navGratitudeLabel": {
+    "description": "Label untuk tab Kesyukuran di navbar"
+  },
+
+  "navGratitudeSemantic": "Tab Kesyukuran",
+  "@navGratitudeSemantic": {
+    "description": "Label semantik untuk ikon Kesyukuran di navbar"
+  },
+
+  "navProfileLabel": "Profil",
+  "@navProfileLabel": {
+    "description": "Label untuk tab Profil di navbar"
+  },
+
+  "navProfileSemantic": "Tab Profil",
+  "@navProfileSemantic": {
+    "description": "Label semantik untuk ikon Profil di navbar"
+  },
+
+  "commentV": "String TopBar",
+  "topBarSemanticLabel": "Bar navigasi atas",
+  "@topBarSemanticLabel": {
+    "description": "Label semantik untuk keseluruhan kontena bar atas"
+  },
+
+  "topBarTitleSemantic": "Tajuk bar atas: {title}",
+  "@topBarTitleSemantic": {
+    "description": "Label semantik untuk teks tajuk tengah bar atas",
+    "placeholders": {
+      "title": {}
+    }
+  },
+
+  "topBarStreakIconSemantic": "Ikon rentetan: {days} hari",
+  "@topBarStreakIconSemantic": {
+    "description": "Label semantik untuk ikon rentetan yang memaparkan jumlah hari berturut-turut",
+    "placeholders": {
+      "days": {}
+    }
+  },
+
+  "topBarStreakDialogBody": "Ia menunjukkan berapa hari berturut-turut anda membaca atau menulis kesyukuran. Teruskan untuk mengekalkan atau menambah rentetan anda!",
+  "@topBarStreakDialogBody": {
+    "description": "Teks badan dialog yang menerangkan penggunaan rentetan"
+  },
+
+  "topBarHudhudIconSemantic": "Ikon Hudhud, ketik untuk sokongan",
+  "@topBarHudhudIconSemantic": {
+    "description": "Label semantik untuk ikon Hudhud di bar atas"
+  },
+
+  "topBarHudhudDialogTitle": "Sokongan & Naik Taraf",
+  "@topBarHudhudDialogTitle": {
+    "description": "Tajuk dialog untuk sokongan + naik taraf ikon Hudhud"
+  },
+
+  "topBarHudhudDialogBody": "Semua ciri disediakan dalam versi percuma, tetapi jika anda mahu, anda boleh menyokong kami untuk membina lebih banyak ciri. Sebahagian daripada langganan anda akan didermakan kepada Islamic Relief. Jazāk Allāhu Khayran!",
+  "@topBarHudhudDialogBody": {
+    "description": "Teks badan dialog 'Sokongan & Naik Taraf' di bar atas"
+  },
+
+  "commentW": "String Gratitude Modal",
+  "gratitudeModalSemantic": "Dialog Mod Kesyukuran",
+  "@gratitudeModalSemantic": {
+    "description": "Label semantik untuk keseluruhan kontena Mod Kesyukuran"
+  },
+
+  "gratitudeModalTitle": "Apa yang anda syukuri hari ini berdasarkan ayat-ayat ini?",
+  "@gratitudeModalTitle": {
+    "description": "Teks tajuk di bahagian atas mod kesyukuran"
+  },
+
+  "gratitudeModalHint": "Alhamdulillah untuk (masukkan kesyukuran) #{index}",
+  "@gratitudeModalHint": {
+    "description": "Teks petunjuk dalam medan teks kesyukuran",
+    "placeholders": {
+      "index": {}
+    }
+  },
+
+  "gratitudeModalTextFieldSemantic": "Masukkan kesyukuran #{index}",
+  "@gratitudeModalTextFieldSemantic": {
+    "description": "Label semantik untuk medan teks ke-i dalam mod kesyukuran",
+    "placeholders": {
+      "index": {}
+    }
+  },
+
+  "gratitudeModalEmptyWarning": "Sila masukkan sekurang-kurangnya satu kesyukuran.",
+  "@gratitudeModalEmptyWarning": {
+    "description": "Ditunjukkan jika pengguna cuba menghantar mod kesyukuran yang kosong"
+  },
+
+  "gratitudeModalSubmitError": "Gagal merekod kesyukuran. Sila cuba lagi.",
+  "@gratitudeModalSubmitError": {
+    "description": "Mesej ralat jika catatan kesyukuran gagal"
+  },
+
+  "dailyVoiceLimitReachedTitle": "MashaAllah!",
+  "@dailyVoiceLimitReachedTitle": {
+    "description": "Tajuk popup had suara harian"
+  },
+
+  "dailyVoiceLimitReachedMessage": "Anda telah melengkapkan 10 minit bacaan suara Al-Quran. Sila teruskan ulang kaji dengan menulis, dan sambung bacaan esok.",
+  "@dailyVoiceLimitReachedMessage": {
+    "description": "Mesej ditunjukkan apabila pengguna mencapai 10 minit penggunaan suara"
+  },
+
+  "upgradeVoiceUsageTitle": "Naik Taraf ke Premium",
+  "@upgradeVoiceUsageTitle": {
+    "description": "Tajuk dialog menggesa pengguna menaik taraf selepas penggunaan suara percuma habis"
+  },
+
+  "gratitudeModalLoadingSemantic": "Penghantaran kesyukuran sedang diproses",
+  "@gratitudeModalLoadingSemantic": {
+    "description": "Label semantik untuk pemutar pemuatan jika penghantaran kesyukuran sedang diproses"
+  },
+
+  "commentX": "== KUNCI BARU untuk submission_feedback_modal, progress_bar, surah_selector ==",
+  "submissionFeedbackModalSemanticLabel": "Dialog maklum balas penghantaran",
+  "@submissionFeedbackModalSemanticLabel": {
+    "description": "Label semantik untuk keseluruhan modal maklum balas penghantaran"
+  },
+
+  "submissionFeedbackModalTitle": "Maklum Balas Penghantaran",
+  "@submissionFeedbackModalTitle": {
+    "description": "Tajuk AlertDialog untuk modal maklum balas"
+  },
+
+  "submissionFeedbackModalNoNew": "Tiada kesyukuran baharu yang dihantar.",
+  "@submissionFeedbackModalNoNew": {
+    "description": "Mesej ditunjukkan apabila tiada kesyukuran baharu"
+  },
+
+  "submissionFeedbackModalYouSubmitted": "Anda telah menghantar kesyukuran ini:",
+  "@submissionFeedbackModalYouSubmitted": {
+    "description": "Label di atas senarai kesyukuran yang baru dihantar"
+  },
+
+  "submissionFeedbackModalStreak": "Rentetan kesyukuran semasa: {days} hari",
+  "@submissionFeedbackModalStreak": {
+    "description": "Menunjukkan rentetan kesyukuran berturut-turut semasa",
+    "placeholders": {
+      "days": {}
+    }
+  },
+
+  "submissionFeedbackModalTotalDays": "Jumlah hari kesyukuran: {count}",
+  "@submissionFeedbackModalTotalDays": {
+    "description": "Menunjukkan jumlah hari kesyukuran berbeza yang dicatat",
+    "placeholders": {
+      "count": {}
+    }
+  },
+
+  "submissionFeedbackModalLoading": "Memuatkan data kesyukuran anda...",
+  "@submissionFeedbackModalLoading": {
+    "description": "Ditunjukkan semasa menunggu data kesyukuran"
+  },
+
+  "submissionFeedbackModalError": "Tidak dapat memuatkan data kesyukuran.",
+  "@submissionFeedbackModalError": {
+    "description": "Ditunjukkan jika terdapat ralat memuatkan data kesyukuran"
+  },
+
+  "submissionFeedbackModalViewLog": "Lihat Log",
+  "@submissionFeedbackModalViewLog": {
+    "description": "Teks butang untuk pergi ke skrin log kesyukuran"
+  },
+
+  "submissionFeedbackModalClose": "Tutup",
+  "@submissionFeedbackModalClose": {
+    "description": "Teks butang untuk menutup modal maklum balas penghantaran"
+  },
+
+  "progressBarSemanticLabel": "Kemajuan: {percent}%",
+  "@progressBarSemanticLabel": {
+    "description": "Label semantik untuk bar kemajuan linear, termasuk peratusan nombor",
+    "placeholders": {
+      "percent": {}
+    }
+  },
+
+  "surahSelectorSemanticLabel": "Pilih Surah",
+  "@surahSelectorSemanticLabel": {
+    "description": "Label semantik untuk dropdown yang membolehkan memilih Surah"
+  },
+
+  "commentZ": "Nama Laluan & Penerangan boleh dilokalkan untuk laluan yang ditakrifkan oleh sistem",
+
+  "pathNameFatihah": "Surah Al-Fātiḥah",
+  "@pathNameFatihah": { "description": "Nama untuk path_fatihah" },
+  "pathDescFatihah": "Keseluruhan Surah (1:1–7). Penting untuk setiap rakaat.",
+  "@pathDescFatihah": { "description": "Penerangan untuk path_fatihah" },
+
+  "pathNameKafirun": "Surah Al-Kāfirūn",
+  "@pathNameKafirun": { "description": "Nama untuk path_kafirun" },
+  "pathDescKafirun": "Keseluruhan Surah (109:1–6). Pernyataan Tauhid.",
+  "@pathDescKafirun": { "description": "Penerangan untuk path_kafirun" },
+
+  "pathNameIkhlas": "Surah Al-Ikhlāṣ",
+  "@pathNameIkhlas": { "description": "Nama untuk path_ikhlas" },
+  "pathDescIkhlas": "Keseluruhan Surah (112:1–4). Tauhid Allah.",
+  "@pathDescIkhlas": { "description": "Penerangan untuk path_ikhlas" },
+
+  "pathNameFalaq": "Surah Al-Falaq",
+  "@pathNameFalaq": { "description": "Nama untuk path_falaq" },
+  "pathDescFalaq": "Keseluruhan Surah (113:1–5). Mohon perlindungan dari kejahatan luar.",
+  "@pathDescFalaq": { "description": "Penerangan untuk path_falaq" },
+
+  "pathNameNas": "Surah An-Nās",
+  "@pathNameNas": { "description": "Nama untuk path_nas" },
+  "pathDescNas": "Keseluruhan Surah (114:1–6). Mohon perlindungan dari bisikan dalaman.",
+  "@pathDescNas": { "description": "Penerangan untuk path_nas" },
+
+  "pathNameAsrBegin": "Surah Al-ʿAṣr",
+  "@pathNameAsrBegin": { "description": "Nama untuk path_asr_begin" },
+  "pathDescAsrBegin": "(103:1–3). Hanya 3 ayat namun berpusat pada “kesabaran”.",
+  "@pathDescAsrBegin": { "description": "Penerangan untuk path_asr_begin" },
+
+  "pathNameTakathur": "Surah At-Takāthur",
+  "@pathNameTakathur": { "description": "Nama untuk path_takathur" },
+  "pathDescTakathur": "(102:1–8) tentang persaingan duniawi dan akauntabiliti.",
+  "@pathDescTakathur": { "description": "Penerangan untuk path_takathur" },
+
+  "pathNameFil": "Surah Al-Fīl",
+  "@pathNameFil": { "description": "Nama untuk path_fil" },
+  "pathDescFil": "(105:1–5). Peristiwa tentera bergajah; 5 ayat pendek.",
+  "@pathDescFil": { "description": "Penerangan untuk path_fil" },
+
+  "pathNameQuraysh": "Surah Quraysh",
+  "@pathNameQuraysh": { "description": "Nama untuk path_quraysh" },
+  "pathDescQuraysh": "(106:1–4). Tentang kesyukuran atas perjalanan selamat.",
+  "@pathDescQuraysh": { "description": "Penerangan untuk path_quraysh" },
+
+  "pathNameRahmanA": "Ar-Raḥmān A",
+  "@pathNameRahmanA": { "description": "Nama untuk path_rahman_a" },
+  "pathDescRahmanA": "(55:1–13): Pengajaran Al-Quran & penciptaan manusia.",
+  "@pathDescRahmanA": { "description": "Penerangan untuk path_rahman_a" },
+
+  "pathNameRahmanB": "Ar-Raḥmān B",
+  "@pathNameRahmanB": { "description": "Nama untuk path_rahman_b" },
+  "pathDescRahmanB": "(55:26–36): Akauntabiliti manusia & jin.",
+  "@pathDescRahmanB": { "description": "Penerangan untuk path_rahman_b" },
+
+  "pathNameYasinBlock": "Surah Yā Sīn (Blok)",
+  "@pathNameYasinBlock": { "description": "Nama untuk path_yasin_block" },
+  "pathDescYasinBlock": "(36:1–12). Pengenalan pada mesej Nabi & amaran.",
+  "@pathDescYasinBlock": { "description": "Penerangan untuk path_yasin_block" },
+
+  "pathNameMulkBlock": "Surah Al-Mulk (Blok)",
+  "@pathNameMulkBlock": { "description": "Nama untuk path_mulk_block" },
+  "pathDescMulkBlock": "(67:1–15). Menekankan kekuasaan Allah & renungan.",
+  "@pathDescMulkBlock": { "description": "Penerangan untuk path_mulk_block" },
+
+  "pathNameBaqarah21_29": "Al-Baqarah (2:21–29)",
+  "@pathNameBaqarah21_29": { "description": "Nama untuk path_baqarah_21_29" },
+  "pathDescBaqarah21_29": "9 ayat tentang penciptaan & renungan untuk kesyukuran.",
+  "@pathDescBaqarah21_29": { "description": "Penerangan untuk path_baqarah_21_29" },
+
+  "pathNameNahl66_72": "An-Naḥl (16:66–72)",
+  "@pathNameNahl66_72": { "description": "Nama untuk path_nahl_66_72" },
+  "pathDescNahl66_72": "7 ayat menyenaraikan nikmat: ternakan, buah-buahan, dsb.",
+  "@pathDescNahl66_72": { "description": "Penerangan untuk path_nahl_66_72" },
+
+  "pathNameAdDuha": "Surah Aḍ-Ḍuḥā",
+  "@pathNameAdDuha": { "description": "Nama untuk path_ad_duha" },
+  "pathDescAdDuha": "(93:1–11) 11 ayat tentang harapan & jaminan.",
+  "@pathDescAdDuha": { "description": "Penerangan untuk path_ad_duha" },
+
+  "pathNameKahfCave": "Al-Kahf: Pemuda Gua",
+  "@pathNameKahfCave": { "description": "Nama untuk path_kahf_cave" },
+  "pathDescKahfCave": "(18:9–16) Kisah pemuda beriman dalam gua.",
+  "@pathDescKahfCave": { "description": "Penerangan untuk path_kahf_cave" },
+
+  "pathNameKahfMusa": "Al-Kahf: Mūsā & Al-Khiḍr",
+  "@pathNameKahfMusa": { "description": "Nama untuk path_kahf_musa" },
+  "pathDescKahfMusa": "(18:60–70) Menekankan kesabaran & hikmah tersembunyi.",
+  "@pathDescKahfMusa": { "description": "Penerangan untuk path_kahf_musa" },
+
+  "pathNameWaqiah": "Al-Wāqiʿah (56:1–15)",
+  "@pathNameWaqiah": { "description": "Nama untuk path_waqiah" },
+  "pathDescWaqiah": "15 ayat tentang kedatangan Hari Kiamat secara tiba-tiba.",
+  "@pathDescWaqiah": { "description": "Penerangan untuk path_waqiah" },
+
+  "pathNameAsrPatience": "Surah Al-ʿAṣr (Kesabaran)",
+  "@pathNameAsrPatience": { "description": "Nama untuk path_asr_patience" },
+  "pathDescAsrPatience": "(103:1–3) sekali lagi, 3 ayat, terkenal tentang kesabaran.",
+  "@pathDescAsrPatience": { "description": "Penerangan untuk path_asr_patience" },
+
+  "pathNameBaq153_157": "Al-Baqarah (2:153–157)",
+  "@pathNameBaq153_157": { "description": "Nama untuk path_baq_153_157" },
+  "pathDescBaq153_157": "5 ayat: “Mintalah pertolongan dengan sabar & solat.”",
+  "@pathDescBaq153_157": { "description": "Penerangan untuk path_baq_153_157" },
+
+  "pathNameYusuf7_14": "Sūrah Yūsuf (12:7–14)",
+  "@pathNameYusuf7_14": { "description": "Nama untuk path_yusuf_7_14" },
+  "pathDescYusuf7_14": "Kecemburuan saudara-saudara Yusuf. Kesabaran diuji.",
+  "@pathDescYusuf7_14": { "description": "Penerangan untuk path_yusuf_7_14" },
+
+  "pathNameYusuf83_92": "Sūrah Yūsuf (12:83–92)",
+  "@pathNameYusuf83_92": { "description": "Nama untuk path_yusuf_83_92" },
+  "pathDescYusuf83_92": "Kesedihan Yaʿqūb & keampunan Yusuf (10 ayat).",
+  "@pathDescYusuf83_92": { "description": "Penerangan untuk path_yusuf_83_92" },
+
+  "pathNameInshirah": "Surah Al-Inshirāḥ (94:1–8)",
+  "@pathNameInshirah": { "description": "Nama untuk path_inshirah" },
+  "pathDescInshirah": "8 ayat: keyakinan selepas kesusahan. Dikaitkan dengan kesabaran & harapan.",
+  "@pathDescInshirah": { "description": "Penerangan untuk path_inshirah" },
+
+  "verticalLessonIconsSurahAyahFormat": "Surah {surahName}, Ayat {startAyah}-{endAyah}",
+  "@verticalLessonIconsSurahAyahFormat": {
+    "description": "Membina rentetan seperti 'Surah Al-Fatiha, Ayat 1-7'.",
+    "placeholders": {
+      "surahName": {},
+      "startAyah": {},
+      "endAyah": {}
+    }
+  },
+  "finishLabel": "Tamat",
+  "@finishLabel": {
+    "description": "Button label for finishing the lesson"
+  },
+
+  "twoWordMultipleChoiceLabel": "Pilih dua perkataan yang betul",
+  "@twoWordMultipleChoiceLabel": {
+    "description": "Prompt text for two-word multiple choice"
+  },
+
+  "singleWordMultipleChoiceLabel": "Pilih perkataan yang betul",
+  "@singleWordMultipleChoiceLabel": {
+    "description": "Prompt text for single-word multiple choice"
+  },
+
+  "correctAnswerLabel": "Betul!",
+  "@correctAnswerLabel": {
+    "description": "Shown after user selects correct multiple choice"
+  },
+
+  "incorrectAnswerLabel": "Salah!",
+  "@incorrectAnswerLabel": {
+    "description": "Shown after user selects a wrong multiple choice"
+  },
+
+  "lessonCompletedLabel": "Pelajaran selesai!",
+  "@lessonCompletedLabel": {
+    "description": "Shown when the user has no more MC questions to do."
+  },
+
+  "profileAnalyticsScoreLabel": "Analitis & Skor",
+  "@profileAnalyticsScoreLabel": {
+    "description": "Header label for the analytics/score section in ProfileScreen"
+  },
+
+  "profileDailyLabel": "Harian",
+  "@profileDailyLabel": {
+    "description": "Label for daily score"
+  },
+
+  "profileWeeklyLabel": "Mingguan",
+  "@profileWeeklyLabel": {
+    "description": "Label for weekly score"
+  },
+
+  "profileMonthlyLabel": "Bulanan",
+  "@profileMonthlyLabel": {
+    "description": "Label for monthly score"
+  },
+
+  "profileTotalLabel": "Jumlah",
+  "@profileTotalLabel": {
+    "description": "Label for total/all-time score"
+  },
+
+  "profileViewChart": "Lihat carta",
+  "@profileViewChart": {
+    "description": "Button label to open the chart"
+  },
+
+  "profileCloseLabel": "Tutup",
+  "@profileCloseLabel": {
+    "description": "Button label to close the dialog"
+  },
+
+  "profileScoreChartTitle": "Carta Skor",
+  "@profileScoreChartTitle": {
+    "description": "Used in the alert dialog's title, e.g. 'Daily Score Chart'"
+  },
+
+  "profileScoreChartHistory": "Sejarah",
+  "@profileScoreChartHistory": {
+    "description": "Used in the chart's internal title, e.g. 'Daily History'"
+  },
+
+  "profileNoData": "Tiada data",
+  "@profileNoData": {
+    "description": "Shown if the chart has no data to display"
+  },
+
+  "topBarDailyScoreLabel": "⭐ Hari Ini",
+  "@topBarDailyScoreLabel": {
+    "description": "Short label for daily score displayed on the left side of the TopBar."
+  },
+
+  "topBarDailyScoreSemantic": "Skor harian anda adalah {score}",
+  "@topBarDailyScoreSemantic": {
+    "description": "Accessibility label for daily score in the TopBar, announcing how many points the user has earned.",
+    "placeholders": {
+      "score": {}
+    }
+  },
+
+  "profilePremiumNeeded": "Sila naik taraf untuk melihat kalendar kemajuan dan sokong kami membina lebih banyak ciri, insya-Allah!",
+  "@profilePremiumNeeded": {
+    "description": "Shown if user is free tier but wants to see weekly progress"
+  },
+
+  "levelMultipleChoiceLabel": "Pelbagai Pilihan",
+  "@levelMultipleChoiceLabel": {
+    "description": "Radio label for the 'multipleChoice' level"
+  },
+
+  "levelMultipleChoiceDescription": "Langkah pilihan pelbagai satu atau dua perkataan dengan pilihan untuk melangkau pasangan.",
+  "@levelMultipleChoiceDescription": {
+    "description": "Description for the 'multipleChoice' level"
+  },
+
+  "levelBeginnerLabel": "Pemula",
+  "@levelBeginnerLabel": {
+    "description": "Radio label for the 'starter' or 'beginner' level"
+  },
+
+  "levelBeginnerDescription": "Penghapusan perkataan secara progresif dalam urutan berkumpulan untuk penghafalan secara beransur-ansur.",
+  "@levelBeginnerDescription": {
+    "description": "Description for the 'beginner' level"
+  },
+
+  "subscriptionTierScreenPremiumLabel": "Plus",
+  "@subscriptionTierScreenPremiumLabel": {
+    "description": "Label for the Premium tier"
+  },
+
+  "featureUnavailableOffline": "Ciri tidak tersedia di luar talian. Sila sambungkan atau buka kunci mod luar talian dengan menaik taraf ke Plus atau Pro Beta.",
+  "@featureUnavailableOffline": {
+    "description": "Mesej ini dipaparkan apabila pengguna percuma cuba menggunakan ciri di luar talian."
+  },
+
+  "submissionFeedbackModalTotalCount": "Jumlah keseluruhan catatan penghargaan: {count}",
+  "@submissionFeedbackModalTotalCount": {
+    "description": "Menunjukkan berapa banyak keseluruhan entri penghargaan yang dimiliki pengguna. {count} akan digantikan dengan nombor sebenar."
+  },
+
+
+  "notificationDailyTitle": "Peringatan Al-Quran Harian yang Lembut",
+  "@notificationDailyTitle": {
+    "description": "Tajuk untuk notifikasi peringatan harian Al-Quran"
+  },
+
+  "notificationWeeklyTitle": "Semakan Mingguan Al-Quran",
+  "@notificationWeeklyTitle": {
+    "description": "Tajuk untuk notifikasi peringatan mingguan Al-Quran"
+  },
+  "notificationWeeklyBody": "Renungkan perkembangan anda dan hafal bahagian baru Al-Quran sambil berlatih kesyukuran.",
+  "@notificationWeeklyBody": {
+    "description": "Teks untuk notifikasi mingguan"
+  },
+
+  "notificationChannelDailyRemindersName": "Peringatan Harian",
+  "@notificationChannelDailyRemindersName": {
+    "description": "Nama saluran untuk peringatan harian"
+  },
+  "notificationChannelDailyRemindersDesc": "Peringatan untuk hafalan harian Al-Quran",
+  "@notificationChannelDailyRemindersDesc": {
+    "description": "Deskripsi saluran untuk peringatan harian"
+  },
+
+  "notificationChannelWeeklyRemindersName": "Peringatan Mingguan",
+  "@notificationChannelWeeklyRemindersName": {
+    "description": "Nama saluran untuk peringatan mingguan"
+  },
+  "notificationChannelWeeklyRemindersDesc": "Peringatan untuk semakan mingguan hafalan Al-Quran",
+  "@notificationChannelWeeklyRemindersDesc": {
+    "description": "Deskripsi saluran untuk peringatan mingguan"
+  },
+
+  "nameEntryNotificationFrequencyDaily": "Harian",
+  "@nameEntryNotificationFrequencyDaily": {
+    "description": "Pilihan dalam senarai menunjukkan peringatan harian"
+  },
+
+  "topBarStreakDialogTitle": "Rentetan",
+  "@topBarStreakDialogTitle": {
+    "description": "Tajuk dialog yang menerangkan rentetan penggunaan pengguna"
+  },
+  "fillInTheBlanksLabel": "Isi tempat kosong",
+  "@fillInTheBlanksLabel": {
+    "description": "Teks pemisah yang tidak boleh diklik dan dipaparkan selepas 'Pilihan Berganda' dalam senarai kesukaran"
+  },
+
+  "loadingDataLabel": "Sedang memuat…",
+  "@loadingDataLabel": {
+    "description": "Label yang dipaparkan semasa data sedang dimuatkan"
+  },
+
+  "ayahRangeLabel": "Ayat {start} - {end}",
+  "@ayahRangeLabel": {
+    "description": "Templat untuk julat ayat pada halaman pertama, contohnya 1-7 dalam Al-Fatihah",
+    "placeholders": {
+      "start": {},
+      "end": {}
+    }
+  },
+
+  "nextPageSemanticLabel": "Halaman seterusnya",
+  "@nextPageSemanticLabel": {
+    "description": "Label semantik untuk anak panah ke bawah bagi pergi ke halaman seterusnya"
+  },
+
+  "prevPageSemanticLabel": "Halaman sebelumnya",
+  "@prevPageSemanticLabel": {
+    "description": "Label semantik untuk anak panah ke atas bagi kembali ke halaman sebelumnya"
+  },
+
+  "pageXOfYLabel": "Halaman {current} daripada {total}",
+  "@pageXOfYLabel": {
+    "description": "Teks bar pemberitahuan selepas butang penomboran ditekan, memaparkan halaman semasa dan jumlah halaman",
+    "placeholders": {
+      "current": {},
+      "total": {}
+    }
+  },
+
+  "verseSemanticLabel": "Ayat {ayahNumber} daripada surah {surahName}",
+  "@verseSemanticLabel": {
+    "description": "Label semantik untuk kad ayat, merujuk nombor ayat dan nama surah",
+    "placeholders": {
+      "ayahNumber": {},
+      "surahName": {}
+    }
+  },
+
+  "ayahLabel": "Ayat",
+  "@ayahLabel": {
+    "description": "Label awalan untuk nombor ayat, sebagai contoh 'Ayat 3'"
+  },
+
+  "goToSurahViewLabel": "Papar Surah",
+  "@goToSurahViewLabel": {
+    "description": "Label butang yang menghala ke skrin surah berdasarkan laluan"
+  },
+
+  "clickOnAyaToOpenLesson": "Klik pada mana-mana ayat di bawah untuk memulakan pelajaran",
+
+  "difficultyChoosingScreenIntro": "Pilih keutamaan anda: pilihan berganda atau isi tempat kosong, dan berapa kali setiap langkah dan audio diulang.",
+  "@difficultyChoosingScreenIntro": {
+    "description": "Teks pengenalan di bahagian atas skrin pemilihan tahap kesukaran"
+  },
+
+
+  "upgradeVoiceUsageMessage": "Naik taraf ke Pro Beta untuk mencuba ciri suara dan bantu kami menambahbaiknya!",
+  "@upgradeVoiceUsageMessage": {
+    "description": "Mesej utama yang dipaparkan apabila pengguna telah melebihi penggunaan percuma untuk ciri suara"
+  },
+
+  "restorePurchasesLabel": "Pulihkan Pembelian",
+  "@restorePurchasesLabel": {
+    "description": "Label butang untuk memulihkan pembelian"
+  },
+
+  "subscriptionTierScreenMonthly": "Bulanan",
+  "@subscriptionTierScreenMonthly": {
+    "description": "Label untuk pilihan bulanan"
+  },
+
+  "subscriptionTierScreenYearly": "Tahunan",
+  "@subscriptionTierScreenYearly": {
+    "description": "Label untuk pilihan tahunan"
+  },
+
+  "subscriptionTierScreenFreePrice": "Percuma",
+  "@subscriptionTierScreenFreePrice": {
+    "description": "Harga yang dipaparkan untuk tahap percuma"
+  },
+
+  "subscriptionTierScreenPremiumMonthlyPrice": "Kini $3/bulan (dahulunya $5)",
+  "@subscriptionTierScreenPremiumMonthlyPrice": {
+    "description": "Harga bulanan yang didiskaunkan untuk Premium"
+  },
+
+  "subscriptionTierScreenPremiumYearlyPrice": "Kini $28/tahun (dahulunya $60)",
+  "@subscriptionTierScreenPremiumYearlyPrice": {
+    "description": "Harga tahunan yang didiskaunkan untuk Premium"
+  },
+
+  "subscriptionTierScreenPremiumPlusMonthlyPrice": "Kini $7/bulan (dahulunya $10)",
+  "@subscriptionTierScreenPremiumPlusMonthlyPrice": {
+    "description": "Harga bulanan yang didiskaunkan untuk PremiumPlus"
+  },
+
+  "subscriptionTierScreenPremiumPlusYearlyPrice": "Kini $45/tahun (dahulunya $84)",
+  "@subscriptionTierScreenPremiumPlusYearlyPrice": {
+    "description": "Harga tahunan yang didiskaunkan untuk PremiumPlus"
+  },
+
+  "subscriptionPurchaseError": "Ralat semasa membeli langganan",
+  "@subscriptionPurchaseError": {
+    "description": "Mesej ralat umum untuk pembelian langganan"
+  },
+
+  "topBarExplorePlansLabel": "Teroka Pelan",
+  "@topBarExplorePlansLabel": {
+    "description": "Teks butang untuk pergi ke skrin langganan"
+  },
+
+  "topBarBackHomeLabel": "Kembali ke Laman Utama",
+  "@topBarBackHomeLabel": {
+    "description": "Teks butang untuk kembali ke skrin utama"
+  },
+  "profileRequiresPlanUpdate": "Memerlukan kemas kini pelan",
+  "@profileRequiresPlanUpdate": {
+    "description": "Penunjuk dipaparkan apabila langganan/pelan premium diperlukan"
+  },
+
+
+  "subscriptionTierScreenPremiumDescription": "Segala yang terdapat dalam versi percuma, ditambah pembelajaran pelajaran luar talian dan maklum balas, analitik sejarah serta bar kemajuan, profil, dan penyesuaian Al-Quran. Sokong kami untuk membina lebih banyak ciri!",
+  "@subscriptionTierScreenPremiumDescription": {
+    "description": "Deskripsi untuk tahap Premium"
+  },
+
+  "subscriptionAutoRenewNotice": "Langganan akan diperbaharui secara automatik dan boleh dibatalkan supaya anda tidak dicaj untuk tempoh seterusnya. Sebahagian dana akan disumbangkan kepada Islamic Relief melalui Inisiatif Almubtasim \uD83D\uDE00.",
+  "@subscriptionAutoRenewNotice": {
+    "description": "Notis ringkas mengenai pembaharuan automatik dan sumbangan"
+  },
+
+  "subscriptionTierScreenSubscribeLabel": "Langgan",
+  "@subscriptionTierScreenSubscribeLabel": {
+    "description": "Butang untuk mengesahkan pembelian langganan"
+  },
+
+  "subscriptionTierScreenFinalMessage": "Kami hargai sokongan anda!",
+  "@subscriptionTierScreenFinalMessage": {
+    "description": "Mesej akhir yang ringkas di bahagian bawah skrin langganan"
+  },
+  "subscriptionPurchaseRestoreSuccess": "Pembelian anda berjaya dipulihkan.",
+  "@subscriptionPurchaseRestoreSuccess": {
+    "description": "Dipaparkan apabila proses pemulihan pembelian berjaya"
+  },
+
+  "subscriptionTierScreenRestoreLabel": "Pulihkan Pembelian",
+  "@subscriptionTierScreenRestoreLabel": {
+    "description": "Butang untuk memulihkan langganan yang dibeli sebelum ini"
+  },
+  "arabicLabel": "Arab",
+  "@arabicLabel": {
+    "description": "Label untuk pilihan togol apabila pengguna mahukan teks dalam Bahasa Arab."
+  },
+
+  "transliterationLabel": "Inggeris",
+  "@transliterationLabel": {
+    "description": "Label untuk pilihan togol apabila pengguna mahukan teks transliterasi (aksara Latin)."
+  },
+
+  "surahSearchScreenTitle": "Carian Surah",
+  "@surahSearchScreenTitle": {
+    "description": "Tajuk untuk skrin carian surah"
+  },
+
+  "genericBack": "Kembali",
+  "@genericBack": {
+    "description": "Label untuk butang kembali dalam bar aplikasi"
+  },
+
+  "surahSearchSelectSurah": "Pilih Surah:",
+  "@surahSearchSelectSurah": {
+    "description": "Arahan untuk memilih surah daripada senarai"
+  },
+
+  "surahSearchExistingPaths": "Path Sedia Ada untuk Surah Ini",
+  "@surahSearchExistingPaths": {
+    "description": "Tajuk bahagian yang memaparkan path pengguna/sistem yang wujud untuk surah terpilih"
+  },
+
+  "surahSearchNoMatches": "Tiada path sedia ada ditemui.",
+  "@surahSearchNoMatches": {
+    "description": "Mesej jika tiada path berkaitan surah terpilih"
+  },
+
+  "surahSearchHideCreateForm": "Sorokkan Borang Cipta",
+  "@surahSearchHideCreateForm": {
+    "description": "Label untuk mematikan borang penciptaan path"
+  },
+
+  "surahSearchShowCreateForm": "Cipta Path Baharu untuk Surah",
+  "@surahSearchShowCreateForm": {
+    "description": "Label untuk mengaktifkan borang penciptaan path"
+  },
+
+  "createPathTrackProgress": "Jejak Perkembangan?",
+  "@createPathTrackProgress": {
+    "description": "Label untuk togol/suis mengaktifkan penjejakan perkembangan path"
+  },
+
+  "themeScreenSearchIconSemantic": "Cari Surah",
+  "@themeScreenSearchIconSemantic": {
+    "description": "Teks tooltip untuk ikon carian di bar skrin Tema"
+  },
+
+  "pathListSearchIconSemantic": "Cari Surah",
+  "@pathListSearchIconSemantic": {
+    "description": "Teks tooltip untuk ikon carian di bar PathListScreen"
+  },
+
+  "pathLessonsSearchIconSemantic": "Cari Surah",
+  "@pathLessonsSearchIconSemantic": {
+    "description": "Teks tooltip untuk ikon carian di bar PathLessonsScreen"
+  },
+
+  "playAllSurahSemantic": "Mainkan seluruh surah",
+  "@playAllSurahSemantic": {
+    "description": "Tooltip untuk ikon 'Main Semua' yang memainkan keseluruhan surah"
+  },
+
+  "toggleTransliterationLabel": "Togol transliterasi",
+  "@toggleTransliterationLabel": {
+    "description": "Tooltip untuk menukar mod transliterasi (Arab vs. transliterasi)"
+  },
+
+  "englishLabel": "Inggeris",
+  "@englishLabel": {
+    "description": "Label dipaparkan untuk pilihan transliterasi Bahasa Inggeris"
+  },
+
+  "subscriptionTierScreenPremiumPlusLabel": "Sokong Kami (Tahunan)",
+  "@subscriptionTierScreenPremiumPlusLabel": {
+    "description": "Label untuk tahap Premium Plus"
+  },
+
+  "subscriptionTierScreenFreeDescription": "Semua ciri adalah percuma dan tiada iklan!",
+  "@subscriptionTierScreenFreeDescription": {
+    "description": "Deskripsi untuk tahap Percuma"
+  },
+
+  "subscriptionTierScreenPremiumPlusDescription": "Bantu membiayai ciri dan penambahbaikan baharu! Selain itu, pelaburan kecil boleh membantu anda membina tabiat!",
+  "@subscriptionTierScreenPremiumPlusDescription": {
+    "description": "Deskripsi untuk tahap Pro"
+  },
+
+  "subscriptionTierScreenSupportLabel": "Sokongan Tahunan",
+  "@subscriptionTierScreenSupportLabel": {
+    "description": "Label untuk tahap 'Sokongan' tahunan"
+  },
+
+  "verticalLessonIconsDialogBody": "Semua ciri disediakan dalam versi percuma, tetapi jika anda mahu, anda boleh menyokong kami untuk membina lebih banyak ciri. Sebahagian daripada langganan anda akan didermakan kepada Islamic Relief. Jazāk Allāhu Khayran!",
+  "@verticalLessonIconsDialogBody": {
+    "description": "Teks dialog naik taraf yang menerangkan faedah dan derma"
+  },
+
+  "welcomeBody": "Hudhud memainkan peranan istimewa dalam membantu Nabi Sulaiman [AS] dengan memerhati dan membawa mesej.\n\nDia tidak akan menilai anda di mana jua anda berada dalam perjalanan anda, dan teruja untuk membimbing anda menerokai keindahan Al-Quran serta menggabungkan peringatan kesyukuran bagi menghargai setiap detik bersamanya.",
+  "@welcomeBody": {
+    "description": "Teks utama yang menerangkan tujuan aplikasi"
+  },
+
+  "surahSearchByName": "Cari berdasarkan nama (Inggeris atau Arab)",
+  "@surahSearchByName": {
+    "description": "Label di atas ciri autolengkap untuk mencari surah mengikut nama"
+  },
+
+  "surahSearchHintAnyName": "Taip mana-mana nama surah...",
+  "@surahSearchHintAnyName": {
+    "description": "Teks panduan dalam medan carian autolengkap"
+  },
+
+  "surahSearchFieldLabel": "Cari Surah",
+  "@surahSearchFieldLabel": {
+    "description": "Label untuk medan carian autolengkap"
+  },
+
+  "surahSearchInvalidLessonsError": "Satu atau lebih pelajaran tidak sah. Tidak dapat mencipta path.",
+  "@surahSearchInvalidLessonsError": {
+    "description": "Mesej SnackBar apabila pelajaran yang dijana tidak sah"
+  },
+
+  "surahSearchUserSurahPrefix": "Surah Pengguna",
+  "@surahSearchUserSurahPrefix": {
+    "description": "Digunakan sebagai awalan nama path lalai jika pengguna tidak memasukkannya"
+  },
+
+  "notificationDailyBody": "Luangkan sedikit masa untuk mencari ketenangan melalui Al-Quran dan ingatkan diri anda mengapa anda bersyukur hari ini.",
+  "@notificationDailyBody": {
+    "description": "Teks peringatan harian"
+  }
+}

@@ -1,0 +1,132 @@
+name: hudhud_quran_app_new
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+# (A) LAUNCHER ICONS
+#   Using the older "flutter_icons" name still works with flutter_launcher_icons 0.13.x
+
+flutter_icons:
+  # If you want to keep using the older name "flutter_icons", that's still fine for 0.13.x
+  android: true
+  ios: true
+  image_path: "assets/icons/hudhud_quran2.png"
+
+  # Remove or comment out these lines if present:
+  # adaptive_icon_background: "#FFFFFF"
+  # adaptive_icon_foreground: "assets/icons/icon-foreground.png"
+
+  # Optionally remove alpha for iOS:
+  remove_alpha_ios: true
+
+
+#undocument this part for old icons
+#flutter_icons:
+#  android: true
+#  ios: true
+#  image_path: "assets/icons/hudhud_quran.png"
+#  adaptive_icon_background: "#FFFFFF"
+
+
+  # adaptive_icon_foreground: "assets/icons/icon-foreground.png"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  # Firebase Core
+  firebase_core: ^3.10.1
+  # Firebase Analytics
+  firebase_analytics: ^11.4.1
+  # Firebase Crashlytics
+  firebase_crashlytics: ^4.3.1
+  # Mixpanel Flutter
+  mixpanel_flutter:
+    ^2.3.3
+
+  flutter_sound: ^9.23.1
+  http: ^1.2.2
+  permission_handler: ^10.2.0
+  flutter_riverpod: ^2.6.0
+  flutter_svg: ^1.0.0
+  path_provider: ^2.0.11
+  audioplayers: ^6.1.0
+  # (B) LAUNCHER ICONS
+  flutter_launcher_icons: ^0.13.1
+  in_app_purchase: ^3.2.1
+
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.10.0
+  url_launcher: ^6.1.6
+
+  # (C) NATIVE SPLASH
+  #   In the logs, we see you ended up with flutter_native_splash 2.4.4
+  #   This version expects "image:" not "splash:" inside android_12:
+  flutter_native_splash: ^2.4.4
+
+  ffi: ^2.0.1
+  quran: 1.3.3
+  google_fonts: ^6.2.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  hive_generator: ^2.0.0
+  uuid: ^4.5.1
+  shared_preferences: ^2.1.0
+  build_runner: ^2.4.0
+  intl: ^0.19.0
+  connectivity_plus: ^6.1.3
+
+# (D) FLUTTER NATIVE SPLASH 2.4.x CONFIG
+flutter_native_splash:
+  # background color for the splash screen
+  color: "#ffffff"
+
+  # The main splash image for Android, iOS, and older Android versions
+  image: assets/icons/hudhud_quran.png
+
+  # For Android 12, specify the same image (or a different one if you prefer):
+  android_12:
+    image: assets/icons/hudhud_quran.png
+    icon_background_color: "#ffffff"
+
+  # If you want to remove alpha channel for iOS icons:
+  # remove_alpha_ios: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  generate: true
+  fonts:
+    - family: NotoNaskh
+      fonts:
+        - asset: assets/fonts/NotoNaskh.ttf
+          weight: 400     # Normal
+        - asset: assets/fonts/NotoNaskhBold.ttf
+          weight: 700     # Bold
+    - family: Amiri
+      fonts:
+        - asset: assets/fonts/Amiri.ttf
+          weight: 400     # Normal
+        - asset: assets/fonts/AmiriBold.ttf
+          weight: 700     # Bold
+  assets:
+    - assets/audio/quran/
+    - assets/audio/quran/001/
+    - assets/audio/fatiha_arabic.mp3
+    - assets/audio/fatiha_english.mp3
+    - assets/quran/quran_ar.json
+    - assets/quran/transliteration.json
+    - assets/icons/
+    - assets/icons/quran.png
+    - assets/icons/home1.png
+    - assets/model/
+    - assets/audio/hudhud_chirp.mp3
